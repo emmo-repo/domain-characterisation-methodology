@@ -3,7 +3,7 @@ An ontology for materials characterization based on the [CHADA](https://www.scie
 
 # Relevant supporting ontologies
 
-For researcher and project information:
-EURIO: https://op.europa.eu/en/web/eu-vocabularies/eurio
-DINGO: https://dcodings.github.io/DINGO/
-FRAPO: https://sparontologies.github.io/frapo/current/frapo.html
+For researcher and project information:  
+EURIO: https://op.europa.eu/en/web/eu-vocabularies/eurio  
+DINGO: https://dcodings.github.io/DINGO/  
+FRAPO: https://sparontologies.github.io/frapo/current/frapo.html  
