@@ -10,12 +10,15 @@ This document is to keep track of relevant resources for developing taxonomies f
 classification [link here](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/ICT/cwa17815.pdf)
 * List of physical/chemical [properties](http://paulingfile.com/index.php?p=physical%20properties#list%20of%20properties) from the [Pauling file](http://paulingfile.com/index.php?p=home).
 * Physical chemistry method ontology [FIX](https://terminology.nfdi4chem.de/ts/ontologies/fix) 
-* Great tool [Ndfi4chem](https://terminology.nfdi4chem.de/ts/index) to explore vocabularies from over [21 ontologies](https://terminology.nfdi4chem.de/ts/ontologies)
-* [Ontology](https://github.com/cod-developers/cif_raman) for Raman spectroscopy under developement (inspired by crystallographic cif)
+* Great tool [Ndfi4chem](https://terminology.nfdi4chem.de/ts/index) to explore vocabularies from over [21 ontologies](https://terminology.nfdi4chem.de/ts/ontologies). **NFDI4Chem is an important stackeholder**. Contect: Oliver Kloeper from Lab Linked Scientifc Knowledge, Leibniz Information Centre for Science and Technology.
+
 
 ## Sample
 
 ## Raw Data
+* [Ontology](https://github.com/cod-developers/cif_raman) for Raman spectroscopy under developement (inspired by crystallographic cif). Another [Raman database](https://solsa.crystallography.net/rod/1000679.html) using the cif format (can be consider a dictionary).
+
 
 ## Data processing
+* [Electronic laboratory notebook](https://www.c6h6.org/) with JavaScript, it has a [data schema](https://cheminfo.github.io/data_schema/) to operate within the ELN. Exchange happens as JCAMP-DX format.
 
