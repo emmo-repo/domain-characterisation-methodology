@@ -9,6 +9,9 @@ This document is to keep track of relevant resources for developing taxonomies f
 * Materials characterisation - Terminology, metadata and 
 classification [link here](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/ICT/cwa17815.pdf)
 * List of physical/chemical [properties](http://paulingfile.com/index.php?p=physical%20properties#list%20of%20properties) from the [Pauling file](http://paulingfile.com/index.php?p=home).
+* Physical chemistry method ontology [FIX](https://terminology.nfdi4chem.de/ts/ontologies/fix) 
+* Great tool [Ndfi4chem](https://terminology.nfdi4chem.de/ts/index) to explore vocabularies from over [21 ontologies](https://terminology.nfdi4chem.de/ts/ontologies)
+* [Ontology](https://github.com/cod-developers/cif_raman) for Raman spectroscopy under developement (inspired by crystallographic cif)
 
 ## Sample
 
