@@ -12,8 +12,8 @@ The CHADA Ontology is built with an alignment with EMMO and some of its modules,
 | EMMO                | 1.0.0-beta3       |
 | OIE Manufacturing   |                   |
 | OIE Materials       |                   |
-| OIE Models          |                   |
 | OIE Software        |                   |
+| OIE Models          |                   |
 
 ## Attribution and Credits
 
@@ -24,7 +24,7 @@ Daniele Toti, Goldbeck Consulting Ltd, Cambridge, UK, daniele@goldbeck-consultin
 et al.
 
 ### Project
-- [OYSTER](https://www.oyster-project.eu/); Grant agreement number: 760827 <img src="https://www.oyster-project.eu/wp-content/uploads/2018/02/oyster-web-logo2.png"  width="120">
+- [NanoMECommons](https://www.nanomecommons.net/); Grant agreement number: 952869 <img src="https://www.nanomecommons.net/wp-content/uploads/2021/04/web-logo2-1.jpg"  width="120">
 
 ## License
 
