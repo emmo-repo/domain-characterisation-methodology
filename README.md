@@ -12,7 +12,6 @@ The CHADA Ontology is built with an alignment with EMMO and some of its modules,
 | EMMO                | 1.0.0-beta3       |
 | OIE Manufacturing   |                   |
 | OIE Materials       |                   |
-| OIE Models          |                   |
 | OIE Software        |                   |
 
 ## Attribution and Credits
