@@ -1,11 +1,11 @@
-# CHADA Ontology
+# CHAMEO Ontology
 An ontology for materials characterization based on the [CHADA](https://www.sciencedirect.com/science/article/pii/S235249281930087X?via%3Dihub) template.
 
 This ontology development is supported by an [EMMC Task Group](https://emmc.eu/focus-areas/interoperability/tg2-5/). The corresponding forum can be found [here](https://emmc.eu/forum?view=topic&id=154).
 
 ## Requirements
 
-The CHADA Ontology is built with an alignment with EMMO and some of its modules, as well as with EMMO-compliant domain-level ontologies developed for the Open Innovation Environment (OIE) from the OYSTER project. The following table describes the version compatibility between those ontologies:
+The CHAMEO Ontology is built with an alignment with EMMO and some of its modules, as well as with EMMO-compliant domain-level ontologies developed for the Open Innovation Environment (OIE) from the OYSTER project. The following table describes the version compatibility between those ontologies:
 
 | Imported Ontologies | Version           |
 | ------------------- | ----------------- |
@@ -28,4 +28,4 @@ et al.
 
 ## License
 
-The CHADA Ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0). See [here](https://creativecommons.org/licenses/by/4.0/legalcode) for more information.
+The CHAMEO Ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0). See [here](https://creativecommons.org/licenses/by/4.0/legalcode) for more information.
