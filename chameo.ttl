@@ -1,3 +1,4 @@
+@prefix : <http://emmo.info/emmo/domain/chameo/chameo#> .
 @prefix emmo: <http://emmo.info/emmo#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -6,12 +7,11 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix experts: <http://emmo.info/emmo/application/maeo/experts#> .
+@prefix chameo: <http://emmo.info/emmo/domain/chameo/chameo#> .
 @prefix manufacturing: <http://emmo.info/emmo/domain/oie/manufacturing#> .
 @prefix materials: <http://emmo.info/emmo/domain/oie/materials#> .
 @prefix models: <http://emmo.info/emmo/domain/oie/models#> .
 @prefix software: <http://emmo.info/emmo/domain/oie/software#> .
-@prefix chameo: <http://emmo.info/emmo/domain/chameo/chameo#> .
 @base <http://emmo.info/emmo/domain/chameo/chameo> .
 
 <http://emmo.info/emmo/domain/chameo/chameo> rdf:type owl:Ontology ;
@@ -24,19 +24,24 @@
                                                         <http://emmo.info/emmo/1.0.0-beta3/middle/persistence> ,                                                        
                                                         <http://emmo.info/emmo/1.0.0-beta3/middle/semiotics> ,
                                                         <http://emmo.info/emmo/1.0.0-beta3/domain/metrology> ,
-                                             
-									                    <http://emmo.info/emmo/domain/oie/manufacturing> ,
+                                                        <http://emmo.info/emmo/domain/oie/manufacturing> ,
                                                         <http://emmo.info/emmo/domain/oie/materials> ,
                                                         <http://emmo.info/emmo/domain/oie/models> ,
                                                         <http://emmo.info/emmo/domain/oie/software> ;
                                             dcterms:abstract ""@en ;
+                                            dcterms:description "Characterisation Methodology Ontology"@en ;
+                                            dcterms:title "Characterisation Methodology Ontology"@en ;
                                             dcterms:contributor "Goldbeck Consulting Ltd (UK)" ;                        
                                             dcterms:creator "Daniele Toti" ,
                                                             "Pierluigi Del Nostro" ,
                                                             "Gerhard Goldbeck" ;
+                                            dcterms:created "2022-03-03" ;
                                             dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
+                                            <http://purl.org/vocab/vann/preferredNamespacePrefix> "chameo"@en ;
+                                            <http://purl.org/vocab/vann/preferredNamespaceUri> "http://emmo.info/emmo/domain/chameo/chameo" ;
                                             dcterms:publisher "EMMC ASBL" ;
-                                            dcterms:title "Characterisation Methodology Ontology"@en ;
+                                            dcterms:bibliographicCitation "Work under review - not available yet" ;
+                                            owl:versionInfo "1.0" ;
                                             rdfs:comment """Contacts:
                                                         Gerhard Goldbeck
                                                         Goldbeck Consulting Ltd (UK)
