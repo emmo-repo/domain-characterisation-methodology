@@ -22,6 +22,7 @@ classification [link here](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/ICT/
 
 ## Data processing
 * [Electronic laboratory notebook](https://www.c6h6.org/) with JavaScript, it has a [data schema](https://cheminfo.github.io/data_schema/) to operate within the ELN. Exchange happens as JCAMP-DX format.
+* LIMS Roadmap for materials measurements: https://www.nist.gov/publications/roadmap-lims-nist-material-measurement-laboratory
 
 
 ## Some key stakeholders
