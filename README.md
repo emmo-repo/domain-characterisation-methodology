@@ -18,13 +18,21 @@ The CHAMEO Ontology is built with an alignment with EMMO and some of its modules
 ## Attribution and Credits
 
 ### Authors
-Pierluigi Del Nostro, Goldbeck Consulting Ltd, Cambridge, UK, pierluigi@goldbeck-consulting.com
-Gerhard Goldbeck, Goldbeck Consulting Ltd, Cambridge, UK, gerhard@goldbeck-consulting.com
-Daniele Toti, Goldbeck Consulting Ltd, Cambridge, UK, daniele@goldbeck-consulting.com
-et al.
+- Pierluigi Del Nostro, (Goldbeck Consulting Ltd, Cambridge, UK, pierluigi@goldbeck-consulting.com)
+- Gerhard Goldbeck, (Goldbeck Consulting Ltd, UK)
+- Daniele Toti, (Goldbeck Consulting Ltd, UK)
+- Simon Clark (SINTEF, NO)
+- Jesper Friis (SINTEF, NO)
+- Eibar Flores (DTU, DK)
+
 
 ### Project
+Associated research projects:
 - [NanoMECommons](https://www.nanomecommons.net/); Grant agreement number: 952869 <img src="https://www.nanomecommons.net/wp-content/uploads/2021/04/web-logo2-1.jpg"  width="120">
+- OYSTER; Grant Agreement No: 760827
+- Big-Map; Grant Agreement No: 957189
+- OntoTrans; Grant Agreement No: 862136
+
 
 ## License
 

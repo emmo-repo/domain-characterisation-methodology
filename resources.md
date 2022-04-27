@@ -13,6 +13,9 @@ classification [link here](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/ICT/
 * Great tool to explore vocabularies from over [21 ontologies](https://terminology.nfdi4chem.de/ts/ontologies).  
 * [Fair sharing](https://fairsharing.org/Chemistry): Existing databases, ontologies and standards for chemistry
 
+## Workflow
+* The paper [ESAMP: Event-Sourced Architecture for Materials Provenance management and application to accelerated materials discovery](https://chemrxiv.org/engage/chemrxiv/article-details/60c73cbf842e650956db1678) discusses experiment/characterisation workflows and capturing also the state changes in the material/sample itself, and includes implementation case and discussion of the use of Knowledge Graphs.
+* The paper [A Perspective on Digital Knowledge Representation in Materials Science and Engineering](https://onlinelibrary.wiley.com/doi/pdf/10.1002/adem.202101176) tackles workflows in Section 6.
 
 ## Sample
 
@@ -22,6 +25,7 @@ classification [link here](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/ICT/
 
 ## Data processing
 * [Electronic laboratory notebook](https://www.c6h6.org/) with JavaScript, it has a [data schema](https://cheminfo.github.io/data_schema/) to operate within the ELN. Exchange happens as JCAMP-DX format.
+* LIMS Roadmap for materials measurements: https://www.nist.gov/publications/roadmap-lims-nist-material-measurement-laboratory
 
 
 ## Some key stakeholders
