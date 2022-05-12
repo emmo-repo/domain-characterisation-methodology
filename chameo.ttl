@@ -28,7 +28,7 @@
                                                           <http://emmo.info/emmo/domain/oie/materials> ,
                                                           <http://emmo.info/emmo/domain/oie/models> ,
                                                           <http://emmo.info/emmo/domain/oie/software> ;
-                                              dcterms:abstract ""@en ;
+                                              dcterms:abstract "CHAMEO is a domain ontology designed to model the common aspects across the different characterisation methodologies."@en ;
                                               dcterms:bibliographicCitation "Work under review - not available yet" ;
                                               dcterms:contributor "Goldbeck Consulting Ltd (UK)" ;
                                               dcterms:created "2022-03-03" ;
@@ -38,14 +38,14 @@
                                               dcterms:description "Characterisation Methodology Ontology"@en ;
                                               dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
                                               dcterms:publisher "EMMC ASBL" ;
-                                              dcterms:title "Characterisation Methodology Ontology"@en ;
+                                              dcterms:title "CHAracterisation MEthodology Ontology"@en ;
                                               <http://purl.org/vocab/vann/preferredNamespacePrefix> "chameo"@en ;
                                               <http://purl.org/vocab/vann/preferredNamespaceUri> "http://emmo.info/emmo/domain/chameo/chameo" ;
                                               rdfs:comment """Contacts:
                                                         Gerhard Goldbeck
                                                         Goldbeck Consulting Ltd (UK)
                                                         email: gerhard@goldbeck-consulting.com"""@en ;
-                                              owl:versionInfo "1.0" .
+                                              owl:versionInfo "1.0.0-alpha1" .
 
 #################################################################
 #    Annotation properties
