@@ -1,6 +1,7 @@
 ####### EMMO mapping:
 
 ##### CLASSES
+### hasPart                      -> top                  emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f
 ### Data                         -> middle-data          emmo:EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490
 ### Whole                        -> middle-holistic      emmo:EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0
 ### Document                     -> middle-perceptual    emmo:EMMO_ccdc1a41_6e96_416b_92ec_efe67917434a
