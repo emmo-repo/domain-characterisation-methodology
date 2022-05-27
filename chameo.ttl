@@ -303,7 +303,7 @@ chameo:CharacterisationWorkflow rdf:type owl:Class ;
 	emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Combination of multiple characterisation methods to form the entire workflow that is needed to describe the desired materials behaviour and/or properties."@en ;
 	skos:prefLabel "Characterisation Workflow"@en ;
-	skos:altLabel "Characterization Workflow"@en ;
+	skos:altLabel "Characterization Workflow"@en .
 
 chameo:DataAcquisitionRate rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
