@@ -48,6 +48,8 @@
 	Goldbeck Consulting Ltd (UK)
 	email: gerhard@goldbeck-consulting.com"""@en ;
 	owl:backwardCompatibleWith "" ;
+	owl:priorVersion "" ;
+	foaf:logo "" ;
 	<http://purl.org/ontology/bibo/doi> "" ;
 	owl:versionInfo "1.0.0-beta3" .
 
@@ -224,6 +226,8 @@ chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
 #################################################################
 chameo:AccessConditions rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+	rdfs:label "Access Conditions" ;
+	rdfs:comment "" ;
 	skos:prefLabel "Access Conditions"@en .
 
 chameo:CalibrationData rdf:type owl:Class ;
