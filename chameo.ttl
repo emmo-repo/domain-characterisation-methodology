@@ -3,7 +3,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix sw: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix emmo: <http://emmo.info/emmo#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -52,7 +51,7 @@
 	owl:backwardCompatibleWith "" ;
 	owl:priorVersion "" ;
 	foaf:logo "" ;
-	sw:term_status "" ;
+	<http://purl.org/ontology/bibo/status> "" ;
 	<http://purl.org/ontology/bibo/doi> "" ;
 	owl:versionInfo "1.0.0-beta3" .
 
@@ -82,137 +81,164 @@
 #################################################################
 
 chameo:characterisationMethodHasStage rdf:type owl:ObjectProperty ;
+	rdfs:label "characterisationMethodHasStage" ;
 	rdfs:subPropertyOf emmo:EMMO_f22abf74_4538_4f50_ab85_09908cdda707 ;
 	rdfs:domain chameo:CharacterisationMethod ;
 	rdfs:range emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 .
 
 chameo:characterisationWorkflowHasMethod rdf:type owl:ObjectProperty ;
+	rdfs:label "characterisationWorkflowHasMethod" ;
 	rdfs:subPropertyOf emmo:EMMO_d43af210_f854_4432_a891_ce3022e3b558 ;
 	rdfs:domain chameo:CharacterisationWorkflow ;
 	rdfs:range chameo:CharacterisationMethod .
 
 chameo:hasAccessConditions rdf:type owl:ObjectProperty ;
+	rdfs:label "hasAccessConditions" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:CharacterisationMethod ;
 	rdfs:range chameo:AccessConditions .
 
 chameo:hasCharacterisationEnvironment rdf:type owl:ObjectProperty ;
+	rdfs:label "hasCharacterisationEnvironment" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:MeasurementProcess ;
 	rdfs:range chameo:CharacterisationEnvironment .
 
 chameo:hasDataAcquisitionRate rdf:type owl:ObjectProperty ;
+	rdfs:label "hasDataAcquisitionRate" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:RawData ;
 	rdfs:range chameo:DataAcquisitionRate .
 
 chameo:hasDataProcessingThroughCalibration rdf:type owl:ObjectProperty ;
+	rdfs:label "hasDataProcessingThroughCalibration" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:MeasurementDataPostProcessing ;
 	rdfs:range chameo:DataProcessingThroughCalibration .
 
 chameo:hasDataQuality rdf:type owl:ObjectProperty ;
+	rdfs:label "hasDataQuality" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:MeasurementDataPostProcessing ;
 	rdfs:range chameo:DataQuality .
 
 chameo:hasHazard rdf:type owl:ObjectProperty ;
+	rdfs:label "hasHazard" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:Sample ;
 	rdfs:range chameo:Hazard .
 
 chameo:hasHolder rdf:type owl:ObjectProperty ;
+	rdfs:label "hasHolder" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:SpecimenPreparation ;
 	rdfs:range chameo:Holder .
 
 chameo:hasInteractionVolume rdf:type owl:ObjectProperty ;
+	rdfs:label "hasInteractionVolume" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:ProbeSpecimenInteraction ;
 	rdfs:range chameo:InteractionVolume .
 
 chameo:hasInteractionWithProbe rdf:type owl:ObjectProperty ;
+	rdfs:label "hasInteractionWithProbe" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:ProbeSpecimenInteraction ;
 	rdfs:range chameo:Probe .
 
 chameo:hasInteractionWithSpecimen rdf:type owl:ObjectProperty ;
+	rdfs:label "hasInteractionWithSpecimen" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:ProbeSpecimenInteraction ;
 	rdfs:range chameo:Specimen .
 
 chameo:hasLevelOfAutomation rdf:type owl:ObjectProperty ;
+	rdfs:label "hasLevelOfAutomation" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:CharacterisationMethod ;
 	rdfs:range chameo:LevelOfAutomation .
 
 chameo:hasMeasuredSpecimen rdf:type owl:ObjectProperty ;
+	rdfs:label "hasMeasuredSpecimen" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:CalibrationMeasurement ;
 	rdfs:range chameo:Specimen .
 
 chameo:hasMeasurementDetector rdf:type owl:ObjectProperty ;
+	rdfs:label "hasMeasurementDetector" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:CalibrationMeasurement ,
 	chameo:MeasurementProcess ;
 	rdfs:range chameo:Detector .
 
 chameo:hasMeasurementParameter rdf:type owl:ObjectProperty ;
+	rdfs:label "hasMeasurementParameter" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:MeasurementProcess ;
 	rdfs:range chameo:MeasurementParameter .
 
 chameo:hasMeasurementProbe rdf:type owl:ObjectProperty ;
+	rdfs:label "hasMeasurementProbe" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:CalibrationMeasurement ,
 	chameo:MeasurementProcess ;
 	rdfs:range chameo:Probe .
 
 chameo:hasMeasurementSpecimen rdf:type owl:ObjectProperty ;
+	rdfs:label "hasMeasurementSpecimen" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:MeasurementProcess ;
 	rdfs:range chameo:Specimen .
 
 chameo:hasMeasurementTime rdf:type owl:ObjectProperty ;
+	rdfs:label "hasMeasurementTime" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:MeasurementProcess ;
 	rdfs:range chameo:MeasurementTime .
 
 chameo:hasPostProcessingModel rdf:type owl:ObjectProperty ;
+	rdfs:label "hasPostProcessingModel" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:MeasurementDataPostProcessing ;
 	rdfs:range chameo:PostProcessingModel .
 
 chameo:hasPreparedSpecimen rdf:type owl:ObjectProperty ;
+	rdfs:label "hasPreparedSpecimen" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:SpecimenPreparation ;
 	rdfs:range chameo:Specimen .
 
 chameo:hasProcessedSample rdf:type owl:ObjectProperty ;
+	rdfs:label "hasProcessedSample" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:SamplingProcess ;
 	rdfs:range chameo:Sample .
 
 chameo:hasProcessingReproducibility rdf:type owl:ObjectProperty ;
+	rdfs:label "hasProcessingReproducibility" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:MeasurementDataPostProcessing ;
 	rdfs:range chameo:ProcessingReproducibility .
 
 chameo:hasSoftware rdf:type owl:ObjectProperty ;
+	rdfs:label "hasSoftware" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:MeasurementDataPostProcessing ;
 	rdfs:range software:Software .
 
 chameo:hasUser rdf:type owl:ObjectProperty ;
+	rdfs:label "hasUser" ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:CharacterisationMethod ;
 	rdfs:range chameo:User .
 
 chameo:hasValidation rdf:type owl:ObjectProperty ;
+	rdfs:label "hasValidation" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:range chameo:CharacterisationValidation .
 
 chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
+	rdfs:label "requiresLevelOfExpertise" ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:range chameo:LevelOfExpertise .
 
@@ -222,6 +248,7 @@ chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
 #################################################################
 
 chameo:hasPeerReviewedArticle rdf:type owl:DatatypeProperty ;
+	rdfs:label "hasPeerReviewedArticle" ;
 	rdfs:domain chameo:CharacterisationValidation ;
 	rdfs:range xsd:string .
 
@@ -558,7 +585,10 @@ chameo:Signal rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4 ;
 	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "According to UPAC Compendium of Chemical Terminology, a “signal” is “A representation of a quantity within an analytical instrument” (https://goldbook.iupac.org/terms/view/S05661 )."@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Result (effect) of the interaction between the sample and the probe, which usually is a measurable and quantifiable quantity."@en ;
-	emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Signal is usually emitted from a characteristic “emission” volume, which can be different from the sample/probe “interaction” volume and can be usually quantified using proper physics equations and/or modelling of the interaction mechanisms."@en .
+	emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Signal is usually emitted from a characteristic “emission” volume, which can be different from the sample/probe “interaction” volume and can be usually quantified using proper physics equations and/or modelling of the interaction mechanisms."@en ;
+	rdfs:label "Signal" ;
+	rdfs:comment "" ;
+	skos:prefLabel "Signal"@en .
 
 chameo:Specimen rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Sample ;
