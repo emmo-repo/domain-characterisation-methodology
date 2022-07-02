@@ -1,6 +1,6 @@
 # Resources
 
-This document is to keep track of relevant resources for developing taxonomies for the CHADA ontology
+This document is to keep track of relevant resources for developing taxonomies for the CHAMEO ontology
 
 
 ## Method and Terminology

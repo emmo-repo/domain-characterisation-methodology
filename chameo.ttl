@@ -39,13 +39,17 @@
 	dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
 	dcterms:publisher "EMMC ASBL" ;
 	dcterms:title "CHAracterisation MEthodology Ontology"@en ;
+	dcterms:modified "" ;
+	dcterms:source "" ;
 	<http://purl.org/vocab/vann/preferredNamespacePrefix> "chameo"@en ;
 	<http://purl.org/vocab/vann/preferredNamespaceUri> "http://emmo.info/emmo/domain/chameo/chameo" ;
 	rdfs:comment """Contacts:
 	Gerhard Goldbeck
 	Goldbeck Consulting Ltd (UK)
 	email: gerhard@goldbeck-consulting.com"""@en ;
-	owl:versionInfo "1.0.0-alpha1" .
+	owl:backwardCompatibleWith "" ;
+	<http://purl.org/ontology/bibo/doi> "" ;
+	owl:versionInfo "1.0.0-beta3" .
 
 ####### EMMO mapping:
 
