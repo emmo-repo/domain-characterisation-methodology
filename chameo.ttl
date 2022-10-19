@@ -106,15 +106,6 @@ chameo:characterisationMethodHasStage rdf:type owl:ObjectProperty ;
                                       rdfs:label "characterisationMethodHasStage" .
 
 
-###  http://emmo.info/emmo/domain/chameo/chameo#characterisationWorkflowHasMethod
-chameo:characterisationWorkflowHasMethod rdf:type owl:ObjectProperty ;
-                                         rdfs:subPropertyOf emmo:EMMO_d43af210_f854_4432_a891_ce3022e3b558 ;
-                                         rdfs:domain chameo:CharacterisationWorkflow ;
-                                         rdfs:range chameo:CharacterisationMethod ;
-                                         rdfs:comment "" ;
-                                         rdfs:label "characterisationWorkflowHasMethod" .
-
-
 ###  http://emmo.info/emmo/domain/chameo/chameo#hasAccessConditions
 chameo:hasAccessConditions rdf:type owl:ObjectProperty ;
                            rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
@@ -340,6 +331,13 @@ chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
                                 rdfs:label "requiresLevelOfExpertise" .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo/characterisationMethodHasSubMethod
+<http://emmo.info/emmo/domain/chameo/chameo/characterisationMethodHasSubMethod> rdf:type owl:ObjectProperty ;
+                                                                                rdfs:subPropertyOf emmo:EMMO_d43af210_f854_4432_a891_ce3022e3b558 ;
+                                                                                rdfs:domain chameo:CharacterisationMethod ;
+                                                                                rdfs:range chameo:CharacterisationMethod .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -355,6 +353,10 @@ chameo:hasPeerReviewedArticle rdf:type owl:DatatypeProperty ;
 #################################################################
 #    Classes
 #################################################################
+
+###  http://emmo.info/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49
+emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 .
+
 
 ###  http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8
 emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 rdf:type owl:Class .
@@ -432,8 +434,8 @@ chameo:CharacterisationMachine rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod
 chameo:CharacterisationMethod rdf:type owl:Class ;
-                              rdfs:subClassOf emmo:EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d ;
-                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Characterisation method is the combination of the stages that are necessary to arrive at a measured material structure/property."@en ;
+                              rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
+                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Characterisation method is the combination of the stages and sub-methods that are necessary to obtain a measured material structure/property."@en ;
                               rdfs:comment "" ;
                               rdfs:label "Characterisation Method" ;
                               skos:prefLabel "CharacterisationMethod"@en .
@@ -480,16 +482,6 @@ chameo:CharacterisationValidation rdf:type owl:Class ;
                                   rdfs:comment "" ;
                                   rdfs:label "Characterisation Validation" ;
                                   skos:prefLabel "CharacterisationValidation"@en .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationWorkflow
-chameo:CharacterisationWorkflow rdf:type owl:Class ;
-                                rdfs:subClassOf emmo:EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0 ,
-                                                emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
-                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Combination of multiple characterisation methods to form the entire workflow that is needed to describe the desired materials behaviour and/or properties. A characterisation workflow must contain at least one characterisation method."@en ;
-                                rdfs:comment "" ;
-                                rdfs:label "Characterisation Workflow" ;
-                                skos:prefLabel "CharacterisationWorkflow"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#DataAcquisitionRate
@@ -826,7 +818,7 @@ chameo:User rdf:type owl:Class ;
 ###  http://purl.org/spar/datacite/ResourceIdentifier
 <http://purl.org/spar/datacite/ResourceIdentifier> rdf:type owl:Class ;
                                                    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An identifier that is used to uniquely identifies a resource."@en ;
-                                                   skos:prefLabel "Resource Identifier"@en .
+                                                   skos:prefLabel "ResourceIdentifier"@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
