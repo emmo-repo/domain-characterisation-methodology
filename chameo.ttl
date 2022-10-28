@@ -36,6 +36,7 @@
                                               dcterms:modified "" ;
                                               dcterms:publisher "EMMC ASBL" ;
                                               dcterms:source "" ;
+                                              dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
                                               dcterms:title "CHAracterisation MEthodology Ontology"@en ;
                                               <http://purl.org/ontology/bibo/doi> "" ;
                                               <http://purl.org/vocab/vann/preferredNamespacePrefix> "chameo"@en ;
