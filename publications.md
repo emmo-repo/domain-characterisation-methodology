@@ -6,6 +6,8 @@ P Del Nostro, G Goldbeck, D Toti - Applied Ontology, 2022 - content.iospress.com
 
 [link](https://content.iospress.com/articles/applied-ontology/ao220271)
 
+
+
 **The CHAMEO Ontology: Exploiting EMMO's Multiperspective Versatility for Capturing Materials Characterization Procedures**
 
 P Del Nostro, G Goldbeck, D Toti - 2022 - ceur-ws.org
