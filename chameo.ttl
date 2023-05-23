@@ -9,7 +9,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix chameo: <http://emmo.info/emmo/domain/chameo/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@base <http://emmo.info/emmo/domain/chameo/chameo> .
+@base <http://emmo.info/emmo/domain/chameo/chameo/#> .
 
 <http://emmo.info/emmo/domain/chameo/chameo> rdf:type owl:Ontology ;
                                               owl:versionIRI <http://emmo.info/emmo/domain/chameo/chameo> ;
@@ -125,6 +125,12 @@ chameo:hasCharacterisationEnvironment rdf:type owl:ObjectProperty ;
                                       rdfs:label "hasCharacterisationEnvironment" .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationProperty
+chameo:hasCharacterisationProperty rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                                   rdfs:range chameo:CharacterisationProperty .
+
+
 ###  http://emmo.info/emmo/domain/chameo/chameo#hasDataAcquisitionRate
 chameo:hasDataAcquisitionRate rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
@@ -155,7 +161,6 @@ chameo:hasDataQuality rdf:type owl:ObjectProperty ;
 ###  http://emmo.info/emmo/domain/chameo/chameo#hasHazard
 chameo:hasHazard rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
-                 rdfs:domain chameo:Sample ;
                  rdfs:range chameo:Hazard ;
                  rdfs:comment "" ;
                  rdfs:label "hasHazard" .
@@ -262,6 +267,13 @@ chameo:hasMeasurementTime rdf:type owl:ObjectProperty ;
                           rdfs:label "hasMeasurementTime" .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo#hasPhysicsOfInteraction
+chameo:hasPhysicsOfInteraction rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf emmo:EMMO_24c71baf_6db6_48b9_86c8_8c70cf36db0c ;
+                               rdfs:domain chameo:ProbeSpecimenInteraction ;
+                               rdfs:range chameo:PhysicsOfInteraction .
+
+
 ###  http://emmo.info/emmo/domain/chameo/chameo#hasPostProcessingModel
 chameo:hasPostProcessingModel rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
@@ -351,6 +363,12 @@ chameo:hasPeerReviewedArticle rdf:type owl:DatatypeProperty ;
                               rdfs:label "hasPeerReviewedArticle" .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo/dateOfLastCalibration
+<http://emmo.info/emmo/domain/chameo/chameo/dateOfLastCalibration> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                                   rdfs:range xsd:dateTime .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -389,7 +407,8 @@ chameo:AccessConditions rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CalibrationData
 chameo:CalibrationData rdf:type owl:Class ;
-                       rdfs:subClassOf emmo:EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490 ;
+                       rdfs:subClassOf emmo:EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490 ,
+                                       chameo:MeasurementParameter ;
                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Calibration data are used to provide correction of measured data or perform uncertainty calculations. They are generally the result of a measuerement on a reference specimen."@en ;
                        rdfs:comment "" ;
                        rdfs:label "Calibration Data" ;
@@ -414,8 +433,15 @@ chameo:CalibrationMeasurement rdf:type owl:Class ;
                               emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "In nanoindentation, the electrical signal coming from capacitive displacement gauge is converted into a real raw-displacement signal after using a proper calibration function (as obtained by the equipment manufacturer). Then, additional calibration procedures are applied to define the point of initial contact and to correct for instrument compliance, thermal drift, and indenter area function to obtain the real useable displacement data."@en ,
                                                                              "Within this workflow, a possible way is to use a reference sample (with pre-defined, specific, and stable physical characteristics and known properties) for the interaction with the measurement probe, in order to extract characterization data that will be compared to predefined values. In this way, the accuracy of the measurement tool and its components (for example the probe) will be evaluated and confirmed."@en ;
                               rdfs:comment "" ;
-                              rdfs:label "Calibration Measurement" ;
-                              skos:prefLabel "CalibrationMeasurement"@en .
+                              rdfs:label "Calibration For Characterisation Measurement" ;
+                              skos:prefLabel "CalibrationForCharacterisationMeasurement"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationApplication
+chameo:CharacterisationApplication rdf:type owl:Class ;
+                                   rdfs:subClassOf emmo:EMMO_3b031fa9_8623_4ea5_8b57_bcafb70c5c8b ;
+                                   emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A software application to process characterisation data"@en ;
+                                   emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In Nanoindentation the software used to apply the post-processing model Oliver-Pharr to calculate the characterisation properties (i.e. elastic modulus, hardness) from load and depth data." .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironment
@@ -642,8 +668,8 @@ chameo:MeasurementProcess rdf:type owl:Class ;
                                           emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The measurement process associates raw data to the specimen through a probe and a detector."@en ;
                           rdfs:comment "" ;
-                          rdfs:label "Measurement Process" ;
-                          skos:prefLabel "MeasurementProcess"@en .
+                          rdfs:label "Characterisation Measurement Process" ;
+                          skos:prefLabel "CharacterisationMeasurementProcess"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#MeasurementTime
@@ -657,10 +683,13 @@ chameo:MeasurementTime rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#PhysicsOfInteraction
 chameo:PhysicsOfInteraction rdf:type owl:Class ;
-                            rdfs:subClassOf emmo:EMMO_8d2d9374_ef3a_47e6_8595_6bc208e07519 ;
+                            rdfs:subClassOf [ rdf:type owl:Class ;
+                                              owl:unionOf ( emmo:EMMO_27c5d8c6_8af7_4d63_beb1_ec37cd8b3fa3
+                                                            emmo:EMMO_8d2d9374_ef3a_47e6_8595_6bc208e07519
+                                                          )
+                                            ] ;
                             emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of physics principles (and associated governing equations) that describes the interaction between the sample and the probe."@en ;
                             emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In x-ray diffraction, this is represented by the set of physics equations that describe the relation between the incident x-ray beam and the diffracted beam (the most simple form for this being the Bragg’s law)."@en ;
-                            emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A characteristic “interaction” volume is usually associated to the process of sample/probe interaction."@en ;
                             rdfs:comment "" ;
                             rdfs:label "Physics Of Interaction" ;
                             skos:prefLabel "PhysicsOfInteraction"@en .
@@ -867,4 +896,4 @@ chameo:User rdf:type owl:Class ;
 ] .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
