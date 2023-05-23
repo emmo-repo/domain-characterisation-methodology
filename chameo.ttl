@@ -846,6 +846,14 @@ chameo:User rdf:type owl:Class ;
             skos:prefLabel "User"@en .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo/CharacterisationDataValidation
+<http://emmo.info/emmo/domain/chameo/chameo/CharacterisationDataValidation> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                                                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Procedures to validate the characterisation data."@en ;
+                                                                            rdfs:label "Characterisation Data Validation"@en ;
+                                                                            skos:prefLabel "Validation"@en .
+
+
 ###  http://emmo.info/emmo/domain/chameo/chameo/DataAnalysis
 <http://emmo.info/emmo/domain/chameo/chameo/DataAnalysis> rdf:type owl:Class ;
                                                           rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
@@ -861,14 +869,6 @@ chameo:User rdf:type owl:Class ;
                                                                 emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In the Nanoindentation method the Scanning Electron Microscope to determine the indentation area."@en ;
                                                                 rdfs:label "Specimen Inspection"@en ;
                                                                 skos:prefLabel "SpecimenInspection"@en .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo/Validation
-<http://emmo.info/emmo/domain/chameo/chameo/Validation> rdf:type owl:Class ;
-                                                        rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
-                                                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Procedures to validate the characterisation data."@en ;
-                                                        rdfs:label "Validation"@en ;
-                                                        skos:prefLabel "Validation"@en .
 
 
 ###  http://purl.org/spar/datacite/ResourceIdentifier
@@ -888,9 +888,9 @@ chameo:User rdf:type owl:Class ;
                 chameo:MeasurementProcess
                 chameo:SamplingProcess
                 chameo:SpecimenPreparation
+                <http://emmo.info/emmo/domain/chameo/chameo/CharacterisationDataValidation>
                 <http://emmo.info/emmo/domain/chameo/chameo/DataAnalysis>
                 <http://emmo.info/emmo/domain/chameo/chameo/SpecimenInspection>
-                <http://emmo.info/emmo/domain/chameo/chameo/Validation>
               )
 ] .
 
