@@ -267,6 +267,13 @@ chameo:hasMeasurementTime rdf:type owl:ObjectProperty ;
                           rdfs:label "hasMeasurementTime" .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo#hasPeerReviewedArticle
+chameo:hasPeerReviewedArticle rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf emmo:EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455 ;
+                              rdfs:domain chameo:CharacterisationValidation ;
+                              rdfs:range <http://purl.org/spar/datacite/ResourceIdentifier> .
+
+
 ###  http://emmo.info/emmo/domain/chameo/chameo#hasPhysicsOfInteraction
 chameo:hasPhysicsOfInteraction rdf:type owl:ObjectProperty ;
                                rdfs:subPropertyOf emmo:EMMO_24c71baf_6db6_48b9_86c8_8c70cf36db0c ;
@@ -354,14 +361,6 @@ chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
 #################################################################
 #    Data properties
 #################################################################
-
-###  http://emmo.info/emmo/domain/chameo/chameo#hasPeerReviewedArticle
-chameo:hasPeerReviewedArticle rdf:type owl:DatatypeProperty ;
-                              rdfs:domain chameo:CharacterisationValidation ;
-                              rdfs:range xsd:string ;
-                              rdfs:comment "" ;
-                              rdfs:label "hasPeerReviewedArticle" .
-
 
 ###  http://emmo.info/emmo/domain/chameo/chameo/dateOfLastCalibration
 <http://emmo.info/emmo/domain/chameo/chameo/dateOfLastCalibration> rdf:type owl:DatatypeProperty ;
