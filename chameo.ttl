@@ -143,7 +143,7 @@ chameo:hasDataAcquisitionRate rdf:type owl:ObjectProperty ;
 ###  http://emmo.info/emmo/domain/chameo/chameo#hasDataProcessingThroughCalibration
 chameo:hasDataProcessingThroughCalibration rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
-                                           rdfs:domain chameo:MeasurementDataPostProcessing ;
+                                           rdfs:domain chameo:MeasurementProcess ;
                                            rdfs:range chameo:DataProcessingThroughCalibration ;
                                            rdfs:comment "" ;
                                            rdfs:label "hasDataProcessingThroughCalibration" .
