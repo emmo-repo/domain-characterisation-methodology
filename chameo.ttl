@@ -276,7 +276,7 @@ chameo:hasMeasurementTime rdf:type owl:ObjectProperty ;
 ###  http://emmo.info/emmo/domain/chameo/chameo#hasPeerReviewedArticle
 chameo:hasPeerReviewedArticle rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf emmo:EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455 ;
-                              rdfs:domain chameo:CharacterisationValidation ;
+                              rdfs:domain chameo:CharacterisationMethodValidation ;
                               rdfs:range <http://purl.org/spar/datacite/ResourceIdentifier> .
 
 
@@ -357,7 +357,7 @@ chameo:hasUser rdf:type owl:ObjectProperty ;
 ###  http://emmo.info/emmo/domain/chameo/chameo#hasValidation
 chameo:hasValidation rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
-                     rdfs:range chameo:CharacterisationValidation ;
+                     rdfs:range chameo:CharacterisationMethodValidation ;
                      rdfs:comment "" ;
                      rdfs:label "hasValidation" .
 
@@ -521,6 +521,14 @@ chameo:CharacterisationMethod rdf:type owl:Class ;
                               skos:prefLabel "CharacterisationMethod"@en .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethodValidation
+chameo:CharacterisationMethodValidation rdf:type owl:Class ;
+                                        rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes why the characterization method was chosen and deemed to be the most useful for the sample."@en ;
+                                        rdfs:comment "" ;
+                                        skos:prefLabel "CharacterisationMethodValidation"@en .
+
+
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationOperator
 chameo:CharacterisationOperator rdf:type owl:Class ;
                                 rdfs:subClassOf emmo:EMMO_c130614a_2985_476d_a7ed_8a137847703c ;
@@ -535,14 +543,6 @@ chameo:CharacterisationProperty rdf:type owl:Class ;
                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The characterisation property is the investigate property or behaviour of a sample. It is derived from the secondary data, usually after classification or quantification (manually or by a model)."@en ;
                                 rdfs:comment "" ;
                                 skos:prefLabel "CharacterisationProperty"@en .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationValidation
-chameo:CharacterisationValidation rdf:type owl:Class ;
-                                  rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
-                                  emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes why the characterization method was chosen and deemed to be the most useful for the sample."@en ;
-                                  rdfs:comment "" ;
-                                  skos:prefLabel "CharacterisationValidation"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#DataAcquisitionRate
@@ -894,7 +894,7 @@ chameo:Tip rdf:type owl:Class ;
   owl:members ( chameo:AccessConditions
                 chameo:CharacterisationEnvironment
                 chameo:CharacterisationHardwareSpecification
-                chameo:CharacterisationValidation
+                chameo:CharacterisationMethodValidation
                 chameo:DataAcquisitionRate
                 chameo:Hazard
                 chameo:LevelOfAutomation
