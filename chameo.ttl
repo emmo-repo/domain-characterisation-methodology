@@ -424,8 +424,7 @@ chameo:AccessConditions rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#Actuator
 chameo:Actuator rdf:type owl:Class ;
-                rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ,
-                                chameo:CharacterisationHardware ;
+                rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
                 skos:prefLabel "Actuator"@en .
 
 
@@ -481,6 +480,12 @@ chameo:CharacterisationEnvironment rdf:type owl:Class ;
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware
 chameo:CharacterisationHardware rdf:type owl:Class ;
                                 rdfs:subClassOf emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 ;
+                                owl:disjointUnionOf ( chameo:Actuator
+                                                      chameo:CharacterisationMachine
+                                                      chameo:Detector
+                                                      chameo:Probe
+                                                      chameo:Tip
+                                                    ) ;
                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ""@en ;
                                 rdfs:comment "The class of devices used in the characterisation process." ;
                                 skos:prefLabel "CharacterisationHardware"@en .
@@ -497,8 +502,7 @@ chameo:CharacterisationLocation rdf:type owl:Class .
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMachine
 chameo:CharacterisationMachine rdf:type owl:Class ;
-                               rdfs:subClassOf emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69 ,
-                                               chameo:CharacterisationHardware ;
+                               rdfs:subClassOf emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69 ;
                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The machine used for characterising a material, which usually has a probe and a detector as parts." ;
                                emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In nanoindentation is the nanoindenter" ;
                                skos:prefLabel "CharacterisationMachine" .
@@ -604,8 +608,7 @@ chameo:DataQuality rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#Detector
 chameo:Detector rdf:type owl:Class ;
-                rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ,
-                                chameo:CharacterisationHardware ;
+                rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical device (or the chain of devices) that is used to measure, quantify and store the signal after its interaction with the sample."@en ;
                 emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Back Scattered Electrons (BSE) and Secondary Electrons (SE) detectors for SEM"@en ,
                                                                "Displacement and force sensors for mechanical testing"@en ;
@@ -731,8 +734,7 @@ chameo:PrimaryData rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#Probe
 chameo:Probe rdf:type owl:Class ;
-             rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ,
-                             chameo:CharacterisationHardware ;
+             rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Probe is the physical tool (i.e., a disturbance, primary solicitation, or a gadget), controlled over time, that generates measurable fields that interact with the specimen to acquire information on the specimen’s behaviour and properties."@en ;
              emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In dynamic light scattering, temporal fluctuations of backscattered light due to Brownian motion and flow of nanoparticles are the probe, resolved as function of pathlength in the sample. From fluctuation analysis (intensity correlations) and the wavelength of light in the medium, the (distribution of) diffusion coefficient(s) can be measured during flow. The Stokes-Einstein relation yields the particle size characteristics."@en ,
                                                             "In electron microscopy (SEM or TEM), the probe is a beam of electrons with known energy that is focused (and scanned) on the sample’s surface with a well-defined beam-size and scanning algorithm."@en ,
@@ -849,8 +851,7 @@ chameo:Signal rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#Tip
 chameo:Tip rdf:type owl:Class ;
-           rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ,
-                           chameo:CharacterisationHardware ;
+           rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
            skos:prefLabel "Tip" .
 
 
@@ -891,12 +892,7 @@ chameo:Tip rdf:type owl:Class ;
                 emmo:EMMO_3967de47_343f_4bab_aada_b4bec73d11da
                 emmo:EMMO_86a305d1_7644_48be_b84c_1f976679b904
                 emmo:EMMO_95d4eb9b_d3d0_4705_a01c_4f87fb5f8d43
-                chameo:Actuator
                 chameo:CharacterisationHardware
-                chameo:CharacterisationMachine
-                chameo:Detector
-                chameo:Probe
-                chameo:Tip
               )
 ] .
 
