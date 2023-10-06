@@ -9,7 +9,7 @@ The CHAMEO Ontology is built with an alignment with EMMO and some of its modules
 
 | Imported Ontologies | Version           |
 | ------------------- | ----------------- |
-| EMMO                | 1.0.0-beta4       |
+| EMMO                |                   |
 | OIE Manufacturing   |                   |
 | OIE Materials       |                   |
 | OIE Software        |                   |
