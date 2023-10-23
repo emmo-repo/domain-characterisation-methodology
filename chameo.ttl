@@ -1,113 +1,935 @@
-@prefix : <http://emmo.info/emmo#> .
+@prefix : <http://emmo.info/emmo/domain/chameo/chameo/#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix emmo: <http://emmo.info/emmo#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix chameo: <http://emmo.info/emmo/domain/chameo/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@base <http://emmo.info/emmo#> .
+@base <http://emmo.info/emmo/domain/chameo/chameo/#> .
 
-<http://emmo.info/emmo/multiperspective/properties> rdf:type owl:Ontology ;
-                                                     owl:versionIRI <http://emmo.info/emmo/1.0.0-beta4/multiperspective/properties> ;
-                                                     owl:imports <http://emmo.info/emmo/1.0.0-beta4/perspectives/semiotics> ;
-                                                     dcterms:abstract """Defines properties as the result of an observation process. Observation is a semiotic process that stimulate an interpretant within the interpreter who communicates the perception result to other interpreters through a sign, which is the property.
-
-Hence, properties creates a link between the holistic and the perceptual perspectives.
-
-Subclasses of property are subclasses that spesialise the type of observation process."""@en ;
-                                                     dcterms:contributor "Access, DE" ,
-                                                                         "Fraunhofer IWM, DE" ,
-                                                                         "Goldbeck Consulting Ltd (UK)" ,
-                                                                         "SINTEF, NO" ,
-                                                                         "University of Bologna, IT" ;
-                                                     dcterms:creator "Adham Hashibon" ,
-                                                                     "Emanuele Ghedini" ,
-                                                                     "Georg Schmitz" ,
-                                                                     "Gerhard Goldbeck" ,
-                                                                     "Jesper Friis" ;
-                                                     dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-                                                     dcterms:publisher "EMMC ASBL" ;
-                                                     dcterms:title "Properties"@en ;
-                                                     rdfs:comment """Contacts:
-Gerhard Goldbeck
-Goldbeck Consulting Ltd (UK)
-email: gerhard@goldbeck-consulting.com
-
-Emanuele Ghedini
-University of Bologna (IT)
-email: emanuele.ghedini@unibo.it"""@en ,
-                                                                  "The EMMO requires FacT++ reasoner plugin in order to visualize all inferences and class hierarchy (ctrl+R hotkey in Protege)."@en ;
-                                                     owl:versionInfo "1.0.0-beta4" .
+<http://emmo.info/emmo/domain/chameo/chameo> rdf:type owl:Ontology ;
+                                              owl:versionIRI <http://emmo.info/emmo/domain/chameo/chameo> ;
+                                              owl:imports <http://emmo.info/emmo/1.0.0-beta4/disciplines/computerscience> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/disciplines/manufacturing> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/disciplines/materials> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/disciplines/metrology> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/disciplines/models> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/multiperspective/persholistic> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/perspectives/data> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/perspectives/holistic> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/perspectives/perceptual> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/perspectives/persistence> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/perspectives/semiotics> ;
+                                              dcterms:abstract "CHAMEO is a domain ontology designed to model the common aspects across the different characterisation methodologies."@en ;
+                                              dcterms:bibliographicCitation "Work under review - not available yet" ;
+                                              dcterms:contributor "Goldbeck Consulting Ltd (UK)" ;
+                                              dcterms:created "2022-03-03" ;
+                                              dcterms:creator "Daniele Toti" ,
+                                                              "Gerhard Goldbeck" ,
+                                                              "Pierluigi Del Nostro" ;
+                                              dcterms:description "Characterisation Methodology Ontology"@en ;
+                                              dcterms:issued "" ;
+                                              dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
+                                              dcterms:modified "" ;
+                                              dcterms:publisher "EMMC ASBL" ;
+                                              dcterms:source "" ;
+                                              dcterms:title "CHAracterisation MEthodology Ontology"@en ;
+                                              <http://purl.org/ontology/bibo/doi> "" ;
+                                              <http://purl.org/vocab/vann/preferredNamespacePrefix> "chameo"@en ;
+                                              <http://purl.org/vocab/vann/preferredNamespaceUri> "http://emmo.info/emmo/domain/chameo/chameo" ;
+                                              rdfs:comment """Contacts:
+													Gerhard Goldbeck
+													Goldbeck Consulting Ltd (UK)
+													email: gerhard@goldbeck-consulting.com"""@en ;
+                                              owl:backwardCompatibleWith "" ;
+                                              owl:priorVersion "1.0.0-beta1" ;
+                                              owl:versionInfo "1.0.0-beta2" ;
+                                              foaf:homepage "https://github.com/emmo-repo/domain-characterisation-methodology" ;
+                                              foaf:logo "https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/main/images/chameo_logo_small.png" .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
-###  http://www.w3.org/2002/07/owl#qualifiedCardinality
-owl:qualifiedCardinality rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/bibliographicCitation
+dcterms:bibliographicCitation rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+dcterms:created rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dcterms:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dcterms:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/source
+dcterms:source rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+foaf:homepage rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/logo
+foaf:logo rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://emmo.info/emmo#EMMO_d271f202_4c1a_4d74_b86a_387c82034eb7
-:EMMO_d271f202_4c1a_4d74_b86a_387c82034eb7 rdf:type owl:ObjectProperty ;
-                                           rdfs:subPropertyOf :EMMO_0d829933_29e3_4e61_b3d3_88e6b9d0d0ce ;
-                                           rdfs:domain :EMMO_1b52ee70_121e_4d8d_8419_3f97cd0bd89c ;
-                                           rdfs:range :EMMO_dc5dee4e_4305_4a21_8dd5_4e8311c98c73 ;
-                                           skos:prefLabel "hasCharacterised"@en .
+###  http://emmo.info/emmo/domain/chameo/chameo#characterisationMethodHasStage
+chameo:characterisationMethodHasStage rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf emmo:EMMO_f22abf74_4538_4f50_ab85_09908cdda707 ;
+                                      rdfs:domain chameo:CharacterisationMethod ;
+                                      rdfs:range emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                                      rdfs:comment "" ;
+                                      rdfs:label "characterisationMethodHasStage" .
 
 
-###  http://emmo.info/emmo#EMMO_eeb8118c_b290_4f57_b0f8_bd65bb6d77ad
-:EMMO_eeb8118c_b290_4f57_b0f8_bd65bb6d77ad rdf:type owl:ObjectProperty ;
-                                           rdfs:subPropertyOf :EMMO_cc823237_398d_4c9a_b8fa_aa157ee3e3a5 ;
-                                           rdfs:domain :EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
-                                           rdfs:range :EMMO_1b52ee70_121e_4d8d_8419_3f97cd0bd89c ;
-                                           skos:prefLabel "hasCharacteriser"@en .
+###  http://emmo.info/emmo/domain/chameo/chameo#hasAccessConditions
+chameo:hasAccessConditions rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                           rdfs:domain chameo:CharacterisationMethod ;
+                           rdfs:range chameo:AccessConditions ;
+                           rdfs:comment "" ;
+                           rdfs:label "hasAccessConditions" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationApplication
+chameo:hasCharacterisationApplication rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                      rdfs:range chameo:CharacterisationApplication .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationEnvironment
+chameo:hasCharacterisationEnvironment rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                                      rdfs:domain chameo:CharacterisationMeasurementProcess ;
+                                      rdfs:range chameo:CharacterisationEnvironment ;
+                                      rdfs:comment "" ;
+                                      rdfs:label "hasCharacterisationEnvironment" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationLocation
+chameo:hasCharacterisationLocation rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                   rdfs:range chameo:CharacterisationLocation .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationProperty
+chameo:hasCharacterisationProperty rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                                   rdfs:range chameo:CharacterisationProperty .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasDataAcquisitionRate
+chameo:hasDataAcquisitionRate rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                              rdfs:domain chameo:RawData ;
+                              rdfs:range chameo:DataAcquisitionRate ;
+                              rdfs:comment "" ;
+                              rdfs:label "hasDataAcquisitionRate" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasDataProcessingThroughCalibration
+chameo:hasDataProcessingThroughCalibration rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                                           rdfs:domain chameo:CharacterisationMeasurementProcess ;
+                                           rdfs:range chameo:DataProcessingThroughCalibration ;
+                                           rdfs:comment "" ;
+                                           rdfs:label "hasDataProcessingThroughCalibration" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasDataQuality
+chameo:hasDataQuality rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                      rdfs:domain chameo:MeasurementDataPostProcessing ;
+                      rdfs:range chameo:DataQuality ;
+                      rdfs:comment "" ;
+                      rdfs:label "hasDataQuality" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasHardwareSpecification
+chameo:hasHardwareSpecification rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                                rdfs:domain chameo:CharacterisationHardware ;
+                                rdfs:range chameo:CharacterisationHardwareSpecification .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasHazard
+chameo:hasHazard rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                 rdfs:range chameo:Hazard ;
+                 rdfs:comment "" ;
+                 rdfs:label "hasHazard" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasHolder
+chameo:hasHolder rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                 rdfs:domain chameo:SamplePreparation ;
+                 rdfs:range chameo:Holder ;
+                 rdfs:comment "" ;
+                 rdfs:label "hasHolder" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasInteractionVolume
+chameo:hasInteractionVolume rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                            rdfs:domain chameo:ProbeSampleInteraction ;
+                            rdfs:range chameo:InteractionVolume ;
+                            rdfs:comment "" ;
+                            rdfs:label "hasInteractionVolume" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasInteractionWithProbe
+chameo:hasInteractionWithProbe rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                               rdfs:domain chameo:ProbeSampleInteraction ;
+                               rdfs:range chameo:Probe ;
+                               rdfs:comment "" ;
+                               rdfs:label "hasInteractionWithProbe" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasInteractionWithSample
+chameo:hasInteractionWithSample rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                rdfs:domain chameo:ProbeSampleInteraction ;
+                                rdfs:range chameo:Sample ;
+                                rdfs:comment "" ;
+                                skos:prefLabel "hasInteractionWithSample" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasLevelOfAutomation
+chameo:hasLevelOfAutomation rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                            rdfs:domain chameo:CharacterisationMethod ;
+                            rdfs:range chameo:LevelOfAutomation ;
+                            rdfs:comment "" ;
+                            rdfs:label "hasLevelOfAutomation" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementDetector
+chameo:hasMeasurementDetector rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                              rdfs:range chameo:Detector ;
+                              rdfs:comment "" ;
+                              skos:prefLabel "hasMeasurementDetector" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementParameter
+chameo:hasMeasurementParameter rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf <http://emmo.info/emmo/perspectives/manufacturing#EMMO_36e69413_8c59_4799_946c_10b05d266e22> ;
+                               rdfs:domain chameo:CharacterisationMeasurementProcess ;
+                               rdfs:range chameo:MeasurementParameter ;
+                               rdfs:comment "" ;
+                               rdfs:label "hasMeasurementParameter" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementProbe
+chameo:hasMeasurementProbe rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                           rdfs:range chameo:Probe ;
+                           rdfs:comment "" ;
+                           skos:prefLabel "hasMeasurementProbe" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementSample
+chameo:hasMeasurementSample rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                            rdfs:domain chameo:CharacterisationMeasurementProcess ;
+                            rdfs:range chameo:Sample ;
+                            rdfs:comment "" ;
+                            skos:prefLabel "hasMeasurementSample" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementTime
+chameo:hasMeasurementTime rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                          rdfs:domain chameo:CharacterisationMeasurementProcess ;
+                          rdfs:range chameo:MeasurementTime ;
+                          rdfs:comment "" ;
+                          rdfs:label "hasMeasurementTime" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasPeerReviewedArticle
+chameo:hasPeerReviewedArticle rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf emmo:EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455 ;
+                              rdfs:domain chameo:CharacterisationMethodValidation ;
+                              rdfs:range <http://purl.org/spar/datacite/ResourceIdentifier> .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasPhysicsOfInteraction
+chameo:hasPhysicsOfInteraction rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf emmo:EMMO_24c71baf_6db6_48b9_86c8_8c70cf36db0c ;
+                               rdfs:domain chameo:ProbeSampleInteraction ;
+                               rdfs:range chameo:PhysicsOfInteraction .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasPostProcessingModel
+chameo:hasPostProcessingModel rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf <http://emmo.info/emmo/perspectives/manufacturing#EMMO_36e69413_8c59_4799_946c_10b05d266e22> ;
+                              rdfs:domain chameo:MeasurementDataPostProcessing ;
+                              rdfs:range chameo:PostProcessingModel ;
+                              rdfs:comment "" ;
+                              rdfs:label "hasPostProcessingModel" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasProcessingReproducibility
+chameo:hasProcessingReproducibility rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                                    rdfs:domain chameo:MeasurementDataPostProcessing ;
+                                    rdfs:range chameo:ProcessingReproducibility ;
+                                    rdfs:comment "" ;
+                                    rdfs:label "hasProcessingReproducibility" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasSampleBeforeSamplePreparation
+chameo:hasSampleBeforeSamplePreparation rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                        rdfs:domain chameo:SamplePreparation ;
+                                        rdfs:range chameo:Sample ;
+                                        skos:prefLabel "hasSampleBeforeSamplePreparation" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasSamplePreparationHardware
+chameo:hasSamplePreparationHardware rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                    skos:prefLabel "hasSamplePreparationHardware" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasSamplePreparationOutput
+chameo:hasSamplePreparationOutput rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                  rdfs:domain chameo:SamplePreparation ;
+                                  rdfs:range chameo:Sample ;
+                                  rdfs:comment "" ;
+                                  skos:prefLabel "hasSamplePreparationOutput" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasSamplePreparationParameter
+chameo:hasSamplePreparationParameter rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf <http://emmo.info/emmo/perspectives/manufacturing#EMMO_36e69413_8c59_4799_946c_10b05d266e22> ;
+                                     rdfs:domain chameo:SamplePreparation ;
+                                     rdfs:range chameo:SamplePreparationParameter ;
+                                     skos:prefLabel "hasSamplePreparationParameter" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasSampledSample
+chameo:hasSampledSample rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                        rdfs:domain chameo:SamplingProcess ;
+                        rdfs:range chameo:Sample ;
+                        rdfs:comment "" ;
+                        skos:prefLabel "hasSampledSample" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasUser
+chameo:hasUser rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf emmo:EMMO_cd24eb82_a11c_4a31_96ea_32f870c5580a ;
+               rdfs:domain chameo:CharacterisationMethod ;
+               rdfs:range chameo:CharacterisationOperator ;
+               rdfs:comment "" ;
+               rdfs:label "hasUser" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#hasValidation
+chameo:hasValidation rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                     rdfs:range chameo:CharacterisationMethodValidation ;
+                     rdfs:comment "" ;
+                     rdfs:label "hasValidation" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#requiresLevelOfExpertise
+chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                                rdfs:range chameo:LevelOfExpertise ;
+                                rdfs:comment "" ;
+                                rdfs:label "requiresLevelOfExpertise" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo/characterisationMethodHasSubMethod
+<http://emmo.info/emmo/domain/chameo/chameo/characterisationMethodHasSubMethod> rdf:type owl:ObjectProperty ;
+                                                                                rdfs:subPropertyOf emmo:EMMO_d43af210_f854_4432_a891_ce3022e3b558 ;
+                                                                                rdfs:domain chameo:CharacterisationMethod ;
+                                                                                rdfs:range chameo:CharacterisationMethod .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://emmo.info/emmo/domain/chameo/chameo/dateOfLastCalibration
+<http://emmo.info/emmo/domain/chameo/chameo/dateOfLastCalibration> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                                   rdfs:range xsd:dateTime .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://emmo.info/emmo#EMMO_9be5fcc4_0d8b_481d_b984_6338d4b55588
-:EMMO_9be5fcc4_0d8b_481d_b984_6338d4b55588 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_ea67caa5_2609_4e91_98ae_81103f2d5c25 ;
-                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An observer that makes use of a measurement tool and provides a quantitative property."@en ;
-                                           skos:prefLabel "Measurer"@en .
+###  http://emmo.info/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e
+emmo:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e rdfs:subClassOf emmo:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e .
 
 
-###  http://emmo.info/emmo#EMMO_dc5dee4e_4305_4a21_8dd5_4e8311c98c73
-:EMMO_dc5dee4e_4305_4a21_8dd5_4e8311c98c73 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_c9805ac9_a943_4be4_ac4b_6da64ba36c73 ;
-                                           skos:prefLabel "Determined"@en .
+###  http://emmo.info/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49
+emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 .
 
 
-###  http://emmo.info/emmo#EMMO_f94e509a_be29_4365_a4cd_70165e47e232
-:EMMO_f94e509a_be29_4365_a4cd_70165e47e232 rdf:type owl:Class ;
-                                           rdfs:subClassOf :EMMO_4a1c73f1_b6f5_4d10_a3a6_5de90bac7cd0 ;
-                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A estimator that uses modelling to declare a property of an object (i.e. infer a property from other properties)."@en ;
-                                           skos:prefLabel "Modeller"@en .
+###  http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8
+emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 rdf:type owl:Class .
 
 
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+###  http://emmo.info/emmo#EMMO_8d2d9374_ef3a_47e6_8595_6bc208e07519
+emmo:EMMO_8d2d9374_ef3a_47e6_8595_6bc208e07519 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0
+emmo:EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#AccessConditions
+chameo:AccessConditions rdf:type owl:Class ;
+                        rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes what is needed to repeat the experiment"@en ;
+                        emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In case of national or international facilities such as synchrotrons describe the programme that enabled you to access these."@en ,
+                                                                       "Was the access to your characterisation tool an inhouse routine or required a 3rd party service?"@en ,
+                                                                       "Was the access to your sample preparation an inhouse routine or required a 3rd party service?"@en ;
+                        rdfs:comment "" ;
+                        skos:prefLabel "AccessConditions"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#Actuator
+chameo:Actuator rdf:type owl:Class ;
+                rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
+                skos:prefLabel "Actuator"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CalibrationData
+chameo:CalibrationData rdf:type owl:Class ;
+                       rdfs:subClassOf chameo:CharacterisationData ;
+                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Calibration data are used to provide correction of measured data or perform uncertainty calculations. They are generally the result of a measuerement on a reference specimen."@en ;
+                       rdfs:comment "" ;
+                       skos:prefLabel "CalibrationData"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CalibrationDataPostProcessing
+chameo:CalibrationDataPostProcessing rdf:type owl:Class ;
+                                     rdfs:subClassOf chameo:DataPostProcessing ;
+                                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Post-processing of the output of the calibration in order to get the actual calibration data to be used as input for the measurement."@en ;
+                                     rdfs:comment "" ;
+                                     skos:prefLabel "CalibrationDataPostProcessing"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CalibrationMeasurement
+chameo:CalibrationMeasurement rdf:type owl:Class ;
+                              rdfs:subClassOf emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb ,
+                                              emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Sequence of operations/actions that are needed to convert the initial signal (as produced by the detector) into a meaningful and useable raw data."@en ;
+                              emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In nanoindentation, the electrical signal coming from capacitive displacement gauge is converted into a real raw-displacement signal after using a proper calibration function (as obtained by the equipment manufacturer). Then, additional calibration procedures are applied to define the point of initial contact and to correct for instrument compliance, thermal drift, and indenter area function to obtain the real useable displacement data."@en ;
+                              emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "In nanoindentation, the electrical signal coming from capacitive displacement gauge is converted into a real raw-displacement signal after using a proper calibration function (as obtained by the equipment manufacturer). Then, additional calibration procedures are applied to define the point of initial contact and to correct for instrument compliance, thermal drift, and indenter area function to obtain the real useable displacement data."@en ,
+                                                                             "Within this workflow, a possible way is to use a reference sample (with pre-defined, specific, and stable physical characteristics and known properties) for the interaction with the measurement probe, in order to extract characterization data that will be compared to predefined values. In this way, the accuracy of the measurement tool and its components (for example the probe) will be evaluated and confirmed."@en ;
+                              rdfs:comment "" ;
+                              skos:prefLabel "CalibrationForCharacterisationMeasurement"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationApplication
+chameo:CharacterisationApplication rdf:type owl:Class ;
+                                   rdfs:subClassOf emmo:EMMO_3b031fa9_8623_4ea5_8b57_bcafb70c5c8b ;
+                                   emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A software application to process characterisation data"@en ;
+                                   emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In Nanoindentation the software used to apply the post-processing model Oliver-Pharr to calculate the characterisation properties (i.e. elastic modulus, hardness) from load and depth data." .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationData
+chameo:CharacterisationData rdf:type owl:Class ;
+                            rdfs:subClassOf emmo:EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490 .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironment
+chameo:CharacterisationEnvironment rdf:type owl:Class ;
+                                   rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                                   emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Medium of the characterisation experiment defined by the set of environmental conditions that are controlled and measured over time during the experiment."@en ;
+                                   emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Characterisation can either be made in air (ambient conditions, without specific controls on environmental parameters), or at different temperatures, different pressures (or in vacuum), or using different types of working gases (inert or reactive with respect to sample), different levels of humidity, etc."@en ;
+                                   rdfs:comment "" ;
+                                   skos:prefLabel "CharacterisationEnvironment"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware
+chameo:CharacterisationHardware rdf:type owl:Class ;
+                                rdfs:subClassOf emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 ;
+                                owl:disjointUnionOf ( chameo:Actuator
+                                                      chameo:CharacterisationMachine
+                                                      chameo:Detector
+                                                      chameo:Probe
+                                                      chameo:Tip
+                                                    ) ;
+                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ""@en ;
+                                rdfs:comment "The class of devices used in the characterisation process." ;
+                                skos:prefLabel "CharacterisationHardware"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardwareSpecification
+chameo:CharacterisationHardwareSpecification rdf:type owl:Class ;
+                                             rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationLocation
+chameo:CharacterisationLocation rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMachine
+chameo:CharacterisationMachine rdf:type owl:Class ;
+                               rdfs:subClassOf emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69 ;
+                               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The machine used for characterising a material, which usually has a probe and a detector as parts." ;
+                               emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In nanoindentation is the nanoindenter" ;
+                               skos:prefLabel "CharacterisationMachine" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementProcess
+chameo:CharacterisationMeasurementProcess rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb ,
+                                                          emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The measurement process associates raw data to the specimen through a probe and a detector."@en ;
+                                          rdfs:comment "" ;
+                                          skos:prefLabel "CharacterisationMeasurementProcess"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod
+chameo:CharacterisationMethod rdf:type owl:Class ;
+                              rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
+                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Characterisation method is the combination of the stages and sub-methods that are necessary to obtain a measured material structure/property."@en ;
+                              rdfs:comment "A characterisation method is not only related to the measurement process which can be one of its composing stages." ;
+                              skos:prefLabel "CharacterisationMethod"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethodValidation
+chameo:CharacterisationMethodValidation rdf:type owl:Class ;
+                                        rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes why the characterization method was chosen and deemed to be the most useful for the sample."@en ;
+                                        rdfs:comment "" ;
+                                        skos:prefLabel "CharacterisationMethodValidation"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationOperator
+chameo:CharacterisationOperator rdf:type owl:Class ;
+                                rdfs:subClassOf emmo:EMMO_c130614a_2985_476d_a7ed_8a137847703c ;
+                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The human operator who takes care of the whole characterisation method or sub-processes/stages."@en ;
+                                rdfs:comment "" ;
+                                skos:prefLabel "CharacterisationOperator"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProperty
+chameo:CharacterisationProperty rdf:type owl:Class ;
+                                rdfs:subClassOf emmo:EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4 ,
+                                                chameo:SecondaryData ;
+                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The characterisation property is the investigate property or behaviour of a sample. It is derived from the secondary data, usually after classification or quantification (manually or by a model)."@en ;
+                                rdfs:comment "" ;
+                                skos:prefLabel "CharacterisationProperty"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#DataAcquisitionRate
+chameo:DataAcquisitionRate rdf:type owl:Class ;
+                           rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Quantify the raw data acquisition rate, if applicable."@en ;
+                           rdfs:comment "" ;
+                           skos:prefLabel "DataAcquisitionRate"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#DataFiltering
+chameo:DataFiltering rdf:type owl:Class ;
+                     rdfs:subClassOf chameo:DataPreparation ;
+                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data filtering is the process of examining a dataset to exclude, rearrange, or apportion data according to certain criteria." ;
+                     rdfs:comment "" ;
+                     skos:prefLabel "DataFiltering"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#DataNormalization
+chameo:DataNormalization rdf:type owl:Class ;
+                         rdfs:subClassOf chameo:DataPreparation ;
+                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data normalization involves adjusting raw data to a notionally common scale."@en ;
+                         emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "It involves the creation of shifted and/or scaled versions of the values to allow post-processing in a way that eliminates the effects of influences on subsequent properties extraction."@en ;
+                         rdfs:comment "" ;
+                         skos:prefLabel "DataNormalization"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#DataPostProcessing
+chameo:DataPostProcessing rdf:type owl:Class ;
+                          rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Analysis, that allows one to calculate the final material property from the calibrated primary data." ;
+                          rdfs:comment "" ;
+                          skos:prefLabel "DataPostProcessing"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#DataPreparation
+chameo:DataPreparation rdf:type owl:Class ;
+                       rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data preparation is the process of manipulating (or pre-processing) data (which may come from disparate data sources) to improve their quality or reduce bias in subsequent analysis." ;
+                       rdfs:comment "" ;
+                       skos:prefLabel "DataPreparation"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#DataProcessingThroughCalibration
+chameo:DataProcessingThroughCalibration rdf:type owl:Class ;
+                                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes how raw data are corrected and/or modified through calibrations."@en ;
+                                        rdfs:comment "" ;
+                                        skos:prefLabel "DataProcessingThroughCalibration"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#DataQuality
+chameo:DataQuality rdf:type owl:Class ;
+                   emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Evaluation of quality indicators to determine how well suited a data set is to be used for the characterisation of a material."@en ;
+                   emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Example evaluation of S/N ratio, or other quality indicators (limits of detection/quantification, statistical analysis of data, data robustness analysis)"@en ;
+                   rdfs:comment "" ;
+                   skos:prefLabel "DataQuality"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#Detector
+chameo:Detector rdf:type owl:Class ;
+                rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
+                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical device (or the chain of devices) that is used to measure, quantify and store the signal after its interaction with the sample."@en ;
+                emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Back Scattered Electrons (BSE) and Secondary Electrons (SE) detectors for SEM"@en ,
+                                                               "Displacement and force sensors for mechanical testing"@en ;
+                rdfs:comment "" ;
+                skos:prefLabel "Detector"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#Hazard
+chameo:Hazard rdf:type owl:Class ;
+              rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of inherent properties of a substance, mixture of substances, or a process involving substances that, under production, usage, or disposal conditions, make it capable of causing adverse effects to organisms or the environment, depending on the degree of exposure; in other words, it is a source of danger."@en ;
+              rdfs:comment "" ;
+              rdfs:label "Hazard" ;
+              skos:prefLabel "Hazard"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#Holder
+chameo:Holder rdf:type owl:Class ;
+              rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
+              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An object which supports the specimen in the correct position for the characterisation process."@en ;
+              rdfs:comment "" ;
+              rdfs:label "Holder" ;
+              skos:prefLabel "Holder"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#InteractionVolume
+chameo:InteractionVolume rdf:type owl:Class ;
+                         rdfs:subClassOf emmo:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606 ;
+                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The volume of material, and the surrounding environment, that interacts with the probe and generate a detectable (measurable) signal (information)."@en ;
+                         emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In Scanning Electron Microscopy (SEM), the interaction volume is the volume of material that interacts directly with the incident electron beam, is usually much smaller than the entire specimen’s volume, and can be computed by using proper models. The interaction between the scanning probe and the sample generates a series of detectable signals (back scattered electrons, secondary electrons, x-rays, specimen current, etc.) which contain information on sample morphology, microstructure, composition, etc."@en ,
+                                                                        "In x-ray diffraction, the interaction volume is the volume of material that interacts directly with the x-ray beam and is usually smaller than the volume of the entire specimen. Depending on sample’s structure and microstructure, the interaction between the sample and the x-ray incident beam generates a secondary (reflected) beam that is measured by a detector and contains information on certain sample’s properties (e.g., crystallographic structure, phase composition, grain size, residual stress, …)."@en ;
+                         emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "In some cases, (like tribological characterisations) the “sample” can also be the “probe”. When analysing a system of samples that interact each other, finding a clear definition can become a complex problem."@en ,
+                                                                        "It is important to note that, in some cases, the volume of interaction could be different from the volume of detectable signal emission. Example: in Scanning Electron Microscopy (SEM), the volume of interaction between the electron probe and the material is different from the volumes that generate the captured signal."@en ;
+                         rdfs:comment "" ;
+                         rdfs:label "Interaction Volume" ;
+                         skos:prefLabel "InteractionVolume"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#LevelOfAutomation
+chameo:LevelOfAutomation rdf:type owl:Class ;
+                         rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the level of automation of the test."@en ;
+                         rdfs:comment "" ;
+                         skos:prefLabel "LevelOfAutomation"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#LevelOfExpertise
+chameo:LevelOfExpertise rdf:type owl:Class ;
+                        rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the level of expertise required to carry out a process (the entire test or the data processing)."@en ;
+                        rdfs:comment "" ;
+                        skos:prefLabel "LevelOfExpertise"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#MeasurementDataPostProcessing
+chameo:MeasurementDataPostProcessing rdf:type owl:Class ;
+                                     rdfs:subClassOf chameo:DataPostProcessing ;
+                                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Application of a post-processing model to signals through a software, in order to calculate the final characterisation property."@en ;
+                                     emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Analysis of SEM (or optical) images to gain additional information (image filtering/integration/averaging, microstructural analysis, grain size evaluation, Digital Image Correlation procedures, etc.)"@en ,
+                                                                                    "In nanoindentation testing, this is the Oliver-Pharr method, which allows calculating the elastic modulus and hardness of the sample by using the load and depth measured signals."@en ;
+                                     rdfs:comment "" ;
+                                     skos:prefLabel "MeasurementDataPostProcessing"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#MeasurementParameter
+chameo:MeasurementParameter rdf:type owl:Class ;
+                            rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the main input parameters that are needed to acquire the signal"@en ;
+                            rdfs:comment "" ;
+                            skos:prefLabel "MeasurementParameter"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#MeasurementParameterAdjustment
+chameo:MeasurementParameterAdjustment rdf:type owl:Class ;
+                                      rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                                        owl:someValuesFrom chameo:MeasurementParameter
+                                                      ] ;
+                                      emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Activity which has the goal of adjusting/tuning measurement parameters without performing a measurement on a reference sample (which is a calibration)."@en ;
+                                      skos:prefLabel "MeasurementParameterAdjustment" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#MeasurementTime
+chameo:MeasurementTime rdf:type owl:Class ;
+                       rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Quantifies the time needed for the measurement data acquisition"@en ;
+                       rdfs:comment "" ;
+                       skos:prefLabel "MeasurementTime"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#PhysicsOfInteraction
+chameo:PhysicsOfInteraction rdf:type owl:Class ;
+                            rdfs:subClassOf [ rdf:type owl:Class ;
+                                              owl:unionOf ( emmo:EMMO_27c5d8c6_8af7_4d63_beb1_ec37cd8b3fa3
+                                                            emmo:EMMO_8d2d9374_ef3a_47e6_8595_6bc208e07519
+                                                          )
+                                            ] ;
+                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of physics principles (and associated governing equations) that describes the interaction between the sample and the probe."@en ;
+                            emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In x-ray diffraction, this is represented by the set of physics equations that describe the relation between the incident x-ray beam and the diffracted beam (the most simple form for this being the Bragg’s law)."@en ;
+                            rdfs:comment "" ;
+                            skos:prefLabel "PhysicsOfInteraction"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#PostProcessingModel
+chameo:PostProcessingModel rdf:type owl:Class ;
+                           rdfs:subClassOf emmo:EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0 ;
+                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Mathematical model used to process primary data in order to obtain secondary data"@en ;
+                           rdfs:comment "" ;
+                           skos:prefLabel "PostProcessingModel"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#PrimaryData
+chameo:PrimaryData rdf:type owl:Class ;
+                   rdfs:subClassOf chameo:CharacterisationData ;
+                   emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data resulting of a pre-processing of raw data, applying corrections to normalize/harmonize, in order to prepare them for the post-processing."@en ;
+                   emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Baseline subtraction"@en ,
+                                                                  "Noise reduction"@en ,
+                                                                  "X and Y axes correction"@en ;
+                   rdfs:comment "" ;
+                   skos:prefLabel "PrimaryData"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#Probe
+chameo:Probe rdf:type owl:Class ;
+             rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
+             emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Probe is the physical tool (i.e., a disturbance, primary solicitation, or a gadget), controlled over time, that generates measurable fields that interact with the specimen to acquire information on the specimen’s behaviour and properties."@en ;
+             emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In dynamic light scattering, temporal fluctuations of backscattered light due to Brownian motion and flow of nanoparticles are the probe, resolved as function of pathlength in the sample. From fluctuation analysis (intensity correlations) and the wavelength of light in the medium, the (distribution of) diffusion coefficient(s) can be measured during flow. The Stokes-Einstein relation yields the particle size characteristics."@en ,
+                                                            "In electron microscopy (SEM or TEM), the probe is a beam of electrons with known energy that is focused (and scanned) on the sample’s surface with a well-defined beam-size and scanning algorithm."@en ,
+                                                            "In mechanical testing, the probe is a the tip plus a force actuator, which is designed to apply a force over-time on a sample. Many variants can be defined depending on way the force is applied (tensile/compressive uniaxial tests, bending test, indentation test) and its variation with time (static tests, dynamic/cyclic tests, impact tests, etc…)"@en ,
+                                                            "In spectroscopic methods, the probe is a beam of light with pre-defined energy (for example in the case of laser beam for Raman measurements) or pre-defined polarization (for example in the case of light beam for Spectroscopic Ellipsometry methods), that will be properly focused on the sample’s surface with a welldefined geometry (specific angle of incidence)."@en ,
+                                                            "In x-ray diffraction, the probe is a beam of x-rays with known energy that is properly focused on the sample’s surface with a well-defined geometry"@en ;
+             rdfs:comment "" ;
+             skos:prefLabel "Probe"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#ProbeSampleInteraction
+chameo:ProbeSampleInteraction rdf:type owl:Class ;
+                              rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                                owl:someValuesFrom chameo:Signal
+                                              ] ;
+                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Process representing the interaction between the Probe and the Sample (with a certain Interaction Volume) which generates a Signal"@en ;
+                              rdfs:comment "" ;
+                              skos:prefLabel "ProbeSampleInteraction"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#ProcessingReproducibility
+chameo:ProcessingReproducibility rdf:type owl:Class ;
+                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Description of performed statistical analysis to check for data reproducibility (e.g.  easily reproducible for everyone, reproducible for a domain expert, reproducible only for Data processing Expert)"@en ;
+                                 rdfs:comment "" ;
+                                 skos:prefLabel "ProcessingReproducibility"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#RawData
+chameo:RawData rdf:type owl:Class ;
+               rdfs:subClassOf emmo:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e ,
+                               chameo:CharacterisationData ;
+               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Direct output of the equipment with the manufacturer’s software including automatic pre-processing that is not modified by the user once the acquisition method is defined and the equipment calibrated."@en ,
+                                                              "The raw data is a set of (unprocessed) data that is given directly as output from the detector, usually expressed as a function of time or position, or photon energy."@en ;
+               emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In mechanical testing, examples of raw data are raw-force, raw-displacement, coordinates as function of time."@en ,
+                                                              "In spectroscopic testing, the raw data are light intensity, or refractive index, or optical absorption as a function of the energy (or wavelength) of the incident light beam."@en ;
+               emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "In some cases, raw data can be considered to have already some level of data processing, e.g., in electron microscopy a “raw image” that is formed on the screen is already result from multiple processing after the signal is acquired by the detector."@en ;
+               rdfs:comment "" ;
+               skos:prefLabel "RawData"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#ReferenceSample
+chameo:ReferenceSample rdf:type owl:Class ;
+                       rdfs:subClassOf chameo:Sample ;
+                       emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "Quality control sample used to determine accuracy and precision of method. [ISO 17858:2007]"@en ;
+                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Material, sufficiently homogeneous and stable with respect to one or more specified properties, which has been established to be fit for its intended use in a measurement process”."@en ;
+                       rdfs:comment "" ;
+                       skos:altLabel "Certified Reference Material"@en ,
+                                     "Reference material"@en ,
+                                     "ReferenceSpecimen" ;
+                       skos:prefLabel "ReferenceSample"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#Sample
+chameo:Sample rdf:type owl:Class ;
+              rdfs:subClassOf emmo:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606 ;
+              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Portion of material selected from a larger quantity of material. The term needs to be qualified, e.g., bulk sample, representative sample, primary sample, bulked sample, test sample, etc. The term 'sample' implies the existence of a sampling error, i.e., the results obtained on the portions taken are only estimates of the concentration of a constituent or the quantity of a property present in the parent material. If there is no or negligible sampling error, the portion removed is a test portion, aliquot, or specimen."@en ;
+              emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Sample and Specime are often used interchangeably. However in some cases the term Specimen is used to specify a portion taken under conditions such that the sampling variability cannot be assessed (usually because the population is changing), and is assumed, for convenience, to be zero." ;
+              rdfs:comment "" ;
+              skos:altLabel "Specimen" ;
+              skos:prefLabel "Sample"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation
+chameo:SamplePreparation rdf:type owl:Class ;
+                         rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Sample preparation processes (e.g., machining, polishing, cutting to size, etc.) before actual observation and measurement."@en ;
+                         rdfs:comment "" ;
+                         skos:prefLabel "SamplePreparation"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#SamplePreparationHardware
+chameo:SamplePreparationHardware rdf:type owl:Class ;
+                                 rdfs:subClassOf emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#SamplePreparationParameter
+chameo:SamplePreparationParameter rdf:type owl:Class ;
+                                  rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                                  skos:prefLabel "SamplePreparationParameter" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#SamplingProcess
+chameo:SamplingProcess rdf:type owl:Class ;
+                       rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Act of extracting a portion (amount) of material from a larger quantity of material. This operation results in obtaining a sample representative of the batch with respect to the property or properties being investigated."@en ;
+                       emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The term can be used to cover either a unit of supply or a portion for analysis. The portion taken may consist of one or more sub-samples and the batch may be the population from which the sample is taken."@en ;
+                       rdfs:comment "" ;
+                       skos:prefLabel "SamplingProcess"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#SecondaryData
+chameo:SecondaryData rdf:type owl:Class ;
+                     rdfs:subClassOf chameo:CharacterisationData ;
+                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data resulting from the application of post-processing or model generation to other data."@en ;
+                     emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Deconvoluted curves"@en ,
+                                                                    "Intensity maps"@en ;
+                     rdfs:comment "" ;
+                     skos:altLabel "Elaborated data"@en ;
+                     skos:prefLabel "SecondaryData"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#Signal
+chameo:Signal rdf:type owl:Class ;
+              rdfs:subClassOf chameo:CharacterisationData ;
+              emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "According to UPAC Compendium of Chemical Terminology, a “signal” is “A representation of a quantity within an analytical instrument” (https://goldbook.iupac.org/terms/view/S05661 )."@en ;
+              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Result (effect) of the interaction between the sample and the probe, which usually is a measurable and quantifiable quantity."@en ;
+              emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Signal is usually emitted from a characteristic “emission” volume, which can be different from the sample/probe “interaction” volume and can be usually quantified using proper physics equations and/or modelling of the interaction mechanisms."@en ;
+              rdfs:comment "" ;
+              rdfs:label "Signal" ;
+              skos:prefLabel "Signal"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#Tip
+chameo:Tip rdf:type owl:Class ;
+           rdfs:subClassOf emmo:EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817 ;
+           skos:prefLabel "Tip" .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo/CharacterisationDataValidation
+<http://emmo.info/emmo/domain/chameo/chameo/CharacterisationDataValidation> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                                                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Procedures to validate the characterisation data."@en ;
+                                                                            skos:prefLabel "CharacterisationDataValidation"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo/DataAnalysis
+<http://emmo.info/emmo/domain/chameo/chameo/DataAnalysis> rdf:type owl:Class ;
+                                                          rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data processing activities performed on the secondary data to determine the characterisation property (e.g. classification, quantification), which can be performed manually or exploiting a model."@en ;
+                                                          skos:prefLabel "DataAnalysis"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo/SampleInspection
+<http://emmo.info/emmo/domain/chameo/chameo/SampleInspection> rdf:type owl:Class ;
+                                                              rdfs:subClassOf emmo:EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54 ;
+                                                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Analysis of the sample in order to determine information that are relevant for the characterisation method."@en ;
+                                                              emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In the Nanoindentation method the Scanning Electron Microscope to determine the indentation area."@en ;
+                                                              skos:prefLabel "SampleInspection"@en .
+
+
+###  http://purl.org/spar/datacite/ResourceIdentifier
+<http://purl.org/spar/datacite/ResourceIdentifier> rdf:type owl:Class ;
+                                                   emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An identifier that is used to uniquely identifies a resource."@en ;
+                                                   skos:prefLabel "ResourceIdentifier"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( emmo:EMMO_2565210a_bbcc_4c00_a122_6a608faa355b
+                emmo:EMMO_3967de47_343f_4bab_aada_b4bec73d11da
+                emmo:EMMO_86a305d1_7644_48be_b84c_1f976679b904
+                emmo:EMMO_95d4eb9b_d3d0_4705_a01c_4f87fb5f8d43
+                chameo:CharacterisationHardware
+              )
 ] .
 
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
 
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( chameo:AccessConditions
+                chameo:CharacterisationEnvironment
+                chameo:CharacterisationHardwareSpecification
+                chameo:CharacterisationMethodValidation
+                chameo:DataAcquisitionRate
+                chameo:Hazard
+                chameo:LevelOfAutomation
+                chameo:LevelOfExpertise
+                chameo:MeasurementParameter
+                chameo:MeasurementTime
+                chameo:SamplePreparationParameter
+              )
+] .
 
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
 
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( chameo:CalibrationMeasurement
+                chameo:CharacterisationMeasurementProcess
+                chameo:DataPostProcessing
+                chameo:DataPreparation
+                chameo:SamplePreparation
+                chameo:SamplingProcess
+                <http://emmo.info/emmo/domain/chameo/chameo/CharacterisationDataValidation>
+                <http://emmo.info/emmo/domain/chameo/chameo/DataAnalysis>
+                <http://emmo.info/emmo/domain/chameo/chameo/SampleInspection>
+              )
+] .
 
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
 
 ###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
