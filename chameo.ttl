@@ -12,6 +12,7 @@
 @base <http://emmo.info/emmo/domain/chameo/chameo/#> .
 
 <http://emmo.info/emmo/domain/chameo/chameo> rdf:type owl:Ontology ;
+											  owl:ontologyIRI <http://emmo.info/emmo/domain/chameo/chameo> ;
                                               owl:versionIRI <http://emmo.info/emmo/domain/chameo/chameo> ;
                                               owl:imports <http://emmo.info/emmo/1.0.0-beta4/disciplines/computerscience> ,
                                                           <http://emmo.info/emmo/1.0.0-beta4/disciplines/manufacturing> ,
