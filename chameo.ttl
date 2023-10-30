@@ -18,15 +18,15 @@
                                               owl:versionIRI <https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/1.0.0-beta2/chameo.ttl> ;
                                               owl:imports <http://emmo.info/emmo/1.0.0-beta4/disciplines/computerscience> ,
                                                           <http://emmo.info/emmo/1.0.0-beta4/disciplines/manufacturing> ,
-                                                          <http://emmo.info/emmo/1.0.0-beta4/disciplines/mereocausality> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/mereocausality> ,
                                                           <http://emmo.info/emmo/1.0.0-beta4/disciplines/metrology> ,
                                                           <http://emmo.info/emmo/1.0.0-beta4/disciplines/models> ,
                                                           <http://emmo.info/emmo/1.0.0-beta4/multiperspective/persholistic> ,
                                                           <http://emmo.info/emmo/1.0.0-beta4/perspectives/data> ,
                                                           <http://emmo.info/emmo/1.0.0-beta4/perspectives/holistic> ,
-                                                          <http://emmo.info/emmo/1.0.0-beta4/perspectives/workflow> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/multiperspective/workflow> ,
                                                           <http://emmo.info/emmo/1.0.0-beta4/perspectives/persistence> ,
-														  <http://emmo.info/emmo/1.0.0-beta4/perspectives/math> ,
+                                                          <http://emmo.info/emmo/1.0.0-beta4/disciplines/math> ,
                                                           <http://emmo.info/emmo/1.0.0-beta4/perspectives/semiotics> ;
                                               dcterms:abstract "CHAMEO is a domain ontology designed to model the common aspects across the different characterisation methodologies."@en ;
                                               dcterms:alternative "CHAMEO" ;
