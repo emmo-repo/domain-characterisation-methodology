@@ -601,6 +601,11 @@ chameo:CharacterisationEnvironmentProperty rdf:type owl:Class ;
                                            skos:prefLabel "CharacterisationEnvironmentProperty" .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationExperiment
+chameo:CharacterisationExperiment rdf:type owl:Class ;
+                                  rdfs:subClassOf emmo:EMMO_22522299_4091_4d1f_82a2_3890492df6db .
+
+
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware
 chameo:CharacterisationHardware rdf:type owl:Class ;
                                 rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ;
@@ -738,6 +743,12 @@ chameo:CharacterisationProperty rdf:type owl:Class ;
                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The characterisation property is the investigate property or behaviour of a sample. It is derived from the secondary data, usually after classification or quantification (manually or by a model)."@en ;
                                 rdfs:comment "" ;
                                 skos:prefLabel "CharacterisationProperty"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProtocol
+chameo:CharacterisationProtocol rdf:type owl:Class ;
+                                rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
+                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation protocol is defined whenever it is desirable to standardize a laboratory method to ensure successful replication of results by others in the same laboratory or by other laboratories."@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationSoftware
