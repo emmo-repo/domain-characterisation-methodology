@@ -603,7 +603,8 @@ chameo:CharacterisationEnvironmentProperty rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationExperiment
 chameo:CharacterisationExperiment rdf:type owl:Class ;
-                                  rdfs:subClassOf emmo:EMMO_22522299_4091_4d1f_82a2_3890492df6db .
+                                  rdfs:subClassOf emmo:EMMO_22522299_4091_4d1f_82a2_3890492df6db ;
+                                  emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation experiment is the broad and general process by which a material's structure and properties are probed and measured. It is a fundamental process in the field of materials science, without which no scientific understanding of engineering materials could be ascertained."@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware
