@@ -546,7 +546,8 @@ standards.
 -- International Vocabulary of Metrology(VIM)"""@en ;
                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Sequence of operations/actions that are needed to convert the initial signal (as produced by the detector) into a meaningful and useable raw data."@en ;
                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In nanoindentation, the electrical signal coming from capacitive displacement gauge is converted into a real raw-displacement signal after using a proper calibration function (as obtained by the equipment manufacturer). Then, additional calibration procedures are applied to define the point of initial contact and to correct for instrument compliance, thermal drift, and indenter area function to obtain the real useable displacement data."@en ;
-                          emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Usually the calibration process involve  a reference sample (with pre-defined, specific, and stable physical characteristics and known properties), in order to extract calibration data. In this way, the accuracy of the measurement tool and its components (for example the probe) will be evaluated and confirmed."@en .
+                          emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Usually the calibration process involve  a reference sample (with pre-defined, specific, and stable physical characteristics and known properties), in order to extract calibration data. In this way, the accuracy of the measurement tool and its components (for example the probe) will be evaluated and confirmed."@en ;
+                          skos:prefLabel "CalibrationProcess"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CalibrationTask
@@ -604,7 +605,8 @@ chameo:CharacterisationEnvironmentProperty rdf:type owl:Class ;
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationExperiment
 chameo:CharacterisationExperiment rdf:type owl:Class ;
                                   rdfs:subClassOf emmo:EMMO_22522299_4091_4d1f_82a2_3890492df6db ;
-                                  emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation experiment is the process by which a material's structure and properties are probed and measured. It is a fundamental process in the field of materials science, without which no scientific understanding of engineering materials could be ascertained."@en .
+                                  emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation experiment is the process by which a material's structure and properties are probed and measured. It is a fundamental process in the field of materials science, without which no scientific understanding of engineering materials could be ascertained."@en ;
+                                  skos:prefLabel "CharacterisationExperiment"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware
@@ -617,7 +619,8 @@ chameo:CharacterisationHardware rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardwareSpecification
 chameo:CharacterisationHardwareSpecification rdf:type owl:Class ;
-                                             rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba .
+                                             rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                                             skos:prefLabel "CharacterisationHardwareSpecification"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationInstrument
@@ -697,25 +700,13 @@ chameo:CharacterisationMeasurementTask rdf:type owl:Class ;
                                                                         ] ;
                                                          owl:someValuesFrom chameo:CharacterisationMeasurementProcess
                                                        ] ;
-                                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Single calibration Task  that is part of a Characterisation Measurement Process Workflow."@en .
+                                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Single calibration Task  that is part of a Characterisation Measurement Process Workflow."@en ;
+                                       skos:prefLabel "CharacterisationMeasurementTask"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod
 chameo:CharacterisationMethod rdf:type owl:Class ;
                               rdfs:subClassOf emmo:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c ,
-                                              [ rdf:type owl:Restriction ;
-                                                owl:onProperty emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a ;
-                                                owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                     owl:unionOf ( <http://emmo.info/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead>
-                                                                                   chameo:CalibrationProcess
-                                                                                   chameo:CharacterisationMeasurementProcess
-                                                                                   chameo:MeasurementSystemAdjustment
-                                                                                   chameo:SamplePreparation
-                                                                                   chameo:SamplingProcess
-                                                                                   <http://emmo.info/emmo/domain/chameo/chameo/SampleInspection>
-                                                                                 )
-                                                                   ]
-                                              ] ,
                                               [ rdf:type owl:Restriction ;
                                                 owl:onProperty chameo:hasLab ;
                                                 owl:someValuesFrom chameo:Laboratory
@@ -749,7 +740,8 @@ chameo:CharacterisationProperty rdf:type owl:Class ;
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProtocol
 chameo:CharacterisationProtocol rdf:type owl:Class ;
                                 rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
-                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation protocol is defined whenever it is desirable to standardize a laboratory method to ensure successful replication of results by others in the same laboratory or by other laboratories."@en .
+                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation protocol is defined whenever it is desirable to standardize a laboratory method to ensure successful replication of results by others in the same laboratory or by other laboratories."@en ;
+                                skos:prefLabel "CharacterisationProtocol"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationSoftware
@@ -780,7 +772,8 @@ latter is instead sometimes used to refer to a measuring system plus all other e
 including the object under measurement and the person(s) performing the measurement.
 NOTE 4 A measuring system can be used as a measurement standard."""@en ;
                               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A set of one or more 'CharacterisationInstruments' and often other devices, including any sample holder, reagent and supply, assembled and adapted to give information used to generate 'MeasuredQuantityProperty' within specified intervals for quantities of specified kinds."@en ;
-                              emmo:EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6 "Measuring system"@en .
+                              emmo:EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6 "Measuring system"@en ;
+                              skos:prefLabel "CharacterisationSystem"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationTechnique
@@ -1089,7 +1082,8 @@ chameo:InteractionVolume rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#IntermediateSample
 chameo:IntermediateSample rdf:type owl:Class ;
-                          rdfs:subClassOf chameo:Sample .
+                          rdfs:subClassOf chameo:Sample ;
+                          skos:prefLabel "IntermediateSample"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#IonChromatography
@@ -1698,12 +1692,9 @@ chameo:XrdGrazingIncidence rdf:type owl:Class ;
                            skos:prefLabel "XrdGrazingIncidence"@en .
 
 
-###  http://emmo.info/emmo/domain/chameo/chameo/SampleInspection
-<http://emmo.info/emmo/domain/chameo/chameo/SampleInspection> rdf:type owl:Class .
-
-
 ###  http://purl.org/spar/datacite/ResourceIdentifier
-datacite:ResourceIdentifier rdf:type owl:Class .
+datacite:ResourceIdentifier rdf:type owl:Class ;
+                            skos:prefLabel "ResourceIdentifier"@en .
 
 
 #################################################################
