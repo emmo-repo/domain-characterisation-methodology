@@ -1,8 +1,12 @@
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+![CI tests](https://github.com/emmo-repo/domain-characterisation-methodology/workflows/Check%20conventions/badge.svg)
+
+
 # Characterisation Methodology Domain Ontology (CHAMEO)
 An ontology for materials characterization based on the [CHADA](https://www.sciencedirect.com/science/article/pii/S235249281930087X?via%3Dihub) template.
 
 This ontology development is supported by an [EMMC Task Group](https://emmc.eu/focus-areas/interoperability/tg2-5/). The corresponding forum can be found [here](https://emmc.eu/forum?view=topic&id=154).
- 
+
 ## Requirements
 
 The CHAMEO Ontology is built with an alignment with EMMO and some of its modules, as well as with EMMO-compliant domain-level ontologies developed for the Open Innovation Environment (OIE) from the OYSTER project. The following table describes the version compatibility between those ontologies:

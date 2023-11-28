@@ -1,0 +1,22 @@
+---
+title:  'Characterisation Methodology Domain Ontology (CHAMEO)'
+version: 1.0.0-beta5
+author:
+- name: Emanuele Ghedini
+  affiliation: Goldbeck Consulting
+- name: Gerhard Goldbeck
+  affiliation: Goldbeck Consulting
+- name:  Daniele Toti
+  affiliation: Goldbeck Consulting
+- name: Simon Clark
+  affiliation: SINTEF
+- name: Jesper Friis
+  affiliation: SINTEF
+- name: Eibar Flores
+  affiliation: SINTEF
+institute: 'European Materials Modelling Council (EMMC)'
+keywords: [CHADA, EMMO, 'materials science', characterisation, materials, ontology]
+abstract: |
+  CHAMEO is a domain ontology designed to model the common aspects across the
+  different characterisation methodologies.
+...
