@@ -1,0 +1,3370 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CalibrationData"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_36e69413_8c59_4799_946c_10b05d266e22"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementParameter"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationData"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementProcess"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_70da982d_1810_4b01_9630_a28e216ecd9a"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationInstrument"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://emmo.info/emmo#EMMO_27c5d8c6_8af7_4d63_beb1_ec37cd8b3fa3"
+    }, {
+      "@id" : "http://emmo.info/emmo#EMMO_8d2d9374_ef3a_47e6_8595_6bc208e07519"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Signal"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationInstrument"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_36e69413_8c59_4799_946c_10b05d266e22"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_36e69413_8c59_4799_946c_10b05d266e22"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparationParameter"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CalibrationProcess"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationDataValidation"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementProcess"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataAnalysis"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataPostProcessing"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataPreparation"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SampleInspection"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplingProcess"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CalibrationProcess"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CompressionTest"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CreepTest"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DynamicMechanicalAnalysis"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#FatigueTesting"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#FibDic"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#HardnessTesting"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Nanoindentation"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ShearOrTorsionTests"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#TensileTest"
+    }, {
+      "@id" : "http://emmo.info/emmo/domain/chameo/chameo#WearTest"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_70da982d_1810_4b01_9630_a28e216ecd9a"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironmentProperty"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_8e52c42b_e879_4473_9fa1_4b23428b392b"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Detector"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_8e52c42b_e879_4473_9fa1_4b23428b392b"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Probe"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironment"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationInstrument"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@language" : "en",
+    "@value" : "CHAMEO is a domain ontology designed to model the common aspects across the different characterisation methodologies."
+  } ],
+  "http://purl.org/dc/terms/alternative" : [ {
+    "@value" : "CHAMEO"
+  } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@value" : "Work under review - not available yet"
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Goldbeck Consulting Ltd (UK)"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2022-03-03"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Daniele Toti"
+  }, {
+    "@value" : "Gerhard Goldbeck"
+  }, {
+    "@value" : "Pierluigi Del Nostro"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Characterisation Methodology Ontology"
+  } ],
+  "http://purl.org/dc/terms/hasFormat" : [ {
+    "@id" : "https://www.w3.org/TR/turtle/"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "http://emmo.info/emmo/domain/chameo/chameo"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/legalcode"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@value" : "2023-10-23T15:00:00Z"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@value" : "EMMC ASBL"
+  } ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "CHAracterisation MEthodology Ontology"
+  } ],
+  "http://purl.org/ontology/bibo/doi" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@language" : "en",
+    "@value" : "chameo"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://emmo.info/emmo/domain/chameo/chameo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contacts:\n\t\t\t\t\t\t\t\t\t\t\t\t\tGerhard Goldbeck\n\t\t\t\t\t\t\t\t\t\t\t\t\tGoldbeck Consulting Ltd (UK)\n\t\t\t\t\t\t\t\t\t\t\t\t\temail: gerhard@goldbeck-consulting.com"
+  } ],
+  "http://www.w3.org/2002/07/owl#backwardCompatibleWith" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/mereocausality"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/disciplines/computerscience"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/disciplines/manufacturing"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/disciplines/math"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/disciplines/metrology"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/disciplines/models"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/multiperspective/persholistic"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/multiperspective/workflow"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/perspectives/data"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/perspectives/holistic"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/perspectives/persistence"
+  }, {
+    "@id" : "http://emmo.info/emmo/1.0.0-beta5/perspectives/semiotics"
+  } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
+    "@value" : "1.0.0-beta2"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/1.0.0-beta3/chameo.ttl"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0-beta3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hiddenLabel" : [ {
+    "@value" : "CHAMEO"
+  } ],
+  "http://xmlns.com/foaf/0.1/homepage" : [ {
+    "@id" : "https://github.com/emmo-repo/domain-characterisation-methodology"
+  } ],
+  "http://xmlns.com/foaf/0.1/logo" : [ {
+    "@value" : "https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/main/images/chameo_logo_small.png"
+  } ],
+  "http://xmlns.com/foaf/0.1/page" : [ {
+    "@id" : "https://github.com/emmo-repo/domain-characterisation-methodology"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#AccessConditions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Describes what is needed to repeat the experiment"
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "In case of national or international facilities such as synchrotrons describe the programme that enabled you to access these."
+  }, {
+    "@language" : "en",
+    "@value" : "Was the access to your characterisation tool an inhouse routine or required a 3rd party service?"
+  }, {
+    "@language" : "en",
+    "@value" : "Was the access to your sample preparation an inhouse routine or required a 3rd party service?"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AccessConditions"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Agent1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Operator"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#AlphaSpectrometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Alpha spectrometry (also known as alpha(-particle) spectroscopy) is the quantitative study of the energy of alpha particles emitted by a radioactive nuclide that is an alpha emitter. As emitted alpha particles are mono-energetic (i.e. not emitted with a spectrum of energies, such as beta decay) with energies often distinct to the decay they can be used to identify which radionuclide they originated from."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectrometry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AlphaSpectrometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Amperometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The amperometric method provides the ability to distinguish selectively between a number of electroactive species in solution by judicious selection of the applied potential and/or choice of electrode material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Electrochemical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Amperometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#AnalyticalElectronMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Analytical electron microscopy (AEM) refers to the collection of spectroscopic data in TEM or STEM, enabling qualitative or quantitative compositional analysis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AnalyticalElectronMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#AtomProbeTomography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Atom Probe Tomography (APT or 3D Atom Probe) is the only material analysis technique offering extensive capabilities for both 3D imaging and chemical composition measurements at the atomic scale (around 0.1-0.3nm resolution in depth and 0.3-0.5nm laterally). Since its early developments, Atom Probe Tomography has contributed to major advances in materials science.\n\nThe sample is prepared in the form of a very sharp tip. The cooled tip is biased at high DC voltage (3-15 kV). The very small radius of the tip and the High Voltage induce a very high electrostatic field (tens V/nm) at the tip surface, just below the point of atom evaporation. Under laser or HV pulsing, one or more atoms are evaporated from the surface, by field effect (near 100% ionization), and projected onto a Position Sensitive Detector (PSD) with a very high detection efficiency. Ion efficiencies are as high as 80%, the highest analytical efficiency of any 3D microscopy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Tomography"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "3D Atom Probe"
+  }, {
+    "@value" : "APT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AtomProbeTomography"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#AtomicForceMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Atomic force microscopy (AFM) is an influential surface analysis technique used for micro/nanostructured coatings. This flexible technique can be used to obtain high-resolution nanoscale images and study local sites in air (conventional AFM) or liquid (electrochemical AFM) surroundings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AtomicForceMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CalibrationData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Calibration data are used to provide correction of measured data or perform uncertainty calculations. They are generally the result of a measuerement on a reference specimen."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationData"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CalibrationData"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CalibrationDataPostProcessing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Post-processing of the output of the calibration in order to get the actual calibration data to be used as input for the measurement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataPostProcessing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CalibrationDataPostProcessing"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CalibrationProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "Operation performed on a measuring instrument or a measuring system that, under specified conditions\n1. establishes a relation between the values with measurement uncertainties provided by measurement standards and corresponding indications with associated measurement uncertainties and\n2. uses this information to establish a relation for obtaining a measurement result from an indication\nNOTE 1 The objective of calibration is to provide traceability of measurement results obtained when using a calibrated measuring instrument or measuring system.\nNOTE 2 The outcome of a calibration may be expressed by a statement, calibration function, calibration diagram, calibration curve, or calibration table. In some cases, it may consist of an additive or multiplicative correction of the indication with associated measurement uncertainty.\nNOTE 3 Calibration should not be confused with adjustment of a measuring system, often mistakenly called “selfcalibration”, nor with verification of calibration. Calibration is sometimes a prerequisite for verification, which provides confirmation that specified requirements (often maximum permissible errors) are met. Calibration is sometimes also a prerequisite for adjustment, which is the set of operations carried out on a measuring system such that the system provides prescribed indications corresponding to given values of quantities being measured, typically obtained from\nmeasurement standards.\nNOTE 4 Sometimes the first step alone of the operation mentioned in the definition is intended as being calibration, as it was in previous editions of this Vocabulary. The second step is in fact required to establish instrumental uncertainty\nfor the measurement results obtained when using the calibrated measuring system. The two steps together aim to demonstrate the metrological traceability of measurement results obtained by a calibrated measuring system. In the\npast the second step was usually considered to occur after the calibration.\nNOTE 5 A comparison between two measurement standards may be viewed as a calibration if the comparison is used to check and, if necessary, correct the value and measurement uncertainty attributed to one of the measurement\nstandards.\n\n-- International Vocabulary of Metrology(VIM)"
+  } ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Sequence of operations/actions that are needed to convert the initial signal (as produced by the detector) into a meaningful and useable raw data."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "In nanoindentation, the electrical signal coming from capacitive displacement gauge is converted into a real raw-displacement signal after using a proper calibration function (as obtained by the equipment manufacturer). Then, additional calibration procedures are applied to define the point of initial contact and to correct for instrument compliance, thermal drift, and indenter area function to obtain the real useable displacement data."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@language" : "en",
+    "@value" : "Usually the calibration process involve  a reference sample (with pre-defined, specific, and stable physical characteristics and known properties), in order to extract calibration data. In this way, the accuracy of the measurement tool and its components (for example the probe) will be evaluated and confirmed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  }, {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CalibrationProcess"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CalibrationProcess1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CalibrationProcess"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CalibrationTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Single calibration Task  that is part of a Calibration Process Workflow."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_4299e344_a321_4ef2_a744_bacfcce80afc"
+  }, {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "CalibrationTask"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Calorimetry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "In chemistry and thermodynamics, calorimetry (from Latin calor 'heat', and Greek μέτρον (metron) 'measure') is the science or act of measuring changes in state variables of a body for the purpose of deriving the heat transfer associated with changes of its state due, for example, to chemical reactions, physical changes, or phase transitions under specified constraints. Calorimetry is performed with a calorimeter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Thermochemical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Calorimetry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ChMeasProc1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementProcess"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Represents every type of data that is produced during a characterisation process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "CharacterisationData"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationDataValidation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Procedures to validate the characterisation data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationDataValidation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Medium of the characterisation experiment defined by the set of environmental conditions that are controlled and measured over time during the experiment."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@language" : "en",
+    "@value" : "Characterisation can either be made in air (ambient conditions, without specific controls on environmental parameters), or at different temperatures, different pressures (or in vacuum), or using different types of working gases (inert or reactive with respect to sample), different levels of humidity, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationEnvironment"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironmentProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "CharacterisationEnvironmentProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationExperiment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "A characterisation experiment is the process by which a material's structure and properties are probed and measured. It is a fundamental process in the field of materials science, without which no scientific understanding of engineering materials could be ascertained."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationExperiment"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Whatever hardware is used during the characterisation process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationHardware"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardwareSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationHardwareSpecification"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationInstrument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "Device used for making measurements, alone or in conjunction with one or more supplementary\ndevices\nNOTE 1 A measuring instrument that can be used alone for making measurements is a measuring system.\nNOTE 2 A measuring instrument is either an indicating measuring instrument or a material measure."
+  } ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The instrument used for characterising a material, which usually has a probe and a detector as parts."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@value" : "In nanoindentation is the nanoindenter"
+  } ],
+  "http://emmo.info/emmo#EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6" : [ {
+    "@language" : "en",
+    "@value" : "Measuring instrument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
+  }, {
+    "@id" : "http://emmo.info/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929"
+  }, {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "CharacterisationInstrument"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "Process of experimentally obtaining one or more values that can reasonably be attributed to a quantity together with any other available relevant information\nNOTE 1 The quantity mentioned in the definition is an individual quantity.\nNOTE 2 The relevant information mentioned in the definition may be about the values obtained by the measurement,\nsuch that some may be more representative of the measurand than others.\nNOTE 3 Measurement is sometimes considered to apply to nominal properties, but not in this Vocabulary, where the\nprocess of obtaining values of nominal properties is called “examination”.\nNOTE 4 Measurement requires both experimental comparison of quantities or experimental counting of entities at\nsome step of the process and the use of models and calculations that are based on conceptual considerations.\nNOTE 5 The conditions of reasonable attribution mentioned in the definition take into account a description of the\nquantity commensurate with the intended use of a measurement result, a measurement procedure, and a calibrated\nmeasuring system operating according to the specified measurement procedure, including the measurement\nconditions. Moreover, a maximum permissible error and/or a target uncertainty may be specified, and the\nmeasurement procedure and the measuring system should then be chosen in order not to exceed these measuring\nsystem specifications.\n\n-- International Vocabulary of Metrology(VIM)"
+  } ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The measurement process associates raw data to the sample  through a probe and a detector."
+  } ],
+  "http://emmo.info/emmo#EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6" : [ {
+    "@language" : "en",
+    "@value" : "Measurement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationMeasurementProcess"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Single calibration Task  that is part of a Characterisation Measurement Process Workflow."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_4299e344_a321_4ef2_a744_bacfcce80afc"
+  }, {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationMeasurementTask"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The description of the overall characterisation method. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing)."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@value" : "A characterisation method is not only related to the measurement process which can be one of its steps."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_3b19eab4_79be_4b02_bdaf_ecf1f0067a68"
+  }, {
+    "@id" : "http://emmo.info/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Characterisation procedure"
+  }, {
+    "@language" : "en",
+    "@value" : "Characterisation technique"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationMethod"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProcedureValidation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Describes why the characterization procedure was chosen and deemed to be the most useful for the sample."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationProcedureValidation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The characterisation property is the investigate property or behaviour of a sample. It is derived from the secondary data, usually after classification or quantification (manually or by a model)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4"
+  }, {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SecondaryData"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProtocol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "A characterisation protocol is defined whenever it is desirable to standardize a laboratory method to ensure successful replication of results by others in the same laboratory or by other laboratories."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationProtocol"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationSoftware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "A software application to process characterisation data"
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@value" : "In Nanoindentation post-processing the software used to apply the Oliver-Pharr to calculate the characterisation properties (i.e. elastic modulus, hardness) from load and depth data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_3b031fa9_8623_4ea5_8b57_bcafb70c5c8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "CharacterisationSoftware"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "Set of one or more measuring instruments and often other components, assembled and\nadapted to give information used to generate measured values within specified intervals for\nquantities of specified kinds\nNOTE 1 The components mentioned in the definition may be devices, reagents, and supplies.\nNOTE 2 A measuring system is sometimes referred to as “measuring equipment” or “device”, for example in ISO 10012,\nMeasurement management systems – Requirements for measurement processes and measuring equipment and ISO\n17025, General requirements for the competence of testing and calibration laboratories.\nNOTE 3 Although the terms “measuring system” and “measurement system” are frequently used synonymously, the\nlatter is instead sometimes used to refer to a measuring system plus all other entities involved in a measurement,\nincluding the object under measurement and the person(s) performing the measurement.\nNOTE 4 A measuring system can be used as a measurement standard."
+  } ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "A set of one or more 'CharacterisationInstruments' and often other devices, including any sample holder, reagent and supply, assembled and adapted to give information used to generate 'MeasuredQuantityProperty' within specified intervals for quantities of specified kinds."
+  } ],
+  "http://emmo.info/emmo#EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6" : [ {
+    "@language" : "en",
+    "@value" : "Measuring system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_7dea2572_ab42_45bd_9fd7_92448cec762a"
+  }, {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationSystem"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ChargeDistribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ChargeDistribution"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Chromatography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Chromatography is a laboratory technique for the separation of a mixture into its components."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Chromatography"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CompressionTest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Compression tests characterize material and product strength and stiffness under applied crushing loads. These tests are typically conducted by applying compressive pressure to a test specimen using platens or specialized fixtures with a testing machine that produces compressive loads."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompressionTest"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ConfocalMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Confocal microscopy, most frequently confocal laser scanning microscopy (CLSM) or laser scanning confocal microscopy (LSCM), is an optical imaging technique for increasing optical resolution and contrast of a micrograph by means of using a spatial pinhole to block out-of-focus light in image formation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ConfocalMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CreepTest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The creep test is a destructive materials testing method for determination of the long-term strength and heat resistance of a material. When running a creep test, the specimen is subjected to increased temperature conditions for an extended period of time and loaded with a constant tensile force or tensile stress."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CreepTest"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CriticalAndSupercriticalChromatography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Chromatography"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CriticalAndSupercriticalChromatography"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataAcquisitionRate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Quantify the raw data acquisition rate, if applicable."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DataAcquisitionRate"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Data processing activities performed on the secondary data to determine the characterisation property (e.g. classification, quantification), which can be performed manually or exploiting a model."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DataAnalysis"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataFiltering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@value" : "Data filtering is the process of examining a dataset to exclude, rearrange, or apportion data according to certain criteria."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataPreparation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DataFiltering"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataNormalisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Data normalization involves adjusting raw data to a notionally common scale."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@language" : "en",
+    "@value" : "It involves the creation of shifted and/or scaled versions of the values to allow post-processing in a way that eliminates the effects of influences on subsequent properties extraction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataPreparation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DataNormalisation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataPostProcessing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@value" : "Analysis, that allows one to calculate the final material property from the calibrated primary data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DataPostProcessing"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataPreparation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@value" : "Data preparation is the process of manipulating (or pre-processing) data (which may come from disparate data sources) to improve their quality or reduce bias in subsequent analysis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DataPreparation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataProcessingThroughCalibration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Describes how raw data are corrected and/or modified through calibrations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DataProcessingThroughCalibration"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Evaluation of quality indicators to determine how well suited a data set is to be used for the characterisation of a material."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "Example evaluation of S/N ratio, or other quality indicators (limits of detection/quantification, statistical analysis of data, data robustness analysis)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DataQuality"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Detector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Physical device (or the chain of devices) that is used to measure, quantify and store the signal after its interaction with the sample."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "Back Scattered Electrons (BSE) and Secondary Electrons (SE) detectors for SEM"
+  }, {
+    "@language" : "en",
+    "@value" : "Displacement and force sensors for mechanical testing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Detector"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Determination1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://emmo.info/emmo#EMMO_10a5fd39_06aa_4648_9e70_f962a9cb2069" ],
+  "http://emmo.info/emmo#EMMO_dc57d998_23db_4d8e_b2cd_f346b195b846" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#InferredChMethod1"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DielectricAndImpedanceSpectroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Dielectric spectroscopy (DS) or impedance spectroscopy, also known as electrochemical impedance spectroscopy, is frequently used to study the response of a sample subjected to an applied electric field of fixed or changing frequency. DS describes the dielectric properties of a material as a function of frequency. In DS, the radio and microwave frequency regions of the electromagnetic spectrum have been successfully made to interact with materials, so as to study the behavior of molecules. The interaction of applied alternating electric fields with dipoles possessing reorientation mobility in materials is also dealt by DS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectroscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DielectricAndImpedanceSpectroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DifferentialRefractiveIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Optical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DifferentialRefractiveIndex"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DifferentialScanningCalorimetry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Differential scanning calorimetry (DSC) is a thermoanalytical technique in which the difference in the amount of heat required to increase the temperature of a sample and reference is measured as a function of temperature. Both the sample and reference are maintained at nearly the same temperature throughout the experiment. Generally, the temperature program for a DSC analysis is designed such that the sample holder temperature increases linearly as a function of time. The reference sample should have a well-defined heat capacity over the range of temperatures to be scanned. Additionally, the reference sample must be stable, of high purity, and must not experience much change across the temperature scan. Typically, reference standards have been metals such as indium, tin, bismuth, and lead, but other standards such as polyethylene and fatty acids have been proposed to study polymers and organic compounds, respectively."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Thermochemical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "DSC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DifferentialScanningCalorimetry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DifferentialThermalAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Differential thermal analysis (DTA) is a thermoanalytic technique that is similar to differential scanning calorimetry. In DTA, the material under study and an inert reference are made to undergo identical thermal cycles, (i.e., same cooling or heating programme) while recording any temperature difference between sample and reference.[1] This differential temperature is then plotted against time, or against temperature (DTA curve, or thermogram). Changes in the sample, either exothermic or endothermic, can be detected relative to the inert reference. Thus, a DTA curve provides data on the transformations that have occurred, such as glass transitions, crystallization, melting and sublimation. The area under a DTA peak is the enthalpy change and is not affected by the heat capacity of the sample."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Thermochemical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "DTA"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DifferentialThermalAnalysis"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Dilatometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Dilatometry is a method for characterising the dimensional changes of materials with variation of temperature conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Dilatometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DynamicLightScattering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Dynamic light scattering (DLS) is a technique in physics that can be used to determine the size distribution profile of small particles in suspension or polymers in solution. In the scope of DLS, temporal fluctuations are usually analyzed using the intensity or photon auto-correlation function (also known as photon correlation spectroscopy - PCS or quasi-elastic light scattering - QELS)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Optical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "DLS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DynamicLightScattering"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DynamicMechanicalAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Dynamic mechanical analysis (abbreviated DMA) is a characterisation technique where a sinusoidal stress is applied and the strain in the material is measured, allowing one to determine the complex modulus. The temperature of the sample or the frequency of the stress are often varied, leading to variations in the complex modulus; this approach can be used to locate the glass transition temperature[1] of the material, as well as to identify transitions corresponding to other molecular motions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DynamicMechanicalAnalysis"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DynamicMechanicalSpectroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Dynamic Mechanical Analysis (DMA) is a material characterization technique where a small deformation is applied to a sample in a cyclic manner. This allows measurement of the materials response to stress, temperature, frequency or time. The term is also used to refer to the analyzer that performs the test."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectroscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "DMA"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DynamicMechanicalSpectroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Electrochemical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "In electrochemical characterization, the measurement of potential, charge, or current is used to determine an analyte's concentration or to characterize an analyte's chemical reactivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Electrochemical"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ElectronBackscatterDiffraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Electron backscatter diffraction (EBSD) is a scanning electron microscopy (SEM) technique used to study the crystallographic structure of materials. EBSD is carried out in a scanning electron microscope equipped with an EBSD detector comprising at least a phosphorescent screen, a compact lens and a low-light camera. In this configuration, the SEM incident beam hits the tilted sample. As backscattered electrons leave the sample, they interact with the crystal's periodic atomic lattice planes and diffract according to Bragg's law at various scattering angles before reaching the phosphor screen forming Kikuchi patterns (EBSPs). EBSD spatial resolution depends on many factors, including the nature of the material under study and the sample preparation. Thus, EBSPs can be indexed to provide information about the material's grain structure, grain orientation, and phase at the micro-scale. EBSD is applied for impurities and defect studies, plastic deformation, and statistical analysis for average misorientation, grain size, and crystallographic texture. EBSD can also be combined with energy-dispersive X-ray spectroscopy (EDS), cathodoluminescence (CL), and wavelength-dispersive X-ray spectroscopy (WDS) for advanced phase identification and materials discovery."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScanningElectronMicroscopy"
+  }, {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScatteringAndDiffraction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EBSD"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectronBackscatterDiffraction"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ElectronProbeMicroanalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Electron probe microanalysis (EPMA) is used for quantitative analysis of the elemental composition of solid specimens at a micrometer scale. The method uses bombardment of the specimen by keV electrons to excite characteristic X-rays from the sample, which are then detected by using wavelength-dispersive (WD) spectrometers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectronProbeMicroanalysis"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Ellipsometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Ellipsometry is an optical technique that uses polarised light to probe the dielectric\nproperties of a sample (optical system). The common application of ellipsometry is\nthe analysis of thin films. Through the analysis of the state of polarisation of the\nlight that is reflected from the sample, ellipsometry yields information on the layers that are thinner than the wavelength of the light itself, down to a single atomic\nlayer or less. Depending on what is already known about the sample, the technique\ncan probe a range of properties including layer thickness, morphology, and chemical composition."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Optical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ellipsometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#EnvironmentalScanningElectronMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The environmental scanning electron microscope (ESEM) is a scanning electron microscope (SEM) that allows for the option of collecting electron micrographs of specimens that are wet, uncoated, or both by allowing for a gaseous environment in the specimen chamber."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "EnvironmentalScanningElectronMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Exafs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Extended X-ray absorption fine structure (EXAFS), along with X-ray absorption near edge structure (XANES), is a subset of X-ray absorption spectroscopy (XAS). Like other absorption spectroscopies, XAS techniques follow Beer's law. The X-ray absorption coefficient of a material as a function of energy is obtained by directing X-rays of a narrow energy range at a sample, while recording the incident and transmitted x-ray intensity, as the incident x-ray energy is incremented.\nWhen the incident x-ray energy matches the binding energy of an electron of an atom within the sample, the number of x-rays absorbed by the sample increases dramatically, causing a drop in the transmitted x-ray intensity. This results in an absorption edge. Every element has a set of unique absorption edges corresponding to different binding energies of its electrons, giving XAS element selectivity. XAS spectra are most often collected at synchrotrons because of the high intensity of synchrotron X-ray sources allow the concentration of the absorbing element to reach as low as a few parts per million. Absorption would be undetectable if the source is too weak. Because X-rays are highly penetrating, XAS samples can be gases, solids or liquids."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectroscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Exafs"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#FatigueTesting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Fatigue testing is a specialised form of mechanical testing that is performed by applying cyclic loading to a coupon or structure. These tests are used either to generate fatigue life and crack growth data, identify critical locations or demonstrate the safety of a structure that may be susceptible to fatigue."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FatigueTesting"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#FibDic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The FIB-DIC (Focused Ion Beam - Digital Image Correlation) ring-core technique is a powerful method for measuring residual stresses in materials. It is based on milling a ring-shaped sample, or core, from the material of interest using a focused ion beam (FIB)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "FIBDICResidualStressAnalysis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "FibDic"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#FieldEmissionScanningElectronMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Field emission scanning electron microscopy (FE-SEM) is an advanced technology used to capture the microstructure image of the materials. FE-SEM is typically performed in a high vacuum because gas molecules tend to disturb the electron beam and the emitted secondary and backscattered electrons used for imaging."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "FE-SEM"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FieldEmissionScanningElectronMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Fractography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Fractography is the study of fracture surfaces in order to determine the relation between the microstructure and the mechanism(s) of crack initiation and propagation and, eventually, the root cause of the fracture .Fractography qualitatively interprets the mechanisms of fracture that occur in a sample by microscopic examination of fracture surface morpholog."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Optical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Fractography"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#FreezingPointDepressionOsmometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The general principle of freezing point depression osmometry involves the relationship between the number of moles of dissolved solute in a solution and the change in freezing point."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Osmometry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FreezingPointDepressionOsmometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#GammaSpectrometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Gamma-ray spectroscopy is the qualitative study of the energy spectra of gamma-ray sources, such as in the nuclear industry, geochemical investigation, and astrophysics.[1] Gamma-ray spectrometry, on the other hand, is the method used to acquire a quantitative spectrum measurement.[2]\n\nMost radioactive sources produce gamma rays, which are of various energies and intensities. When these emissions are detected and analyzed with a spectroscopy system, a gamma-ray energy spectrum can be produced.\n\nA detailed analysis of this spectrum is typically used to determine the identity and quantity of gamma emitters present in a gamma source, and is a vital tool in radiometric assay. The gamma spectrum is characteristic of the gamma-emitting nuclides contained in the source, just like in an optical spectrometer, the optical spectrum is characteristic of the material contained in a sample."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectrometry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "GammaSpectrometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#HardnessTesting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "A test to determine the resistance a material exhibits to permanent deformation by penetration of another harder material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HardnessTesting"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Hazard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Set of inherent properties of a substance, mixture of substances, or a process involving substances that, under production, usage, or disposal conditions, make it capable of causing adverse effects to organisms or the environment, depending on the degree of exposure; in other words, it is a source of danger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Hazard"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Holder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "An object which supports the specimen in the correct position for the characterisation process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Holder"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#InferredChMethod1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://emmo.info/emmo#EMMO_70da982d_1810_4b01_9630_a28e216ecd9a" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ChMeasProc1"
+  } ],
+  "http://emmo.info/emmo/domain/chameo/chameo#hasOperator" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Agent1"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#InteractionVolume",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The volume of material, and the surrounding environment, that interacts with the probe and generate a detectable (measurable) signal (information)."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "In Scanning Electron Microscopy (SEM), the interaction volume is the volume of material that interacts directly with the incident electron beam, is usually much smaller than the entire specimen’s volume, and can be computed by using proper models. The interaction between the scanning probe and the sample generates a series of detectable signals (back scattered electrons, secondary electrons, x-rays, specimen current, etc.) which contain information on sample morphology, microstructure, composition, etc."
+  }, {
+    "@language" : "en",
+    "@value" : "In x-ray diffraction, the interaction volume is the volume of material that interacts directly with the x-ray beam and is usually smaller than the volume of the entire specimen. Depending on sample’s structure and microstructure, the interaction between the sample and the x-ray incident beam generates a secondary (reflected) beam that is measured by a detector and contains information on certain sample’s properties (e.g., crystallographic structure, phase composition, grain size, residual stress, …)."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@language" : "en",
+    "@value" : "In some cases, (like tribological characterisations) the “sample” can also be the “probe”. When analysing a system of samples that interact each other, finding a clear definition can become a complex problem."
+  }, {
+    "@language" : "en",
+    "@value" : "It is important to note that, in some cases, the volume of interaction could be different from the volume of detectable signal emission. Example: in Scanning Electron Microscopy (SEM), the volume of interaction between the electron probe and the material is different from the volumes that generate the captured signal."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "InteractionVolume"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#IntermediateSample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "IntermediateSample"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#IonChromatography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Ion chromatography (or ion-exchange chromatography) is a form of chromatography that separates ions and ionizable polar molecules based on their affinity to the ion exchanger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Chromatography"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "IonChromatography"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#IonMobilitySpectrometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Ion mobility spectrometry (IMS) It is a method of conducting analytical research that separates and identifies ionized molecules present in the gas phase based on the mobility of the molecules in a carrier buffer gas. Even though it is used extensively for military or security objectives, such as detecting drugs and explosives, the technology also has many applications in laboratory analysis, including studying small and big biomolecules. IMS instruments are extremely sensitive stand-alone devices, but are often coupled with mass spectrometry, gas chromatography or high-performance liquid chromatography in order to achieve a multi-dimensional separation. They come in various sizes, ranging from a few millimeters to several meters depending on the specific application, and are capable of operating under a broad range of conditions. IMS instruments such as microscale high-field asymmetric-waveform ion mobility spectrometry can be palm-portable for use in a range of applications including volatile organic compound (VOC) monitoring, biological sample analysis, medical diagnosis and food quality monitoring."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectrometry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "IMS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "IonMobilitySpectrometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#IsothermalMicrocalorimetry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Isothermal microcalorimetry (IMC) is a laboratory method for real-time monitoring and dynamic analysis of chemical, physical and biological processes. Over a period of hours or days, IMC determines the onset, rate, extent and energetics of such processes for specimens in small ampoules (e.g. 3–20 ml) at a constant set temperature (c. 15 °C–150 °C).\n\nIMC accomplishes this dynamic analysis by measuring and recording vs. elapsed time the net rate of heat flow (μJ/s = μW) to or from the specimen ampoule, and the cumulative amount of heat (J) consumed or produced."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Thermochemical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "IMC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "IsothermalMicrocalorimetry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Laboratory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@value" : "The laboratory where the whole characterisation process or some of its stages take place."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Laboratory"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#LevelOfAutomation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Describes the level of automation of the test."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "LevelOfAutomation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#LevelOfExpertise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Describes the level of expertise required to carry out a process (the entire test or the data processing)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "LevelOfExpertise"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#LightScattering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Light scattering is the way light behaves when it interacts with a medium that contains particles or the boundary between different mediums where defects or structures are present. It is different than the effects of refraction, where light undergoes a change in index of refraction as it passes from one medium to another, or reflection, where light reflects back into the same medium, both of which are governed by Snell’s law. Light scattering can be caused by factors such as the nature, texture, or specific structures of a surface and the presence of gas, liquid, or solid particles through which light propagates, as well as the nature of the light itself, of its wavelengths and polarization states. It usually results in diffuse light and can also affect the dispersion of color."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Optical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "LightScattering"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MassSpectrometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Mass spectrometry is a powerful analytical technique used to quantify known materials, to identify unknown compounds within a sample, and to elucidate the structure and chemical properties of different molecules."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectrometry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MassSpectrometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementDataPostProcessing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Application of a post-processing model to signals through a software, in order to calculate the final characterisation property."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "Analysis of SEM (or optical) images to gain additional information (image filtering/integration/averaging, microstructural analysis, grain size evaluation, Digital Image Correlation procedures, etc.)"
+  }, {
+    "@language" : "en",
+    "@value" : "In nanoindentation testing, this is the Oliver-Pharr method, which allows calculating the elastic modulus and hardness of the sample by using the load and depth measured signals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataPostProcessing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MeasurementDataPostProcessing"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Describes the main input parameters that are needed to acquire the signal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MeasurementParameter"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementSystemAdjustment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "Set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity being measured\nNOTE 1 If there is any doubt that the context in which the term is being used is that of metrology, the long form\n“adjustment of a measuring system” might be used.\nNOTE 2 Types of adjustment of a measuring system include zero adjustment, offset adjustment, and span adjustment\n(sometimes called “gain adjustment”).\nNOTE 3 Adjustment of a measuring system should not be confused with calibration, which is sometimes a prerequisite\nfor adjustment.\nNOTE 4 After an adjustment of a measuring system, the measuring system must usually be recalibrated.\n\n-- International Vocabulary of Metrology(VIM)"
+  } ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Activity which has the goal of adjusting/tuning a measing instrument, without performing a measurement on a reference sample (which is a calibration).\nThe output of this process can be a specific measurement parameter to be used in the characteriasation measurement process."
+  } ],
+  "http://emmo.info/emmo#EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6" : [ {
+    "@language" : "en",
+    "@value" : "Adjustment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "MeasurementSystemAdjustment"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The overall time needed to acquire the measurement data"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MeasurementTime"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Mechanical testing covers a wide range of tests, which can be divided broadly into two types:\n1. those that aim to determine a material's mechanical properties, independent of geometry.\n2. those that determine the response of a structure to a given action, e.g. testing of composite beams, aircraft structures to destruction, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Mechanical"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MembraneOsmometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "In the membrane osmometry technique, a pure solvent and polymer solution are separated by a semipermeable membrane, due to the higher chemical potential of the solvent in the pure solvent than in polymer solution, the solvent starts moving towards the polymer solution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Osmometry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MembraneOsmometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Microscopy is a category of characterization techniques which probe and map the surface and sub-surface structure of a material. These techniques can use photons, electrons, ions or physical cantilever probes to gather data about a sample's structure on a range of length scales."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Microscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Nanoindentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Nanoindentation (known also as nanoindentation test) is a method for testing the hardness and related mechanical properties of materials, facilitated by high-precision instrumentation in the nanometer scale, as well as analytical and computational algorithms for result evaluation."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "By definition, when someone performs nanoindentation, it refers to either quasistatic or continuous stiffness measurement. However, in reality with a nanoindenter someone can usually perform scratch testing, scanning probe microscopy, and apply non-contact surface energy mapping, which might also some times refer as nanoindentation, because they are measurements, which are conducted using an nanoindenter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Nanoindentation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#NeutronSpinEchoSpectroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Neutron spin echo spectroscopy is a high resolution inelastic neutron scattering method probing nanosecond dynamics. Neutron spin echo (NSE) spectroscopy uses the precession of neutron spins in a magnetic field to measure the energy transfer at the sample and decouples the energy resolution from beam characteristics like monochromatisation and collimation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectroscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "NSE"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NeutronSpinEchoSpectroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Nexafs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Near edge X-ray absorption fine structure (NEXAFS), also known as X-ray absorption near edge structure (XANES), is a type of absorption spectroscopy that indicates the features in the X-ray absorption spectra (XAS) of condensed matter due to the photoabsorption cross section for electronic transitions from an atomic core level to final states in the energy region of 50–100 eV above the selected atomic core level ionization energy, where the wavelength of the photoelectron is larger than the interatomic distance between the absorbing atom and its first neighbour atoms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectroscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Nexafs"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#NuclearMagneticResonance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Nuclear magnetic resonance spectroscopy, most commonly known as NMR spectroscopy or magnetic resonance spectroscopy (MRS), is a spectroscopic technique to observe local magnetic fields around atomic nuclei. This spectroscopy is based on the measurement of absorption of electromagnetic radiations in the radio frequency region from roughly 4 to 900 MHz. Absorption of radio waves in the presence of magnetic field is accompanied by a special type of nuclear transition, and for this reason, such type of spectroscopy is known as Nuclear Magnetic Resonance Spectroscopy. The sample is placed in a magnetic field and the NMR signal is produced by excitation of the nuclei sample with radio waves into nuclear magnetic resonance, which is detected with sensitive radio receivers. The intramolecular magnetic field around an atom in a molecule changes the resonance frequency, thus giving access to details of the electronic structure of a molecule and its individual functional groups. As the fields are unique or highly characteristic to individual compounds, in modern organic chemistry practice, NMR spectroscopy is the definitive method to identify monomolecular organic compounds."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectroscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Magnetic resonance spectroscopy (MRS)"
+  }, {
+    "@value" : "NMR"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NuclearMagneticResonance"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Operator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The human operator who takes care of the whole characterisation method or sub-processes/stages."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_c130614a_2985_476d_a7ed_8a137847703c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Operator"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Optical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Optical"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#OpticalMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Optical microscopy is a technique used to closely view a sample through the magnification of a lens with visible light"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OpticalMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Osmometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Osmometry is an advanced analytical method for determining the osmotic concentration of solutions. The osmotic – or solute – concentration of a colloidal system is expressed in osmoles (Osm) per unit of volume (Osm/L) or weight (Osm/kg)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Osmometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#PhotoluminescenceMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Photoluminescence spectroscopy is a widely used technique for characterisation of the optical and electronic properties of semiconductors and molecules."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PhotoluminescenceMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#PhysicsOfInteraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Set of physics principles (and associated governing equations) that describes the interaction between the sample and the probe."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "In x-ray diffraction, this is represented by the set of physics equations that describe the relation between the incident x-ray beam and the diffracted beam (the most simple form for this being the Bragg’s law)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PhysicsOfInteraction"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#PostProcessingModel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Mathematical model used to process data."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@language" : "en",
+    "@value" : "The PostProcessingModel use is mainly intended to get secondary data from primary data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PostProcessingModel"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Potentiometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Potentiometric methods are used to measure the electrochemical potentials of a metallic structure in a given environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Electrochemical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Potentiometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#PreparedSample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The sample after a preparation process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ReferenceSample"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "PreparedSample"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#PrimaryData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Data resulting of a pre-processing of raw data, applying corrections to normalize/harmonize, in order to prepare them for the post-processing."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "Baseline subtraction"
+  }, {
+    "@language" : "en",
+    "@value" : "Noise reduction"
+  }, {
+    "@language" : "en",
+    "@value" : "X and Y axes correction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationData"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrimaryData"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Probe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Probe is the physical tool (i.e., a disturbance, primary solicitation, or a gadget), controlled over time, that generates measurable fields that interact with the sample to acquire information on the specimen’s behaviour and properties."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "In dynamic light scattering, temporal fluctuations of backscattered light due to Brownian motion and flow of nanoparticles are the probe, resolved as function of pathlength in the sample. From fluctuation analysis (intensity correlations) and the wavelength of light in the medium, the (distribution of) diffusion coefficient(s) can be measured during flow. The Stokes-Einstein relation yields the particle size characteristics."
+  }, {
+    "@language" : "en",
+    "@value" : "In electron microscopy (SEM or TEM), the probe is a beam of electrons with known energy that is focused (and scanned) on the sample’s surface with a well-defined beam-size and scanning algorithm."
+  }, {
+    "@language" : "en",
+    "@value" : "In mechanical testing, the probe is a the tip plus a force actuator, which is designed to apply a force over-time on a sample. Many variants can be defined depending on way the force is applied (tensile/compressive uniaxial tests, bending test, indentation test) and its variation with time (static tests, dynamic/cyclic tests, impact tests, etc…)"
+  }, {
+    "@language" : "en",
+    "@value" : "In spectroscopic methods, the probe is a beam of light with pre-defined energy (for example in the case of laser beam for Raman measurements) or pre-defined polarization (for example in the case of light beam for Spectroscopic Ellipsometry methods), that will be properly focused on the sample’s surface with a welldefined geometry (specific angle of incidence)."
+  }, {
+    "@language" : "en",
+    "@value" : "In x-ray diffraction, the probe is a beam of x-rays with known energy that is properly focused on the sample’s surface with a well-defined geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Probe"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ProbeSampleInteraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Process representing the interaction between the Probe and the Sample (with a certain Interaction Volume) which generates a Signal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  }, {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ProbeSampleInteraction"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ProcessingReproducibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Description of performed statistical analysis to check for data reproducibility (e.g.  easily reproducible for everyone, reproducible for a domain expert, reproducible only for Data processing Expert)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ProcessingReproducibility"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Profilometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Profilometry is a technique used to extract topographical data from a surface. This can be a single point, a line scan or even a full three dimensional scan. The purpose of profilometry is to get surface morphology, step heights and surface roughness."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Profilometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#PulsedElectroacousticMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The pulsed electroacoustic (PEA) method is an established method for space charge measurements in polymeric dielectrics."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ChargeDistribution"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PulsedElectroacousticMethod"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#RamanSpectroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Raman spectroscopy (/ˈrɑːmən/) (named after physicist C. V. Raman) is a spectroscopic technique typically used to determine vibrational modes of molecules, although rotational and other low-frequency modes of systems may also be observed. Raman spectroscopy is commonly used in chemistry to provide a structural fingerprint by which molecules can be identified.\n\nRaman spectroscopy relies upon inelastic scattering of photons, known as Raman scattering. A source of monochromatic light, usually from a laser in the visible, near infrared, or near ultraviolet range is used, although X-rays can also be used. The laser light interacts with molecular vibrations, phonons or other excitations in the system, resulting in the energy of the laser photons being shifted up or down. The shift in energy gives information about the vibrational modes in the system. Infrared spectroscopy typically yields similar yet complementary information.\n\nTypically, a sample is illuminated with a laser beam. Electromagnetic radiation from the illuminated spot is collected with a lens and sent through a monochromator. Elastic scattered radiation at the wavelength corresponding to the laser line (Rayleigh scattering) is filtered out by either a notch filter, edge pass filter, or a band pass filter, while the rest of the collected light is dispersed onto a detector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectroscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RamanSpectroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#RawData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Direct output of the equipment with the manufacturer’s software including automatic pre-processing that is not modified by the user once the acquisition method is defined and the equipment calibrated."
+  }, {
+    "@language" : "en",
+    "@value" : "The raw data is a set of (unprocessed) data that is given directly as output from the detector, usually expressed as a function of time or position, or photon energy."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "In mechanical testing, examples of raw data are raw-force, raw-displacement, coordinates as function of time."
+  }, {
+    "@language" : "en",
+    "@value" : "In spectroscopic testing, the raw data are light intensity, or refractive index, or optical absorption as a function of the energy (or wavelength) of the incident light beam."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@language" : "en",
+    "@value" : "In some cases, raw data can be considered to have already some level of data processing, e.g., in electron microscopy a “raw image” that is formed on the screen is already result from multiple processing after the signal is acquired by the detector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e"
+  }, {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationData"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RawData"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#RawSample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RawSample"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ReferenceSample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "Material, sufficiently homogeneous and stable with reference to one or more specified properties, which has been established to be fit for its intended use in measurement or in examination\nNOTE 1 Reference materials can be certified reference materials or reference materials without a certified property\nvalue.\nNOTE 2 For a reference material to be used as a measurement standard for calibration purposes it needs to be a certified reference material.\nNOTE 3 Reference materials can be used for measurement precision evaluation and quality control.\nEXAMPLE Human serum without an assigned quantity value for the amount-of-substance concentration of the inherent cholesterol, used for quality control.\nNOTE 4 Properties of reference materials can be quantities or nominal properties.\nNOTE 5 A reference material is sometimes incorporated into a specially fabricated device.\nEXAMPLE Spheres of uniform size mounted on a microscope slide.\nNOTE 6 Some reference materials have assigned values in a unit outside the SI. Such materials include vaccines to\nwhich International Units (IU) have been assigned by the World Health Organization.\nNOTE 7 A given reference material can only be used for one purpose in a measurement, either calibration or quality\ncontrol, but not both.\nNOTE 8 ISO/REMCO has an analogous definition but uses the term “measurement process” (ISO Guide 30, Reference\nmaterials – Selected terms and definitions, definition 2.1.1) for both measurement and examination.\n\n-- International Vocabulary of Metrology(VIM)"
+  }, {
+    "@language" : "en",
+    "@value" : "Quality control sample used to determine accuracy and precision of method. [ISO 17858:2007]"
+  } ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Material, sufficiently homogeneous and stable with respect to one or more specified properties, which has been established to be fit for its intended use in a measurement process”."
+  } ],
+  "http://emmo.info/emmo#EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6" : [ {
+    "@language" : "en",
+    "@value" : "Reference material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Certified Reference Material"
+  }, {
+    "@language" : "en",
+    "@value" : "Reference material"
+  }, {
+    "@value" : "ReferenceSpecimen"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ReferenceSample"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Portion of material selected from a larger quantity of material. The term needs to be qualified, e.g., bulk sample, representative sample, primary sample, bulked sample, test sample, etc. The term 'sample' implies the existence of a sampling error, i.e., the results obtained on the portions taken are only estimates of the concentration of a constituent or the quantity of a property present in the parent material. If there is no or negligible sampling error, the portion removed is a test portion, aliquot, or specimen."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@value" : "Sample and Specime are often used interchangeably. However in some cases the term Specimen is used to specify a portion taken under conditions such that the sampling variability cannot be assessed (usually because the population is changing), and is assumed, for convenience, to be zero."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Specimen"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Sample"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SampleInspection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Analysis of the sample in order to determine information that are relevant for the characterisation method."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "In the Nanoindentation method the Scanning Electron Microscope to determine the indentation area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SampleInspection"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Sample preparation processes (e.g., machining, polishing, cutting to size, etc.) before actual observation and measurement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  }, {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid21"
+  }, {
+    "@id" : "_:genid22"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SamplePreparation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparationHardware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Hardware used for the preparation of the sample."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SamplePreparationHardware"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparationParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Parameter used for the sample preparation process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SamplePreparationParameter"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplingProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Act of extracting a portion (amount) of material from a larger quantity of material. This operation results in obtaining a sample representative of the batch with respect to the property or properties being investigated."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@language" : "en",
+    "@value" : "The term can be used to cover either a unit of supply or a portion for analysis. The portion taken may consist of one or more sub-samples and the batch may be the population from which the sample is taken."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SamplingProcess"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScanningAugerElectronMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Auger electron spectroscopy (AES or simply Auger) is a surface analysis technique that uses an electron beam to excite electrons on atoms in the particle. Atoms that are excited by the electron beam can emit “Auger” electrons. AES measures the kinetic energies of the emitted electrons. The energy of the emitted electrons is characteristic of elements present at the surface and near the surface of a sample."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "AES"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ScanningAugerElectronMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScanningElectronMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "The scanning electron microscope (SEM) uses a focused beam of high-energy electrons to generate a variety of signals at the surface of solid specimens. The signals that derive from electron-sample interactions reveal information about the sample including external morphology (texture), chemical composition, and crystalline structure and orientation of materials making up the sample."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "SEM"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ScanningElectronMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScanningKelvinProbe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Scanning Kelvin probe (SKP) and scanning Kelvin probe force microscopy (SKPFM) are probe techniques which permit mapping of topography and Volta potential distribution on electrode surfaces. It measures the surface electrical potential of a sample without requiring an actual physical contact."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "SKB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ScanningKelvinProbe"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScanningProbeMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Scanning probe microscopy (SPM) is a branch of microscopy that forms images of surfaces using a physical probe that scans the specimen."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ScanningProbeMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScanningTunnelingMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Scanning Tunneling Microscopy, or STM, is an imaging technique used to obtain ultra-high resolution images at the atomic scale, without using light or electron beams."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "STM"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ScanningTunnelingMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScatteringAndDiffraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ScatteringAndDiffraction"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SecondaryData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Data resulting from the application of post-processing or model generation to other data."
+  } ],
+  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "Deconvoluted curves"
+  }, {
+    "@language" : "en",
+    "@value" : "Intensity maps"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationData"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Elaborated data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SecondaryData"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SecondaryIonMassSpectrometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Secondary-ion mass spectrometry (SIMS) is a technique used to analyze the composition of solid surfaces and thin films by sputtering the surface of the specimen with a focused primary ion beam and collecting and analyzing ejected secondary ions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectrometry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "SIMS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SecondaryIonMassSpectrometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ShearOrTorsionTests",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ShearOrTorsionTest"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Signal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "According to UPAC Compendium of Chemical Terminology, a “signal” is “A representation of a quantity within an analytical instrument” (https://goldbook.iupac.org/terms/view/S05661 )."
+  } ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Result (effect) of the interaction between the sample and the probe, which usually is a measurable and quantifiable quantity."
+  } ],
+  "http://emmo.info/emmo#EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f" : [ {
+    "@language" : "en",
+    "@value" : "Signal is usually emitted from a characteristic “emission” volume, which can be different from the sample/probe “interaction” volume and can be usually quantified using proper physics equations and/or modelling of the interaction mechanisms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationData"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Signal"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectrometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Spectroscopic techniques are numerous and varied, but all involve measuring the response of a material to different frequencies of electromagnetic radiation. Depending on the technique used, material characterization may be based on the absorption, emission, impedance, or reflection of incident energy by a sample."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Spectrometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Spectroscopy is a category of characterization techniques which use a range of principles to reveal the chemical composition, composition variation, crystal structure and photoelectric properties of materials."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Spectroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Synchrotron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScatteringAndDiffraction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Synchrotron"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#TensileTest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Tensile testing, also known as tension testing, is a test in which a sample is subjected to a controlled tension until failure. Properties that are directly measured via a tensile test are ultimate tensile strength, breaking strength, maximum elongation and reduction in area. From these measurements the following properties can also be determined: Young's modulus, Poisson's ratio, yield strength, and strain-hardening characteristics. Uniaxial tensile testing is the most commonly used for obtaining the mechanical characteristics of isotropic materials. Some materials use biaxial tensile testing. The main difference between these testing machines being how load is applied on the materials."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "TensionTest"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TensileTest"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Thermochemical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Thermomechanical analysis (TMA) is a technique used in thermal analysis, a branch of materials science which studies the properties of materials as they change with temperature."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "TMA"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Thermochemical"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Thermogravimetry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Thermogravimetric analysis or thermal gravimetric analysis (TGA) is a method of thermal analysis in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Thermochemical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "TGA"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Thermogravimetry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Tomography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Tomography is imaging by sections or sectioning that uses any kind of penetrating wave. The method is used in radiology, archaeology, biology, atmospheric science, geophysics, oceanography, plasma physics, materials science, cosmochemistry, astrophysics, quantum information, and other areas of science. The word tomography is derived from Ancient Greek τόμος tomos, \"slice, section\" and γράφω graphō, \"to write\" or, in this context as well, \"to describe.\" A device used in tomography is called a tomograph, while the image produced is a tomogram."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Tomography"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#TransmissionElectronMicroscopy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Transmission electron microscopy (TEM) is a microscopy technique in which a beam of electrons is transmitted through a specimen to form an image. The specimen is most often an ultrathin section less than 100 nm thick or a suspension on a grid. An image is formed from the interaction of the electrons with the sample as the beam is transmitted through the specimen. The image is then magnified and focused onto an imaging device, such as a fluorescent screen, a layer of photographic film, or a sensor such as a scintillator attached to a charge-coupled device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Microscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "TEM"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TransmissionElectronMicroscopy"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Ultrasonic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Ultrasonic testing (UT) is a family of non-destructive testing techniques based on the propagation of ultrasonic waves in the object or material tested. In most common UT applications, very short ultrasonic pulse-waves with center frequencies ranging from 0.1-15 MHz, and occasionally up to 50 MHz, are transmitted into materials to detect internal flaws or to characterize materials. A common example is ultrasonic thickness measurement, which tests the thickness of the test object, for example, to monitor pipework corrosion.\n\nUltrasonic testing is often performed on steel and other metals and alloys, though it can also be used on concrete, wood and composites, albeit with less resolution. It is used in many industries including steel and aluminium construction, metallurgy, manufacturing, aerospace, automotive and other transportation sectors."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ultrasonic"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#VaporPressureDepressionOsmometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Vapor pressure osmometry measures vapor pressure indirectly by measuring the change in temperature of a polymer solution on dilution by solvent vapor and is generally useful for polymers with Mn below 10,000–40,000 g/mol. When molecular weight is more than that limit, the quantity being measured becomes very small to detect."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Osmometry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "VPO"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "VaporPressureDepressionOsmometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Viscometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Viscometry or viscosity method was one of the first methods used for determining the MW of polymers. In this method, the viscosity of polymer solution is measured, and the simplest method used is capillary viscometry by using the Ubbelohde U-tube viscometer. In this method, both the flow time of the polymer solution (t) and the flow time of the pure solvent (t0) are recorded. The ratio of the polymer solution flow time (t) to the flow time of pure solvent (t0) is equal to the ratio of their viscosities (η/η0) only if they have the same densities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Viscosity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Viscometry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Voltammetry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Voltammetry is an analytical technique based on the measure of the current flowing through an electrode dipped in a solution containing electro-active compounds, while a potential scanning is imposed upon it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Electrochemical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Voltammetry"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#WearTest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "A wear test measures the changes in conditions caused by friction, and the result is obtained from deformation, scratches, and indentations on the interacting surfaces.\nWear is defined as the progressive removal of the material from a solid surface and manifested by a change in the geometry of the surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Mechanical"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WearTest"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#XpsVariableKinetic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "X-ray photoelectron spectroscopy (XPS), also known as ESCA (electron spectroscopy for chemical analysis) is a surface analysis technique which provides both elemental and chemical state information virtually without restriction on the type of material which can be analysed. It is a relatively simple technique where the sample is illuminated with X-rays which have enough energy to eject an electron from the atom.  These ejected electrons are known as photoelectrons. The kinetic energy of these emitted electrons is characteristic of the element from which the photoelectron originated. The position and intensity of the peaks in an energy spectrum provide the desired chemical state and quantitative information.  The surface sensitivity of XPS is determined by the distance that that photoelectron can travel through the material without losing any kinteic energy.  These elastiaclly scattered photoelectrons contribute to the photoelectron peak, whilst photoelectrons that have been inelastically scattered, losing some kinetic energy before leaving the material, will contribute to the spectral background."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Spectroscopy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Electron spectroscopy for chemical analysis (ESCA)"
+  }, {
+    "@value" : "X-ray photoelectron spectroscopy (XPS)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "XpsVariableKinetic"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#XrdGrazingIncidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ScatteringAndDiffraction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "XrdGrazingIncidence"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#characterisationProcedureHasSubProcedure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_d43af210_f854_4432_a891_ce3022e3b558"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "characterisationProcedureHasSubProcedure"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasAccessConditions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#AccessConditions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasAccessConditions"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasChValid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationProcedureValidation" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasChValid2"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasChValid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasChValidProp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationEnvironment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasCharacterisationEnvironment"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationEnvironmentProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironmentProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasCharacterisationEnvironmentProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationProcedureValidation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProcedureValidation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasCharacterisationProcedureValidation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_fd689787_31b0_41cf_bf03_0d69af76469d"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasCharacterisationProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasCharacterisationSoftware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationSoftware"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasCharacterisationSoftware"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasDataAcquisitionRate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#RawData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataAcquisitionRate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasDataAcquisitionRate"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasDataProcessingThroughCalibration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataProcessingThroughCalibration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasDataProcessingThroughCalibration"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasDataQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementDataPostProcessing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#DataQuality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasDataQuality"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasDataset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasDataset"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasHardwareSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardware"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardwareSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasHardwareSpecification"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasHazard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Hazard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasHazard"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Holder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasHolder"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasInteractionVolume",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ProbeSampleInteraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#InteractionVolume"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasInteractionVolume"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasInteractionWithProbe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ProbeSampleInteraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Probe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasInteractionWithProbe"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasInteractionWithSample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ProbeSampleInteraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasInteractionWithSample"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasLab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Laboratory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasLab"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasLevelOfAutomation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#LevelOfAutomation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasLevelOfAutomation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementDetector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Detector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasMeasurementDetector"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_36e69413_8c59_4799_946c_10b05d266e22"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasMeasurementParameter"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementProbe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Probe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasMeasurementProbe"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementSample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasMeasurementSample"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasMeasurementTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasMeasurementTime"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasOperator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Operator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_cd24eb82_a11c_4a31_96ea_32f870c5580a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasOperator"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasPeerReviewedArticle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProcedureValidation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/spar/datacite/ResourceIdentifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasPeerReviewedArticle"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasPhysicsOfInteraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ProbeSampleInteraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#PhysicsOfInteraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_24c71baf_6db6_48b9_86c8_8c70cf36db0c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasPhysicsOfInteraction"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasPostProcessingModel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementDataPostProcessing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#PostProcessingModel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasPostProcessingModel"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasProcessingReproducibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#MeasurementDataPostProcessing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#ProcessingReproducibility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasProcessingReproducibility"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasSampleBeforeSamplePreparation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSampleBeforeSamplePreparation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasSamplePreparationHardware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSamplePreparationHardware"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasSamplePreparationInput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_36e69413_8c59_4799_946c_10b05d266e22"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSamplePreparationInput"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasSamplePreparationOutput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSamplePreparationOutput"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasSamplePreparationParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplePreparationParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_36e69413_8c59_4799_946c_10b05d266e22"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSamplePreparationParameter"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#hasSampledSample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#SamplingProcess"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSampledSample"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo#requiresLevelOfExpertise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#LevelOfExpertise"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "requiresLevelOfExpertise"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/domain/chameo/chameo/hasDateOfCalibration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://emmo.info/emmo/domain/chameo/chameo#CharacterisationInstrument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasDateOfCalibration"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/alternative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/hasFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/doi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/spar/datacite/ResourceIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResourceIdentifier"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/logo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/page",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
