@@ -22,7 +22,7 @@ The CHAMEO Ontology is built with an alignment with EMMO and some of its modules
 ## Attribution and Credits
 
 ### Authors
-- Pierluigi Del Nostro, (Goldbeck Consulting Ltd, Cambridge, UK, pierluigi@goldbeck-consulting.com)
+- Pierluigi Del Nostro, (Goldbeck Consulting Ltd, UK)
 - Gerhard Goldbeck, (Goldbeck Consulting Ltd, UK)
 - Daniele Toti, (Goldbeck Consulting Ltd, UK)
 - Simon Clark (SINTEF, NO)
