@@ -444,7 +444,7 @@ chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#AccessConditions
 chameo:AccessConditions rdf:type owl:Class ;
-                        rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                        rdfs:subClassOf chameo:CharacterisationProperty ;
                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes what is needed to repeat the experiment"@en ;
                         emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In case of national or international facilities such as synchrotrons describe the programme that enabled you to access these."@en ,
                                                                        "Was the access to your characterisation tool an inhouse routine or required a 3rd party service?"@en ,
@@ -588,7 +588,7 @@ chameo:CharacterisationEnvironment rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationEnvironmentProperty
 chameo:CharacterisationEnvironmentProperty rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                                           rdfs:subClassOf chameo:CharacterisationProperty ;
                                            skos:prefLabel "CharacterisationEnvironmentProperty" .
 
 
@@ -609,7 +609,7 @@ chameo:CharacterisationHardware rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationHardwareSpecification
 chameo:CharacterisationHardwareSpecification rdf:type owl:Class ;
-                                             rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                                             rdfs:subClassOf chameo:CharacterisationProperty ;
                                              skos:prefLabel "CharacterisationHardwareSpecification"@en .
 
 
@@ -721,7 +721,7 @@ Data sampling"""@en ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProcedureValidation
 chameo:CharacterisationProcedureValidation rdf:type owl:Class ;
-                                           rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                                           rdfs:subClassOf chameo:CharacterisationProperty ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes why the characterization procedure was chosen and deemed to be the most useful for the sample."@en ;
                                            rdfs:comment "" ;
                                            skos:prefLabel "CharacterisationProcedureValidation"@en .
@@ -730,9 +730,11 @@ chameo:CharacterisationProcedureValidation rdf:type owl:Class ;
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProperty
 chameo:CharacterisationProperty rdf:type owl:Class ;
                                 rdfs:subClassOf emmo:EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4 ,
+                                                emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ,
                                                 chameo:SecondaryData ;
                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The characterisation property is the investigate property or behaviour of a sample. It is derived from the secondary data, usually after classification or quantification (manually or by a model)."@en ;
-                                rdfs:comment "" ;
+                                rdfs:comment "A property related to characterisation."@en ,
+                                             "" ;
                                 skos:prefLabel "CharacterisationProperty"@en .
 
 
@@ -845,7 +847,7 @@ chameo:CriticalAndSupercriticalChromatography rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#DataAcquisitionRate
 chameo:DataAcquisitionRate rdf:type owl:Class ;
-                           rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                           rdfs:subClassOf chameo:CharacterisationProperty ;
                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Quantify the raw data acquisition rate, if applicable."@en ;
                            rdfs:comment "" ;
                            skos:prefLabel "DataAcquisitionRate"@en .
@@ -1082,7 +1084,7 @@ chameo:HardnessTesting rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#Hazard
 chameo:Hazard rdf:type owl:Class ;
-              rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+              rdfs:subClassOf chameo:CharacterisationProperty ;
               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of inherent properties of a substance, mixture of substances, or a process involving substances that, under production, usage, or disposal conditions, make it capable of causing adverse effects to organisms or the environment, depending on the degree of exposure; in other words, it is a source of danger."@en ;
               rdfs:comment "" ;
               skos:prefLabel "Hazard"@en .
@@ -1148,7 +1150,7 @@ chameo:Laboratory rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#LevelOfAutomation
 chameo:LevelOfAutomation rdf:type owl:Class ;
-                         rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                         rdfs:subClassOf chameo:CharacterisationProperty ;
                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the level of automation of the test."@en ;
                          rdfs:comment "" ;
                          skos:prefLabel "LevelOfAutomation"@en .
@@ -1156,7 +1158,7 @@ chameo:LevelOfAutomation rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#LevelOfExpertise
 chameo:LevelOfExpertise rdf:type owl:Class ;
-                        rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                        rdfs:subClassOf chameo:CharacterisationProperty ;
                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the level of expertise required to carry out a process (the entire test or the data processing)."@en ;
                         rdfs:comment "" ;
                         skos:prefLabel "LevelOfExpertise"@en .
@@ -1215,7 +1217,7 @@ The output of this process can be a specific measurement parameter to be used in
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#MeasurementTime
 chameo:MeasurementTime rdf:type owl:Class ;
-                       rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
+                       rdfs:subClassOf chameo:CharacterisationProperty ;
                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The overall time needed to acquire the measurement data"@en ;
                        rdfs:comment "" ;
                        skos:prefLabel "MeasurementTime"@en .
