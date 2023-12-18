@@ -15,7 +15,7 @@
 @base <http://emmo.info/emmo/domain/chameo/chameo/#> .
 
 <http://emmo.info/emmo/domain/chameo/chameo> rdf:type owl:Ontology ;
-                                              owl:versionIRI <https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/1.0.0-beta3/chameo.ttl> ;
+                                              owl:versionIRI <http://emmo.info/emmo/domain/chameo/1.0.0-beta3/chameo.ttl> ;
                                               owl:imports <http://emmo.info/emmo/1.0.0-beta5/mereocausality> ,
                                                           <http://emmo.info/emmo/1.0.0-beta5/disciplines/computerscience> ,
                                                           <http://emmo.info/emmo/1.0.0-beta5/disciplines/manufacturing> ,
@@ -514,7 +514,7 @@ chameo:CalibrationDataPostProcessing rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CalibrationProcess
 chameo:CalibrationProcess rdf:type owl:Class ;
-                          rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ,
+                          rdfs:subClassOf chameo:CharacterisationProcedure ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
                                             owl:someValuesFrom chameo:CalibrationData
@@ -546,7 +546,7 @@ standards.
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CalibrationTask
 chameo:CalibrationTask rdf:type owl:Class ;
-                       rdfs:subClassOf emmo:EMMO_4299e344_a321_4ef2_a744_bacfcce80afc ,
+                       rdfs:subClassOf chameo:CharacterisationTask ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty [ owl:inverseOf emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a
                                                         ] ;
@@ -688,7 +688,7 @@ system specifications.
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementTask
 chameo:CharacterisationMeasurementTask rdf:type owl:Class ;
-                                       rdfs:subClassOf emmo:EMMO_4299e344_a321_4ef2_a744_bacfcce80afc ,
+                                       rdfs:subClassOf chameo:CharacterisationTask ,
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty [ owl:inverseOf emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a
                                                                         ] ;
@@ -701,12 +701,26 @@ chameo:CharacterisationMeasurementTask rdf:type owl:Class ;
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMethod
 chameo:CharacterisationMethod rdf:type owl:Class ;
                               rdfs:subClassOf emmo:EMMO_3b19eab4_79be_4b02_bdaf_ecf1f0067a68 ,
-                                              emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
+                                              chameo:CharacterisationProcedure ;
                               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The description of the overall characterisation method. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing)."@en ;
                               emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A characterisation method is not only related to the measurement process which can be one of its steps." ;
                               skos:altLabel "Characterisation procedure"@en ,
                                             "Characterisation technique"@en ;
                               skos:prefLabel "CharacterisationMethod"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProcedure
+chameo:CharacterisationProcedure rdf:type owl:Class ;
+                                 rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
+                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process of performing characterisation by following some existing formalised operative rules."@en ;
+                                 emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a """Sample preparation
+Sample inspection
+Calibration
+Microscopy
+Viscometry
+Data sampling"""@en ;
+                                 emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Characterisation procedure may refer to the full characterisation process or just a part of the full process."@en ;
+                                 skos:prefLabel "CharacterisationProcedure"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProcedureValidation
@@ -728,7 +742,7 @@ chameo:CharacterisationProperty rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProtocol
 chameo:CharacterisationProtocol rdf:type owl:Class ;
-                                rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
+                                rdfs:subClassOf chameo:CharacterisationMethod ;
                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation protocol is defined whenever it is desirable to standardize a laboratory method to ensure successful replication of results by others in the same laboratory or by other laboratories."@en ;
                                 skos:prefLabel "CharacterisationProtocol"@en .
 
@@ -763,6 +777,34 @@ NOTE 4 A measuring system can be used as a measurement standard."""@en ;
                               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A set of one or more 'CharacterisationInstruments' and often other devices, including any sample holder, reagent and supply, assembled and adapted to give information used to generate 'MeasuredQuantityProperty' within specified intervals for quantities of specified kinds."@en ;
                               emmo:EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6 "Measuring system"@en ;
                               skos:prefLabel "CharacterisationSystem"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationTask
+chameo:CharacterisationTask rdf:type owl:Class ;
+                            owl:equivalentClass [ owl:intersectionOf ( emmo:EMMO_4299e344_a321_4ef2_a744_bacfcce80afc
+                                                                       chameo:CharacterisationProcedure
+                                                                     ) ;
+                                                  rdf:type owl:Class
+                                                ] ;
+                            rdfs:subClassOf emmo:EMMO_4299e344_a321_4ef2_a744_bacfcce80afc ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty [ owl:inverseOf emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a
+                                                             ] ;
+                                              owl:someValuesFrom chameo:CharacterisationWorkflow
+                                            ] ;
+                            skos:prefLabel "CharacterisationTask"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationWorkflow
+chameo:CharacterisationWorkflow rdf:type owl:Class ;
+                                owl:equivalentClass [ owl:intersectionOf ( emmo:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c
+                                                                           chameo:CharacterisationProcedure
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ] ;
+                                rdfs:subClassOf emmo:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c ;
+                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation procedure that has at least two characterisation tasks as proper parts."@en ;
+                                skos:prefLabel "CharacterisationWorkflow"@en .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#ChargeDistribution
@@ -1158,7 +1200,7 @@ chameo:MeasurementParameter rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#MeasurementSystemAdjustment
 chameo:MeasurementSystemAdjustment rdf:type owl:Class ;
-                                   rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
+                                   rdfs:subClassOf chameo:CharacterisationProcedure ;
                                    emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 """Set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity being measured
 NOTE 1 If there is any doubt that the context in which the term is being used is that of metrology, the long form
 “adjustment of a measuring system” might be used.
@@ -1439,7 +1481,7 @@ chameo:Sample rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#SampleInspection
 chameo:SampleInspection rdf:type owl:Class ;
-                        rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
+                        rdfs:subClassOf chameo:CharacterisationProcedure ;
                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Analysis of the sample in order to determine information that are relevant for the characterisation method."@en ;
                         emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In the Nanoindentation method the Scanning Electron Microscope to determine the indentation area."@en ;
                         skos:prefLabel "SampleInspection"@en .
@@ -1447,7 +1489,7 @@ chameo:SampleInspection rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation
 chameo:SamplePreparation rdf:type owl:Class ;
-                         rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ,
+                         rdfs:subClassOf chameo:CharacterisationProcedure ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
                                            owl:someValuesFrom chameo:Sample
@@ -1482,7 +1524,7 @@ chameo:SamplePreparationParameter rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#SamplingProcess
 chameo:SamplingProcess rdf:type owl:Class ;
-                       rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
+                       rdfs:subClassOf chameo:CharacterisationProcedure ;
                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Act of extracting a portion (amount) of material from a larger quantity of material. This operation results in obtaining a sample representative of the batch with respect to the property or properties being investigated."@en ;
                        emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The term can be used to cover either a unit of supply or a portion for analysis. The portion taken may consist of one or more sub-samples and the batch may be the population from which the sample is taken."@en ;
                        rdfs:comment "" ;
