@@ -442,10 +442,6 @@ chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
 #    Classes
 #################################################################
 
-###  http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
-emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba .
-
-
 ###  http://emmo.info/emmo/domain/chameo/chameo#AccessConditions
 chameo:AccessConditions rdf:type owl:Class ;
                         rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
