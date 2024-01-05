@@ -704,6 +704,7 @@ NOTE 2 A measuring instrument is either an indicating measuring instrument or a 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationMeasurementProcess
 chameo:CharacterisationMeasurementProcess rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb ,
+                                                          chameo:CharacterisationProcedure ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
                                                             owl:someValuesFrom chameo:CharacterisationEnvironment
@@ -802,7 +803,7 @@ chameo:CharacterisationProperty rdf:type owl:Class ;
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisationProtocol
 chameo:CharacterisationProtocol rdf:type owl:Class ;
-                                rdfs:subClassOf chameo:CharacterisationMethod ;
+                                rdfs:subClassOf chameo:CharacterisationProcedure ;
                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation protocol is defined whenever it is desirable to standardize a laboratory method to ensure successful replication of results by others in the same laboratory or by other laboratories."@en ;
                                 skos:prefLabel "CharacterisationProtocol"@en .
 
