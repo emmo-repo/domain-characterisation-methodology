@@ -879,6 +879,13 @@ chameo:CharacterisationWorkflow rdf:type owl:Class ;
                                 skos:prefLabel "CharacterisationWorkflow"@en .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo#CharacterisedSample
+chameo:CharacterisedSample rdf:type owl:Class ;
+                           rdfs:subClassOf chameo:Sample ;
+                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The sample after having been subjected to a characterization process"@en ;
+                           skos:prefLabel "CharacterisedSample" .
+
+
 ###  http://emmo.info/emmo/domain/chameo/chameo#ChargeDistribution
 chameo:ChargeDistribution rdf:type owl:Class ;
                           rdfs:subClassOf chameo:CharacterisationMethod ;
