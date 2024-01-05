@@ -1930,6 +1930,11 @@ chameo:SampleInspection rdf:type owl:Class ;
                         skos:prefLabel "SampleInspection"@en .
 
 
+###  http://emmo.info/emmo/domain/chameo/chameo#SampleInspectionInstrument
+chameo:SampleInspectionInstrument rdf:type owl:Class ;
+                                  rdfs:subClassOf chameo:CharacterisationHardware .
+
+
 ###  http://emmo.info/emmo/domain/chameo/chameo#SamplePreparation
 chameo:SamplePreparation rdf:type owl:Class ;
                          rdfs:subClassOf chameo:CharacterisationProcedure ,
@@ -1956,6 +1961,11 @@ chameo:SamplePreparationHardware rdf:type owl:Class ;
                                  emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Hardware used for the preparation of the sample."@en ;
                                  rdfs:comment "" ;
                                  skos:prefLabel "SamplePreparationHardware"@en .
+
+
+###  http://emmo.info/emmo/domain/chameo/chameo#SamplePreparationInstrument
+chameo:SamplePreparationInstrument rdf:type owl:Class ;
+                                   rdfs:subClassOf chameo:CharacterisationHardware .
 
 
 ###  http://emmo.info/emmo/domain/chameo/chameo#SamplePreparationParameter
