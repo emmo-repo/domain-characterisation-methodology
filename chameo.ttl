@@ -1638,7 +1638,7 @@ chameo:Microscopy rdf:type owl:Class ;
 chameo:Nanoindentation rdf:type owl:Class ;
                        rdfs:subClassOf chameo:Mechanical ;
                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Nanoindentation (known also as nanoindentation test) is a method for testing the hardness and related mechanical properties of materials, facilitated by high-precision instrumentation in the nanometer scale, as well as analytical and computational algorithms for result evaluation."@en ;
-                       emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "By definition, when someone performs nanoindentation, it refers to either quasistatic or continuous stiffness measurement. However, in reality with a nanoindenter someone can usually perform scratch testing, scanning probe microscopy, and apply non-contact surface energy mapping, which might also some times refer as nanoindentation, because they are measurements, which are conducted using an nanoindenter."@en ;
+                       emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "By definition, when someone performs nanoindentation, it refers to either quasistatic or continuous stiffness measurement. However, in reality with a nanoindenter it is also possible to perform scratch testing, scanning probe microscopy, and apply non-contact surface energy mapping, which can also be called nanoindentation, because they are measurements conducted using an nanoindenter."@en ;
                        skos:prefLabel "Nanoindentation"@en .
 
 
