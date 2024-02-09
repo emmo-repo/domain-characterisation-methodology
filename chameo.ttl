@@ -2274,44 +2274,6 @@ datacite:ResourceIdentifier rdf:type owl:Class ;
 #    Individuals
 #################################################################
 
-###  http://emmo.info/emmo/domain/chameo/chameo#Agent1
-chameo:Agent1 rdf:type owl:NamedIndividual ,
-                       chameo:Operator .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo#CalibrationProcess1
-chameo:CalibrationProcess1 rdf:type owl:NamedIndividual ,
-                                    chameo:CalibrationProcess .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo#ChMeasProc1
-chameo:ChMeasProc1 rdf:type owl:NamedIndividual ,
-                            chameo:CharacterisationMeasurementProcess .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo#Determination1
-chameo:Determination1 rdf:type owl:NamedIndividual ,
-                               emmo:EMMO_10a5fd39_06aa_4648_9e70_f962a9cb2069 ;
-                      emmo:EMMO_dc57d998_23db_4d8e_b2cd_f346b195b846 chameo:InferredChMethod1 .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo#InferredChMethod1
-chameo:InferredChMethod1 rdf:type owl:NamedIndividual ;
-                         emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a chameo:ChMeasProc1 ;
-                         chameo:hasOperator chameo:Agent1 .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo#hasChValid1
-chameo:hasChValid1 rdf:type owl:NamedIndividual ;
-                   chameo:hasCharacterisationProcedureValidation chameo:hasChValid2 .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo#hasChValid2
-chameo:hasChValid2 rdf:type owl:NamedIndividual .
-
-
-###  http://emmo.info/emmo/domain/chameo/chameo#hasChValidProp
-chameo:hasChValidProp rdf:type owl:NamedIndividual .
 
 
 #################################################################
