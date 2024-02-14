@@ -47,6 +47,7 @@
 	dcterms:source "" ;
 	dcterms:title "CHAracterisation MEthodology Ontology"@en ;
 	bibo:doi "" ;
+	<http://purl.org/ontology/bibo/status> "" ;
 	vann:preferredNamespacePrefix "chameo"@en ;
 	vann:preferredNamespaceUri "http://w3id.org/emmo-chameo/chameo" ;
 	rdfs:comment """Contacts:
@@ -764,12 +765,18 @@ chameo:CharacterisationHardware rdf:type owl:Class ;
 ###  http://w3id.org/emmo-chameo/chameo#CharacterisationHardwareManufacturer
 chameo:CharacterisationHardwareManufacturer rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardwareSpecification ;
-	owl:disjointWith chameo:CharacterisationHardwareModel .
+	owl:disjointWith chameo:CharacterisationHardwareModel ;
+	rdfs:comment "" ;
+	rdfs:label "HardwareManufacturer"@en ;
+	skos:prefLabel "HardwareManufacturer"@en .
 
 
 ###  http://w3id.org/emmo-chameo/chameo#CharacterisationHardwareModel
 chameo:CharacterisationHardwareModel rdf:type owl:Class ;
-	rdfs:subClassOf chameo:CharacterisationHardwareSpecification .
+	rdfs:subClassOf chameo:CharacterisationHardwareSpecification ;
+	rdfs:comment "" ;
+	rdfs:label "HardwareModel"@en ;
+	skos:prefLabel "HardwareModel"@en .
 
 
 ###  http://w3id.org/emmo-chameo/chameo#CharacterisationHardwareSpecification
