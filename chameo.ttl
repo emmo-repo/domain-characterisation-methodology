@@ -1,4 +1,4 @@
-@prefix : <http://w3id.org/emmo-chameo/chameo#> .
+@prefix : <https://w3id.org/emmo/domain/chameo#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,13 +9,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix chameo: <http://w3id.org/emmo-chameo/chameo#> .
+@prefix chameo: <https://w3id.org/emmo/domain/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <http://w3id.org/emmo-chameo/chameo> .
+@base <https://w3id.org/emmo/domain/chameo> .
 
-<http://w3id.org/emmo-chameo/chameo> rdf:type owl:Ontology ;
-	owl:versionIRI <http://w3id.org/emmo-chameo/1.0.0-beta3/chameo> ;
+<https://w3id.org/emmo/domain/chameo> rdf:type owl:Ontology ;
+	owl:versionIRI <https://w3id.org/emmo/domain/chameo/1.0.0-beta3/chameo> ;
 	owl:imports <https://w3id.org/emmo/1.0.0-beta7/mereocausality> ,
 	<https://w3id.org/emmo/1.0.0-beta7/disciplines/computerscience> ,
 	<https://w3id.org/emmo/1.0.0-beta7/disciplines/isq> ,
@@ -39,7 +39,7 @@
 	"Pierluigi Del Nostro" ;
 	dcterms:description "Characterisation Methodology Ontology"@en ;
 	dcterms:hasFormat <https://www.w3.org/TR/turtle/> ;
-	dcterms:identifier "http://w3id.org/emmo-chameo/chameo" ;
+	dcterms:identifier "https://w3id.org/emmo/domain/chameo" ;
 	dcterms:issued "" ;
 	dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
 	dcterms:modified "2023-10-23T15:00:00Z" ;
@@ -49,7 +49,7 @@
 	bibo:doi "" ;
 	<http://purl.org/ontology/bibo/status> "" ;
 	vann:preferredNamespacePrefix "chameo"@en ;
-	vann:preferredNamespaceUri "http://w3id.org/emmo-chameo/chameo" ;
+	vann:preferredNamespaceUri "https://w3id.org/emmo/domain/chameo" ;
 	rdfs:comment """Contacts:
 													Gerhard Goldbeck
 													Goldbeck Consulting Ltd (UK)
@@ -130,7 +130,7 @@ foaf:page rdf:type owl:AnnotationProperty .
 #	Object Properties
 #################################################################
 
-###  http://w3id.org/emmo-chameo/chameo#characterisationProcedureHasSubProcedure
+###  https://w3id.org/emmo/domain/chameo#characterisationProcedureHasSubProcedure
 chameo:characterisationProcedureHasSubProcedure rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_d43af210_f854_4432_a891_ce3022e3b558 ;
 	rdfs:comment "" ;
@@ -138,7 +138,7 @@ chameo:characterisationProcedureHasSubProcedure rdf:type owl:ObjectProperty ;
 	skos:prefLabel "characterisationProcedureHasSubProcedure"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasAccessConditions
+###  https://w3id.org/emmo/domain/chameo#hasAccessConditions
 chameo:hasAccessConditions rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:CharacterisationMethod ;
@@ -148,7 +148,7 @@ chameo:hasAccessConditions rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasAccessConditions"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasCharacterisationEnvironment
+###  https://w3id.org/emmo/domain/chameo#hasCharacterisationEnvironment
 chameo:hasCharacterisationEnvironment rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:range chameo:CharacterisationEnvironment ;
@@ -157,7 +157,7 @@ chameo:hasCharacterisationEnvironment rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasCharacterisationEnvironment"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasCharacterisationEnvironmentProperty
+###  https://w3id.org/emmo/domain/chameo#hasCharacterisationEnvironmentProperty
 chameo:hasCharacterisationEnvironmentProperty rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:CharacterisationEnvironment ;
@@ -167,7 +167,7 @@ chameo:hasCharacterisationEnvironmentProperty rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasCharacterisationEnvironmentProperty"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasCharacterisationProcedureValidation
+###  https://w3id.org/emmo/domain/chameo#hasCharacterisationProcedureValidation
 chameo:hasCharacterisationProcedureValidation rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:CharacterisationMethod ;
@@ -177,7 +177,7 @@ chameo:hasCharacterisationProcedureValidation rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasCharacterisationProcedureValidation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasCharacterisationProperty
+###  https://w3id.org/emmo/domain/chameo#hasCharacterisationProperty
 chameo:hasCharacterisationProperty rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_fd689787_31b0_41cf_bf03_0d69af76469d ;
 	rdfs:domain chameo:Sample ;
@@ -187,7 +187,7 @@ chameo:hasCharacterisationProperty rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasCharacterisationProperty"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasCharacterisationSoftware
+###  https://w3id.org/emmo/domain/chameo#hasCharacterisationSoftware
 chameo:hasCharacterisationSoftware rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:range chameo:CharacterisationSoftware ;
@@ -196,7 +196,7 @@ chameo:hasCharacterisationSoftware rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasCharacterisationSoftware"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasDataAcquisitionRate
+###  https://w3id.org/emmo/domain/chameo#hasDataAcquisitionRate
 chameo:hasDataAcquisitionRate rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:RawData ;
@@ -206,7 +206,7 @@ chameo:hasDataAcquisitionRate rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasDataAcquisitionRate"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasDataProcessingThroughCalibration
+###  https://w3id.org/emmo/domain/chameo#hasDataProcessingThroughCalibration
 chameo:hasDataProcessingThroughCalibration rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:CharacterisationMeasurementProcess ;
@@ -216,7 +216,7 @@ chameo:hasDataProcessingThroughCalibration rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasDataProcessingThroughCalibration"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasDataQuality
+###  https://w3id.org/emmo/domain/chameo#hasDataQuality
 chameo:hasDataQuality rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:MeasurementDataPostProcessing ;
@@ -226,7 +226,7 @@ chameo:hasDataQuality rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasDataQuality"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasDataset
+###  https://w3id.org/emmo/domain/chameo#hasDataset
 chameo:hasDataset rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf owl:topObjectProperty ;
 	rdfs:range emmo:EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a ;
@@ -235,7 +235,7 @@ chameo:hasDataset rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasDataset"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasHardwareSpecification
+###  https://w3id.org/emmo/domain/chameo#hasHardwareSpecification
 chameo:hasHardwareSpecification rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:CharacterisationHardware ;
@@ -245,7 +245,7 @@ chameo:hasHardwareSpecification rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasHardwareSpecification"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasHazard
+###  https://w3id.org/emmo/domain/chameo#hasHazard
 chameo:hasHazard rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:range chameo:Hazard ;
@@ -254,7 +254,7 @@ chameo:hasHazard rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasHazard"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasHolder
+###  https://w3id.org/emmo/domain/chameo#hasHolder
 chameo:hasHolder rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:domain chameo:SamplePreparation ;
@@ -264,7 +264,7 @@ chameo:hasHolder rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasHolder"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasInteractionVolume
+###  https://w3id.org/emmo/domain/chameo#hasInteractionVolume
 chameo:hasInteractionVolume rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:ProbeSampleInteraction ;
@@ -274,7 +274,7 @@ chameo:hasInteractionVolume rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasInteractionVolume"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasInteractionWithProbe
+###  https://w3id.org/emmo/domain/chameo#hasInteractionWithProbe
 chameo:hasInteractionWithProbe rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
 	rdfs:domain chameo:ProbeSampleInteraction ;
@@ -284,7 +284,7 @@ chameo:hasInteractionWithProbe rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasInteractionWithProbe"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasInteractionWithSample
+###  https://w3id.org/emmo/domain/chameo#hasInteractionWithSample
 chameo:hasInteractionWithSample rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:domain chameo:ProbeSampleInteraction ;
@@ -294,7 +294,7 @@ chameo:hasInteractionWithSample rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasInteractionWithSample"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasLab
+###  https://w3id.org/emmo/domain/chameo#hasLab
 chameo:hasLab rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:range chameo:Laboratory ;
@@ -303,7 +303,7 @@ chameo:hasLab rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasLab"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasLevelOfAutomation
+###  https://w3id.org/emmo/domain/chameo#hasLevelOfAutomation
 chameo:hasLevelOfAutomation rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:CharacterisationMethod ;
@@ -313,7 +313,7 @@ chameo:hasLevelOfAutomation rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasLevelOfAutomation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasMeasurementDetector
+###  https://w3id.org/emmo/domain/chameo#hasMeasurementDetector
 chameo:hasMeasurementDetector rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:range chameo:Detector ;
@@ -322,7 +322,7 @@ chameo:hasMeasurementDetector rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasMeasurementDetector"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasMeasurementParameter
+###  https://w3id.org/emmo/domain/chameo#hasMeasurementParameter
 chameo:hasMeasurementParameter rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
 	rdfs:domain chameo:CharacterisationMeasurementProcess ;
@@ -332,7 +332,7 @@ chameo:hasMeasurementParameter rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasMeasurementParameter"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasMeasurementProbe
+###  https://w3id.org/emmo/domain/chameo#hasMeasurementProbe
 chameo:hasMeasurementProbe rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:range chameo:Probe ;
@@ -341,7 +341,7 @@ chameo:hasMeasurementProbe rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasMeasurementProbe"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasMeasurementSample
+###  https://w3id.org/emmo/domain/chameo#hasMeasurementSample
 chameo:hasMeasurementSample rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:domain chameo:CharacterisationMeasurementProcess ;
@@ -351,7 +351,7 @@ chameo:hasMeasurementSample rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasMeasurementSample"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasMeasurementTime
+###  https://w3id.org/emmo/domain/chameo#hasMeasurementTime
 chameo:hasMeasurementTime rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb ;
@@ -361,7 +361,7 @@ chameo:hasMeasurementTime rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasMeasurementTime"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasOperator
+###  https://w3id.org/emmo/domain/chameo#hasOperator
 chameo:hasOperator rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_cd24eb82_a11c_4a31_96ea_32f870c5580a ;
 	rdfs:range chameo:Operator ;
@@ -370,7 +370,7 @@ chameo:hasOperator rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasOperator"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasPeerReviewedArticle
+###  https://w3id.org/emmo/domain/chameo#hasPeerReviewedArticle
 chameo:hasPeerReviewedArticle rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455 ;
 	rdfs:domain chameo:CharacterisationProcedureValidation ;
@@ -380,7 +380,7 @@ chameo:hasPeerReviewedArticle rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasPeerReviewedArticle"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasPhysicsOfInteraction
+###  https://w3id.org/emmo/domain/chameo#hasPhysicsOfInteraction
 chameo:hasPhysicsOfInteraction rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_24c71baf_6db6_48b9_86c8_8c70cf36db0c ;
 	rdfs:domain chameo:ProbeSampleInteraction ;
@@ -390,7 +390,7 @@ chameo:hasPhysicsOfInteraction rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasPhysicsOfInteraction"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasPostProcessingModel
+###  https://w3id.org/emmo/domain/chameo#hasPostProcessingModel
 chameo:hasPostProcessingModel rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:domain chameo:MeasurementDataPostProcessing ;
@@ -400,7 +400,7 @@ chameo:hasPostProcessingModel rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasPostProcessingModel"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasProcessingReproducibility
+###  https://w3id.org/emmo/domain/chameo#hasProcessingReproducibility
 chameo:hasProcessingReproducibility rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:domain chameo:MeasurementDataPostProcessing ;
@@ -410,7 +410,7 @@ chameo:hasProcessingReproducibility rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasProcessingReproducibility"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasSampleBeforeSamplePreparation
+###  https://w3id.org/emmo/domain/chameo#hasSampleBeforeSamplePreparation
 chameo:hasSampleBeforeSamplePreparation rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:domain chameo:SamplePreparation ;
@@ -420,7 +420,7 @@ chameo:hasSampleBeforeSamplePreparation rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasSampleBeforeSamplePreparation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasSamplePreparationHardware
+###  https://w3id.org/emmo/domain/chameo#hasSamplePreparationHardware
 chameo:hasSamplePreparationHardware rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:comment "" ;
@@ -428,7 +428,7 @@ chameo:hasSamplePreparationHardware rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasSamplePreparationHardware"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasSamplePreparationInput
+###  https://w3id.org/emmo/domain/chameo#hasSamplePreparationInput
 chameo:hasSamplePreparationInput rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
 	rdfs:domain chameo:SamplePreparation ;
@@ -438,7 +438,7 @@ chameo:hasSamplePreparationInput rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasSamplePreparationInput"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasSamplePreparationOutput
+###  https://w3id.org/emmo/domain/chameo#hasSamplePreparationOutput
 chameo:hasSamplePreparationOutput rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
 	rdfs:domain chameo:SamplePreparation ;
@@ -448,7 +448,7 @@ chameo:hasSamplePreparationOutput rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasSamplePreparationOutput"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasSamplePreparationParameter
+###  https://w3id.org/emmo/domain/chameo#hasSamplePreparationParameter
 chameo:hasSamplePreparationParameter rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
 	rdfs:domain chameo:SamplePreparation ;
@@ -458,7 +458,7 @@ chameo:hasSamplePreparationParameter rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasSamplePreparationParameter"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#hasSampledSample
+###  https://w3id.org/emmo/domain/chameo#hasSampledSample
 chameo:hasSampledSample rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
 	rdfs:domain chameo:SamplingProcess ;
@@ -468,7 +468,7 @@ chameo:hasSampledSample rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasSampledSample"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#requiresLevelOfExpertise
+###  https://w3id.org/emmo/domain/chameo#requiresLevelOfExpertise
 chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	rdfs:range chameo:LevelOfExpertise ;
@@ -481,8 +481,8 @@ chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
 #	Data properties
 #################################################################
 
-###  http://w3id.org/emmo-chameo/chameo/hasDateOfCalibration
-<http://w3id.org/emmo-chameo/chameo/hasDateOfCalibration> rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/emmo/domain/chameo/hasDateOfCalibration
+<https://w3id.org/emmo/domain/chameo/hasDateOfCalibration> rdf:type owl:DatatypeProperty ;
 	rdfs:subPropertyOf owl:topDataProperty ;
 	rdfs:domain chameo:CharacterisationInstrument ;
 	rdfs:range xsd:dateTime ;
@@ -495,7 +495,7 @@ chameo:requiresLevelOfExpertise rdf:type owl:ObjectProperty ;
 #	Classes
 #################################################################
 
-###  http://w3id.org/emmo-chameo/chameo#ACVoltammetry
+###  https://w3id.org/emmo/domain/chameo#ACVoltammetry
 chameo:ACVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q120895154" ;
@@ -508,7 +508,7 @@ chameo:ACVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "ACVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#AbrasiveStrippingVoltammetry
+###  https://w3id.org/emmo/domain/chameo#AbrasiveStrippingVoltammetry
 chameo:AbrasiveStrippingVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve"@en ;
@@ -525,7 +525,7 @@ chameo:AbrasiveStrippingVoltammetry rdf:type owl:Class ;
  ] .
 
 
-###  http://w3id.org/emmo-chameo/chameo#AccessConditions
+###  https://w3id.org/emmo/domain/chameo#AccessConditions
 chameo:AccessConditions rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes what is needed to repeat the experiment"@en ;
@@ -537,7 +537,7 @@ chameo:AccessConditions rdf:type owl:Class ;
 	skos:prefLabel "AccessConditions"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#AdsorptiveStrippingVoltammetry
+###  https://w3id.org/emmo/domain/chameo#AdsorptiveStrippingVoltammetry
 chameo:AdsorptiveStrippingVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:StrippingVoltammetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Stripping voltammetry involving pre-concentration by adsorption of the analyte (in contrast to electro- chemical accumulation)."@en ;
@@ -550,7 +550,7 @@ chameo:AdsorptiveStrippingVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "AdsorptiveStrippingVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#AlphaSpectrometry
+###  https://w3id.org/emmo/domain/chameo#AlphaSpectrometry
 chameo:AlphaSpectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectrometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Alpha spectrometry (also known as alpha(-particle) spectroscopy) is the quantitative study of the energy of alpha particles emitted by a radioactive nuclide that is an alpha emitter. As emitted alpha particles are mono-energetic (i.e. not emitted with a spectrum of energies, such as beta decay) with energies often distinct to the decay they can be used to identify which radionuclide they originated from."@en ;
@@ -559,7 +559,7 @@ chameo:AlphaSpectrometry rdf:type owl:Class ;
 	skos:prefLabel "AlphaSpectrometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Amperometry
+###  https://w3id.org/emmo/domain/chameo#Amperometry
 chameo:Amperometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrochemical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The amperometric method provides the ability to distinguish selectively between a number of electroactive species in solution by judicious selection of the applied potential and/or choice of electrode material."@en ;
@@ -573,7 +573,7 @@ chameo:Amperometry rdf:type owl:Class ;
 	skos:prefLabel "Amperometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#AnalyticalElectronMicroscopy
+###  https://w3id.org/emmo/domain/chameo#AnalyticalElectronMicroscopy
 chameo:AnalyticalElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Analytical electron microscopy (AEM) refers to the collection of spectroscopic data in TEM or STEM, enabling qualitative or quantitative compositional analysis."@en ;
@@ -582,7 +582,7 @@ chameo:AnalyticalElectronMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "AnalyticalElectronMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#AnodicStrippingVoltammetry
+###  https://w3id.org/emmo/domain/chameo#AnodicStrippingVoltammetry
 chameo:AnodicStrippingVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:StrippingVoltammetry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q939328" ;
@@ -595,7 +595,7 @@ chameo:AnodicStrippingVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "AnodicStrippingVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#AtomProbeTomography
+###  https://w3id.org/emmo/domain/chameo#AtomProbeTomography
 chameo:AtomProbeTomography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Tomography ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Atom Probe Tomography (APT or 3D Atom Probe) is the only material analysis technique offering extensive capabilities for both 3D imaging and chemical composition measurements at the atomic scale (around 0.1-0.3nm resolution in depth and 0.3-0.5nm laterally). Since its early developments, Atom Probe Tomography has contributed to major advances in materials science.
@@ -608,7 +608,7 @@ The sample is prepared in the form of a very sharp tip. The cooled tip is biased
 	skos:prefLabel "AtomProbeTomography"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#AtomicForceMicroscopy
+###  https://w3id.org/emmo/domain/chameo#AtomicForceMicroscopy
 chameo:AtomicForceMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Atomic force microscopy (AFM) is an influential surface analysis technique used for micro/nanostructured coatings. This flexible technique can be used to obtain high-resolution nanoscale images and study local sites in air (conventional AFM) or liquid (electrochemical AFM) surroundings."@en ;
@@ -617,7 +617,7 @@ chameo:AtomicForceMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "AtomicForceMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CalibrationData
+###  https://w3id.org/emmo/domain/chameo#CalibrationData
 chameo:CalibrationData rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationData ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Calibration data are used to provide correction of measured data or perform uncertainty calculations. They are generally the result of a measuerement on a reference specimen."@en ;
@@ -626,7 +626,7 @@ chameo:CalibrationData rdf:type owl:Class ;
 	skos:prefLabel "CalibrationData"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CalibrationDataPostProcessing
+###  https://w3id.org/emmo/domain/chameo#CalibrationDataPostProcessing
 chameo:CalibrationDataPostProcessing rdf:type owl:Class ;
 	rdfs:subClassOf chameo:DataPostProcessing ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Post-processing of the output of the calibration in order to get the actual calibration data to be used as input for the measurement."@en ;
@@ -635,7 +635,7 @@ chameo:CalibrationDataPostProcessing rdf:type owl:Class ;
 	skos:prefLabel "CalibrationDataPostProcessing"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CalibrationProcess
+###  https://w3id.org/emmo/domain/chameo#CalibrationProcess
 chameo:CalibrationProcess rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationProcedure ,
 	[ rdf:type owl:Restriction ;
@@ -669,7 +669,7 @@ standards.
 	skos:prefLabel "CalibrationProcess"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CalibrationTask
+###  https://w3id.org/emmo/domain/chameo#CalibrationTask
 chameo:CalibrationTask rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationTask ,
 	[ rdf:type owl:Restriction ;
@@ -683,7 +683,7 @@ chameo:CalibrationTask rdf:type owl:Class ;
 	skos:prefLabel "CalibrationTask" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Calorimetry
+###  https://w3id.org/emmo/domain/chameo#Calorimetry
 chameo:Calorimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Thermochemical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In chemistry and thermodynamics, calorimetry (from Latin calor 'heat', and Greek μέτρον (metron) 'measure') is the science or act of measuring changes in state variables of a body for the purpose of deriving the heat transfer associated with changes of its state due, for example, to chemical reactions, physical changes, or phase transitions under specified constraints. Calorimetry is performed with a calorimeter."@en ;
@@ -692,7 +692,7 @@ chameo:Calorimetry rdf:type owl:Class ;
 	skos:prefLabel "Calorimetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CathodicStrippingVoltammetry
+###  https://w3id.org/emmo/domain/chameo#CathodicStrippingVoltammetry
 chameo:CathodicStrippingVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:StrippingVoltammetry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4016325" ;
@@ -705,7 +705,7 @@ chameo:CathodicStrippingVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "CathodicStrippingVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationData
+###  https://w3id.org/emmo/domain/chameo#CharacterisationData
 chameo:CharacterisationData rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490 ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Represents every type of data that is produced during a characterisation process"@en ;
@@ -714,7 +714,7 @@ chameo:CharacterisationData rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationData" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationDataValidation
+###  https://w3id.org/emmo/domain/chameo#CharacterisationDataValidation
 chameo:CharacterisationDataValidation rdf:type owl:Class ;
 	rdfs:subClassOf <https://w3id.org/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Procedures to validate the characterisation data."@en ;
@@ -723,7 +723,7 @@ chameo:CharacterisationDataValidation rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationDataValidation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationEnvironment
+###  https://w3id.org/emmo/domain/chameo#CharacterisationEnvironment
 chameo:CharacterisationEnvironment rdf:type owl:Class ;
 	rdfs:subClassOf [ rdf:type owl:Restriction ;
 	owl:onProperty emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
@@ -736,7 +736,7 @@ chameo:CharacterisationEnvironment rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationEnvironment"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationEnvironmentProperty
+###  https://w3id.org/emmo/domain/chameo#CharacterisationEnvironmentProperty
 chameo:CharacterisationEnvironmentProperty rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
 	rdfs:comment "" ;
@@ -744,7 +744,7 @@ chameo:CharacterisationEnvironmentProperty rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationEnvironmentProperty" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationExperiment
+###  https://w3id.org/emmo/domain/chameo#CharacterisationExperiment
 chameo:CharacterisationExperiment rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_22522299_4091_4d1f_82a2_3890492df6db ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation experiment is the process by which a material's structure and properties are probed and measured. It is a fundamental process in the field of materials science, without which no scientific understanding of engineering materials could be ascertained."@en ;
@@ -753,7 +753,7 @@ chameo:CharacterisationExperiment rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationExperiment"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationHardware
+###  https://w3id.org/emmo/domain/chameo#CharacterisationHardware
 chameo:CharacterisationHardware rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Whatever hardware is used during the characterisation process."@en ;
@@ -762,7 +762,7 @@ chameo:CharacterisationHardware rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationHardware"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationHardwareManufacturer
+###  https://w3id.org/emmo/domain/chameo#CharacterisationHardwareManufacturer
 chameo:CharacterisationHardwareManufacturer rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardwareSpecification ;
 	owl:disjointWith chameo:CharacterisationHardwareModel ;
@@ -771,7 +771,7 @@ chameo:CharacterisationHardwareManufacturer rdf:type owl:Class ;
 	skos:prefLabel "HardwareManufacturer"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationHardwareModel
+###  https://w3id.org/emmo/domain/chameo#CharacterisationHardwareModel
 chameo:CharacterisationHardwareModel rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardwareSpecification ;
 	rdfs:comment "" ;
@@ -779,7 +779,7 @@ chameo:CharacterisationHardwareModel rdf:type owl:Class ;
 	skos:prefLabel "HardwareModel"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationHardwareSpecification
+###  https://w3id.org/emmo/domain/chameo#CharacterisationHardwareSpecification
 chameo:CharacterisationHardwareSpecification rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
 	rdfs:comment "" ;
@@ -787,7 +787,7 @@ chameo:CharacterisationHardwareSpecification rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationHardwareSpecification"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationInstrument
+###  https://w3id.org/emmo/domain/chameo#CharacterisationInstrument
 chameo:CharacterisationInstrument rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 ,
 	emmo:EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929 ,
@@ -812,7 +812,7 @@ NOTE 2 A measuring instrument is either an indicating measuring instrument or a 
 	skos:prefLabel "CharacterisationInstrument" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationMeasurementProcess
+###  https://w3id.org/emmo/domain/chameo#CharacterisationMeasurementProcess
 chameo:CharacterisationMeasurementProcess rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb ,
 	chameo:CharacterisationProcedure ,
@@ -859,7 +859,7 @@ system specifications.
 	skos:prefLabel "CharacterisationMeasurementProcess"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationMeasurementTask
+###  https://w3id.org/emmo/domain/chameo#CharacterisationMeasurementTask
 chameo:CharacterisationMeasurementTask rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationTask ,
 	[ rdf:type owl:Restriction ;
@@ -873,7 +873,7 @@ chameo:CharacterisationMeasurementTask rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationMeasurementTask"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationMethod
+###  https://w3id.org/emmo/domain/chameo#CharacterisationMethod
 chameo:CharacterisationMethod rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_3b19eab4_79be_4b02_bdaf_ecf1f0067a68 ,
 	chameo:CharacterisationProcedure ;
@@ -886,7 +886,7 @@ chameo:CharacterisationMethod rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationMethod"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationProcedure
+###  https://w3id.org/emmo/domain/chameo#CharacterisationProcedure
 chameo:CharacterisationProcedure rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process of performing characterisation by following some existing formalised operative rules."@en ;
@@ -902,7 +902,7 @@ Data sampling"""@en ;
 	skos:prefLabel "CharacterisationProcedure"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationProcedureValidation
+###  https://w3id.org/emmo/domain/chameo#CharacterisationProcedureValidation
 chameo:CharacterisationProcedureValidation rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes why the characterization procedure was chosen and deemed to be the most useful for the sample."@en ;
@@ -911,7 +911,7 @@ chameo:CharacterisationProcedureValidation rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationProcedureValidation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationProperty
+###  https://w3id.org/emmo/domain/chameo#CharacterisationProperty
 chameo:CharacterisationProperty rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4 ,
 	chameo:SecondaryData ;
@@ -921,7 +921,7 @@ chameo:CharacterisationProperty rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationProperty"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationProtocol
+###  https://w3id.org/emmo/domain/chameo#CharacterisationProtocol
 chameo:CharacterisationProtocol rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationProcedure ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation protocol is defined whenever it is desirable to standardize a laboratory method to ensure successful replication of results by others in the same laboratory or by other laboratories."@en ;
@@ -930,7 +930,7 @@ chameo:CharacterisationProtocol rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationProtocol"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationSoftware
+###  https://w3id.org/emmo/domain/chameo#CharacterisationSoftware
 chameo:CharacterisationSoftware rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_3b031fa9_8623_4ea5_8b57_bcafb70c5c8b ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A software application to process characterisation data"@en ;
@@ -940,7 +940,7 @@ chameo:CharacterisationSoftware rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationSoftware" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationSystem
+###  https://w3id.org/emmo/domain/chameo#CharacterisationSystem
 chameo:CharacterisationSystem rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_7dea2572_ab42_45bd_9fd7_92448cec762a ,
 	[ rdf:type owl:Restriction ;
@@ -965,7 +965,7 @@ NOTE 4 A measuring system can be used as a measurement standard."""@en ;
 	skos:prefLabel "CharacterisationSystem"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationTask
+###  https://w3id.org/emmo/domain/chameo#CharacterisationTask
 chameo:CharacterisationTask rdf:type owl:Class ;
 	owl:equivalentClass [ owl:intersectionOf ( emmo:EMMO_4299e344_a321_4ef2_a744_bacfcce80afc
 	chameo:CharacterisationProcedure
@@ -983,7 +983,7 @@ chameo:CharacterisationTask rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationTask"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisationWorkflow
+###  https://w3id.org/emmo/domain/chameo#CharacterisationWorkflow
 chameo:CharacterisationWorkflow rdf:type owl:Class ;
 	owl:equivalentClass [ owl:intersectionOf ( emmo:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c
 	chameo:CharacterisationProcedure
@@ -997,7 +997,7 @@ chameo:CharacterisationWorkflow rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationWorkflow"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CharacterisedSample
+###  https://w3id.org/emmo/domain/chameo#CharacterisedSample
 chameo:CharacterisedSample rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Sample ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The sample after having been subjected to a characterization process"@en ;
@@ -1006,7 +1006,7 @@ chameo:CharacterisedSample rdf:type owl:Class ;
 	skos:prefLabel "CharacterisedSample" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ChargeDistribution
+###  https://w3id.org/emmo/domain/chameo#ChargeDistribution
 chameo:ChargeDistribution rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	rdfs:comment "" ;
@@ -1014,7 +1014,7 @@ chameo:ChargeDistribution rdf:type owl:Class ;
 	skos:prefLabel "ChargeDistribution"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Chromatography
+###  https://w3id.org/emmo/domain/chameo#Chromatography
 chameo:Chromatography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In chemical analysis, chromatography is a laboratory technique for the separation of a mixture into its components."@en ;
@@ -1024,7 +1024,7 @@ chameo:Chromatography rdf:type owl:Class ;
 	skos:prefLabel "Chromatography"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Chronoamperometry
+###  https://w3id.org/emmo/domain/chameo#Chronoamperometry
 chameo:Chronoamperometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Amperometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "amperometry in which the current is measured as a function of time after a change in the applied potential"@en ;
@@ -1037,7 +1037,7 @@ chameo:Chronoamperometry rdf:type owl:Class ;
 	skos:prefLabel "Chronoamperometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Chronocoulometry
+###  https://w3id.org/emmo/domain/chameo#Chronocoulometry
 chameo:Chronocoulometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Coulometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "direct coulometry at controlled potential in which the electric charge passed after the application of a potential step perturbation is measured as a function of time (Q-t curve)"@en ;
@@ -1048,7 +1048,7 @@ chameo:Chronocoulometry rdf:type owl:Class ;
 	skos:prefLabel "Chronocoulometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Chronopotentiometry
+###  https://w3id.org/emmo/domain/chameo#Chronopotentiometry
 chameo:Chronopotentiometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Potentiometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "potentiometry in which the potential is measured with time following a change in applied current"@en ;
@@ -1059,7 +1059,7 @@ chameo:Chronopotentiometry rdf:type owl:Class ;
 	skos:prefLabel "Chronopotentiometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CompressionTest
+###  https://w3id.org/emmo/domain/chameo#CompressionTest
 chameo:CompressionTest rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Compression tests characterize material and product strength and stiffness under applied crushing loads. These tests are typically conducted by applying compressive pressure to a test specimen using platens or specialized fixtures with a testing machine that produces compressive loads."@en ;
@@ -1068,7 +1068,7 @@ chameo:CompressionTest rdf:type owl:Class ;
 	skos:prefLabel "CompressionTest"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ConductometricTitration
+###  https://w3id.org/emmo/domain/chameo#ConductometricTitration
 chameo:ConductometricTitration rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Conductometry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q11778221" ;
@@ -1082,7 +1082,7 @@ chameo:ConductometricTitration rdf:type owl:Class ;
 	skos:prefLabel "ConductometricTitration"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Conductometry
+###  https://w3id.org/emmo/domain/chameo#Conductometry
 chameo:Conductometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrochemical ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q901180" ;
@@ -1096,7 +1096,7 @@ chameo:Conductometry rdf:type owl:Class ;
 	skos:prefLabel "Conductometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ConfocalMicroscopy
+###  https://w3id.org/emmo/domain/chameo#ConfocalMicroscopy
 chameo:ConfocalMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Confocal microscopy, most frequently confocal laser scanning microscopy (CLSM) or laser scanning confocal microscopy (LSCM), is an optical imaging technique for increasing optical resolution and contrast of a micrograph by means of using a spatial pinhole to block out-of-focus light in image formation."@en ;
@@ -1105,7 +1105,7 @@ chameo:ConfocalMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "ConfocalMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CoulometricTitration
+###  https://w3id.org/emmo/domain/chameo#CoulometricTitration
 chameo:CoulometricTitration rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Coulometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "titration in which the titrant is generated electrochemically, either by constant current or at constant potential. The titrant reacts stoichiometrically with the analyte, the amount of which is calculated using Faraday’s laws of electrolysis from the electric charge required to reach the end-point"@en ;
@@ -1116,7 +1116,7 @@ chameo:CoulometricTitration rdf:type owl:Class ;
 	skos:prefLabel "CoulometricTitration"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Coulometry
+###  https://w3id.org/emmo/domain/chameo#Coulometry
 chameo:Coulometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrochemical ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1136979" ;
@@ -1131,7 +1131,7 @@ chameo:Coulometry rdf:type owl:Class ;
 	skos:prefLabel "Coulometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CreepTest
+###  https://w3id.org/emmo/domain/chameo#CreepTest
 chameo:CreepTest rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The creep test is a destructive materials testing method for determination of the long-term strength and heat resistance of a material. When running a creep test, the specimen is subjected to increased temperature conditions for an extended period of time and loaded with a constant tensile force or tensile stress."@en ;
@@ -1140,7 +1140,7 @@ chameo:CreepTest rdf:type owl:Class ;
 	skos:prefLabel "CreepTest"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CriticalAndSupercriticalChromatography
+###  https://w3id.org/emmo/domain/chameo#CriticalAndSupercriticalChromatography
 chameo:CriticalAndSupercriticalChromatography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chromatography ;
 	rdfs:comment "" ;
@@ -1148,7 +1148,7 @@ chameo:CriticalAndSupercriticalChromatography rdf:type owl:Class ;
 	skos:prefLabel "CriticalAndSupercriticalChromatography"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CyclicChronopotentiometry
+###  https://w3id.org/emmo/domain/chameo#CyclicChronopotentiometry
 chameo:CyclicChronopotentiometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "chronopotentiometry where the change in applied current undergoes a cyclic current reversal"@en ;
@@ -1164,7 +1164,7 @@ chameo:CyclicChronopotentiometry rdf:type owl:Class ;
  ] .
 
 
-###  http://w3id.org/emmo-chameo/chameo#CyclicVoltammetry
+###  https://w3id.org/emmo/domain/chameo#CyclicVoltammetry
 chameo:CyclicVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q1147647" ;
@@ -1182,7 +1182,7 @@ chameo:CyclicVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "CyclicVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DCPolarography
+###  https://w3id.org/emmo/domain/chameo#DCPolarography
 chameo:DCPolarography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "linear scan voltammetry with slow scan rate in which a dropping mercury electrode is used as the working electrode"@en ;
@@ -1195,7 +1195,7 @@ chameo:DCPolarography rdf:type owl:Class ;
 	skos:prefLabel "DCPolarography"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DataAcquisitionRate
+###  https://w3id.org/emmo/domain/chameo#DataAcquisitionRate
 chameo:DataAcquisitionRate rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Quantify the raw data acquisition rate, if applicable."@en ;
@@ -1204,7 +1204,7 @@ chameo:DataAcquisitionRate rdf:type owl:Class ;
 	skos:prefLabel "DataAcquisitionRate"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DataAnalysis
+###  https://w3id.org/emmo/domain/chameo#DataAnalysis
 chameo:DataAnalysis rdf:type owl:Class ;
 	rdfs:subClassOf <https://w3id.org/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data processing activities performed on the secondary data to determine the characterisation property (e.g. classification, quantification), which can be performed manually or exploiting a model."@en ;
@@ -1213,7 +1213,7 @@ chameo:DataAnalysis rdf:type owl:Class ;
 	skos:prefLabel "DataAnalysis"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DataFiltering
+###  https://w3id.org/emmo/domain/chameo#DataFiltering
 chameo:DataFiltering rdf:type owl:Class ;
 	rdfs:subClassOf chameo:DataPreparation ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data filtering is the process of examining a dataset to exclude, rearrange, or apportion data according to certain criteria." ;
@@ -1222,7 +1222,7 @@ chameo:DataFiltering rdf:type owl:Class ;
 	skos:prefLabel "DataFiltering"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DataNormalisation
+###  https://w3id.org/emmo/domain/chameo#DataNormalisation
 chameo:DataNormalisation rdf:type owl:Class ;
 	rdfs:subClassOf chameo:DataPreparation ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data normalization involves adjusting raw data to a notionally common scale."@en ;
@@ -1232,7 +1232,7 @@ chameo:DataNormalisation rdf:type owl:Class ;
 	skos:prefLabel "DataNormalisation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DataPostProcessing
+###  https://w3id.org/emmo/domain/chameo#DataPostProcessing
 chameo:DataPostProcessing rdf:type owl:Class ;
 	rdfs:subClassOf <https://w3id.org/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Analysis, that allows one to calculate the final material property from the calibrated primary data." ;
@@ -1241,7 +1241,7 @@ chameo:DataPostProcessing rdf:type owl:Class ;
 	skos:prefLabel "DataPostProcessing"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DataPreparation
+###  https://w3id.org/emmo/domain/chameo#DataPreparation
 chameo:DataPreparation rdf:type owl:Class ;
 	rdfs:subClassOf <https://w3id.org/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data preparation is the process of manipulating (or pre-processing) data (which may come from disparate data sources) to improve their quality or reduce bias in subsequent analysis." ;
@@ -1250,7 +1250,7 @@ chameo:DataPreparation rdf:type owl:Class ;
 	skos:prefLabel "DataPreparation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DataProcessingThroughCalibration
+###  https://w3id.org/emmo/domain/chameo#DataProcessingThroughCalibration
 chameo:DataProcessingThroughCalibration rdf:type owl:Class ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes how raw data are corrected and/or modified through calibrations."@en ;
 	rdfs:comment "" ;
@@ -1258,7 +1258,7 @@ chameo:DataProcessingThroughCalibration rdf:type owl:Class ;
 	skos:prefLabel "DataProcessingThroughCalibration"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DataQuality
+###  https://w3id.org/emmo/domain/chameo#DataQuality
 chameo:DataQuality rdf:type owl:Class ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Evaluation of quality indicators to determine how well suited a data set is to be used for the characterisation of a material."@en ;
 	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Example evaluation of S/N ratio, or other quality indicators (limits of detection/quantification, statistical analysis of data, data robustness analysis)"@en ;
@@ -1267,7 +1267,7 @@ chameo:DataQuality rdf:type owl:Class ;
 	skos:prefLabel "DataQuality"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Detector
+###  https://w3id.org/emmo/domain/chameo#Detector
 chameo:Detector rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardware ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical device (or the chain of devices) that is used to measure, quantify and store the signal after its interaction with the sample."@en ;
@@ -1278,7 +1278,7 @@ chameo:Detector rdf:type owl:Class ;
 	skos:prefLabel "Detector"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DielectricAndImpedanceSpectroscopy
+###  https://w3id.org/emmo/domain/chameo#DielectricAndImpedanceSpectroscopy
 chameo:DielectricAndImpedanceSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Dielectric spectroscopy (DS) or impedance spectroscopy, also known as electrochemical impedance spectroscopy, is frequently used to study the response of a sample subjected to an applied electric field of fixed or changing frequency. DS describes the dielectric properties of a material as a function of frequency. In DS, the radio and microwave frequency regions of the electromagnetic spectrum have been successfully made to interact with materials, so as to study the behavior of molecules. The interaction of applied alternating electric fields with dipoles possessing reorientation mobility in materials is also dealt by DS."@en ;
@@ -1287,7 +1287,7 @@ chameo:DielectricAndImpedanceSpectroscopy rdf:type owl:Class ;
 	skos:prefLabel "DielectricAndImpedanceSpectroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Dielectrometry
+###  https://w3id.org/emmo/domain/chameo#Dielectrometry
 chameo:Dielectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrochemical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical measurement principle based on the measurement of the dielectric constant of a sample resulting from the orientation of particles (molecules or ions) that have a dipole moment in an electric field"@en ;
@@ -1299,7 +1299,7 @@ chameo:Dielectrometry rdf:type owl:Class ;
 	skos:prefLabel "Dielectrometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DifferentialLinearPulseVoltammetry
+###  https://w3id.org/emmo/domain/chameo#DifferentialLinearPulseVoltammetry
 chameo:DifferentialLinearPulseVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:DifferentialPulseVoltammetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Differential Pulse Voltammetry in which small potential pulses are superimposed onto a linearly varying potential."@en ;
@@ -1315,7 +1315,7 @@ chameo:DifferentialLinearPulseVoltammetry rdf:type owl:Class ;
  ] .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DifferentialPulseVoltammetry
+###  https://w3id.org/emmo/domain/chameo#DifferentialPulseVoltammetry
 chameo:DifferentialPulseVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q5275361" ;
@@ -1331,7 +1331,7 @@ chameo:DifferentialPulseVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "DifferentialPulseVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DifferentialRefractiveIndex
+###  https://w3id.org/emmo/domain/chameo#DifferentialRefractiveIndex
 chameo:DifferentialRefractiveIndex rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Optical ;
 	rdfs:comment "" ;
@@ -1339,7 +1339,7 @@ chameo:DifferentialRefractiveIndex rdf:type owl:Class ;
 	skos:prefLabel "DifferentialRefractiveIndex"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DifferentialScanningCalorimetry
+###  https://w3id.org/emmo/domain/chameo#DifferentialScanningCalorimetry
 chameo:DifferentialScanningCalorimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Thermochemical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Differential scanning calorimetry (DSC) is a thermoanalytical technique in which the difference in the amount of heat required to increase the temperature of a sample and reference is measured as a function of temperature. Both the sample and reference are maintained at nearly the same temperature throughout the experiment. Generally, the temperature program for a DSC analysis is designed such that the sample holder temperature increases linearly as a function of time. The reference sample should have a well-defined heat capacity over the range of temperatures to be scanned. Additionally, the reference sample must be stable, of high purity, and must not experience much change across the temperature scan. Typically, reference standards have been metals such as indium, tin, bismuth, and lead, but other standards such as polyethylene and fatty acids have been proposed to study polymers and organic compounds, respectively."@en ;
@@ -1349,7 +1349,7 @@ chameo:DifferentialScanningCalorimetry rdf:type owl:Class ;
 	skos:prefLabel "DifferentialScanningCalorimetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DifferentialStaircasePulseVoltammetry
+###  https://w3id.org/emmo/domain/chameo#DifferentialStaircasePulseVoltammetry
 chameo:DifferentialStaircasePulseVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:DifferentialPulseVoltammetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Differential Pulse Voltammetry in which small potential pulses are superimposed onto a staircase potential ramp."@en ;
@@ -1365,7 +1365,7 @@ chameo:DifferentialStaircasePulseVoltammetry rdf:type owl:Class ;
  ] .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DifferentialThermalAnalysis
+###  https://w3id.org/emmo/domain/chameo#DifferentialThermalAnalysis
 chameo:DifferentialThermalAnalysis rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Thermochemical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Differential thermal analysis (DTA) is a thermoanalytic technique that is similar to differential scanning calorimetry. In DTA, the material under study and an inert reference are made to undergo identical thermal cycles, (i.e., same cooling or heating programme) while recording any temperature difference between sample and reference.[1] This differential temperature is then plotted against time, or against temperature (DTA curve, or thermogram). Changes in the sample, either exothermic or endothermic, can be detected relative to the inert reference. Thus, a DTA curve provides data on the transformations that have occurred, such as glass transitions, crystallization, melting and sublimation. The area under a DTA peak is the enthalpy change and is not affected by the heat capacity of the sample."@en ;
@@ -1375,7 +1375,7 @@ chameo:DifferentialThermalAnalysis rdf:type owl:Class ;
 	skos:prefLabel "DifferentialThermalAnalysis"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Dilatometry
+###  https://w3id.org/emmo/domain/chameo#Dilatometry
 chameo:Dilatometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Dilatometry is a method for characterising the dimensional changes of materials with variation of temperature conditions."@en ;
@@ -1385,7 +1385,7 @@ chameo:Dilatometry rdf:type owl:Class ;
 	skos:prefLabel "Dilatometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DirectCoulometryAtControlledCurrent
+###  https://w3id.org/emmo/domain/chameo#DirectCoulometryAtControlledCurrent
 chameo:DirectCoulometryAtControlledCurrent rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Coulometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "coulometry at an imposed, constant current in the electrochemical cell"@en ;
@@ -1396,7 +1396,7 @@ chameo:DirectCoulometryAtControlledCurrent rdf:type owl:Class ;
 	skos:prefLabel "DirectCoulometryAtControlledCurrent"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DirectCoulometryAtControlledPotential
+###  https://w3id.org/emmo/domain/chameo#DirectCoulometryAtControlledPotential
 chameo:DirectCoulometryAtControlledPotential rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Coulometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "coulometry at a preselected constant potential of the working electrode"@en ;
@@ -1408,7 +1408,7 @@ chameo:DirectCoulometryAtControlledPotential rdf:type owl:Class ;
 	skos:prefLabel "DirectCoulometryAtControlledPotential"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DynamicLightScattering
+###  https://w3id.org/emmo/domain/chameo#DynamicLightScattering
 chameo:DynamicLightScattering rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Optical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Dynamic light scattering (DLS) is a technique in physics that can be used to determine the size distribution profile of small particles in suspension or polymers in solution. In the scope of DLS, temporal fluctuations are usually analyzed using the intensity or photon auto-correlation function (also known as photon correlation spectroscopy - PCS or quasi-elastic light scattering - QELS)."@en ;
@@ -1418,7 +1418,7 @@ chameo:DynamicLightScattering rdf:type owl:Class ;
 	skos:prefLabel "DynamicLightScattering"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DynamicMechanicalAnalysis
+###  https://w3id.org/emmo/domain/chameo#DynamicMechanicalAnalysis
 chameo:DynamicMechanicalAnalysis rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Dynamic mechanical analysis (abbreviated DMA) is a characterisation technique where a sinusoidal stress is applied and the strain in the material is measured, allowing one to determine the complex modulus. The temperature of the sample or the frequency of the stress are often varied, leading to variations in the complex modulus; this approach can be used to locate the glass transition temperature[1] of the material, as well as to identify transitions corresponding to other molecular motions."@en ;
@@ -1427,7 +1427,7 @@ chameo:DynamicMechanicalAnalysis rdf:type owl:Class ;
 	skos:prefLabel "DynamicMechanicalAnalysis"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#DynamicMechanicalSpectroscopy
+###  https://w3id.org/emmo/domain/chameo#DynamicMechanicalSpectroscopy
 chameo:DynamicMechanicalSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Dynamic Mechanical Analysis (DMA) is a material characterization technique where a small deformation is applied to a sample in a cyclic manner. This allows measurement of the materials response to stress, temperature, frequency or time. The term is also used to refer to the analyzer that performs the test."@en ;
@@ -1437,7 +1437,7 @@ chameo:DynamicMechanicalSpectroscopy rdf:type owl:Class ;
 	skos:prefLabel "DynamicMechanicalSpectroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Electrochemical
+###  https://w3id.org/emmo/domain/chameo#Electrochemical
 chameo:Electrochemical rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In electrochemical characterization, the measurement of potential, charge, or current is used to determine an analyte's concentration or to characterize an analyte's chemical reactivity"@en ;
@@ -1447,7 +1447,7 @@ chameo:Electrochemical rdf:type owl:Class ;
 	skos:prefLabel "Electrochemical"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ElectrochemicalImpedanceSpectroscopy
+###  https://w3id.org/emmo/domain/chameo#ElectrochemicalImpedanceSpectroscopy
 chameo:ElectrochemicalImpedanceSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Impedimetry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q3492904"@en ;
@@ -1461,7 +1461,7 @@ chameo:ElectrochemicalImpedanceSpectroscopy rdf:type owl:Class ;
 	skos:prefLabel "ElectrochemicalImpedanceSpectroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ElectrochemicalPiezoelectricMicrogravimetry
+###  https://w3id.org/emmo/domain/chameo#ElectrochemicalPiezoelectricMicrogravimetry
 chameo:ElectrochemicalPiezoelectricMicrogravimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrogravimetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electrogravimetry using an electrochemical quartz crystal microbalance."@en ;
@@ -1472,7 +1472,7 @@ chameo:ElectrochemicalPiezoelectricMicrogravimetry rdf:type owl:Class ;
 	skos:prefLabel "ElectrochemicalPiezoelectricMicrogravimetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Electrogravimetry
+###  https://w3id.org/emmo/domain/chameo#Electrogravimetry
 chameo:Electrogravimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrochemical ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q902953" ;
@@ -1491,7 +1491,7 @@ chameo:Electrogravimetry rdf:type owl:Class ;
  ] .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ElectronBackscatterDiffraction
+###  https://w3id.org/emmo/domain/chameo#ElectronBackscatterDiffraction
 chameo:ElectronBackscatterDiffraction rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ScanningElectronMicroscopy ,
 	chameo:ScatteringAndDiffraction ;
@@ -1502,7 +1502,7 @@ chameo:ElectronBackscatterDiffraction rdf:type owl:Class ;
 	skos:prefLabel "ElectronBackscatterDiffraction"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ElectronProbeMicroanalysis
+###  https://w3id.org/emmo/domain/chameo#ElectronProbeMicroanalysis
 chameo:ElectronProbeMicroanalysis rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electron probe microanalysis (EPMA) is used for quantitative analysis of the elemental composition of solid specimens at a micrometer scale. The method uses bombardment of the specimen by keV electrons to excite characteristic X-rays from the sample, which are then detected by using wavelength-dispersive (WD) spectrometers."@en ;
@@ -1511,7 +1511,7 @@ chameo:ElectronProbeMicroanalysis rdf:type owl:Class ;
 	skos:prefLabel "ElectronProbeMicroanalysis"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Ellipsometry
+###  https://w3id.org/emmo/domain/chameo#Ellipsometry
 chameo:Ellipsometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Optical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Ellipsometry is an optical technique that uses polarised light to probe the dielectric
@@ -1525,7 +1525,7 @@ can probe a range of properties including layer thickness, morphology, and chemi
 	skos:prefLabel "Ellipsometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#EnvironmentalScanningElectronMicroscopy
+###  https://w3id.org/emmo/domain/chameo#EnvironmentalScanningElectronMicroscopy
 chameo:EnvironmentalScanningElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The environmental scanning electron microscope (ESEM) is a scanning electron microscope (SEM) that allows for the option of collecting electron micrographs of specimens that are wet, uncoated, or both by allowing for a gaseous environment in the specimen chamber."@en ;
@@ -1534,7 +1534,7 @@ chameo:EnvironmentalScanningElectronMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "EnvironmentalScanningElectronMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Exafs
+###  https://w3id.org/emmo/domain/chameo#Exafs
 chameo:Exafs rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Extended X-ray absorption fine structure (EXAFS), along with X-ray absorption near edge structure (XANES), is a subset of X-ray absorption spectroscopy (XAS). Like other absorption spectroscopies, XAS techniques follow Beer's law. The X-ray absorption coefficient of a material as a function of energy is obtained by directing X-rays of a narrow energy range at a sample, while recording the incident and transmitted x-ray intensity, as the incident x-ray energy is incremented.
@@ -1544,7 +1544,7 @@ When the incident x-ray energy matches the binding energy of an electron of an a
 	skos:prefLabel "Exafs"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#FatigueTesting
+###  https://w3id.org/emmo/domain/chameo#FatigueTesting
 chameo:FatigueTesting rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Fatigue testing is a specialised form of mechanical testing that is performed by applying cyclic loading to a coupon or structure. These tests are used either to generate fatigue life and crack growth data, identify critical locations or demonstrate the safety of a structure that may be susceptible to fatigue."@en ;
@@ -1553,7 +1553,7 @@ chameo:FatigueTesting rdf:type owl:Class ;
 	skos:prefLabel "FatigueTesting"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#FibDic
+###  https://w3id.org/emmo/domain/chameo#FibDic
 chameo:FibDic rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The FIB-DIC (Focused Ion Beam - Digital Image Correlation) ring-core technique is a powerful method for measuring residual stresses in materials. It is based on milling a ring-shaped sample, or core, from the material of interest using a focused ion beam (FIB)."@en ;
@@ -1563,7 +1563,7 @@ chameo:FibDic rdf:type owl:Class ;
 	skos:prefLabel "FibDic" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#FieldEmissionScanningElectronMicroscopy
+###  https://w3id.org/emmo/domain/chameo#FieldEmissionScanningElectronMicroscopy
 chameo:FieldEmissionScanningElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field emission scanning electron microscopy (FE-SEM) is an advanced technology used to capture the microstructure image of the materials. FE-SEM is typically performed in a high vacuum because gas molecules tend to disturb the electron beam and the emitted secondary and backscattered electrons used for imaging."@en ;
@@ -1573,7 +1573,7 @@ chameo:FieldEmissionScanningElectronMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "FieldEmissionScanningElectronMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Fractography
+###  https://w3id.org/emmo/domain/chameo#Fractography
 chameo:Fractography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Optical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Fractography is the study of fracture surfaces in order to determine the relation between the microstructure and the mechanism(s) of crack initiation and propagation and, eventually, the root cause of the fracture .Fractography qualitatively interprets the mechanisms of fracture that occur in a sample by microscopic examination of fracture surface morpholog."@en ;
@@ -1582,7 +1582,7 @@ chameo:Fractography rdf:type owl:Class ;
 	skos:prefLabel "Fractography"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#FreezingPointDepressionOsmometry
+###  https://w3id.org/emmo/domain/chameo#FreezingPointDepressionOsmometry
 chameo:FreezingPointDepressionOsmometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Osmometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The general principle of freezing point depression osmometry involves the relationship between the number of moles of dissolved solute in a solution and the change in freezing point."@en ;
@@ -1591,7 +1591,7 @@ chameo:FreezingPointDepressionOsmometry rdf:type owl:Class ;
 	skos:prefLabel "FreezingPointDepressionOsmometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#GITT
+###  https://w3id.org/emmo/domain/chameo#GITT
 chameo:GITT rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q120906986" ;
@@ -1602,7 +1602,7 @@ chameo:GITT rdf:type owl:Class ;
 	skos:prefLabel "GITT"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#GammaSpectrometry
+###  https://w3id.org/emmo/domain/chameo#GammaSpectrometry
 chameo:GammaSpectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectrometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Gamma-ray spectroscopy is the qualitative study of the energy spectra of gamma-ray sources, such as in the nuclear industry, geochemical investigation, and astrophysics.[1] Gamma-ray spectrometry, on the other hand, is the method used to acquire a quantitative spectrum measurement.[2]
@@ -1615,7 +1615,7 @@ A detailed analysis of this spectrum is typically used to determine the identity
 	skos:prefLabel "GammaSpectrometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#HPPC
+###  https://w3id.org/emmo/domain/chameo#HPPC
 chameo:HPPC rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical method that measures the voltage drop of a cell resulting from a square wave current load"@en ;
@@ -1626,7 +1626,7 @@ chameo:HPPC rdf:type owl:Class ;
 	skos:prefLabel "HPPC"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#HardnessTesting
+###  https://w3id.org/emmo/domain/chameo#HardnessTesting
 chameo:HardnessTesting rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A test to determine the resistance a material exhibits to permanent deformation by penetration of another harder material."@en ;
@@ -1635,7 +1635,7 @@ chameo:HardnessTesting rdf:type owl:Class ;
 	skos:prefLabel "HardnessTesting"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Hazard
+###  https://w3id.org/emmo/domain/chameo#Hazard
 chameo:Hazard rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of inherent properties of a substance, mixture of substances, or a process involving substances that, under production, usage, or disposal conditions, make it capable of causing adverse effects to organisms or the environment, depending on the degree of exposure; in other words, it is a source of danger."@en ;
@@ -1644,7 +1644,7 @@ chameo:Hazard rdf:type owl:Class ;
 	skos:prefLabel "Hazard"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Holder
+###  https://w3id.org/emmo/domain/chameo#Holder
 chameo:Holder rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardware ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An object which supports the specimen in the correct position for the characterisation process."@en ;
@@ -1653,7 +1653,7 @@ chameo:Holder rdf:type owl:Class ;
 	skos:prefLabel "Holder"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#HydrodynamicVoltammetry
+###  https://w3id.org/emmo/domain/chameo#HydrodynamicVoltammetry
 chameo:HydrodynamicVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q17028237" ;
@@ -1668,7 +1668,7 @@ chameo:HydrodynamicVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "HydrodynamicVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ICI
+###  https://w3id.org/emmo/domain/chameo#ICI
 chameo:ICI rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical method that measures the voltage response of an electrochemical cell under galvanostatic conditions to short interruptions in the current"@en ;
@@ -1678,7 +1678,7 @@ chameo:ICI rdf:type owl:Class ;
 	skos:prefLabel "ICI"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Impedimetry
+###  https://w3id.org/emmo/domain/chameo#Impedimetry
 chameo:Impedimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrochemical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "measurement principle in which the complex electric impedance of a system is measured, usually as a function of a small amplitude sinusoidal electrode potential"@en ;
@@ -1688,7 +1688,7 @@ chameo:Impedimetry rdf:type owl:Class ;
 	skos:prefLabel "Impedimetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#InteractionVolume
+###  https://w3id.org/emmo/domain/chameo#InteractionVolume
 chameo:InteractionVolume rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606 ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The volume of material, and the surrounding environment, that interacts with the probe and generate a detectable (measurable) signal (information)."@en ;
@@ -1701,7 +1701,7 @@ chameo:InteractionVolume rdf:type owl:Class ;
 	skos:prefLabel "InteractionVolume"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#IntermediateSample
+###  https://w3id.org/emmo/domain/chameo#IntermediateSample
 chameo:IntermediateSample rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Sample ;
 	rdfs:comment "" ;
@@ -1709,7 +1709,7 @@ chameo:IntermediateSample rdf:type owl:Class ;
 	skos:prefLabel "IntermediateSample"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#IonChromatography
+###  https://w3id.org/emmo/domain/chameo#IonChromatography
 chameo:IonChromatography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chromatography ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Ion chromatography (or ion-exchange chromatography) is a form of chromatography that separates ions and ionizable polar molecules based on their affinity to the ion exchanger."@en ;
@@ -1719,7 +1719,7 @@ chameo:IonChromatography rdf:type owl:Class ;
 	skos:prefLabel "IonChromatography"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#IonMobilitySpectrometry
+###  https://w3id.org/emmo/domain/chameo#IonMobilitySpectrometry
 chameo:IonMobilitySpectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectrometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Ion mobility spectrometry (IMS) It is a method of conducting analytical research that separates and identifies ionized molecules present in the gas phase based on the mobility of the molecules in a carrier buffer gas. Even though it is used extensively for military or security objectives, such as detecting drugs and explosives, the technology also has many applications in laboratory analysis, including studying small and big biomolecules. IMS instruments are extremely sensitive stand-alone devices, but are often coupled with mass spectrometry, gas chromatography or high-performance liquid chromatography in order to achieve a multi-dimensional separation. They come in various sizes, ranging from a few millimeters to several meters depending on the specific application, and are capable of operating under a broad range of conditions. IMS instruments such as microscale high-field asymmetric-waveform ion mobility spectrometry can be palm-portable for use in a range of applications including volatile organic compound (VOC) monitoring, biological sample analysis, medical diagnosis and food quality monitoring."@en ;
@@ -1729,7 +1729,7 @@ chameo:IonMobilitySpectrometry rdf:type owl:Class ;
 	skos:prefLabel "IonMobilitySpectrometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#IsothermalMicrocalorimetry
+###  https://w3id.org/emmo/domain/chameo#IsothermalMicrocalorimetry
 chameo:IsothermalMicrocalorimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Thermochemical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Isothermal microcalorimetry (IMC) is a laboratory method for real-time monitoring and dynamic analysis of chemical, physical and biological processes. Over a period of hours or days, IMC determines the onset, rate, extent and energetics of such processes for specimens in small ampoules (e.g. 3–20 ml) at a constant set temperature (c. 15 °C–150 °C).
@@ -1741,7 +1741,7 @@ IMC accomplishes this dynamic analysis by measuring and recording vs. elapsed ti
 	skos:prefLabel "IsothermalMicrocalorimetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Laboratory
+###  https://w3id.org/emmo/domain/chameo#Laboratory
 chameo:Laboratory rdf:type owl:Class ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The laboratory where the whole characterisation process or some of its stages take place." ;
 	rdfs:comment "" ;
@@ -1749,7 +1749,7 @@ chameo:Laboratory rdf:type owl:Class ;
 	skos:prefLabel "Laboratory" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#LevelOfAutomation
+###  https://w3id.org/emmo/domain/chameo#LevelOfAutomation
 chameo:LevelOfAutomation rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the level of automation of the test."@en ;
@@ -1758,7 +1758,7 @@ chameo:LevelOfAutomation rdf:type owl:Class ;
 	skos:prefLabel "LevelOfAutomation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#LevelOfExpertise
+###  https://w3id.org/emmo/domain/chameo#LevelOfExpertise
 chameo:LevelOfExpertise rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the level of expertise required to carry out a process (the entire test or the data processing)."@en ;
@@ -1767,7 +1767,7 @@ chameo:LevelOfExpertise rdf:type owl:Class ;
 	skos:prefLabel "LevelOfExpertise"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#LightScattering
+###  https://w3id.org/emmo/domain/chameo#LightScattering
 chameo:LightScattering rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Optical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Light scattering is the way light behaves when it interacts with a medium that contains particles or the boundary between different mediums where defects or structures are present. It is different than the effects of refraction, where light undergoes a change in index of refraction as it passes from one medium to another, or reflection, where light reflects back into the same medium, both of which are governed by Snell’s law. Light scattering can be caused by factors such as the nature, texture, or specific structures of a surface and the presence of gas, liquid, or solid particles through which light propagates, as well as the nature of the light itself, of its wavelengths and polarization states. It usually results in diffuse light and can also affect the dispersion of color."@en ;
@@ -1776,7 +1776,7 @@ chameo:LightScattering rdf:type owl:Class ;
 	skos:prefLabel "LightScattering"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#LinearChronopotentiometry
+###  https://w3id.org/emmo/domain/chameo#LinearChronopotentiometry
 chameo:LinearChronopotentiometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "chronopotentiometry where the applied current is changed linearly"@en ;
@@ -1792,7 +1792,7 @@ chameo:LinearChronopotentiometry rdf:type owl:Class ;
  ] .
 
 
-###  http://w3id.org/emmo-chameo/chameo#LinearScanVoltammetry
+###  https://w3id.org/emmo/domain/chameo#LinearScanVoltammetry
 chameo:LinearScanVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q620700" ;
@@ -1810,7 +1810,7 @@ chameo:LinearScanVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "LinearScanVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#MassSpectrometry
+###  https://w3id.org/emmo/domain/chameo#MassSpectrometry
 chameo:MassSpectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectrometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Mass spectrometry is a powerful analytical technique used to quantify known materials, to identify unknown compounds within a sample, and to elucidate the structure and chemical properties of different molecules."@en ;
@@ -1819,7 +1819,7 @@ chameo:MassSpectrometry rdf:type owl:Class ;
 	skos:prefLabel "MassSpectrometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#MeasurementDataPostProcessing
+###  https://w3id.org/emmo/domain/chameo#MeasurementDataPostProcessing
 chameo:MeasurementDataPostProcessing rdf:type owl:Class ;
 	rdfs:subClassOf chameo:DataPostProcessing ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Application of a post-processing model to signals through a software, in order to calculate the final characterisation property."@en ;
@@ -1830,7 +1830,7 @@ chameo:MeasurementDataPostProcessing rdf:type owl:Class ;
 	skos:prefLabel "MeasurementDataPostProcessing"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#MeasurementParameter
+###  https://w3id.org/emmo/domain/chameo#MeasurementParameter
 chameo:MeasurementParameter rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the main input parameters that are needed to acquire the signal"@en ;
@@ -1839,7 +1839,7 @@ chameo:MeasurementParameter rdf:type owl:Class ;
 	skos:prefLabel "MeasurementParameter"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#MeasurementSystemAdjustment
+###  https://w3id.org/emmo/domain/chameo#MeasurementSystemAdjustment
 chameo:MeasurementSystemAdjustment rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationProcedure ;
 	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 """Set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity being measured
@@ -1860,7 +1860,7 @@ The output of this process can be a specific measurement parameter to be used in
 	skos:prefLabel "MeasurementSystemAdjustment" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#MeasurementTime
+###  https://w3id.org/emmo/domain/chameo#MeasurementTime
 chameo:MeasurementTime rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The overall time needed to acquire the measurement data"@en ;
@@ -1869,7 +1869,7 @@ chameo:MeasurementTime rdf:type owl:Class ;
 	skos:prefLabel "MeasurementTime"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Mechanical
+###  https://w3id.org/emmo/domain/chameo#Mechanical
 chameo:Mechanical rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Mechanical testing covers a wide range of tests, which can be divided broadly into two types:
@@ -1881,7 +1881,7 @@ chameo:Mechanical rdf:type owl:Class ;
 	skos:prefLabel "Mechanical"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#MembraneOsmometry
+###  https://w3id.org/emmo/domain/chameo#MembraneOsmometry
 chameo:MembraneOsmometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Osmometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In the membrane osmometry technique, a pure solvent and polymer solution are separated by a semipermeable membrane, due to the higher chemical potential of the solvent in the pure solvent than in polymer solution, the solvent starts moving towards the polymer solution."@en ;
@@ -1890,7 +1890,7 @@ chameo:MembraneOsmometry rdf:type owl:Class ;
 	skos:prefLabel "MembraneOsmometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Microscopy
+###  https://w3id.org/emmo/domain/chameo#Microscopy
 chameo:Microscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Microscopy is a category of characterization techniques which probe and map the surface and sub-surface structure of a material. These techniques can use photons, electrons, ions or physical cantilever probes to gather data about a sample's structure on a range of length scales."@en ;
@@ -1899,7 +1899,7 @@ chameo:Microscopy rdf:type owl:Class ;
 	skos:prefLabel "Microscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Nanoindentation
+###  https://w3id.org/emmo/domain/chameo#Nanoindentation
 chameo:Nanoindentation rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Nanoindentation (known also as nanoindentation test) is a method for testing the hardness and related mechanical properties of materials, facilitated by high-precision instrumentation in the nanometer scale, as well as analytical and computational algorithms for result evaluation."@en ;
@@ -1909,7 +1909,7 @@ chameo:Nanoindentation rdf:type owl:Class ;
 	skos:prefLabel "Nanoindentation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#NeutronSpinEchoSpectroscopy
+###  https://w3id.org/emmo/domain/chameo#NeutronSpinEchoSpectroscopy
 chameo:NeutronSpinEchoSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Neutron spin echo spectroscopy is a high resolution inelastic neutron scattering method probing nanosecond dynamics. Neutron spin echo (NSE) spectroscopy uses the precession of neutron spins in a magnetic field to measure the energy transfer at the sample and decouples the energy resolution from beam characteristics like monochromatisation and collimation."@en ;
@@ -1919,7 +1919,7 @@ chameo:NeutronSpinEchoSpectroscopy rdf:type owl:Class ;
 	skos:prefLabel "NeutronSpinEchoSpectroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Nexafs
+###  https://w3id.org/emmo/domain/chameo#Nexafs
 chameo:Nexafs rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Near edge X-ray absorption fine structure (NEXAFS), also known as X-ray absorption near edge structure (XANES), is a type of absorption spectroscopy that indicates the features in the X-ray absorption spectra (XAS) of condensed matter due to the photoabsorption cross section for electronic transitions from an atomic core level to final states in the energy region of 50–100 eV above the selected atomic core level ionization energy, where the wavelength of the photoelectron is larger than the interatomic distance between the absorbing atom and its first neighbour atoms."@en ;
@@ -1928,7 +1928,7 @@ chameo:Nexafs rdf:type owl:Class ;
 	skos:prefLabel "Nexafs"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#NormalPulseVoltammetry
+###  https://w3id.org/emmo/domain/chameo#NormalPulseVoltammetry
 chameo:NormalPulseVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "voltammetry in which potential pulses of amplitude increasing by a constant increment and with a pulse width of 2 to 200 ms are superimposed on a constant initial potential"@en ;
@@ -1944,7 +1944,7 @@ chameo:NormalPulseVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "NormalPulseVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#NuclearMagneticResonance
+###  https://w3id.org/emmo/domain/chameo#NuclearMagneticResonance
 chameo:NuclearMagneticResonance rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Nuclear magnetic resonance spectroscopy, most commonly known as NMR spectroscopy or magnetic resonance spectroscopy (MRS), is a spectroscopic technique to observe local magnetic fields around atomic nuclei. This spectroscopy is based on the measurement of absorption of electromagnetic radiations in the radio frequency region from roughly 4 to 900 MHz. Absorption of radio waves in the presence of magnetic field is accompanied by a special type of nuclear transition, and for this reason, such type of spectroscopy is known as Nuclear Magnetic Resonance Spectroscopy. The sample is placed in a magnetic field and the NMR signal is produced by excitation of the nuclei sample with radio waves into nuclear magnetic resonance, which is detected with sensitive radio receivers. The intramolecular magnetic field around an atom in a molecule changes the resonance frequency, thus giving access to details of the electronic structure of a molecule and its individual functional groups. As the fields are unique or highly characteristic to individual compounds, in modern organic chemistry practice, NMR spectroscopy is the definitive method to identify monomolecular organic compounds."@en ;
@@ -1955,7 +1955,7 @@ chameo:NuclearMagneticResonance rdf:type owl:Class ;
 	skos:prefLabel "NuclearMagneticResonance"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#OpenCircuitHold
+###  https://w3id.org/emmo/domain/chameo#OpenCircuitHold
 chameo:OpenCircuitHold rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Potentiometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a process in which the electric current is kept constant at 0 (i.e., open-circuit conditions)"@en ;
@@ -1965,7 +1965,7 @@ chameo:OpenCircuitHold rdf:type owl:Class ;
 	skos:prefLabel "OpenCircuitHold"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Operator
+###  https://w3id.org/emmo/domain/chameo#Operator
 chameo:Operator rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_c130614a_2985_476d_a7ed_8a137847703c ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The human operator who takes care of the whole characterisation method or sub-processes/stages."@en ;
@@ -1974,7 +1974,7 @@ chameo:Operator rdf:type owl:Class ;
 	skos:prefLabel "Operator"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Optical
+###  https://w3id.org/emmo/domain/chameo#Optical
 chameo:Optical rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	rdfs:comment "" ;
@@ -1982,7 +1982,7 @@ chameo:Optical rdf:type owl:Class ;
 	skos:prefLabel "Optical"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#OpticalMicroscopy
+###  https://w3id.org/emmo/domain/chameo#OpticalMicroscopy
 chameo:OpticalMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Optical microscopy is a technique used to closely view a sample through the magnification of a lens with visible light"@en ;
@@ -1991,7 +1991,7 @@ chameo:OpticalMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "OpticalMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Osmometry
+###  https://w3id.org/emmo/domain/chameo#Osmometry
 chameo:Osmometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Osmometry is an advanced analytical method for determining the osmotic concentration of solutions. The osmotic – or solute – concentration of a colloidal system is expressed in osmoles (Osm) per unit of volume (Osm/L) or weight (Osm/kg)."@en ;
@@ -2000,7 +2000,7 @@ chameo:Osmometry rdf:type owl:Class ;
 	skos:prefLabel "Osmometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#PhotoluminescenceMicroscopy
+###  https://w3id.org/emmo/domain/chameo#PhotoluminescenceMicroscopy
 chameo:PhotoluminescenceMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Photoluminescence spectroscopy is a widely used technique for characterisation of the optical and electronic properties of semiconductors and molecules."@en ;
@@ -2009,7 +2009,7 @@ chameo:PhotoluminescenceMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "PhotoluminescenceMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#PhysicsOfInteraction
+###  https://w3id.org/emmo/domain/chameo#PhysicsOfInteraction
 chameo:PhysicsOfInteraction rdf:type owl:Class ;
 	rdfs:subClassOf [ rdf:type owl:Class ;
 	owl:unionOf ( emmo:EMMO_27c5d8c6_8af7_4d63_beb1_ec37cd8b3fa3
@@ -2023,7 +2023,7 @@ chameo:PhysicsOfInteraction rdf:type owl:Class ;
 	skos:prefLabel "PhysicsOfInteraction"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#PostProcessingModel
+###  https://w3id.org/emmo/domain/chameo#PostProcessingModel
 chameo:PostProcessingModel rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0 ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Mathematical model used to process data."@en ;
@@ -2033,7 +2033,7 @@ chameo:PostProcessingModel rdf:type owl:Class ;
 	skos:prefLabel "PostProcessingModel"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#PotentiometricStrippingAnalysis
+###  https://w3id.org/emmo/domain/chameo#PotentiometricStrippingAnalysis
 chameo:PotentiometricStrippingAnalysis rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential"@en ;
@@ -2082,7 +2082,7 @@ chameo:PotentiometricStrippingAnalysis rdf:type owl:Class ;
  ] .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Potentiometry
+###  https://w3id.org/emmo/domain/chameo#Potentiometry
 chameo:Potentiometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrochemical ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q900632" ;
@@ -2096,7 +2096,7 @@ chameo:Potentiometry rdf:type owl:Class ;
 	skos:prefLabel "Potentiometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#PreparedSample
+###  https://w3id.org/emmo/domain/chameo#PreparedSample
 chameo:PreparedSample rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Sample ;
 	owl:disjointWith chameo:ReferenceSample ;
@@ -2106,7 +2106,7 @@ chameo:PreparedSample rdf:type owl:Class ;
 	skos:prefLabel "PreparedSample" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#PrimaryData
+###  https://w3id.org/emmo/domain/chameo#PrimaryData
 chameo:PrimaryData rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationData ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data resulting of a pre-processing of raw data, applying corrections to normalize/harmonize, in order to prepare them for the post-processing."@en ;
@@ -2118,7 +2118,7 @@ chameo:PrimaryData rdf:type owl:Class ;
 	skos:prefLabel "PrimaryData"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Probe
+###  https://w3id.org/emmo/domain/chameo#Probe
 chameo:Probe rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardware ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Probe is the physical tool (i.e., a disturbance, primary solicitation, or a gadget), controlled over time, that generates measurable fields that interact with the sample to acquire information on the specimen’s behaviour and properties."@en ;
@@ -2132,7 +2132,7 @@ chameo:Probe rdf:type owl:Class ;
 	skos:prefLabel "Probe"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ProbeSampleInteraction
+###  https://w3id.org/emmo/domain/chameo#ProbeSampleInteraction
 chameo:ProbeSampleInteraction rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
 	[ rdf:type owl:Restriction ;
@@ -2145,7 +2145,7 @@ chameo:ProbeSampleInteraction rdf:type owl:Class ;
 	skos:prefLabel "ProbeSampleInteraction"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ProcessingReproducibility
+###  https://w3id.org/emmo/domain/chameo#ProcessingReproducibility
 chameo:ProcessingReproducibility rdf:type owl:Class ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Description of performed statistical analysis to check for data reproducibility (e.g.  easily reproducible for everyone, reproducible for a domain expert, reproducible only for Data processing Expert)"@en ;
 	rdfs:comment "" ;
@@ -2153,7 +2153,7 @@ chameo:ProcessingReproducibility rdf:type owl:Class ;
 	skos:prefLabel "ProcessingReproducibility"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Profilometry
+###  https://w3id.org/emmo/domain/chameo#Profilometry
 chameo:Profilometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Profilometry is a technique used to extract topographical data from a surface. This can be a single point, a line scan or even a full three dimensional scan. The purpose of profilometry is to get surface morphology, step heights and surface roughness."@en ;
@@ -2162,7 +2162,7 @@ chameo:Profilometry rdf:type owl:Class ;
 	skos:prefLabel "Profilometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#PulsedElectroacousticMethod
+###  https://w3id.org/emmo/domain/chameo#PulsedElectroacousticMethod
 chameo:PulsedElectroacousticMethod rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ChargeDistribution ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The pulsed electroacoustic (PEA) method is an established method for space charge measurements in polymeric dielectrics."@en ;
@@ -2172,7 +2172,7 @@ chameo:PulsedElectroacousticMethod rdf:type owl:Class ;
 	skos:prefLabel "PulsedElectroacousticMethod"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#RamanSpectroscopy
+###  https://w3id.org/emmo/domain/chameo#RamanSpectroscopy
 chameo:RamanSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Raman spectroscopy (/ˈrɑːmən/) (named after physicist C. V. Raman) is a spectroscopic technique typically used to determine vibrational modes of molecules, although rotational and other low-frequency modes of systems may also be observed. Raman spectroscopy is commonly used in chemistry to provide a structural fingerprint by which molecules can be identified.
@@ -2185,7 +2185,7 @@ Typically, a sample is illuminated with a laser beam. Electromagnetic radiation 
 	skos:prefLabel "RamanSpectroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#RawData
+###  https://w3id.org/emmo/domain/chameo#RawData
 chameo:RawData rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e ,
 	chameo:CharacterisationData ;
@@ -2199,7 +2199,7 @@ chameo:RawData rdf:type owl:Class ;
 	skos:prefLabel "RawData"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#RawSample
+###  https://w3id.org/emmo/domain/chameo#RawSample
 chameo:RawSample rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Sample ;
 	rdfs:comment "" ;
@@ -2207,7 +2207,7 @@ chameo:RawSample rdf:type owl:Class ;
 	skos:prefLabel "RawSample"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ReferenceSample
+###  https://w3id.org/emmo/domain/chameo#ReferenceSample
 chameo:ReferenceSample rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Sample ;
 	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 """Material, sufficiently homogeneous and stable with reference to one or more specified properties, which has been established to be fit for its intended use in measurement or in examination
@@ -2239,7 +2239,7 @@ materials – Selected terms and definitions, definition 2.1.1) for both measure
 	skos:prefLabel "ReferenceSample"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Sample
+###  https://w3id.org/emmo/domain/chameo#Sample
 chameo:Sample rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606 ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Portion of material selected from a larger quantity of material. The term needs to be qualified, e.g., bulk sample, representative sample, primary sample, bulked sample, test sample, etc. The term 'sample' implies the existence of a sampling error, i.e., the results obtained on the portions taken are only estimates of the concentration of a constituent or the quantity of a property present in the parent material. If there is no or negligible sampling error, the portion removed is a test portion, aliquot, or specimen."@en ;
@@ -2251,7 +2251,7 @@ chameo:Sample rdf:type owl:Class ;
 	skos:prefLabel "Sample"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SampleInspection
+###  https://w3id.org/emmo/domain/chameo#SampleInspection
 chameo:SampleInspection rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationProcedure ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Analysis of the sample in order to determine information that are relevant for the characterisation method."@en ;
@@ -2261,7 +2261,7 @@ chameo:SampleInspection rdf:type owl:Class ;
 	skos:prefLabel "SampleInspection"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SampleInspectionInstrument
+###  https://w3id.org/emmo/domain/chameo#SampleInspectionInstrument
 chameo:SampleInspectionInstrument rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardware ;
 	rdfs:comment "" ;
@@ -2269,7 +2269,7 @@ chameo:SampleInspectionInstrument rdf:type owl:Class ;
 	skos:prefLabel "SampleInspectionInstrument" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SamplePreparation
+###  https://w3id.org/emmo/domain/chameo#SamplePreparation
 chameo:SamplePreparation rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationProcedure ,
 	[ rdf:type owl:Restriction ;
@@ -2290,7 +2290,7 @@ chameo:SamplePreparation rdf:type owl:Class ;
 	skos:prefLabel "SamplePreparation"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SamplePreparationHardware
+###  https://w3id.org/emmo/domain/chameo#SamplePreparationHardware
 chameo:SamplePreparationHardware rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Hardware used for the preparation of the sample."@en ;
@@ -2299,7 +2299,7 @@ chameo:SamplePreparationHardware rdf:type owl:Class ;
 	skos:prefLabel "SamplePreparationHardware"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SamplePreparationInstrument
+###  https://w3id.org/emmo/domain/chameo#SamplePreparationInstrument
 chameo:SamplePreparationInstrument rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardware ;
 	rdfs:comment "" ;
@@ -2307,7 +2307,7 @@ chameo:SamplePreparationInstrument rdf:type owl:Class ;
 	skos:prefLabel "SamplePreparationInstrument" .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SamplePreparationParameter
+###  https://w3id.org/emmo/domain/chameo#SamplePreparationParameter
 chameo:SamplePreparationParameter rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Parameter used for the sample preparation process"@en ;
@@ -2316,7 +2316,7 @@ chameo:SamplePreparationParameter rdf:type owl:Class ;
 	skos:prefLabel "SamplePreparationParameter"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SampledDCPolarography
+###  https://w3id.org/emmo/domain/chameo#SampledDCPolarography
 chameo:SampledDCPolarography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:DCPolarography ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "DC polarography with current sampling at the end of each drop life mechanically enforced by a knocker at a preset drop time value. The current sampling and mechanical drop dislodge are synchronized."@en ;
@@ -2328,7 +2328,7 @@ chameo:SampledDCPolarography rdf:type owl:Class ;
 	skos:prefLabel "SampledDCPolarography"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SamplingProcess
+###  https://w3id.org/emmo/domain/chameo#SamplingProcess
 chameo:SamplingProcess rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationProcedure ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Act of extracting a portion (amount) of material from a larger quantity of material. This operation results in obtaining a sample representative of the batch with respect to the property or properties being investigated."@en ;
@@ -2338,7 +2338,7 @@ chameo:SamplingProcess rdf:type owl:Class ;
 	skos:prefLabel "SamplingProcess"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ScanningAugerElectronMicroscopy
+###  https://w3id.org/emmo/domain/chameo#ScanningAugerElectronMicroscopy
 chameo:ScanningAugerElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Auger electron spectroscopy (AES or simply Auger) is a surface analysis technique that uses an electron beam to excite electrons on atoms in the particle. Atoms that are excited by the electron beam can emit “Auger” electrons. AES measures the kinetic energies of the emitted electrons. The energy of the emitted electrons is characteristic of elements present at the surface and near the surface of a sample."@en ;
@@ -2348,7 +2348,7 @@ chameo:ScanningAugerElectronMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "ScanningAugerElectronMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ScanningElectronMicroscopy
+###  https://w3id.org/emmo/domain/chameo#ScanningElectronMicroscopy
 chameo:ScanningElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The scanning electron microscope (SEM) uses a focused beam of high-energy electrons to generate a variety of signals at the surface of solid specimens. The signals that derive from electron-sample interactions reveal information about the sample including external morphology (texture), chemical composition, and crystalline structure and orientation of materials making up the sample."@en ;
@@ -2358,7 +2358,7 @@ chameo:ScanningElectronMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "ScanningElectronMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ScanningKelvinProbe
+###  https://w3id.org/emmo/domain/chameo#ScanningKelvinProbe
 chameo:ScanningKelvinProbe rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Scanning Kelvin probe (SKP) and scanning Kelvin probe force microscopy (SKPFM) are probe techniques which permit mapping of topography and Volta potential distribution on electrode surfaces. It measures the surface electrical potential of a sample without requiring an actual physical contact."@en ;
@@ -2368,7 +2368,7 @@ chameo:ScanningKelvinProbe rdf:type owl:Class ;
 	skos:prefLabel "ScanningKelvinProbe"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ScanningProbeMicroscopy
+###  https://w3id.org/emmo/domain/chameo#ScanningProbeMicroscopy
 chameo:ScanningProbeMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Scanning probe microscopy (SPM) is a branch of microscopy that forms images of surfaces using a physical probe that scans the specimen."@en ;
@@ -2377,7 +2377,7 @@ chameo:ScanningProbeMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "ScanningProbeMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ScanningTunnelingMicroscopy
+###  https://w3id.org/emmo/domain/chameo#ScanningTunnelingMicroscopy
 chameo:ScanningTunnelingMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Scanning Tunneling Microscopy, or STM, is an imaging technique used to obtain ultra-high resolution images at the atomic scale, without using light or electron beams."@en ;
@@ -2387,7 +2387,7 @@ chameo:ScanningTunnelingMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "ScanningTunnelingMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ScatteringAndDiffraction
+###  https://w3id.org/emmo/domain/chameo#ScatteringAndDiffraction
 chameo:ScatteringAndDiffraction rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	rdfs:comment "" ;
@@ -2395,7 +2395,7 @@ chameo:ScatteringAndDiffraction rdf:type owl:Class ;
 	skos:prefLabel "ScatteringAndDiffraction"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SecondaryData
+###  https://w3id.org/emmo/domain/chameo#SecondaryData
 chameo:SecondaryData rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationData ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data resulting from the application of post-processing or model generation to other data."@en ;
@@ -2408,7 +2408,7 @@ chameo:SecondaryData rdf:type owl:Class ;
 	skos:prefLabel "SecondaryData"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SecondaryIonMassSpectrometry
+###  https://w3id.org/emmo/domain/chameo#SecondaryIonMassSpectrometry
 chameo:SecondaryIonMassSpectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectrometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Secondary-ion mass spectrometry (SIMS) is a technique used to analyze the composition of solid surfaces and thin films by sputtering the surface of the specimen with a focused primary ion beam and collecting and analyzing ejected secondary ions."@en ;
@@ -2418,7 +2418,7 @@ chameo:SecondaryIonMassSpectrometry rdf:type owl:Class ;
 	skos:prefLabel "SecondaryIonMassSpectrometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#ShearOrTorsionTests
+###  https://w3id.org/emmo/domain/chameo#ShearOrTorsionTests
 chameo:ShearOrTorsionTests rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	rdfs:comment "" ;
@@ -2426,7 +2426,7 @@ chameo:ShearOrTorsionTests rdf:type owl:Class ;
 	skos:prefLabel "ShearOrTorsionTest"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Signal
+###  https://w3id.org/emmo/domain/chameo#Signal
 chameo:Signal rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationData ;
 	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "According to UPAC Compendium of Chemical Terminology, a “signal” is “A representation of a quantity within an analytical instrument” (https://goldbook.iupac.org/terms/view/S05661 )."@en ;
@@ -2437,7 +2437,7 @@ chameo:Signal rdf:type owl:Class ;
 	skos:prefLabel "Signal"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Spectrometry
+###  https://w3id.org/emmo/domain/chameo#Spectrometry
 chameo:Spectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Spectroscopic techniques are numerous and varied, but all involve measuring the response of a material to different frequencies of electromagnetic radiation. Depending on the technique used, material characterization may be based on the absorption, emission, impedance, or reflection of incident energy by a sample."@en ;
@@ -2446,7 +2446,7 @@ chameo:Spectrometry rdf:type owl:Class ;
 	skos:prefLabel "Spectrometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Spectroscopy
+###  https://w3id.org/emmo/domain/chameo#Spectroscopy
 chameo:Spectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Spectroscopy is a category of characterization techniques which use a range of principles to reveal the chemical composition, composition variation, crystal structure and photoelectric properties of materials."@en ;
@@ -2455,7 +2455,7 @@ chameo:Spectroscopy rdf:type owl:Class ;
 	skos:prefLabel "Spectroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#SquareWaveVoltammetry
+###  https://w3id.org/emmo/domain/chameo#SquareWaveVoltammetry
 chameo:SquareWaveVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q4016323" ;
@@ -2473,7 +2473,7 @@ chameo:SquareWaveVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "SquareWaveVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#StepChronopotentiometry
+###  https://w3id.org/emmo/domain/chameo#StepChronopotentiometry
 chameo:StepChronopotentiometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "chronopotentiometry where the applied current is changed in steps"@en ;
@@ -2489,7 +2489,7 @@ chameo:StepChronopotentiometry rdf:type owl:Class ;
  ] .
 
 
-###  http://w3id.org/emmo-chameo/chameo#StrippingVoltammetry
+###  https://w3id.org/emmo/domain/chameo#StrippingVoltammetry
 chameo:StrippingVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the amount of an accumulated species is measured by voltammetry. The measured electric current in step 2 is related to the concentration of analyte in the solution by calibration."@en ;
@@ -2505,7 +2505,7 @@ chameo:StrippingVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "StrippingVoltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Synchrotron
+###  https://w3id.org/emmo/domain/chameo#Synchrotron
 chameo:Synchrotron rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ScatteringAndDiffraction ;
 	rdfs:comment "" ;
@@ -2513,7 +2513,7 @@ chameo:Synchrotron rdf:type owl:Class ;
 	skos:prefLabel "Synchrotron"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#TensileTest
+###  https://w3id.org/emmo/domain/chameo#TensileTest
 chameo:TensileTest rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Tensile testing, also known as tension testing, is a test in which a sample is subjected to a controlled tension until failure. Properties that are directly measured via a tensile test are ultimate tensile strength, breaking strength, maximum elongation and reduction in area. From these measurements the following properties can also be determined: Young's modulus, Poisson's ratio, yield strength, and strain-hardening characteristics. Uniaxial tensile testing is the most commonly used for obtaining the mechanical characteristics of isotropic materials. Some materials use biaxial tensile testing. The main difference between these testing machines being how load is applied on the materials."@en ;
@@ -2523,7 +2523,7 @@ chameo:TensileTest rdf:type owl:Class ;
 	skos:prefLabel "TensileTest"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Thermochemical
+###  https://w3id.org/emmo/domain/chameo#Thermochemical
 chameo:Thermochemical rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Thermomechanical analysis (TMA) is a technique used in thermal analysis, a branch of materials science which studies the properties of materials as they change with temperature."@en ;
@@ -2533,7 +2533,7 @@ chameo:Thermochemical rdf:type owl:Class ;
 	skos:prefLabel "Thermochemical"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Thermogravimetry
+###  https://w3id.org/emmo/domain/chameo#Thermogravimetry
 chameo:Thermogravimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Thermochemical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Thermogravimetric analysis or thermal gravimetric analysis (TGA) is a method of thermal analysis in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction)."@en ;
@@ -2543,7 +2543,7 @@ chameo:Thermogravimetry rdf:type owl:Class ;
 	skos:prefLabel "Thermogravimetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Tomography
+###  https://w3id.org/emmo/domain/chameo#Tomography
 chameo:Tomography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Tomography is imaging by sections or sectioning that uses any kind of penetrating wave. The method is used in radiology, archaeology, biology, atmospheric science, geophysics, oceanography, plasma physics, materials science, cosmochemistry, astrophysics, quantum information, and other areas of science. The word tomography is derived from Ancient Greek τόμος tomos, \"slice, section\" and γράφω graphō, \"to write\" or, in this context as well, \"to describe.\" A device used in tomography is called a tomograph, while the image produced is a tomogram."@en ;
@@ -2552,7 +2552,7 @@ chameo:Tomography rdf:type owl:Class ;
 	skos:prefLabel "Tomography"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#TransmissionElectronMicroscopy
+###  https://w3id.org/emmo/domain/chameo#TransmissionElectronMicroscopy
 chameo:TransmissionElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Transmission electron microscopy (TEM) is a microscopy technique in which a beam of electrons is transmitted through a specimen to form an image. The specimen is most often an ultrathin section less than 100 nm thick or a suspension on a grid. An image is formed from the interaction of the electrons with the sample as the beam is transmitted through the specimen. The image is then magnified and focused onto an imaging device, such as a fluorescent screen, a layer of photographic film, or a sensor such as a scintillator attached to a charge-coupled device."@en ;
@@ -2562,7 +2562,7 @@ chameo:TransmissionElectronMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "TransmissionElectronMicroscopy"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Ultrasonic
+###  https://w3id.org/emmo/domain/chameo#Ultrasonic
 chameo:Ultrasonic rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Ultrasonic testing (UT) is a family of non-destructive testing techniques based on the propagation of ultrasonic waves in the object or material tested. In most common UT applications, very short ultrasonic pulse-waves with center frequencies ranging from 0.1-15 MHz, and occasionally up to 50 MHz, are transmitted into materials to detect internal flaws or to characterize materials. A common example is ultrasonic thickness measurement, which tests the thickness of the test object, for example, to monitor pipework corrosion.
@@ -2573,7 +2573,7 @@ Ultrasonic testing is often performed on steel and other metals and alloys, thou
 	skos:prefLabel "Ultrasonic"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#VaporPressureDepressionOsmometry
+###  https://w3id.org/emmo/domain/chameo#VaporPressureDepressionOsmometry
 chameo:VaporPressureDepressionOsmometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Osmometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Vapor pressure osmometry measures vapor pressure indirectly by measuring the change in temperature of a polymer solution on dilution by solvent vapor and is generally useful for polymers with Mn below 10,000–40,000 g/mol. When molecular weight is more than that limit, the quantity being measured becomes very small to detect."@en ;
@@ -2583,7 +2583,7 @@ chameo:VaporPressureDepressionOsmometry rdf:type owl:Class ;
 	skos:prefLabel "VaporPressureDepressionOsmometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Viscometry
+###  https://w3id.org/emmo/domain/chameo#Viscometry
 chameo:Viscometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Viscometry or viscosity method was one of the first methods used for determining the MW of polymers. In this method, the viscosity of polymer solution is measured, and the simplest method used is capillary viscometry by using the Ubbelohde U-tube viscometer. In this method, both the flow time of the polymer solution (t) and the flow time of the pure solvent (t0) are recorded. The ratio of the polymer solution flow time (t) to the flow time of pure solvent (t0) is equal to the ratio of their viscosities (η/η0) only if they have the same densities."@en ;
@@ -2593,7 +2593,7 @@ chameo:Viscometry rdf:type owl:Class ;
 	skos:prefLabel "Viscometry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#Voltammetry
+###  https://w3id.org/emmo/domain/chameo#Voltammetry
 chameo:Voltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrochemical ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q904093" ;
@@ -2607,7 +2607,7 @@ chameo:Voltammetry rdf:type owl:Class ;
 	skos:prefLabel "Voltammetry"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#VoltammetryAtARotatingDiskElectrode
+###  https://w3id.org/emmo/domain/chameo#VoltammetryAtARotatingDiskElectrode
 chameo:VoltammetryAtARotatingDiskElectrode rdf:type owl:Class ;
 	rdfs:subClassOf chameo:HydrodynamicVoltammetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "hydrodynamic voltammetry using a a rotating disc electrode, where the limiting current is described by the Levich equation"@en ;
@@ -2617,7 +2617,7 @@ chameo:VoltammetryAtARotatingDiskElectrode rdf:type owl:Class ;
 	skos:prefLabel "VoltammetryAtARotatingDiskElectrode"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#WearTest
+###  https://w3id.org/emmo/domain/chameo#WearTest
 chameo:WearTest rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """A wear test measures the changes in conditions caused by friction, and the result is obtained from deformation, scratches, and indentations on the interacting surfaces.
@@ -2627,7 +2627,7 @@ Wear is defined as the progressive removal of the material from a solid surface 
 	skos:prefLabel "WearTest"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#XpsVariableKinetic
+###  https://w3id.org/emmo/domain/chameo#XpsVariableKinetic
 chameo:XpsVariableKinetic rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "X-ray photoelectron spectroscopy (XPS), also known as ESCA (electron spectroscopy for chemical analysis) is a surface analysis technique which provides both elemental and chemical state information virtually without restriction on the type of material which can be analysed. It is a relatively simple technique where the sample is illuminated with X-rays which have enough energy to eject an electron from the atom.  These ejected electrons are known as photoelectrons. The kinetic energy of these emitted electrons is characteristic of the element from which the photoelectron originated. The position and intensity of the peaks in an energy spectrum provide the desired chemical state and quantitative information.  The surface sensitivity of XPS is determined by the distance that that photoelectron can travel through the material without losing any kinteic energy.  These elastiaclly scattered photoelectrons contribute to the photoelectron peak, whilst photoelectrons that have been inelastically scattered, losing some kinetic energy before leaving the material, will contribute to the spectral background."@en ;
@@ -2638,7 +2638,7 @@ chameo:XpsVariableKinetic rdf:type owl:Class ;
 	skos:prefLabel "XpsVariableKinetic"@en .
 
 
-###  http://w3id.org/emmo-chameo/chameo#XrdGrazingIncidence
+###  https://w3id.org/emmo/domain/chameo#XrdGrazingIncidence
 chameo:XrdGrazingIncidence rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ScatteringAndDiffraction ;
 	rdfs:comment "" ;
