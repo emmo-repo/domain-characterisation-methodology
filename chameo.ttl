@@ -4,7 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix emmo: <http://emmo.info/emmo#> .
+@prefix emmo: <https://w3id.org/emmo#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -16,19 +16,19 @@
 
 <http://w3id.org/emmo-chameo/chameo> rdf:type owl:Ontology ;
 	owl:versionIRI <http://w3id.org/emmo-chameo/1.0.0-beta3/chameo> ;
-	owl:imports <http://emmo.info/emmo/1.0.0-beta5/mereocausality> ,
-	<http://emmo.info/emmo/1.0.0-beta5/disciplines/computerscience> ,
-	<http://emmo.info/emmo/1.0.0-beta5/disciplines/isq> ,
-	<http://emmo.info/emmo/1.0.0-beta5/disciplines/manufacturing> ,
-	<http://emmo.info/emmo/1.0.0-beta5/disciplines/math> ,
-	<http://emmo.info/emmo/1.0.0-beta5/disciplines/metrology> ,
-	<http://emmo.info/emmo/1.0.0-beta5/disciplines/models> ,
-	<http://emmo.info/emmo/1.0.0-beta5/multiperspective/persholistic> ,
-	<http://emmo.info/emmo/1.0.0-beta5/multiperspective/workflow> ,
-	<http://emmo.info/emmo/1.0.0-beta5/perspectives/data> ,
-	<http://emmo.info/emmo/1.0.0-beta5/perspectives/holistic> ,
-	<http://emmo.info/emmo/1.0.0-beta5/perspectives/persistence> ,
-	<http://emmo.info/emmo/1.0.0-beta5/perspectives/semiotics> ;
+	owl:imports <https://w3id.org/emmo/1.0.0-beta7/mereocausality> ,
+	<https://w3id.org/emmo/1.0.0-beta7/disciplines/computerscience> ,
+	<https://w3id.org/emmo/1.0.0-beta7/disciplines/isq> ,
+	<https://w3id.org/emmo/1.0.0-beta7/disciplines/manufacturing> ,
+	<https://w3id.org/emmo/1.0.0-beta7/disciplines/math> ,
+	<https://w3id.org/emmo/1.0.0-beta7/disciplines/metrology> ,
+	<https://w3id.org/emmo/1.0.0-beta7/disciplines/models> ,
+	<https://w3id.org/emmo/1.0.0-beta7/multiperspective/persholistic> ,
+	<https://w3id.org/emmo/1.0.0-beta7/multiperspective/workflow> ,
+	<https://w3id.org/emmo/1.0.0-beta7/perspectives/data> ,
+	<https://w3id.org/emmo/1.0.0-beta7/perspectives/holistic> ,
+	<https://w3id.org/emmo/1.0.0-beta7/perspectives/persistence> ,
+	<https://w3id.org/emmo/1.0.0-beta7/perspectives/semiotics> ;
 	dcterms:abstract "CHAMEO is a domain ontology designed to model the common aspects across the different characterisation techniques and methodologies."@en ;
 	dcterms:alternative "CHAMEO" ;
 	dcterms:bibliographicCitation "Work under review - not available yet" ;
@@ -716,7 +716,7 @@ chameo:CharacterisationData rdf:type owl:Class ;
 
 ###  http://w3id.org/emmo-chameo/chameo#CharacterisationDataValidation
 chameo:CharacterisationDataValidation rdf:type owl:Class ;
-	rdfs:subClassOf <http://emmo.info/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
+	rdfs:subClassOf <https://w3id.org/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Procedures to validate the characterisation data."@en ;
 	rdfs:comment "" ;
 	rdfs:label "CharacterisationDataValidation"@en ;
@@ -1206,7 +1206,7 @@ chameo:DataAcquisitionRate rdf:type owl:Class ;
 
 ###  http://w3id.org/emmo-chameo/chameo#DataAnalysis
 chameo:DataAnalysis rdf:type owl:Class ;
-	rdfs:subClassOf <http://emmo.info/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
+	rdfs:subClassOf <https://w3id.org/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data processing activities performed on the secondary data to determine the characterisation property (e.g. classification, quantification), which can be performed manually or exploiting a model."@en ;
 	rdfs:comment "" ;
 	rdfs:label "DataAnalysis"@en ;
@@ -1234,7 +1234,7 @@ chameo:DataNormalisation rdf:type owl:Class ;
 
 ###  http://w3id.org/emmo-chameo/chameo#DataPostProcessing
 chameo:DataPostProcessing rdf:type owl:Class ;
-	rdfs:subClassOf <http://emmo.info/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
+	rdfs:subClassOf <https://w3id.org/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Analysis, that allows one to calculate the final material property from the calibrated primary data." ;
 	rdfs:comment "" ;
 	rdfs:label "DataPostProcessing"@en ;
@@ -1243,7 +1243,7 @@ chameo:DataPostProcessing rdf:type owl:Class ;
 
 ###  http://w3id.org/emmo-chameo/chameo#DataPreparation
 chameo:DataPreparation rdf:type owl:Class ;
-	rdfs:subClassOf <http://emmo.info/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
+	rdfs:subClassOf <https://w3id.org/emmo#1c7f2dfe_0db4_4bf6_a0f6_853054a34ead> ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data preparation is the process of manipulating (or pre-processing) data (which may come from disparate data sources) to improve their quality or reduce bias in subsequent analysis." ;
 	rdfs:comment "" ;
 	rdfs:label "DataPreparation"@en ;

@@ -9,7 +9,7 @@
 	 prov:wasAttributedTo :agent2;
 	 prov:wasAttributedTo :agent3;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:specializationOf <http://emmo.info/emmo/domain/chameo/chameo>;
+	 prov:specializationOf <https://w3id.org/emmo/domain/chameo/chameo>;
 	 prov:wasRevisionOf <1.0.0-beta2>;
 	 prov:wasGeneratedAt "2022-03-03";
 .
