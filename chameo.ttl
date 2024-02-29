@@ -32,11 +32,9 @@
 	dcterms:abstract "CHAMEO is a domain ontology designed to model the common aspects across the different characterisation techniques and methodologies."@en ;
 	dcterms:alternative "CHAMEO" ;
 	dcterms:bibliographicCitation "Work under review - not available yet" ;
-	dcterms:contributor "Goldbeck Consulting Ltd (UK)" ;
+	dcterms:contributor <https://orcid.org/0000-0002-9668-6961>, <https://orcid.org/0000-0002-5174-8508>, <https://orcid.org/0000-0002-4181-2852> ;
+	dcterms:creator <https://orcid.org/0000-0002-9668-6961>, <https://orcid.org/0000-0002-5174-8508>, <https://orcid.org/0000-0002-4181-2852> ;
 	dcterms:created "2022-03-03" ;
-	dcterms:creator "Daniele Toti" ,
-	"Gerhard Goldbeck" ,
-	"Pierluigi Del Nostro" ;
 	dcterms:description "Characterisation Methodology Ontology"@en ;
 	dcterms:hasFormat <https://www.w3.org/TR/turtle/> ;
 	dcterms:identifier "http://w3id.org/emmo-chameo/chameo" ;
@@ -61,6 +59,24 @@
 	foaf:homepage <https://github.com/emmo-repo/domain-characterisation-methodology> ;
 	foaf:logo "https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/main/images/chameo_logo_small.png" ;
 	foaf:page <https://github.com/emmo-repo/domain-characterisation-methodology> .
+
+<https://orcid.org/0000-0002-9668-6961> a foaf:Person ;
+	rdfs:label "Daniele Toti" ;
+	skos:prefLabel "Daniele Toti" ;
+	foaf:name "Daniele Toti" ;
+	rdfs:comment "" .
+	
+<https://orcid.org/0000-0002-5174-8508> a foaf:Person ;
+	rdfs:label "Pierluigi Del Nostro" ;
+	skos:prefLabel "Pierluigi Del Nostro" ;
+	foaf:name "Pierluigi Del Nostro" ;
+	rdfs:comment "" .
+	
+<https://orcid.org/0000-0002-4181-2852> a foaf:Person ;
+	rdfs:label "Gerhard Goldbeck" ;
+	skos:prefLabel "Gerhard Goldbeck" ;
+	foaf:name "Gerhard Goldbeck" ;
+	rdfs:comment "" .
 
 #################################################################
 #	Annotation properties
