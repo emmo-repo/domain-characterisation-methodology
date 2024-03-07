@@ -1408,6 +1408,13 @@ chameo:DirectCoulometryAtControlledPotential rdf:type owl:Class ;
 	skos:prefLabel "DirectCoulometryAtControlledPotential"@en .
 
 
+###  https://w3id.org/emmo/domain/chameo#DirectCurrentInternalResistance
+chameo:DirectCurrentInternalResistance rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Chronopotentiometry ;
+	skos:prefLabel "DirectCurrentInternalResistance"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of determining the internal resistance of an electrochemical cell by applying a low current followed by higher current within a short period, and then record the changes of battery voltage and current"@en .
+
+
 ###  https://w3id.org/emmo/domain/chameo#DynamicLightScattering
 chameo:DynamicLightScattering rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Optical ;
@@ -1525,6 +1532,17 @@ can probe a range of properties including layer thickness, morphology, and chemi
 	skos:prefLabel "Ellipsometry"@en .
 
 
+###  https://w3id.org/emmo/domain/chameo#EnergyDispersiveXraySpectroscopy
+chameo:EnergyDispersiveXraySpectroscopy rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Spectroscopy ;
+	skos:altLabel "EDS"@en ,
+					"EDX"@en ;
+	skos:prefLabel "EnergyDispersiveXraySpectroscopy"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q386334"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an analytical technique used for the elemental analysis or chemical characterization of a sample"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy"@en .
+
+
 ###  https://w3id.org/emmo/domain/chameo#EnvironmentalScanningElectronMicroscopy
 chameo:EnvironmentalScanningElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
@@ -1571,6 +1589,16 @@ chameo:FieldEmissionScanningElectronMicroscopy rdf:type owl:Class ;
 	rdfs:comment "" ;
 	rdfs:label "FieldEmissionScanningElectronMicroscopy"@en ;
 	skos:prefLabel "FieldEmissionScanningElectronMicroscopy"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#FourierTransformInfraredSpectroscopy
+chameo:FourierTransformInfraredSpectroscopy rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Spectroscopy ;
+	skos:altLabel "FTIR"@en ;
+	skos:prefLabel "FourierTransformInfraredSpectroscopy"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q901559"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to obtain an infrared spectrum of absorption or emission of a solid, liquid, or gas"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy"@en .
 
 
 ###  https://w3id.org/emmo/domain/chameo#Fractography
@@ -2541,6 +2569,17 @@ chameo:Thermogravimetry rdf:type owl:Class ;
 	rdfs:comment "" ;
 	rdfs:label "Thermogravimetry"@en ;
 	skos:prefLabel "Thermogravimetry"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#ThreePointBendingTest
+chameo:ThreePointBendingTest rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Mechanical ;
+	skos:altLabel "ThreePointFlexuralTest"@en ;
+	skos:prefLabel "ThreePointBendingTest"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2300905"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of mechanical testing that provides values for the modulus of elasticity in bending, flexural stress, flexural strain, and the flexural stress–strain response of a material sample"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Three-point_flexural_test"@en .
+
 
 
 ###  https://w3id.org/emmo/domain/chameo#Tomography
