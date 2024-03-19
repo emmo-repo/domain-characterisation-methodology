@@ -1,53 +1,53 @@
-@prefix : <http://emmo.info/emmo/domain/chameo/chameo#> .
+@prefix : <http://w3id.org/emmo-chameo/chameo#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix emmo: <http://emmo.info/emmo#> .
+@prefix emmo: <https://w3id.org/emmo/emmo#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix chameo: <http://emmo.info/emmo/domain/chameo/chameo#> .
-@base <http://emmo.info/emmo/domain/chameo/chameo> .
+@prefix chameo: <http://w3id.org/emmo-chameo/chameo#> .
+@base <http://w3id.org/emmo-chameo/chameo> .
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  http://emmo.info/emmo/domain/chameo/chameo#Agent1
+###  http://w3id.org/emmo/domain/chameo/chameo#Agent1
 chameo:Agent1 rdf:type owl:NamedIndividual ,
                        chameo:Operator .
 
 
-###  http://emmo.info/emmo/domain/chameo/chameo#CalibrationProcess1
+###  http://w3id.org/emmo/domain/chameo/chameo#CalibrationProcess1
 chameo:CalibrationProcess1 rdf:type owl:NamedIndividual ,
                                     chameo:CalibrationProcess .
 
 
-###  http://emmo.info/emmo/domain/chameo/chameo#ChMeasProc1
+###  http://w3id.org/emmo/domain/chameo/chameo#ChMeasProc1
 chameo:ChMeasProc1 rdf:type owl:NamedIndividual ,
                             chameo:CharacterisationMeasurementProcess .
 
 
-###  http://emmo.info/emmo/domain/chameo/chameo#Determination1
+###  http://w3id.org/emmo/domain/chameo/chameo#Determination1
 chameo:Determination1 rdf:type owl:NamedIndividual ,
                                emmo:EMMO_10a5fd39_06aa_4648_9e70_f962a9cb2069 ;
                       emmo:EMMO_dc57d998_23db_4d8e_b2cd_f346b195b846 chameo:InferredChMethod1 .
 
 
-###  http://emmo.info/emmo/domain/chameo/chameo#InferredChMethod1
+###  http://w3id.org/emmo/domain/chameo/chameo#InferredChMethod1
 chameo:InferredChMethod1 rdf:type owl:NamedIndividual ;
                          emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a chameo:ChMeasProc1 ;
                          chameo:hasOperator chameo:Agent1 .
 
 
-###  http://emmo.info/emmo/domain/chameo/chameo#hasChValid1
+###  http://w3id.org/emmo/domain/chameo/chameo#hasChValid1
 chameo:hasChValid1 rdf:type owl:NamedIndividual ;
                    chameo:hasCharacterisationProcedureValidation chameo:hasChValid2 .
 
 
-###  http://emmo.info/emmo/domain/chameo/chameo#hasChValid2
+###  http://w3id.org/emmo/domain/chameo/chameo#hasChValid2
 chameo:hasChValid2 rdf:type owl:NamedIndividual .
 
 
-###  http://emmo.info/emmo/domain/chameo/chameo#hasChValidProp
+###  http://w3id.org/emmo/domain/chameo/chameo#hasChValidProp
 chameo:hasChValidProp rdf:type owl:NamedIndividual .
