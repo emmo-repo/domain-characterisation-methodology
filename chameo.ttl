@@ -633,6 +633,17 @@ chameo:AtomicForceMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "AtomicForceMicroscopy"@en .
 
 
+###  https://w3id.org/emmo/domain/chameo#BrunauerEmmettTellerMethod
+chameo:BrunauerEmmettTellerMethod rdf:type owl:Class ;
+	rdfs:subClassOf chameo:CharacterisationMethod ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to measure the specific surface area of porous materials by analyzing the adsorption of gas molecules onto the material's surface"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q795838" ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/BET_theory" ;
+	rdfs:label "BrunauerEmmettTellerMethod"@en ;
+	skos:prefLabel "BrunauerEmmettTellerMethod"@en ;
+	skos:altLabel "BET"@en .
+
+
 ###  https://w3id.org/emmo-chameo/chameo#CalibrationData
 chameo:CalibrationData rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationData ;
@@ -1424,6 +1435,13 @@ chameo:DirectCoulometryAtControlledPotential rdf:type owl:Class ;
 	skos:prefLabel "DirectCoulometryAtControlledPotential"@en .
 
 
+###  https://w3id.org/emmo/domain/chameo#DirectCurrentInternalResistance
+chameo:DirectCurrentInternalResistance rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Chronopotentiometry ;
+	skos:prefLabel "DirectCurrentInternalResistance"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of determining the internal resistance of an electrochemical cell by applying a low current followed by higher current within a short period, and then record the changes of battery voltage and current"@en .
+
+
 ###  https://w3id.org/emmo-chameo/chameo#DynamicLightScattering
 chameo:DynamicLightScattering rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Optical ;
@@ -1541,6 +1559,17 @@ can probe a range of properties including layer thickness, morphology, and chemi
 	skos:prefLabel "Ellipsometry"@en .
 
 
+###  https://w3id.org/emmo/domain/chameo#EnergyDispersiveXraySpectroscopy
+chameo:EnergyDispersiveXraySpectroscopy rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Spectroscopy ;
+	skos:altLabel "EDS"@en ,
+					"EDX"@en ;
+	skos:prefLabel "EnergyDispersiveXraySpectroscopy"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q386334"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an analytical technique used for the elemental analysis or chemical characterization of a sample"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy"@en .
+
+
 ###  https://w3id.org/emmo-chameo/chameo#EnvironmentalScanningElectronMicroscopy
 chameo:EnvironmentalScanningElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
@@ -1589,6 +1618,16 @@ chameo:FieldEmissionScanningElectronMicroscopy rdf:type owl:Class ;
 	skos:prefLabel "FieldEmissionScanningElectronMicroscopy"@en .
 
 
+###  https://w3id.org/emmo/domain/chameo#FourierTransformInfraredSpectroscopy
+chameo:FourierTransformInfraredSpectroscopy rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Spectroscopy ;
+	skos:altLabel "FTIR"@en ;
+	skos:prefLabel "FourierTransformInfraredSpectroscopy"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q901559"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to obtain an infrared spectrum of absorption or emission of a solid, liquid, or gas"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy"@en .
+
+
 ###  https://w3id.org/emmo-chameo/chameo#Fractography
 chameo:Fractography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Optical ;
@@ -1607,8 +1646,8 @@ chameo:FreezingPointDepressionOsmometry rdf:type owl:Class ;
 	skos:prefLabel "FreezingPointDepressionOsmometry"@en .
 
 
-###  https://w3id.org/emmo-chameo/chameo#GITT
-chameo:GITT rdf:type owl:Class ;
+###  https://w3id.org/emmo-chameo/chameo#GalvanostaticIntermittentTitrationTechnique
+chameo:GalvanostaticIntermittentTitrationTechnique rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q120906986" ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical method that applies current pulses to an electrochemical cell at rest and measures the voltage response"@en ;
@@ -1906,6 +1945,14 @@ chameo:MembraneOsmometry rdf:type owl:Class ;
 	skos:prefLabel "MembraneOsmometry"@en .
 
 
+###  https://w3id.org/emmo/domain/chameo#MercuryPorosimetry
+chameo:MercuryPorosimetry rdf:type owl:Class ;
+	rdfs:subClassOf chameo:CharacterisationMethod ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a method used to measure the pore size distribution and total pore volume of solid materials by infiltrating mercury into the pores under controlled pressure conditions and analyzing the amount of mercury intrusion"@en ;
+	rdfs:label "MercuryPorosimetry"@en ;
+	skos:prefLabel "MercuryPorosimetry"@en .
+
+
 ###  https://w3id.org/emmo-chameo/chameo#Microscopy
 chameo:Microscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationMethod ;
@@ -2112,6 +2159,16 @@ chameo:Potentiometry rdf:type owl:Class ;
 	skos:prefLabel "Potentiometry"@en .
 
 
+###  https://w3id.org/emmo/domain/chameo#PotentiostaticIntermittentTitrationTechnique
+chameo:PotentiostaticIntermittentTitrationTechnique rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Chronoamperometry ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique that applies potential pulses to an electrochemical cell"@en ;
+	rdfs:comment "often used to determine the diffusion coefficient of chemical species in an active material" ;
+	rdfs:label "PotentiostaticIntermittentTitrationTechnique"@en ;
+	skos:prefLabel "PotentiostaticIntermittentTitrationTechnique"@en ;
+	skos:altLabel "PITT" .
+
+
 ###  https://w3id.org/emmo-chameo/chameo#PreparedSample
 chameo:PreparedSample rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Sample ;
@@ -2186,6 +2243,15 @@ chameo:PulsedElectroacousticMethod rdf:type owl:Class ;
 	rdfs:comment "" ;
 	rdfs:label "PulsedElectroacousticMethod"@en ;
 	skos:prefLabel "PulsedElectroacousticMethod"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#PseudoOpenCircuitVoltageMethod
+chameo:PseudoOpenCircuitVoltageMethod rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Chronopotentiometry ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to measure the voltage of a cell under a low applied current as an estimate for the open-circuit voltage"@en ;
+	rdfs:label "PseudoOpenCircuitVoltageMethod"@en ;
+	skos:prefLabel "PseudoOpenCircuitVoltageMethod"@en ;
+	skos:altLabel "PseudoOCV"@en .
 
 
 ###  https://w3id.org/emmo-chameo/chameo#RamanSpectroscopy
@@ -2489,6 +2555,15 @@ chameo:SquareWaveVoltammetry rdf:type owl:Class ;
 	skos:prefLabel "SquareWaveVoltammetry"@en .
 
 
+###  https://w3id.org/emmo/domain/chameo#StaircaseGalvanostaticIntermittentTitrationTechnique
+chameo:StaircaseGalvanostaticIntermittentTitrationTechnique rdf:type owl:Class ;
+	rdfs:subClassOf chameo:GalvanostaticIntermittentTitrationTechnique ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a variation of the GITT technique which introduces a series of increasing current pulses before the titration step"@en ;
+	skos:altLabel "SCGITT"@en ;
+	rdfs:label "StaircaseGalvanostaticIntermittentTitrationTechnique"@en ;
+	skos:prefLabel "StaircaseGalvanostaticIntermittentTitrationTechnique"@en .
+
+
 ###  https://w3id.org/emmo-chameo/chameo#StepChronopotentiometry
 chameo:StepChronopotentiometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
@@ -2557,6 +2632,16 @@ chameo:Thermogravimetry rdf:type owl:Class ;
 	rdfs:comment "" ;
 	rdfs:label "Thermogravimetry"@en ;
 	skos:prefLabel "Thermogravimetry"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#ThreePointBendingTest
+chameo:ThreePointBendingTest rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Mechanical ;
+	skos:altLabel "ThreePointFlexuralTest"@en ;
+	skos:prefLabel "ThreePointBendingTest"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2300905"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of mechanical testing that provides values for the modulus of elasticity in bending, flexural stress, flexural strain, and the flexural stress–strain response of a material sample"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Three-point_flexural_test"@en .
 
 
 ###  https://w3id.org/emmo-chameo/chameo#Tomography
@@ -2652,6 +2737,27 @@ chameo:XpsVariableKinetic rdf:type owl:Class ;
 	rdfs:comment "" ;
 	rdfs:label "XpsVariableKinetic"@en ;
 	skos:prefLabel "XpsVariableKinetic"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#XrayDiffraction
+chameo:XrayDiffraction rdf:type owl:Class ;
+	rdfs:subClassOf chameo:ScatteringAndDiffraction ;	
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q12101244" ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to analyze the atomic and molecular structure of crystalline materials by observing the diffraction patterns produced when X-rays interact with the regular array of atoms in the crystal lattice"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/X-ray_crystallography" ;
+	skos:altLabel "XRD" ;
+	rdfs:label "XrayDiffraction"@en ;
+	skos:prefLabel "XrayDiffraction"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#XrayPowderDiffraction
+chameo:XrayPowderDiffraction rdf:type owl:Class ;
+	rdfs:subClassOf chameo:XrayDiffraction ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a method for analyzing the crystal structure of powdered materials by measuring the diffraction patterns produced when X-rays interact with randomly oriented crystallites within the sample"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Powder_diffraction" ;
+	skos:altLabel "XRPD" ;
+	rdfs:label "XrayPowderDiffraction"@en ;
+	skos:prefLabel "XrayPowderDiffraction"@en .
 
 
 ###  https://w3id.org/emmo-chameo/chameo#XrdGrazingIncidence
