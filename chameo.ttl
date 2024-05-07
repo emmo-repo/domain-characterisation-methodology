@@ -1,4 +1,4 @@
-@prefix : <http://w3id.org/emmo-chameo/chameo#> .
+@prefix : <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,12 +9,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix chameo: <http://w3id.org/emmo-chameo/chameo#> .
+@prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <http://w3id.org/emmo-chameo/chameo> .
+@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo> .
 
-<http://w3id.org/emmo-chameo/chameo> rdf:type owl:Ontology ;
+<https://w3id.org/emmo/domain/characterisation-methodology/chameo> rdf:type owl:Ontology ;
 	owl:versionIRI <http://w3id.org/emmo-chameo/1.0.0-beta5/chameo> ;
 	owl:imports <https://w3id.org/emmo/1.0.0-beta7/mereocausality> ,
 	<https://w3id.org/emmo/1.0.0-beta7/disciplines/computerscience> ,
