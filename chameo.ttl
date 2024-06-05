@@ -244,7 +244,7 @@ chameo:hasDataQuality rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasDataset
 chameo:hasDataset rdf:type owl:ObjectProperty ;
-	rdfs:subPropertyOf owl:topObjectProperty ;
+	rdfs:subPropertyOf emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 ;
 	rdfs:range emmo:EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a ;
 	rdfs:comment "" ;
 	rdfs:label "hasDataset"@en ;
@@ -958,10 +958,11 @@ chameo:CharacterisationSoftware rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationSystem
 chameo:CharacterisationSystem rdf:type owl:Class ;
-	rdfs:subClassOf emmo:EMMO_7dea2572_ab42_45bd_9fd7_92448cec762a ,
+	rdfs:subClassOf emmo:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69 ,
+	emmo:EMMO_7dea2572_ab42_45bd_9fd7_92448cec762a ,
 	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-	owl:someValuesFrom chameo:CharacterisationInstrument
+	owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
+	owl:someValuesFrom chameo:CharacterisationComponent
 	] ;
 	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 """Set of one or more measuring instruments and often other components, assembled and
 adapted to give information used to generate measured values within specified intervals for
