@@ -635,7 +635,7 @@ chameo:AtomicForceMicroscopy rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chameo#BrunauerEmmettTellerMethod
 chameo:BrunauerEmmettTellerMethod rdf:type owl:Class ;
-	rdfs:subClassOf chameo:CharacterisationMethod ;
+	rdfs:subClassOf chameo:GasAdsorptionPorosimetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to measure the specific surface area of porous materials by analyzing the adsorption of gas molecules onto the material's surface"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q795838" ;
 	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/BET_theory" ;
@@ -1670,6 +1670,16 @@ A detailed analysis of this spectrum is typically used to determine the identity
 	skos:prefLabel "GammaSpectrometry"@en .
 
 
+###  https://w3id.org/emmo-chameo/chameo#GasAdsorptionPorosimetry
+chameo:GasAdsorptionPorosimetry rdf:type owl:Class ;
+	rdfs:subClassOf chameo:GasAdsorptionPorosimetry ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Gas Adsorption Porosimetry is a method used for analyzing the surface area and porosity of materials. In this method, a gas, typically nitrogen or argon, is adsorbed onto the surface of the material at various pressures and temperatures."@en ;
+	skos:altLabel "GasAdsorptionPorosimetry" ;
+	rdfs:comment "" ;
+	rdfs:label "GasAdsorptionPorosimetry"@en ;
+	skos:prefLabel "GasAdsorptionPorosimetry"@en .
+
+
 ###  https://w3id.org/emmo-chameo/chameo#HPPC
 chameo:HPPC rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
@@ -1947,7 +1957,7 @@ chameo:MembraneOsmometry rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/chameo#MercuryPorosimetry
 chameo:MercuryPorosimetry rdf:type owl:Class ;
-	rdfs:subClassOf chameo:CharacterisationMethod ;
+	rdfs:subClassOf chameo:Porosimetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a method used to measure the pore size distribution and total pore volume of solid materials by infiltrating mercury into the pores under controlled pressure conditions and analyzing the amount of mercury intrusion"@en ;
 	rdfs:label "MercuryPorosimetry"@en ;
 	skos:prefLabel "MercuryPorosimetry"@en .
@@ -2084,6 +2094,16 @@ chameo:PhysicsOfInteraction rdf:type owl:Class ;
 	rdfs:comment "" ;
 	rdfs:label "PhysicsOfInteraction"@en ;
 	skos:prefLabel "PhysicsOfInteraction"@en .
+
+
+###  https://w3id.org/emmo-chameo/chameo#Porosimetry
+chameo:Porosimetry rdf:type owl:Class ;
+	rdfs:subClassOf chameo:CharacterisationMethod ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Porosimetry or porosity method is a method used for characterizing the pore structure of materials. It encompasses various methods to determine the size, distribution, volume, and surface area of pores within a sample. "@en ;
+	skos:altLabel "Porosimetry" ;
+	rdfs:comment "" ;
+	rdfs:label "Porosimetry"@en ;
+	skos:prefLabel "Porosimetry"@en .
 
 
 ###  https://w3id.org/emmo-chameo/chameo#PostProcessingModel
