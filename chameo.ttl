@@ -558,7 +558,8 @@ datacite:ResourceIdentifier rdf:type owl:Class ;
 
 
 ###  http://xmlns.com/foaf/0.1/Person
-foaf:Person rdf:type owl:Class .
+foaf:Person rdf:type owl:Class ;
+			skos:prefLabel "Person" .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ACVoltammetry
@@ -683,7 +684,7 @@ chameo:AtomicForceMicroscopy rdf:type owl:Class ;
                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Atomic force microscopy (AFM) is an influential surface analysis technique used for micro/nanostructured coatings. This flexible technique can be used to obtain high-resolution nanoscale images and study local sites in air (conventional AFM) or liquid (electrochemical AFM) surroundings."@en .
 
 
-###  https://w3id.org/emmo/domain/chameo#BrunauerEmmettTellerMethod
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#BrunauerEmmettTellerMethod
 chameo:BrunauerEmmettTellerMethod rdf:type owl:Class ;
 	                                rdfs:subClassOf chameo:GasAdsorptionPorosimetry ;
 	                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to measure the specific surface area of porous materials by analyzing the adsorption of gas molecules onto the material's surface"@en ;
@@ -783,7 +784,8 @@ chameo:CathodicStrippingVoltammetry rdf:type owl:Class ;
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationComponent
-chameo:CharacterisationComponent rdf:type owl:Class .
+chameo:CharacterisationComponent rdf:type owl:Class ;
+								 skos:prefLabel "CharacterisationComponent" .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationData
@@ -1490,7 +1492,7 @@ chameo:DirectCoulometryAtControlledPotential rdf:type owl:Class ;
                                              emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
-###  https://w3id.org/emmo/domain/chameo#DirectCurrentInternalResistance
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DirectCurrentInternalResistance
 chameo:DirectCurrentInternalResistance rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
 	skos:prefLabel "DirectCurrentInternalResistance"@en ;
@@ -1614,7 +1616,7 @@ layer or less. Depending on what is already known about the sample, the techniqu
 can probe a range of properties including layer thickness, morphology, and chemical composition."""@en .
 
 
-###  https://w3id.org/emmo/domain/chameo#EnergyDispersiveXraySpectroscopy
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#EnergyDispersiveXraySpectroscopy
 chameo:EnergyDispersiveXraySpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	skos:altLabel "EDS"@en ,
@@ -1673,7 +1675,7 @@ chameo:FieldEmissionScanningElectronMicroscopy rdf:type owl:Class ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field emission scanning electron microscopy (FE-SEM) is an advanced technology used to capture the microstructure image of the materials. FE-SEM is typically performed in a high vacuum because gas molecules tend to disturb the electron beam and the emitted secondary and backscattered electrons used for imaging."@en .
 
 
-###  https://w3id.org/emmo/domain/chameo#FourierTransformInfraredSpectroscopy
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#FourierTransformInfraredSpectroscopy
 chameo:FourierTransformInfraredSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
 	skos:altLabel "FTIR"@en ;
@@ -2010,7 +2012,7 @@ chameo:MembraneOsmometry rdf:type owl:Class ;
                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In the membrane osmometry technique, a pure solvent and polymer solution are separated by a semipermeable membrane, due to the higher chemical potential of the solvent in the pure solvent than in polymer solution, the solvent starts moving towards the polymer solution."@en .
 
 
-###  https://w3id.org/emmo/domain/chameo#MercuryPorosimetry
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MercuryPorosimetry
 chameo:MercuryPorosimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Porosimetry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a method used to measure the pore size distribution and total pore volume of solid materials by infiltrating mercury into the pores under controlled pressure conditions and analyzing the amount of mercury intrusion"@en ;
@@ -2300,7 +2302,7 @@ chameo:PulsedElectroacousticMethod rdf:type owl:Class ;
                                    emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1007/s10832-023-00332-y" .
 
 
-###  https://w3id.org/emmo/domain/chameo#PseudoOpenCircuitVoltageMethod
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#PseudoOpenCircuitVoltageMethod
 chameo:PseudoOpenCircuitVoltageMethod rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to measure the voltage of a cell under a low applied current as an estimate for the open-circuit voltage"@en ;
@@ -2685,7 +2687,7 @@ chameo:Thermogravimetry rdf:type owl:Class ;
                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Thermogravimetric analysis or thermal gravimetric analysis (TGA) is a method of thermal analysis in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction)."@en .
 
 
-###  https://w3id.org/emmo/domain/chameo#ThreePointBendingTest
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ThreePointBendingTest
 chameo:ThreePointBendingTest rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Mechanical ;
 	skos:altLabel "ThreePointFlexuralTest"@en ;
@@ -2796,7 +2798,7 @@ chameo:XpsVariableKinetic rdf:type owl:Class ;
                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "X-ray photoelectron spectroscopy (XPS), also known as ESCA (electron spectroscopy for chemical analysis) is a surface analysis technique which provides both elemental and chemical state information virtually without restriction on the type of material which can be analysed. It is a relatively simple technique where the sample is illuminated with X-rays which have enough energy to eject an electron from the atom.  These ejected electrons are known as photoelectrons. The kinetic energy of these emitted electrons is characteristic of the element from which the photoelectron originated. The position and intensity of the peaks in an energy spectrum provide the desired chemical state and quantitative information.  The surface sensitivity of XPS is determined by the distance that that photoelectron can travel through the material without losing any kinteic energy.  These elastiaclly scattered photoelectrons contribute to the photoelectron peak, whilst photoelectrons that have been inelastically scattered, losing some kinetic energy before leaving the material, will contribute to the spectral background."@en .
 
 
-###  https://w3id.org/emmo/domain/chameo#XrayDiffraction
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#XrayDiffraction
 chameo:XrayDiffraction rdf:type owl:Class ;
 	                     rdfs:subClassOf chameo:ScatteringAndDiffraction ;	
 	                     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q12101244" ;
@@ -2807,7 +2809,7 @@ chameo:XrayDiffraction rdf:type owl:Class ;
 	                     skos:prefLabel "XrayDiffraction"@en .
 
 
-###  https://w3id.org/emmo/domain/chameo#XrayPowderDiffraction
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#XrayPowderDiffraction
 chameo:XrayPowderDiffraction rdf:type owl:Class ;
 	                           rdfs:subClassOf chameo:XrayDiffraction ;
 	                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a method for analyzing the crystal structure of powdered materials by measuring the diffraction patterns produced when X-rays interact with randomly oriented crystallites within the sample"@en ;
