@@ -536,6 +536,12 @@ chameo:userCaseHasCharacterisationProcedure rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
+###  http://www.w3.org/2002/07/owl#topDataProperty
+owl:topDataProperty rdfs:domain chameo:CharacterisationHardware ;
+                    rdfs:range xsd:string ;
+                    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A string representing the model of a CharacterisationHardware" .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo/hasDateOfCalibration
 <https://w3id.org/emmo/domain/characterisation-methodology/chameo/hasDateOfCalibration> rdf:type owl:DatatypeProperty ;
                                                                                         rdfs:subPropertyOf owl:topDataProperty ;
@@ -544,6 +550,30 @@ chameo:userCaseHasCharacterisationProcedure rdf:type owl:ObjectProperty ;
                                                                                         rdfs:comment "" ;
                                                                                         rdfs:label "hasDateOfCalibration"@en ;
                                                                                         skos:prefLabel "hasDateOfCalibration"@en .
+
+
+###  https://w3id.org/emmo/domain/domain-nanoindentation/nanoindentatio#hasManufacturer
+<https://w3id.org/emmo/domain/domain-nanoindentation/nanoindentatio#hasManufacturer> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                     rdfs:domain chameo:CharacterisationHardware ;
+                                                                                     rdfs:range xsd:string ;
+                                                                                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A string representing the Manufacturer of a CharacterisationHardware" .
+
+
+###  https://w3id.org/emmo/domain/domain-nanoindentation/nanoindentatio#hasModel
+<https://w3id.org/emmo/domain/domain-nanoindentation/nanoindentatio#hasModel> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:subPropertyOf owl:topDataProperty ;
+                                                                              rdfs:domain chameo:CharacterisationHardware ;
+                                                                              rdfs:range xsd:string ;
+                                                                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A string representing the model of a CharacterisationHardware"@en .
+
+
+###  https://w3id.org/emmo/domain/domain-nanoindentation/nanoindentatio#hasUniqueID
+<https://w3id.org/emmo/domain/domain-nanoindentation/nanoindentatio#hasUniqueID> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                 rdfs:domain chameo:CharacterisationHardware ;
+                                                                                 rdfs:range xsd:string ;
+                                                                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A string representing the UniqueID of a CharacterisationHardware" .
 
 
 #################################################################
