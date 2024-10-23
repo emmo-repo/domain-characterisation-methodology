@@ -588,7 +588,8 @@ datacite:ResourceIdentifier rdf:type owl:Class ;
 
 
 ###  http://xmlns.com/foaf/0.1/Person
-foaf:Person rdf:type owl:Class .
+foaf:Person rdf:type owl:Class ;
+			skos:prefLabel "Person" .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ACVoltammetry
@@ -713,6 +714,17 @@ chameo:AtomicForceMicroscopy rdf:type owl:Class ;
                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Atomic force microscopy (AFM) is an influential surface analysis technique used for micro/nanostructured coatings. This flexible technique can be used to obtain high-resolution nanoscale images and study local sites in air (conventional AFM) or liquid (electrochemical AFM) surroundings."@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#BrunauerEmmettTellerMethod
+chameo:BrunauerEmmettTellerMethod rdf:type owl:Class ;
+	                                rdfs:subClassOf chameo:GasAdsorptionPorosimetry ;
+	                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to measure the specific surface area of porous materials by analyzing the adsorption of gas molecules onto the material's surface"@en ;
+	                                emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q795838" ;
+	                                emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/BET_theory" ;
+	                                rdfs:label "BrunauerEmmettTellerMethod"@en ;
+	                                skos:prefLabel "BrunauerEmmettTellerMethod"@en ;
+	                                skos:altLabel "BET"@en .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CalibrationData
 chameo:CalibrationData rdf:type owl:Class ;
                        rdfs:subClassOf chameo:CharacterisationData ;
@@ -802,7 +814,8 @@ chameo:CathodicStrippingVoltammetry rdf:type owl:Class ;
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationComponent
-chameo:CharacterisationComponent rdf:type owl:Class .
+chameo:CharacterisationComponent rdf:type owl:Class ;
+								 skos:prefLabel "CharacterisationComponent" .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationData
@@ -1509,6 +1522,13 @@ chameo:DirectCoulometryAtControlledPotential rdf:type owl:Class ;
                                              emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DirectCurrentInternalResistance
+chameo:DirectCurrentInternalResistance rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Chronopotentiometry ;
+	skos:prefLabel "DirectCurrentInternalResistance"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of determining the internal resistance of an electrochemical cell by applying a low current followed by higher current within a short period, and then record the changes of battery voltage and current"@en .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DynamicLightScattering
 chameo:DynamicLightScattering rdf:type owl:Class ;
                               rdfs:subClassOf chameo:Optical ;
@@ -1626,6 +1646,17 @@ layer or less. Depending on what is already known about the sample, the techniqu
 can probe a range of properties including layer thickness, morphology, and chemical composition."""@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#EnergyDispersiveXraySpectroscopy
+chameo:EnergyDispersiveXraySpectroscopy rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Spectroscopy ;
+	skos:altLabel "EDS"@en ,
+					"EDX"@en ;
+	skos:prefLabel "EnergyDispersiveXraySpectroscopy"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q386334"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an analytical technique used for the elemental analysis or chemical characterization of a sample"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy"@en .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#EnvironmentalScanningElectronMicroscopy
 chameo:EnvironmentalScanningElectronMicroscopy rdf:type owl:Class ;
                                                rdfs:subClassOf chameo:Microscopy ;
@@ -1674,6 +1705,16 @@ chameo:FieldEmissionScanningElectronMicroscopy rdf:type owl:Class ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field emission scanning electron microscopy (FE-SEM) is an advanced technology used to capture the microstructure image of the materials. FE-SEM is typically performed in a high vacuum because gas molecules tend to disturb the electron beam and the emitted secondary and backscattered electrons used for imaging."@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#FourierTransformInfraredSpectroscopy
+chameo:FourierTransformInfraredSpectroscopy rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Spectroscopy ;
+	skos:altLabel "FTIR"@en ;
+	skos:prefLabel "FourierTransformInfraredSpectroscopy"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q901559"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to obtain an infrared spectrum of absorption or emission of a solid, liquid, or gas"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy"@en .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Fractography
 chameo:Fractography rdf:type owl:Class ;
                     rdfs:subClassOf chameo:Optical ;
@@ -1714,6 +1755,16 @@ chameo:GammaSpectrometry rdf:type owl:Class ;
 Most radioactive sources produce gamma rays, which are of various energies and intensities. When these emissions are detected and analyzed with a spectroscopy system, a gamma-ray energy spectrum can be produced.
 
 A detailed analysis of this spectrum is typically used to determine the identity and quantity of gamma emitters present in a gamma source, and is a vital tool in radiometric assay. The gamma spectrum is characteristic of the gamma-emitting nuclides contained in the source, just like in an optical spectrometer, the optical spectrum is characteristic of the material contained in a sample."""@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#GasAdsorptionPorosimetry
+chameo:GasAdsorptionPorosimetry rdf:type owl:Class ;
+	rdfs:subClassOf chameo:GasAdsorptionPorosimetry ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Gas Adsorption Porosimetry is a method used for analyzing the surface area and porosity of materials. In this method, a gas, typically nitrogen or argon, is adsorbed onto the surface of the material at various pressures and temperatures."@en ;
+	skos:altLabel "GasAdsorptionPorosimetry" ;
+	rdfs:comment "" ;
+	rdfs:label "GasAdsorptionPorosimetry"@en ;
+	skos:prefLabel "GasAdsorptionPorosimetry"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#HPPC
@@ -1989,6 +2040,14 @@ chameo:MembraneOsmometry rdf:type owl:Class ;
                          rdfs:label "MembraneOsmometry"@en ;
                          skos:prefLabel "MembraneOsmometry"@en ;
                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In the membrane osmometry technique, a pure solvent and polymer solution are separated by a semipermeable membrane, due to the higher chemical potential of the solvent in the pure solvent than in polymer solution, the solvent starts moving towards the polymer solution."@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MercuryPorosimetry
+chameo:MercuryPorosimetry rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Porosimetry ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a method used to measure the pore size distribution and total pore volume of solid materials by infiltrating mercury into the pores under controlled pressure conditions and analyzing the amount of mercury intrusion"@en ;
+	rdfs:label "MercuryPorosimetry"@en ;
+	skos:prefLabel "MercuryPorosimetry"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Microscopy
@@ -2271,6 +2330,15 @@ chameo:PulsedElectroacousticMethod rdf:type owl:Class ;
                                    skos:prefLabel "PulsedElectroacousticMethod"@en ;
                                    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The pulsed electroacoustic (PEA) method is an established method for space charge measurements in polymeric dielectrics."@en ;
                                    emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1007/s10832-023-00332-y" .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#PseudoOpenCircuitVoltageMethod
+chameo:PseudoOpenCircuitVoltageMethod rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Chronopotentiometry ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to measure the voltage of a cell under a low applied current as an estimate for the open-circuit voltage"@en ;
+	rdfs:label "PseudoOpenCircuitVoltageMethod"@en ;
+	skos:prefLabel "PseudoOpenCircuitVoltageMethod"@en ;
+	skos:altLabel "PseudoOCV"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#RamanSpectroscopy
@@ -2649,6 +2717,16 @@ chameo:Thermogravimetry rdf:type owl:Class ;
                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Thermogravimetric analysis or thermal gravimetric analysis (TGA) is a method of thermal analysis in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction)."@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ThreePointBendingTest
+chameo:ThreePointBendingTest rdf:type owl:Class ;
+	rdfs:subClassOf chameo:Mechanical ;
+	skos:altLabel "ThreePointFlexuralTest"@en ;
+	skos:prefLabel "ThreePointBendingTest"@en ;
+	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2300905"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of mechanical testing that provides values for the modulus of elasticity in bending, flexural stress, flexural strain, and the flexural stress–strain response of a material sample"@en ;
+	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Three-point_flexural_test"@en .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Tomography
 chameo:Tomography rdf:type owl:Class ;
                   rdfs:subClassOf chameo:CharacterisationMethod ;
@@ -2748,6 +2826,27 @@ chameo:XpsVariableKinetic rdf:type owl:Class ;
                                         "X-ray photoelectron spectroscopy (XPS)" ;
                           skos:prefLabel "XpsVariableKinetic"@en ;
                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "X-ray photoelectron spectroscopy (XPS), also known as ESCA (electron spectroscopy for chemical analysis) is a surface analysis technique which provides both elemental and chemical state information virtually without restriction on the type of material which can be analysed. It is a relatively simple technique where the sample is illuminated with X-rays which have enough energy to eject an electron from the atom.  These ejected electrons are known as photoelectrons. The kinetic energy of these emitted electrons is characteristic of the element from which the photoelectron originated. The position and intensity of the peaks in an energy spectrum provide the desired chemical state and quantitative information.  The surface sensitivity of XPS is determined by the distance that that photoelectron can travel through the material without losing any kinteic energy.  These elastiaclly scattered photoelectrons contribute to the photoelectron peak, whilst photoelectrons that have been inelastically scattered, losing some kinetic energy before leaving the material, will contribute to the spectral background."@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#XrayDiffraction
+chameo:XrayDiffraction rdf:type owl:Class ;
+	                     rdfs:subClassOf chameo:ScatteringAndDiffraction ;	
+	                     emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q12101244" ;
+	                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to analyze the atomic and molecular structure of crystalline materials by observing the diffraction patterns produced when X-rays interact with the regular array of atoms in the crystal lattice"@en ;
+	                     emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/X-ray_crystallography" ;
+	                     skos:altLabel "XRD" ;
+	                     rdfs:label "XrayDiffraction"@en ;
+	                     skos:prefLabel "XrayDiffraction"@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#XrayPowderDiffraction
+chameo:XrayPowderDiffraction rdf:type owl:Class ;
+	                           rdfs:subClassOf chameo:XrayDiffraction ;
+	                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a method for analyzing the crystal structure of powdered materials by measuring the diffraction patterns produced when X-rays interact with randomly oriented crystallites within the sample"@en ;
+                             emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Powder_diffraction" ;
+                             skos:altLabel "XRPD" ;
+                             rdfs:label "XrayPowderDiffraction"@en ;
+                             skos:prefLabel "XrayPowderDiffraction"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#XrdGrazingIncidence
