@@ -143,11 +143,18 @@ foaf:page rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasAccessConditions
 chameo:hasAccessConditions rdf:type owl:ObjectProperty ;
                            rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
-                           rdfs:domain chameo:CharacterisationMethod ;
+                           rdfs:domain chameo:CharacterisationTechnique ;
                            rdfs:range chameo:AccessConditions ;
                            rdfs:comment "" ;
                            rdfs:label "hasAccessConditions"@en ;
                            skos:prefLabel "hasAccessConditions"@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasBeginCharacterisationTask
+chameo:hasBeginCharacterisationTask rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf emmo:EMMO_4ab7fb52_cec3_4c00_90c0_5648f01e3296 ;
+                                    rdfs:domain chameo:CharacterisationWorkflow ;
+                                    rdfs:range chameo:CharacterisationTask .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationComponent
@@ -195,7 +202,7 @@ chameo:hasCharacterisationOutput rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationProcedureValidation
 chameo:hasCharacterisationProcedureValidation rdf:type owl:ObjectProperty ;
                                               rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
-                                              rdfs:domain chameo:CharacterisationMethod ;
+                                              rdfs:domain chameo:CharacterisationTechnique ;
                                               rdfs:range chameo:CharacterisationProcedureValidation ;
                                               rdfs:comment "" ;
                                               rdfs:label "hasCharacterisationProcedureValidation"@en ;
@@ -219,6 +226,13 @@ chameo:hasCharacterisationSoftware rdf:type owl:ObjectProperty ;
                                    rdfs:comment "" ;
                                    rdfs:label "hasCharacterisationSoftware"@en ;
                                    skos:prefLabel "hasCharacterisationSoftware"@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationTask
+chameo:hasCharacterisationTask rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a ;
+                               rdfs:domain chameo:CharacterisationWorkflow ;
+                               rdfs:range chameo:CharacterisationTask .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasDataAcquisitionRate
@@ -258,6 +272,13 @@ chameo:hasDataset rdf:type owl:ObjectProperty ;
                   rdfs:comment "" ;
                   rdfs:label "hasDataset"@en ;
                   skos:prefLabel "hasDataset"@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasEndCharacterisationTask
+chameo:hasEndCharacterisationTask rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf emmo:EMMO_92227f7f_22e9_4b19_a011_920eac3c7b75 ;
+                                  rdfs:domain chameo:CharacterisationWorkflow ;
+                                  rdfs:range chameo:CharacterisationTask .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasHardwareSpecification
@@ -338,7 +359,7 @@ chameo:hasLab rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasLevelOfAutomation
 chameo:hasLevelOfAutomation rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
-                            rdfs:domain chameo:CharacterisationMethod ;
+                            rdfs:domain chameo:CharacterisationTechnique ;
                             rdfs:range chameo:LevelOfAutomation ;
                             rdfs:comment "" ;
                             rdfs:label "hasLevelOfAutomation"@en ;
@@ -537,9 +558,7 @@ chameo:userCaseHasCharacterisationProcedure rdf:type owl:ObjectProperty ;
 #################################################################
 
 ###  http://www.w3.org/2002/07/owl#topDataProperty
-owl:topDataProperty rdfs:domain chameo:CharacterisationHardware ;
-                    rdfs:range xsd:string ;
-                    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A string representing the model of a CharacterisationHardware" .
+owl:topDataProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A string representing the model of a CharacterisationHardware" .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo/hasDateOfCalibration
@@ -588,12 +607,8 @@ datacite:ResourceIdentifier rdf:type owl:Class ;
 
 
 ###  http://xmlns.com/foaf/0.1/Person
-<<<<<<< Updated upstream
-foaf:Person rdf:type owl:Class .
-=======
 foaf:Person rdf:type owl:Class ;
             skos:prefLabel "Person" .
->>>>>>> Stashed changes
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ACVoltammetry
@@ -718,8 +733,6 @@ chameo:AtomicForceMicroscopy rdf:type owl:Class ;
                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Atomic force microscopy (AFM) is an influential surface analysis technique used for micro/nanostructured coatings. This flexible technique can be used to obtain high-resolution nanoscale images and study local sites in air (conventional AFM) or liquid (electrochemical AFM) surroundings."@en .
 
 
-<<<<<<< Updated upstream
-=======
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#BrunauerEmmettTellerMethod
 chameo:BrunauerEmmettTellerMethod rdf:type owl:Class ;
                                   rdfs:subClassOf chameo:GasAdsorptionPorosimetry ;
@@ -731,7 +744,6 @@ chameo:BrunauerEmmettTellerMethod rdf:type owl:Class ;
                                   emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/BET_theory" .
 
 
->>>>>>> Stashed changes
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CalibrationData
 chameo:CalibrationData rdf:type owl:Class ;
                        rdfs:subClassOf chameo:CharacterisationData ;
@@ -795,7 +807,7 @@ chameo:CalibrationTask rdf:type owl:Class ;
                        rdfs:comment "" ;
                        rdfs:label "CalibrationTask" ;
                        skos:prefLabel "CalibrationTask" ;
-                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Single calibration Task  that is part of a Calibration Process Workflow."@en .
+                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Used to break-down a CalibrationProcess into his specific tasks."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Calorimetry
@@ -821,12 +833,8 @@ chameo:CathodicStrippingVoltammetry rdf:type owl:Class ;
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationComponent
-<<<<<<< Updated upstream
-chameo:CharacterisationComponent rdf:type owl:Class .
-=======
 chameo:CharacterisationComponent rdf:type owl:Class ;
                                  skos:prefLabel "CharacterisationComponent" .
->>>>>>> Stashed changes
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationData
@@ -994,20 +1002,7 @@ chameo:CharacterisationMeasurementTask rdf:type owl:Class ;
                                        rdfs:comment "" ;
                                        rdfs:label "CharacterisationMeasurementTask"@en ;
                                        skos:prefLabel "CharacterisationMeasurementTask"@en ;
-                                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Single calibration Task  that is part of a Characterisation Measurement Process Workflow."@en .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationMethod
-chameo:CharacterisationMethod rdf:type owl:Class ;
-                              rdfs:subClassOf emmo:EMMO_3b19eab4_79be_4b02_bdaf_ecf1f0067a68 ,
-                                              chameo:CharacterisationProcedure ;
-                              rdfs:comment "" ;
-                              rdfs:label "CharacterisationMethod"@en ;
-                              skos:altLabel "Characterisation procedure"@en ,
-                                            "Characterisation technique"@en ;
-                              skos:prefLabel "CharacterisationMethod"@en ;
-                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The description of the overall characterisation method. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing)."@en ;
-                              emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A characterisation method is not only related to the measurement process which can be one of its steps." .
+                                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Used to break-down a CharacterisationMeasurementProcess into his specific tasks."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationProcedure
@@ -1108,6 +1103,18 @@ chameo:CharacterisationTask rdf:type owl:Class ;
                             skos:prefLabel "CharacterisationTask"@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTechnique
+chameo:CharacterisationTechnique rdf:type owl:Class ;
+                                 rdfs:subClassOf emmo:EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5 ;
+                                 rdfs:comment "" ;
+                                 rdfs:label "CharacterisationTechnique"@en ;
+                                 skos:altLabel "Characterisation procedure"@en ,
+                                               "Characterisation technique"@en ;
+                                 skos:prefLabel "CharacterisationTechnique"@en ;
+                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The description of the overall characterisation method. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing)."@en ;
+                                 emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A characterisation method is not only related to the measurement process which can be one of its steps." .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationWorkflow
 chameo:CharacterisationWorkflow rdf:type owl:Class ;
                                 owl:equivalentClass [ owl:intersectionOf ( emmo:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c
@@ -1115,7 +1122,11 @@ chameo:CharacterisationWorkflow rdf:type owl:Class ;
                                                                          ) ;
                                                       rdf:type owl:Class
                                                     ] ;
-                                rdfs:subClassOf emmo:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c ;
+                                rdfs:subClassOf emmo:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c ,
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a ;
+                                                  owl:someValuesFrom chameo:CharacterisationTask
+                                                ] ;
                                 rdfs:comment "" ;
                                 rdfs:label "CharacterisationWorkflow"@en ;
                                 skos:prefLabel "CharacterisationWorkflow"@en ;
@@ -1133,7 +1144,7 @@ chameo:CharacterisedSample rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ChargeDistribution
 chameo:ChargeDistribution rdf:type owl:Class ;
-                          rdfs:subClassOf chameo:CharacterisationMethod ;
+                          rdfs:subClassOf chameo:CharacterisationTechnique ;
                           rdfs:comment "" ;
                           rdfs:label "ChargeDistribution"@en ;
                           skos:prefLabel "ChargeDistribution"@en .
@@ -1141,7 +1152,7 @@ chameo:ChargeDistribution rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Chromatography
 chameo:Chromatography rdf:type owl:Class ;
-                      rdfs:subClassOf chameo:CharacterisationMethod ;
+                      rdfs:subClassOf chameo:CharacterisationTechnique ;
                       rdfs:comment "" ;
                       rdfs:label "Chromatography"@en ;
                       skos:prefLabel "Chromatography"@en ;
@@ -1502,7 +1513,7 @@ chameo:DifferentialThermalAnalysis rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Dilatometry
 chameo:Dilatometry rdf:type owl:Class ;
-                   rdfs:subClassOf chameo:CharacterisationMethod ;
+                   rdfs:subClassOf chameo:CharacterisationTechnique ;
                    rdfs:comment "" ;
                    rdfs:label "Dilatometry"@en ;
                    rdfs:seeAlso "https://www.lboro.ac.uk/research/lmcc/facilities/dilatometry/#:~:text=Dilatometry%20is%20a%20method%20for,to%20mimic%20an%20industrial%20process." ;
@@ -1533,8 +1544,6 @@ chameo:DirectCoulometryAtControlledPotential rdf:type owl:Class ;
                                              emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
-<<<<<<< Updated upstream
-=======
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DirectCurrentInternalResistance
 chameo:DirectCurrentInternalResistance rdf:type owl:Class ;
                                        rdfs:subClassOf chameo:Chronopotentiometry ;
@@ -1542,7 +1551,6 @@ chameo:DirectCurrentInternalResistance rdf:type owl:Class ;
                                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of determining the internal resistance of an electrochemical cell by applying a low current followed by higher current within a short period, and then record the changes of battery voltage and current"@en .
 
 
->>>>>>> Stashed changes
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DynamicLightScattering
 chameo:DynamicLightScattering rdf:type owl:Class ;
                               rdfs:subClassOf chameo:OpticalTesting ;
@@ -1660,8 +1668,6 @@ layer or less. Depending on what is already known about the sample, the techniqu
 can probe a range of properties including layer thickness, morphology, and chemical composition."""@en .
 
 
-<<<<<<< Updated upstream
-=======
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#EnergyDispersiveXraySpectroscopy
 chameo:EnergyDispersiveXraySpectroscopy rdf:type owl:Class ;
                                         rdfs:subClassOf chameo:Spectroscopy ;
@@ -1669,11 +1675,10 @@ chameo:EnergyDispersiveXraySpectroscopy rdf:type owl:Class ;
                                                       "EDX"@en ;
                                         skos:prefLabel "EnergyDispersiveXraySpectroscopy"@en ;
                                         emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q386334"@en ;
-                                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "an analytical technique used for the elemental analysis or chemical characterization of a sample"@en ;
+                                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An analytical technique used for the elemental analysis or chemical characterization of a sample."@en ;
                                         emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy"@en .
 
 
->>>>>>> Stashed changes
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#EnvironmentalScanningElectronMicroscopy
 chameo:EnvironmentalScanningElectronMicroscopy rdf:type owl:Class ;
                                                rdfs:subClassOf chameo:Microscopy ;
@@ -1722,19 +1727,16 @@ chameo:FieldEmissionScanningElectronMicroscopy rdf:type owl:Class ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Field emission scanning electron microscopy (FE-SEM) is an advanced technology used to capture the microstructure image of the materials. FE-SEM is typically performed in a high vacuum because gas molecules tend to disturb the electron beam and the emitted secondary and backscattered electrons used for imaging."@en .
 
 
-<<<<<<< Updated upstream
-=======
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#FourierTransformInfraredSpectroscopy
 chameo:FourierTransformInfraredSpectroscopy rdf:type owl:Class ;
                                             rdfs:subClassOf chameo:Spectroscopy ;
                                             skos:altLabel "FTIR"@en ;
                                             skos:prefLabel "FourierTransformInfraredSpectroscopy"@en ;
                                             emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q901559"@en ;
-                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a technique used to obtain an infrared spectrum of absorption or emission of a solid, liquid, or gas"@en ;
+                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A technique used to obtain an infrared spectrum of absorption or emission of a solid, liquid, or gas"@en ;
                                             emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy"@en .
 
 
->>>>>>> Stashed changes
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Fractography
 chameo:Fractography rdf:type owl:Class ;
                     rdfs:subClassOf chameo:OpticalTesting ;
@@ -1777,11 +1779,9 @@ Most radioactive sources produce gamma rays, which are of various energies and i
 A detailed analysis of this spectrum is typically used to determine the identity and quantity of gamma emitters present in a gamma source, and is a vital tool in radiometric assay. The gamma spectrum is characteristic of the gamma-emitting nuclides contained in the source, just like in an optical spectrometer, the optical spectrum is characteristic of the material contained in a sample."""@en .
 
 
-<<<<<<< Updated upstream
-=======
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#GasAdsorptionPorosimetry
 chameo:GasAdsorptionPorosimetry rdf:type owl:Class ;
-                                rdfs:subClassOf chameo:GasAdsorptionPorosimetry ;
+                                rdfs:subClassOf chameo:Porosimetry ;
                                 rdfs:comment "" ;
                                 rdfs:label "GasAdsorptionPorosimetry"@en ;
                                 skos:altLabel "GasAdsorptionPorosimetry" ;
@@ -1789,7 +1789,6 @@ chameo:GasAdsorptionPorosimetry rdf:type owl:Class ;
                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Gas Adsorption Porosimetry is a method used for analyzing the surface area and porosity of materials. In this method, a gas, typically nitrogen or argon, is adsorbed onto the surface of the material at various pressures and temperatures."@en .
 
 
->>>>>>> Stashed changes
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#HPPC
 chameo:HPPC rdf:type owl:Class ;
             rdfs:subClassOf chameo:Chronopotentiometry ;
@@ -2046,7 +2045,7 @@ chameo:MeasurementTime rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MechanicalTesting
 chameo:MechanicalTesting rdf:type owl:Class ;
-                         rdfs:subClassOf chameo:CharacterisationMethod ;
+                         rdfs:subClassOf chameo:CharacterisationTechnique ;
                          rdfs:comment "" ;
                          rdfs:label "MechanicalTesting"@en ;
                          skos:prefLabel "MechanicalTesting"@en ;
@@ -2065,20 +2064,18 @@ chameo:MembraneOsmometry rdf:type owl:Class ;
                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In the membrane osmometry technique, a pure solvent and polymer solution are separated by a semipermeable membrane, due to the higher chemical potential of the solvent in the pure solvent than in polymer solution, the solvent starts moving towards the polymer solution."@en .
 
 
-<<<<<<< Updated upstream
-=======
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MercuryPorosimetry
 chameo:MercuryPorosimetry rdf:type owl:Class ;
                           rdfs:subClassOf chameo:Porosimetry ;
+                          rdfs:comment "" ;
                           rdfs:label "MercuryPorosimetry"@en ;
                           skos:prefLabel "MercuryPorosimetry"@en ;
                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a method used to measure the pore size distribution and total pore volume of solid materials by infiltrating mercury into the pores under controlled pressure conditions and analyzing the amount of mercury intrusion"@en .
 
 
->>>>>>> Stashed changes
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Microscopy
 chameo:Microscopy rdf:type owl:Class ;
-                  rdfs:subClassOf chameo:CharacterisationMethod ;
+                  rdfs:subClassOf chameo:CharacterisationTechnique ;
                   rdfs:comment "" ;
                   rdfs:label "Microscopy"@en ;
                   skos:prefLabel "Microscopy"@en ;
@@ -2153,7 +2150,11 @@ chameo:OpenCircuitHold rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Operator
 chameo:Operator rdf:type owl:Class ;
-                rdfs:subClassOf emmo:EMMO_c130614a_2985_476d_a7ed_8a137847703c ;
+                rdfs:subClassOf [ owl:intersectionOf ( foaf:Person
+                                                       emmo:EMMO_c130614a_2985_476d_a7ed_8a137847703c
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
                 rdfs:comment "" ;
                 rdfs:label "Operator"@en ;
                 skos:prefLabel "Operator"@en ;
@@ -2171,7 +2172,7 @@ chameo:OpticalMicroscopy rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#OpticalTesting
 chameo:OpticalTesting rdf:type owl:Class ;
-                      rdfs:subClassOf chameo:CharacterisationMethod ;
+                      rdfs:subClassOf chameo:CharacterisationTechnique ;
                       rdfs:comment "" ;
                       rdfs:label "OpticalTesting"@en ;
                       skos:prefLabel "OpticalTesting"@en .
@@ -2179,7 +2180,7 @@ chameo:OpticalTesting rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Osmometry
 chameo:Osmometry rdf:type owl:Class ;
-                 rdfs:subClassOf chameo:CharacterisationMethod ;
+                 rdfs:subClassOf chameo:CharacterisationTechnique ;
                  rdfs:comment "" ;
                  rdfs:label "Osmometry"@en ;
                  skos:prefLabel "Osmometry"@en ;
@@ -2345,7 +2346,7 @@ chameo:ProcessingReproducibility rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Profilometry
 chameo:Profilometry rdf:type owl:Class ;
-                    rdfs:subClassOf chameo:CharacterisationMethod ;
+                    rdfs:subClassOf chameo:CharacterisationTechnique ;
                     rdfs:comment "" ;
                     rdfs:label "Profilometry"@en ;
                     skos:prefLabel "Profilometry"@en ;
@@ -2594,7 +2595,7 @@ chameo:ScanningTunnelingMicroscopy rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ScatteringAndDiffraction
 chameo:ScatteringAndDiffraction rdf:type owl:Class ;
-                                rdfs:subClassOf chameo:CharacterisationMethod ;
+                                rdfs:subClassOf chameo:CharacterisationTechnique ;
                                 rdfs:comment "" ;
                                 rdfs:label "ScatteringAndDiffraction"@en ;
                                 skos:prefLabel "ScatteringAndDiffraction"@en .
@@ -2643,7 +2644,7 @@ chameo:Signal rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Spectrometry
 chameo:Spectrometry rdf:type owl:Class ;
-                    rdfs:subClassOf chameo:CharacterisationMethod ;
+                    rdfs:subClassOf chameo:CharacterisationTechnique ;
                     rdfs:comment "" ;
                     rdfs:label "Spectrometry"@en ;
                     skos:prefLabel "Spectrometry"@en ;
@@ -2652,7 +2653,7 @@ chameo:Spectrometry rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Spectroscopy
 chameo:Spectroscopy rdf:type owl:Class ;
-                    rdfs:subClassOf chameo:CharacterisationMethod ;
+                    rdfs:subClassOf chameo:CharacterisationTechnique ;
                     rdfs:comment "" ;
                     rdfs:label "Spectroscopy"@en ;
                     skos:prefLabel "Spectroscopy"@en ;
@@ -2729,7 +2730,7 @@ chameo:TensileTesting rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ThermochemicalTesting
 chameo:ThermochemicalTesting rdf:type owl:Class ;
-                             rdfs:subClassOf chameo:CharacterisationMethod ;
+                             rdfs:subClassOf chameo:CharacterisationTechnique ;
                              rdfs:comment "" ;
                              rdfs:label "ThermochemicalTesting"@en ;
                              skos:altLabel "TMA" ;
@@ -2747,22 +2748,19 @@ chameo:Thermogravimetry rdf:type owl:Class ;
                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Thermogravimetric analysis or thermal gravimetric analysis (TGA) is a method of thermal analysis in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction)."@en .
 
 
-<<<<<<< Updated upstream
-=======
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ThreePointBendingTesting
 chameo:ThreePointBendingTesting rdf:type owl:Class ;
                                 rdfs:subClassOf chameo:MechanicalTesting ;
                                 skos:altLabel "ThreePointFlexuralTest"@en ;
                                 skos:prefLabel "ThreePointBendingTesting"@en ;
                                 emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q2300905"@en ;
-                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of mechanical testing that provides values for the modulus of elasticity in bending, flexural stress, flexural strain, and the flexural stress–strain response of a material sample"@en ;
+                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Method of mechanical testing that provides values for the modulus of elasticity in bending, flexural stress, flexural strain, and the flexural stress–strain response of a material sample"@en ;
                                 emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Three-point_flexural_test"@en .
 
 
->>>>>>> Stashed changes
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Tomography
 chameo:Tomography rdf:type owl:Class ;
-                  rdfs:subClassOf chameo:CharacterisationMethod ;
+                  rdfs:subClassOf chameo:CharacterisationTechnique ;
                   rdfs:comment "" ;
                   rdfs:label "Tomography"@en ;
                   skos:prefLabel "Tomography"@en ;
@@ -2781,7 +2779,7 @@ chameo:TransmissionElectronMicroscopy rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#UltrasonicTesting
 chameo:UltrasonicTesting rdf:type owl:Class ;
-                         rdfs:subClassOf chameo:CharacterisationMethod ;
+                         rdfs:subClassOf chameo:CharacterisationTechnique ;
                          rdfs:comment "" ;
                          rdfs:label "UltrasonicTesting"@en ;
                          skos:prefLabel "UltrasonicTesting"@en ;
@@ -2808,7 +2806,7 @@ chameo:VaporPressureDepressionOsmometry rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Viscometry
 chameo:Viscometry rdf:type owl:Class ;
-                  rdfs:subClassOf chameo:CharacterisationMethod ;
+                  rdfs:subClassOf chameo:CharacterisationTechnique ;
                   rdfs:comment "" ;
                   rdfs:label "Viscometry"@en ;
                   skos:altLabel "Viscosity" ;
@@ -2861,8 +2859,6 @@ chameo:XpsVariableKinetic rdf:type owl:Class ;
                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "X-ray photoelectron spectroscopy (XPS), also known as ESCA (electron spectroscopy for chemical analysis) is a surface analysis technique which provides both elemental and chemical state information virtually without restriction on the type of material which can be analysed. It is a relatively simple technique where the sample is illuminated with X-rays which have enough energy to eject an electron from the atom.  These ejected electrons are known as photoelectrons. The kinetic energy of these emitted electrons is characteristic of the element from which the photoelectron originated. The position and intensity of the peaks in an energy spectrum provide the desired chemical state and quantitative information.  The surface sensitivity of XPS is determined by the distance that that photoelectron can travel through the material without losing any kinteic energy.  These elastiaclly scattered photoelectrons contribute to the photoelectron peak, whilst photoelectrons that have been inelastically scattered, losing some kinetic energy before leaving the material, will contribute to the spectral background."@en .
 
 
-<<<<<<< Updated upstream
-=======
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#XrayDiffraction
 chameo:XrayDiffraction rdf:type owl:Class ;
                        rdfs:subClassOf chameo:ScatteringAndDiffraction ;
@@ -2884,7 +2880,6 @@ chameo:XrayPowderDiffraction rdf:type owl:Class ;
                              emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Powder_diffraction" .
 
 
->>>>>>> Stashed changes
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#XrdGrazingIncidence
 chameo:XrdGrazingIncidence rdf:type owl:Class ;
                            rdfs:subClassOf chameo:ScatteringAndDiffraction ;
