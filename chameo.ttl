@@ -9,10 +9,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
+@prefix chameo: <https://w3id.org/emmo/domain/domain-chameo/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
+@base <https://w3id.org/emmo/domain/domain-chameo/chameo#> .
 
 <https://w3id.org/emmo/domain/domain-chameo/chameo> rdf:type owl:Ontology ;
                                                                     owl:versionIRI <http://w3id.org/emmo-chameo/1.0.0-beta5/chameo> ;
