@@ -71,11 +71,13 @@ jobs:
             public/chameo-inferred.ttl \
             build/chameo.rst
           sphinx-build "build/" "public/"
+          # Remove the generated index.html and instead show the readme file
+          rm public/index.html
           cp README.md public/
 
       - name: Publish on GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
-        #if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
