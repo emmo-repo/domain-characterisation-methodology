@@ -34,6 +34,10 @@ ACVoltammetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">ACV</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ACVoltammetry</td>
   </tr>
@@ -54,16 +58,12 @@ ACVoltammetry
     <td class="element-table-value">voltammetry in which a sinusoidal alternating potential of small amplitude (10 to 50 mV) of constant frequency (10 Hz to 100 kHz) is superimposed on a slowly and linearly varying potential ramp</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">ACV</td>
+    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
+    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
     <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q120895154">https://www.wikidata.org/wiki/Q120895154</a></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
-    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -191,6 +191,10 @@ AdsorptiveStrippingVoltammetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">AdSV</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">AdsorptiveStrippingVoltammetry</td>
   </tr>
@@ -205,10 +209,6 @@ AdsorptiveStrippingVoltammetry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Stripping voltammetry involving pre-concentration by adsorption of the analyte (in contrast to electro-chemical accumulation).</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">AdSV</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
@@ -427,12 +427,12 @@ AnodicStrippingVoltammetry
     <td class="element-table-value">Stripping voltammetry in which material accumulated at the working electrode is electrochemically oxi- dized in the stripping step.</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q939328">https://www.wikidata.org/wiki/Q939328</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
     <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q939328">https://www.wikidata.org/wiki/Q939328</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -466,6 +466,14 @@ AtomProbeTomography
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">3D Atom Probe</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">APT</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">AtomProbeTomography</td>
   </tr>
@@ -476,14 +484,6 @@ AtomProbeTomography
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Atom Probe Tomography (APT or 3D Atom Probe) is the only material analysis technique offering extensive capabilities for both 3D imaging and chemical composition measurements at the atomic scale (around 0.1-0.3nm resolution in depth and 0.3-0.5nm laterally). Since its early developments, Atom Probe Tomography has contributed to major advances in materials science. The sample is prepared in the form of a very sharp tip. The cooled tip is biased at high DC voltage (3-15 kV). The very small radius of the tip and the High Voltage induce a very high electrostatic field (tens V/nm) at the tip surface, just below the point of atom evaporation. Under laser or HV pulsing, one or more atoms are evaporated from the surface, by field effect (near 100% ionization), and projected onto a Position Sensitive Detector (PSD) with a very high detection efficiency. Ion efficiencies are as high as 80%, the highest analytical efficiency of any 3D microscopy.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">3D Atom Probe</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">APT</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -560,6 +560,10 @@ BrunauerEmmettTellerMethod
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">BET</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">BrunauerEmmettTellerMethod</td>
   </tr>
@@ -568,16 +572,12 @@ BrunauerEmmettTellerMethod
     <td class="element-table-value">A technique used to measure the specific surface area of porous materials by analyzing the adsorption of gas molecules onto the material&#x27;s surface</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/BET_theory">https://en.wikipedia.org/wiki/BET_theory</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">A technique used to measure the specific surface area of porous materials by analyzing the adsorption of gas molecules onto the material&#x27;s surface</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">BET</td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/BET_theory">https://en.wikipedia.org/wiki/BET_theory</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
@@ -862,6 +862,10 @@ CathodicStrippingVoltammetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">CSV</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">CathodicStrippingVoltammetry</td>
   </tr>
@@ -874,16 +878,12 @@ CathodicStrippingVoltammetry
     <td class="element-table-value">Stripping voltammetry in which material accumulated at the working electrode is electrochemically reduced in the stripping step. A peak-shaped cathodic stripping voltammogram is obtained. Peak current depends on time of accumulation, mass transport of analyte (stirring), scan rate and mode (linear or pulse), and analyte concentration in solution.</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">CSV</td>
+    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
+    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
     <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q4016325">https://www.wikidata.org/wiki/Q4016325</a></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
-    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -1293,12 +1293,12 @@ CharacterisationMeasurementInstrument
     <td class="element-table-value">Device used for making measurements, alone or in conjunction with one or more supplementary<br>devices<br>NOTE 1 A measuring instrument that can be used alone for making measurements is a measuring system.<br>NOTE 2 A measuring instrument is either an indicating measuring instrument or a material measure.</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Example</span></td>
-    <td class="element-table-value">In nanoindentation is the nanoindenter</td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Vimterm</span></td>
     <td class="element-table-value">Measuring instrument</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Example</span></td>
+    <td class="element-table-value">In nanoindentation is the nanoindenter</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -1855,6 +1855,14 @@ CharacterisationTechnique
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">Characterisation procedure</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">Characterisation technique</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">CharacterisationTechnique</td>
   </tr>
@@ -1877,14 +1885,6 @@ CharacterisationTechnique
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">The description of the overall characterisation method. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing).</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">Characterisation procedure</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">Characterisation technique</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -2075,12 +2075,12 @@ Chromatography
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Chromatography">https://en.wikipedia.org/wiki/Chromatography</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">In chemical analysis, chromatography is a laboratory technique for the separation of a mixture into its components.</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Chromatography">https://en.wikipedia.org/wiki/Chromatography</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -2114,6 +2114,14 @@ Chronoamperometry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">AmperiometricDetection</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">AmperometricCurrentTimeCurve</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">Chronoamperometry</td>
   </tr>
@@ -2132,14 +2140,6 @@ Chronoamperometry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">amperometry in which the current is measured as a function of time after a change in the applied potential</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">AmperiometricDetection</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">AmperometricCurrentTimeCurve</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
@@ -2362,12 +2362,12 @@ ConductometricTitration
     <td class="element-table-value">titration in which the electric conductivity of a solution is measured as a function of the amount of titrant added</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q11778221">https://www.wikidata.org/wiki/Q11778221</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
     <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q11778221">https://www.wikidata.org/wiki/Q11778221</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -2417,24 +2417,24 @@ Conductometry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Conductometry">https://en.wikipedia.org/wiki/Conductometry</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">measurement principle in which the electric conductivity of a solution is measured</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q901180">https://www.wikidata.org/wiki/Q901180</a></td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Conductometry">https://en.wikipedia.org/wiki/Conductometry</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
+    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Example</span></td>
     <td class="element-table-value">Monitoring of the purity of deionized water.</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
-    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q901180">https://www.wikidata.org/wiki/Q901180</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -2590,24 +2590,24 @@ Coulometry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Coulometry">https://en.wikipedia.org/wiki/Coulometry</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">electrochemical measurement principle in which the electric charge required to carry out a known electrochemical reaction is measured. By Faraday’s laws of electrolysis, the amount of substance is proportional to the charge</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q1136979">https://www.wikidata.org/wiki/Q1136979</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Ievreference</span></td>
     <td class="element-table-value"><a href="https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=114-04-13">https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=114-04-13</a></td>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Coulometry">https://en.wikipedia.org/wiki/Coulometry</a></td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
     <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q1136979">https://www.wikidata.org/wiki/Q1136979</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -2774,6 +2774,10 @@ CyclicVoltammetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">CV</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">CyclicVoltammetry</td>
   </tr>
@@ -2802,28 +2806,24 @@ CyclicVoltammetry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Cyclic_voltammetry">https://en.wikipedia.org/wiki/Cyclic_voltammetry</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">voltammetry in which the electric current is recorded as the electrode potential is varied with time cycli- cally between two potential limits, normally at a constant scan rate</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">CV</td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Cyclic_voltammetry">https://en.wikipedia.org/wiki/Cyclic_voltammetry</a></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Dbpediareference</span></td>
-    <td class="element-table-value"><a href="https://dbpedia.org/page/Cyclic_voltammetry">https://dbpedia.org/page/Cyclic_voltammetry</a></td>
+    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
+    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
     <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q1147647">https://www.wikidata.org/wiki/Q1147647</a></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
-    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+    <td class="element-table-key"><span class="element-table-key">Dbpediareference</span></td>
+    <td class="element-table-value"><a href="https://dbpedia.org/page/Cyclic_voltammetry">https://dbpedia.org/page/Cyclic_voltammetry</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -3504,6 +3504,10 @@ DifferentialPulseVoltammetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">DPV</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">DifferentialPulseVoltammetry</td>
   </tr>
@@ -3528,24 +3532,20 @@ DifferentialPulseVoltammetry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Differential_pulse_voltammetry">https://en.wikipedia.org/wiki/Differential_pulse_voltammetry</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">voltammetry in which small potential pulses (constant height 10 to 100 mV, constant width 10 to 100 ms) are superimposed onto a linearly varying potential or onto a staircase potential ramp. The current is sampled just before the onset of the pulse (e.g. 10 to 20 ms) and for the same sampling time just before the end of the pulse. The difference between the two sampled currents is plotted versus the potential applied before the pulse. Thus, a differential pulse voltammogram is peak-shaped</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">DPV</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q5275361">https://www.wikidata.org/wiki/Q5275361</a></td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Differential_pulse_voltammetry">https://en.wikipedia.org/wiki/Differential_pulse_voltammetry</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
     <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q5275361">https://www.wikidata.org/wiki/Q5275361</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -3618,6 +3618,10 @@ DifferentialScanningCalorimetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">DSC</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">DifferentialScanningCalorimetry</td>
   </tr>
@@ -3632,10 +3636,6 @@ DifferentialScanningCalorimetry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Differential scanning calorimetry (DSC) is a thermoanalytical technique in which the difference in the amount of heat required to increase the temperature of a sample and reference is measured as a function of temperature. Both the sample and reference are maintained at nearly the same temperature throughout the experiment. Generally, the temperature program for a DSC analysis is designed such that the sample holder temperature increases linearly as a function of time. The reference sample should have a well-defined heat capacity over the range of temperatures to be scanned. Additionally, the reference sample must be stable, of high purity, and must not experience much change across the temperature scan. Typically, reference standards have been metals such as indium, tin, bismuth, and lead, but other standards such as polyethylene and fatty acids have been proposed to study polymers and organic compounds, respectively.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">DSC</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -3716,6 +3716,10 @@ DifferentialThermalAnalysis
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">DTA</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">DifferentialThermalAnalysis</td>
   </tr>
@@ -3730,10 +3734,6 @@ DifferentialThermalAnalysis
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Differential thermal analysis (DTA) is a thermoanalytic technique that is similar to differential scanning calorimetry. In DTA, the material under study and an inert reference are made to undergo identical thermal cycles, (i.e., same cooling or heating programme) while recording any temperature difference between sample and reference.[1] This differential temperature is then plotted against time, or against temperature (DTA curve, or thermogram). Changes in the sample, either exothermic or endothermic, can be detected relative to the inert reference. Thus, a DTA curve provides data on the transformations that have occurred, such as glass transitions, crystallization, melting and sublimation. The area under a DTA peak is the enthalpy change and is not affected by the heat capacity of the sample.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">DTA</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -3975,6 +3975,10 @@ DynamicLightScattering
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">DLS</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">DynamicLightScattering</td>
   </tr>
@@ -3989,10 +3993,6 @@ DynamicLightScattering
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Dynamic light scattering (DLS) is a technique in physics that can be used to determine the size distribution profile of small particles in suspension or polymers in solution. In the scope of DLS, temporal fluctuations are usually analyzed using the intensity or photon auto-correlation function (also known as photon correlation spectroscopy - PCS or quasi-elastic light scattering - QELS).</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">DLS</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -4073,6 +4073,10 @@ DynamicMechanicalSpectroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">DMA</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">DynamicMechanicalSpectroscopy</td>
   </tr>
@@ -4087,10 +4091,6 @@ DynamicMechanicalSpectroscopy
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Dynamic Mechanical Analysis (DMA) is a material characterization technique where a small deformation is applied to a sample in a cyclic manner. This allows measurement of the materials response to stress, temperature, frequency or time. The term is also used to refer to the analyzer that performs the test.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">DMA</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -4124,6 +4124,10 @@ ElectrochemicalImpedanceSpectroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">EIS</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ElectrochemicalImpedanceSpectroscopy</td>
   </tr>
@@ -4148,16 +4152,12 @@ ElectrochemicalImpedanceSpectroscopy
     <td class="element-table-value">electrochemical measurement method of the complex impedance of an electrochemical system as a function of the frequency of a small amplitude (normally 5 to 10 mV) sinusoidal voltage perturbation superimposed on a fixed value of applied potential or on the open circuit potential</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">EIS</td>
+    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
+    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
     <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q3492904">https://www.wikidata.org/wiki/Q3492904</a></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
-    <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -4305,20 +4305,20 @@ Electrogravimetry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Electrogravimetry">https://en.wikipedia.org/wiki/Electrogravimetry</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">method of electroanalytical chemistry used to separate by electrolyse ions of a substance and to derive the amount of this substance from the increase in mass of an electrode.</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q902953">https://www.wikidata.org/wiki/Q902953</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Ievreference</span></td>
     <td class="element-table-value"><a href="https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=114-04-14">https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=114-04-14</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Electrogravimetry">https://en.wikipedia.org/wiki/Electrogravimetry</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q902953">https://www.wikidata.org/wiki/Q902953</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -4352,6 +4352,10 @@ ElectronBackscatterDiffraction
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">EBSD</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ElectronBackscatterDiffraction</td>
   </tr>
@@ -4366,10 +4370,6 @@ ElectronBackscatterDiffraction
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Electron backscatter diffraction (EBSD) is a scanning electron microscopy (SEM) technique used to study the crystallographic structure of materials. EBSD is carried out in a scanning electron microscope equipped with an EBSD detector comprising at least a phosphorescent screen, a compact lens and a low-light camera. In this configuration, the SEM incident beam hits the tilted sample. As backscattered electrons leave the sample, they interact with the crystal&#x27;s periodic atomic lattice planes and diffract according to Bragg&#x27;s law at various scattering angles before reaching the phosphor screen forming Kikuchi patterns (EBSPs). EBSD spatial resolution depends on many factors, including the nature of the material under study and the sample preparation. Thus, EBSPs can be indexed to provide information about the material&#x27;s grain structure, grain orientation, and phase at the micro-scale. EBSD is applied for impurities and defect studies, plastic deformation, and statistical analysis for average misorientation, grain size, and crystallographic texture. EBSD can also be combined with energy-dispersive X-ray spectroscopy (EDS), cathodoluminescence (CL), and wavelength-dispersive X-ray spectroscopy (WDS) for advanced phase identification and materials discovery.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">EBSD</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -4501,6 +4501,14 @@ EnergyDispersiveXraySpectroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">EDS</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">EDX</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">EnergyDispersiveXraySpectroscopy</td>
   </tr>
@@ -4513,20 +4521,12 @@ EnergyDispersiveXraySpectroscopy
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy">https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">An analytical technique used for the elemental analysis or chemical characterization of a sample.</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">EDS</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">EDX</td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy">https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
@@ -4705,6 +4705,10 @@ FibDic
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">FIBDICResidualStressAnalysis</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">FibDic</td>
   </tr>
@@ -4719,10 +4723,6 @@ FibDic
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">The FIB-DIC (Focused Ion Beam - Digital Image Correlation) ring-core technique is a powerful method for measuring residual stresses in materials. It is based on milling a ring-shaped sample, or core, from the material of interest using a focused ion beam (FIB).</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">FIBDICResidualStressAnalysis</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -4756,6 +4756,10 @@ FieldEmissionScanningElectronMicroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">FE-SEM</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">FieldEmissionScanningElectronMicroscopy</td>
   </tr>
@@ -4770,10 +4774,6 @@ FieldEmissionScanningElectronMicroscopy
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Field emission scanning electron microscopy (FE-SEM) is an advanced technology used to capture the microstructure image of the materials. FE-SEM is typically performed in a high vacuum because gas molecules tend to disturb the electron beam and the emitted secondary and backscattered electrons used for imaging.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">FE-SEM</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -4807,6 +4807,10 @@ FourierTransformInfraredSpectroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">FTIR</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">FourierTransformInfraredSpectroscopy</td>
   </tr>
@@ -4819,16 +4823,12 @@ FourierTransformInfraredSpectroscopy
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy">https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">A technique used to obtain an infrared spectrum of absorption or emission of a solid, liquid, or gas</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">FTIR</td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy">https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
@@ -4960,6 +4960,10 @@ GalvanostaticIntermittentTitrationTechnique
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">GITT</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">GalvanostaticIntermittentTitrationTechnique</td>
   </tr>
@@ -4974,10 +4978,6 @@ GalvanostaticIntermittentTitrationTechnique
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">electrochemical method that applies current pulses to an electrochemical cell at rest and measures the voltage response</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">GITT</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
@@ -5062,6 +5062,10 @@ GasAdsorptionPorosimetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">GasAdsorptionPorosimetry</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">GasAdsorptionPorosimetry</td>
   </tr>
@@ -5076,10 +5080,6 @@ GasAdsorptionPorosimetry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Gas Adsorption Porosimetry is a method used for analyzing the surface area and porosity of materials. In this method, a gas, typically nitrogen or argon, is adsorbed onto the surface of the material at various pressures and temperatures.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">GasAdsorptionPorosimetry</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -5113,6 +5113,14 @@ HPPC
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">HybridPulsePowerCharacterisation</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">HybridPulsePowerCharacterization</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">HPPC</td>
   </tr>
@@ -5127,14 +5135,6 @@ HPPC
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">electrochemical method that measures the voltage drop of a cell resulting from a square wave current load</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">HybridPulsePowerCharacterisation</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">HybridPulsePowerCharacterization</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -5411,20 +5411,20 @@ HydrodynamicVoltammetry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Hydrodynamic_voltammetry">https://en.wikipedia.org/wiki/Hydrodynamic_voltammetry</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">voltammetry with forced flow of the solution towards the electrode surface</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q17028237">https://www.wikidata.org/wiki/Q17028237</a></td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Hydrodynamic_voltammetry">https://en.wikipedia.org/wiki/Hydrodynamic_voltammetry</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
     <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q17028237">https://www.wikidata.org/wiki/Q17028237</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -5458,6 +5458,10 @@ ICI
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">IntermittentCurrentInterruptionMethod</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ICI</td>
   </tr>
@@ -5472,10 +5476,6 @@ ICI
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">electrochemical method that measures the voltage response of an electrochemical cell under galvanostatic conditions to short interruptions in the current</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">IntermittentCurrentInterruptionMethod</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -5678,12 +5678,12 @@ IonChromatography
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Ion_chromatography">https://en.wikipedia.org/wiki/Ion_chromatography</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Ion chromatography (or ion-exchange chromatography) is a form of chromatography that separates ions and ionizable polar molecules based on their affinity to the ion exchanger.</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Ion_chromatography">https://en.wikipedia.org/wiki/Ion_chromatography</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -5717,6 +5717,10 @@ IonMobilitySpectrometry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">IMS</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">IonMobilitySpectrometry</td>
   </tr>
@@ -5731,10 +5735,6 @@ IonMobilitySpectrometry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Ion mobility spectrometry (IMS) It is a method of conducting analytical research that separates and identifies ionized molecules present in the gas phase based on the mobility of the molecules in a carrier buffer gas. Even though it is used extensively for military or security objectives, such as detecting drugs and explosives, the technology also has many applications in laboratory analysis, including studying small and big biomolecules. IMS instruments are extremely sensitive stand-alone devices, but are often coupled with mass spectrometry, gas chromatography or high-performance liquid chromatography in order to achieve a multi-dimensional separation. They come in various sizes, ranging from a few millimeters to several meters depending on the specific application, and are capable of operating under a broad range of conditions. IMS instruments such as microscale high-field asymmetric-waveform ion mobility spectrometry can be palm-portable for use in a range of applications including volatile organic compound (VOC) monitoring, biological sample analysis, medical diagnosis and food quality monitoring.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">IMS</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -5768,6 +5768,10 @@ IsothermalMicrocalorimetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">IMC</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">IsothermalMicrocalorimetry</td>
   </tr>
@@ -5782,10 +5786,6 @@ IsothermalMicrocalorimetry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Isothermal microcalorimetry (IMC) is a laboratory method for real-time monitoring and dynamic analysis of chemical, physical and biological processes. Over a period of hours or days, IMC determines the onset, rate, extent and energetics of such processes for specimens in small ampoules (e.g. 3–20 ml) at a constant set temperature (c. 15 °C–150 °C).<br><br>IMC accomplishes this dynamic analysis by measuring and recording vs. elapsed time the net rate of heat flow (μJ/s = μW) to or from the specimen ampoule, and the cumulative amount of heat (J) consumed or produced.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">IMC</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -6050,6 +6050,18 @@ LinearScanVoltammetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">LSV</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">LinearPolarization</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">LinearSweepVoltammetry</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">LinearScanVoltammetry</td>
   </tr>
@@ -6074,32 +6086,20 @@ LinearScanVoltammetry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Linear_sweep_voltammetry">https://en.wikipedia.org/wiki/Linear_sweep_voltammetry</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Voltammetry in which the current is recorded as the electrode potential is varied linearly with time.</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">LSV</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">LinearPolarization</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">LinearSweepVoltammetry</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q620700">https://www.wikidata.org/wiki/Q620700</a></td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Linear_sweep_voltammetry">https://en.wikipedia.org/wiki/Linear_sweep_voltammetry</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
     <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q620700">https://www.wikidata.org/wiki/Q620700</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -6400,12 +6400,12 @@ MechanicalTesting
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Mechanical_testing">https://en.wikipedia.org/wiki/Mechanical_testing</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Mechanical testing covers a wide range of tests, which can be divided broadly into two types:<br>1. those that aim to determine a material&#x27;s mechanical properties, independent of geometry.<br>2. those that determine the response of a structure to a given action, e.g. testing of composite beams, aircraft structures to destruction, etc.</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Mechanical_testing">https://en.wikipedia.org/wiki/Mechanical_testing</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -6631,6 +6631,10 @@ NeutronSpinEchoSpectroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">NSE</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">NeutronSpinEchoSpectroscopy</td>
   </tr>
@@ -6645,10 +6649,6 @@ NeutronSpinEchoSpectroscopy
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Neutron spin echo spectroscopy is a high resolution inelastic neutron scattering method probing nanosecond dynamics. Neutron spin echo (NSE) spectroscopy uses the precession of neutron spins in a magnetic field to measure the energy transfer at the sample and decouples the energy resolution from beam characteristics like monochromatisation and collimation.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">NSE</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -6729,6 +6729,10 @@ NormalPulseVoltammetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">NPV</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">NormalPulseVoltammetry</td>
   </tr>
@@ -6763,10 +6767,6 @@ NormalPulseVoltammetry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">voltammetry in which potential pulses of amplitude increasing by a constant increment and with a pulse width of 2 to 200 ms are superimposed on a constant initial potential</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">NPV</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
@@ -6804,6 +6804,14 @@ NuclearMagneticResonance
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">Magnetic resonance spectroscopy (MRS)</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">NMR</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">NuclearMagneticResonance</td>
   </tr>
@@ -6818,14 +6826,6 @@ NuclearMagneticResonance
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Nuclear magnetic resonance spectroscopy, most commonly known as NMR spectroscopy or magnetic resonance spectroscopy (MRS), is a spectroscopic technique to observe local magnetic fields around atomic nuclei. This spectroscopy is based on the measurement of absorption of electromagnetic radiations in the radio frequency region from roughly 4 to 900 MHz. Absorption of radio waves in the presence of magnetic field is accompanied by a special type of nuclear transition, and for this reason, such type of spectroscopy is known as Nuclear Magnetic Resonance Spectroscopy. The sample is placed in a magnetic field and the NMR signal is produced by excitation of the nuclei sample with radio waves into nuclear magnetic resonance, which is detected with sensitive radio receivers. The intramolecular magnetic field around an atom in a molecule changes the resonance frequency, thus giving access to details of the electronic structure of a molecule and its individual functional groups. As the fields are unique or highly characteristic to individual compounds, in modern organic chemistry practice, NMR spectroscopy is the definitive method to identify monomolecular organic compounds.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">Magnetic resonance spectroscopy (MRS)</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">NMR</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -6859,6 +6859,10 @@ OpenCircuitHold
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">OCVHold</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">OpenCircuitHold</td>
   </tr>
@@ -6873,10 +6877,6 @@ OpenCircuitHold
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">a process in which the electric current is kept constant at 0 (i.e., open-circuit conditions)</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">OCVHold</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -7294,6 +7294,10 @@ PotentiometricStrippingAnalysis
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">PSA</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">PotentiometricStrippingAnalysis</td>
   </tr>
@@ -7324,10 +7328,6 @@ PotentiometricStrippingAnalysis
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">PSA</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -7385,16 +7385,16 @@ Potentiometry
     <td class="element-table-value">Potentiometric methods are used to measure the electrochemical potentials of a metallic structure in a given environment.</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q900632">https://www.wikidata.org/wiki/Q900632</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Ievreference</span></td>
     <td class="element-table-value"><a href="https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=114-04-12">https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=114-04-12</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
     <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q900632">https://www.wikidata.org/wiki/Q900632</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -7750,6 +7750,10 @@ PseudoOpenCircuitVoltageMethod
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">PseudoOCV</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">PseudoOpenCircuitVoltageMethod</td>
   </tr>
@@ -7764,10 +7768,6 @@ PseudoOpenCircuitVoltageMethod
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">a technique used to measure the voltage of a cell under a low applied current as an estimate for the open-circuit voltage</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">PseudoOCV</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -8052,6 +8052,18 @@ ReferenceSample
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">Certified Reference Material</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">Reference material</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">ReferenceSpecimen</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ReferenceSample</td>
   </tr>
@@ -8070,18 +8082,6 @@ ReferenceSample
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Material, sufficiently homogeneous and stable with respect to one or more specified properties, which has been established to be fit for its intended use in a measurement process”.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">Certified Reference Material</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">Reference material</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">ReferenceSpecimen</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Definition</span></td>
@@ -8127,6 +8127,10 @@ Sample
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">Specimen</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">Sample</td>
   </tr>
@@ -8149,10 +8153,6 @@ Sample
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Portion of material selected from a larger quantity of material. The term needs to be qualified, e.g., bulk sample, representative sample, primary sample, bulked sample, test sample, etc. The term &#x27;sample&#x27; implies the existence of a sampling error, i.e., the results obtained on the portions taken are only estimates of the concentration of a constituent or the quantity of a property present in the parent material. If there is no or negligible sampling error, the portion removed is a test portion, aliquot, or specimen.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">Specimen</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -8468,6 +8468,10 @@ SampledDCPolarography
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">TASTPolarography</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">SampledDCPolarography</td>
   </tr>
@@ -8486,10 +8490,6 @@ SampledDCPolarography
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">DC polarography with current sampling at the end of each drop life mechanically enforced by a knocker at a preset drop time value. The current sampling and mechanical drop dislodge are synchronized.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">TASTPolarography</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
@@ -8582,6 +8582,10 @@ ScanningAugerElectronMicroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">AES</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ScanningAugerElectronMicroscopy</td>
   </tr>
@@ -8596,10 +8600,6 @@ ScanningAugerElectronMicroscopy
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Auger electron spectroscopy (AES or simply Auger) is a surface analysis technique that uses an electron beam to excite electrons on atoms in the particle. Atoms that are excited by the electron beam can emit “Auger” electrons. AES measures the kinetic energies of the emitted electrons. The energy of the emitted electrons is characteristic of elements present at the surface and near the surface of a sample.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">AES</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -8633,6 +8633,10 @@ ScanningElectronMicroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">SEM</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ScanningElectronMicroscopy</td>
   </tr>
@@ -8647,10 +8651,6 @@ ScanningElectronMicroscopy
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">The scanning electron microscope (SEM) uses a focused beam of high-energy electrons to generate a variety of signals at the surface of solid specimens. The signals that derive from electron-sample interactions reveal information about the sample including external morphology (texture), chemical composition, and crystalline structure and orientation of materials making up the sample.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">SEM</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -8684,6 +8684,10 @@ ScanningKelvinProbe
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">SKB</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ScanningKelvinProbe</td>
   </tr>
@@ -8698,10 +8702,6 @@ ScanningKelvinProbe
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Scanning Kelvin probe (SKP) and scanning Kelvin probe force microscopy (SKPFM) are probe techniques which permit mapping of topography and Volta potential distribution on electrode surfaces. It measures the surface electrical potential of a sample without requiring an actual physical contact.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">SKB</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -8782,6 +8782,10 @@ ScanningTunnelingMicroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">STM</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ScanningTunnelingMicroscopy</td>
   </tr>
@@ -8796,10 +8800,6 @@ ScanningTunnelingMicroscopy
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Scanning Tunneling Microscopy, or STM, is an imaging technique used to obtain ultra-high resolution images at the atomic scale, without using light or electron beams.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">STM</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -8872,6 +8872,10 @@ SecondaryData
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">Elaborated data</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">SecondaryData</td>
   </tr>
@@ -8886,10 +8890,6 @@ SecondaryData
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Data resulting from the application of post-processing or model generation to other data.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">Elaborated data</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Example</span></td>
@@ -8931,6 +8931,10 @@ SecondaryIonMassSpectrometry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">SIMS</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">SecondaryIonMassSpectrometry</td>
   </tr>
@@ -8945,10 +8949,6 @@ SecondaryIonMassSpectrometry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Secondary-ion mass spectrometry (SIMS) is a technique used to analyze the composition of solid surfaces and thin films by sputtering the surface of the specimen with a focused primary ion beam and collecting and analyzing ejected secondary ions.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">SIMS</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -9178,6 +9178,18 @@ SquareWaveVoltammetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">OSWV</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">OsteryoungSquareWaveVoltammetry</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">SWV</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">SquareWaveVoltammetry</td>
   </tr>
@@ -9202,32 +9214,20 @@ SquareWaveVoltammetry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Squarewave_voltammetry">https://en.wikipedia.org/wiki/Squarewave_voltammetry</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">voltammetry in which a square-wave potential waveform is superimposed on an underlying linearly varying potential ramp or staircase ramp</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">OSWV</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">OsteryoungSquareWaveVoltammetry</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">SWV</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q4016323">https://www.wikidata.org/wiki/Q4016323</a></td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Squarewave_voltammetry">https://en.wikipedia.org/wiki/Squarewave_voltammetry</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
     <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q4016323">https://www.wikidata.org/wiki/Q4016323</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -9340,12 +9340,12 @@ StrippingVoltammetry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Electrochemical_stripping_analysis">https://en.wikipedia.org/wiki/Electrochemical_stripping_analysis</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the amount of an accumulated species is measured by voltammetry. The measured electric current in step 2 is related to the concentration of analyte in the solution by calibration.</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Electrochemical_stripping_analysis">https://en.wikipedia.org/wiki/Electrochemical_stripping_analysis</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
@@ -9422,6 +9422,10 @@ TensileTesting
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">TensionTest</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">TensileTesting</td>
   </tr>
@@ -9436,10 +9440,6 @@ TensileTesting
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Tensile testing, also known as tension testing, is a test in which a sample is subjected to a controlled tension until failure. Properties that are directly measured via a tensile test are ultimate tensile strength, breaking strength, maximum elongation and reduction in area. From these measurements the following properties can also be determined: Young&#x27;s modulus, Poisson&#x27;s ratio, yield strength, and strain-hardening characteristics. Uniaxial tensile testing is the most commonly used for obtaining the mechanical characteristics of isotropic materials. Some materials use biaxial tensile testing. The main difference between these testing machines being how load is applied on the materials.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">TensionTest</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -9473,6 +9473,10 @@ ThermochemicalTesting
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">TMA</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ThermochemicalTesting</td>
   </tr>
@@ -9487,10 +9491,6 @@ ThermochemicalTesting
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Thermomechanical analysis (TMA) is a technique used in thermal analysis, a branch of materials science which studies the properties of materials as they change with temperature.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">TMA</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -9524,6 +9524,10 @@ Thermogravimetry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">TGA</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">Thermogravimetry</td>
   </tr>
@@ -9538,10 +9542,6 @@ Thermogravimetry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Thermogravimetric analysis or thermal gravimetric analysis (TGA) is a method of thermal analysis in which the mass of a sample is measured over time as the temperature changes. This measurement provides information about physical phenomena, such as phase transitions, absorption, adsorption and desorption; as well as chemical phenomena including chemisorptions, thermal decomposition, and solid-gas reactions (e.g., oxidation or reduction).</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">TGA</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -9575,6 +9575,10 @@ ThreePointBendingTesting
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">ThreePointFlexuralTest</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">ThreePointBendingTesting</td>
   </tr>
@@ -9587,16 +9591,12 @@ ThreePointBendingTesting
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Three-point_flexural_test">https://en.wikipedia.org/wiki/Three-point_flexural_test</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Method of mechanical testing that provides values for the modulus of elasticity in bending, flexural stress, flexural strain, and the flexural stress–strain response of a material sample</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">ThreePointFlexuralTest</td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Three-point_flexural_test">https://en.wikipedia.org/wiki/Three-point_flexural_test</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
@@ -9677,6 +9677,10 @@ TransmissionElectronMicroscopy
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">TEM</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">TransmissionElectronMicroscopy</td>
   </tr>
@@ -9691,10 +9695,6 @@ TransmissionElectronMicroscopy
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Transmission electron microscopy (TEM) is a microscopy technique in which a beam of electrons is transmitted through a specimen to form an image. The specimen is most often an ultrathin section less than 100 nm thick or a suspension on a grid. An image is formed from the interaction of the electrons with the sample as the beam is transmitted through the specimen. The image is then magnified and focused onto an imaging device, such as a fluorescent screen, a layer of photographic film, or a sensor such as a scintillator attached to a charge-coupled device.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">TEM</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -9814,6 +9814,10 @@ VaporPressureDepressionOsmometry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">VPO</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">VaporPressureDepressionOsmometry</td>
   </tr>
@@ -9828,10 +9832,6 @@ VaporPressureDepressionOsmometry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Vapor pressure osmometry measures vapor pressure indirectly by measuring the change in temperature of a polymer solution on dilution by solvent vapor and is generally useful for polymers with Mn below 10,000–40,000 g/mol. When molecular weight is more than that limit, the quantity being measured becomes very small to detect.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">VPO</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -9865,6 +9865,10 @@ Viscometry
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">Viscosity</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">Viscometry</td>
   </tr>
@@ -9879,10 +9883,6 @@ Viscometry
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Viscometry or viscosity method was one of the first methods used for determining the MW of polymers. In this method, the viscosity of polymer solution is measured, and the simplest method used is capillary viscometry by using the Ubbelohde U-tube viscometer. In this method, both the flow time of the polymer solution (t) and the flow time of the pure solvent (t0) are recorded. The ratio of the polymer solution flow time (t) to the flow time of pure solvent (t0) is equal to the ratio of their viscosities (η/η0) only if they have the same densities.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">Viscosity</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -9932,24 +9932,24 @@ Voltammetry
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Voltammetry">https://en.wikipedia.org/wiki/Voltammetry</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Voltammetry is an analytical technique based on the measure of the current flowing through an electrode dipped in a solution containing electro-active compounds, while a potential scanning is imposed upon it.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
-    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q904093">https://www.wikidata.org/wiki/Q904093</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Ievreference</span></td>
     <td class="element-table-value"><a href="https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=114-04-11">https://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=114-04-11</a></td>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Voltammetry">https://en.wikipedia.org/wiki/Voltammetry</a></td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Iupacreference</span></td>
     <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109">https://doi.org/10.1515/pac-2018-0109</a></td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
+    <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q904093">https://www.wikidata.org/wiki/Q904093</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10073,6 +10073,14 @@ XpsVariableKinetic
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">Electron spectroscopy for chemical analysis (ESCA)</td>
+  </tr>
+  <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">X-ray photoelectron spectroscopy (XPS)</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">XpsVariableKinetic</td>
   </tr>
@@ -10083,14 +10091,6 @@ XpsVariableKinetic
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">X-ray photoelectron spectroscopy (XPS), also known as ESCA (electron spectroscopy for chemical analysis) is a surface analysis technique which provides both elemental and chemical state information virtually without restriction on the type of material which can be analysed. It is a relatively simple technique where the sample is illuminated with X-rays which have enough energy to eject an electron from the atom.  These ejected electrons are known as photoelectrons. The kinetic energy of these emitted electrons is characteristic of the element from which the photoelectron originated. The position and intensity of the peaks in an energy spectrum provide the desired chemical state and quantitative information.  The surface sensitivity of XPS is determined by the distance that that photoelectron can travel through the material without losing any kinteic energy.  These elastiaclly scattered photoelectrons contribute to the photoelectron peak, whilst photoelectrons that have been inelastically scattered, losing some kinetic energy before leaving the material, will contribute to the spectral background.</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">Electron spectroscopy for chemical analysis (ESCA)</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">X-ray photoelectron spectroscopy (XPS)</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10124,6 +10124,10 @@ XrayDiffraction
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">XRD</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">XrayDiffraction</td>
   </tr>
@@ -10136,16 +10140,12 @@ XrayDiffraction
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/X-ray_crystallography">https://en.wikipedia.org/wiki/X-ray_crystallography</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">a technique used to analyze the atomic and molecular structure of crystalline materials by observing the diffraction patterns produced when X-rays interact with the regular array of atoms in the crystal lattice</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">XRD</td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/X-ray_crystallography">https://en.wikipedia.org/wiki/X-ray_crystallography</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Wikidatareference</span></td>
@@ -10183,6 +10183,10 @@ XrayPowderDiffraction
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">XRPD</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">XrayPowderDiffraction</td>
   </tr>
@@ -10195,16 +10199,12 @@ XrayPowderDiffraction
     <td class="element-table-value"></td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
-    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Powder_diffraction">https://en.wikipedia.org/wiki/Powder_diffraction</a></td>
-  </tr>
-  <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">a method for analyzing the crystal structure of powdered materials by measuring the diffraction patterns produced when X-rays interact with randomly oriented crystallites within the sample</td>
   </tr>
   <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">XRPD</td>
+    <td class="element-table-key"><span class="element-table-key">Wikipediareference</span></td>
+    <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Powder_diffraction">https://en.wikipedia.org/wiki/Powder_diffraction</a></td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10326,16 +10326,16 @@ hasBeginCharacterisationTask
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasBeginCharacterizationTask</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasBeginCharacterisationTask</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasBeginCharacterizationTask</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10373,16 +10373,16 @@ hasCharacterisationComponent
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasCharacterizationComponent</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasCharacterisationComponent</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasCharacterizationComponent</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10420,16 +10420,16 @@ hasCharacterisationEnvironment
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasCharacterizationEnvironment</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasCharacterisationEnvironment</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasCharacterizationEnvironment</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10467,16 +10467,16 @@ hasCharacterisationEnvironmentProperty
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasCharacterizationEnvironmentProperty</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasCharacterisationEnvironmentProperty</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasCharacterizationEnvironmentProperty</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10514,16 +10514,16 @@ hasCharacterisationInput
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasCharacterizationInput</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasCharacterisationInput</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasCharacterizationInput</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10561,16 +10561,16 @@ hasCharacterisationMeasurementInstrument
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasCharacterizationMeasurementInstrument</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasCharacterisationMeasurementInstrument</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasCharacterizationMeasurementInstrument</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10608,16 +10608,16 @@ hasCharacterisationOutput
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasCharacterizationOutput</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasCharacterisationOutput</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasCharacterizationOutput</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10698,16 +10698,16 @@ hasCharacterisationProperty
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasCharacterizationProperty</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasCharacterisationProperty</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasCharacterizationProperty</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10745,16 +10745,16 @@ hasCharacterisationSoftware
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasCharacterizationSoftware</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasCharacterisationSoftware</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasCharacterizationSoftware</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -10792,16 +10792,16 @@ hasCharacterisationTask
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasCharacterizationTask</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasCharacterisationTask</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasCharacterizationTask</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -11054,16 +11054,16 @@ hasEndCharacterisationTask
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">hasEndCharacterizationTask</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">hasEndCharacterisationTask</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Comment</span></td>
     <td class="element-table-value"></td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">hasEndCharacterizationTask</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
@@ -12450,6 +12450,10 @@ userCaseHasCharacterisationProcedure
     <th class="element-table-annotations" colspan="2">Annotations</th>
   </tr>
   <tr>
+    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
+    <td class="element-table-value">userCaseHasCharacterizationProcedure</td>
+  </tr>
+  <tr>
     <td class="element-table-key"><span class="element-table-key">Preflabel</span></td>
     <td class="element-table-value">userCaseHasCharacterisationProcedure</td>
   </tr>
@@ -12460,10 +12464,6 @@ userCaseHasCharacterisationProcedure
   <tr>
     <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
     <td class="element-table-value">Used to correlate a user case to a characterisation procedure</td>
-  </tr>
-  <tr>
-    <td class="element-table-key"><span class="element-table-key">Altlabel</span></td>
-    <td class="element-table-value">userCaseHasCharacterizationProcedure</td>
   </tr>
   <tr>
     <td class="element-table-key"><span class="element-table-key">Label</span></td>
