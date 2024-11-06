@@ -71,6 +71,7 @@ jobs:
             public/chameo-inferred.ttl \
             build/chameo.rst
           sphinx-build "build/" "public/"
+          cp README.md public/
 
       - name: Publish on GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

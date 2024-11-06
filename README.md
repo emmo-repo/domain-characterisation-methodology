@@ -16,6 +16,11 @@ The CHAMEO Ontology is built with an alignment with EMMO and some of its modules
 | EMMO                | 1.0.0-beta7       |
 
 
+## Resources
+- [Pre-inferred ontology](https://emmo-repo.github.io/domain-characterisation-methodology/chameo-inferred.ttl)
+- [Class index](https://emmo-repo.github.io/domain-characterisation-methodology/chameo.html)
+
+
 ## Attribution and Credits
 
 ### Authors
