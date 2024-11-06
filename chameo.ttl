@@ -792,6 +792,7 @@ chameo:AtomicForceMicroscopy rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#BrunauerEmmettTellerMethod
 chameo:BrunauerEmmettTellerMethod rdf:type owl:Class ;
                                   rdfs:subClassOf chameo:GasAdsorptionPorosimetry ;
+                                  rdfs:comment "" ;
                                   rdfs:label "BrunauerEmmettTellerMethod"@en ;
                                   skos:altLabel "BET"@en ;
                                   skos:prefLabel "BrunauerEmmettTellerMethod"@en ;
@@ -2422,6 +2423,7 @@ chameo:Profilometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#PseudoOpenCircuitVoltageMethod
 chameo:PseudoOpenCircuitVoltageMethod rdf:type owl:Class ;
                                       rdfs:subClassOf chameo:Chronopotentiometry ;
+                                      rdfs:comment "" ;
                                       rdfs:label "PseudoOpenCircuitVoltageMethod"@en ;
                                       skos:altLabel "PseudoOCV"@en ;
                                       skos:prefLabel "PseudoOpenCircuitVoltageMethod"@en ;
@@ -2545,6 +2547,7 @@ chameo:SampleInspectionInstrument rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspectionParameter
 chameo:SampleInspectionParameter rdf:type owl:Class ;
                                  rdfs:subClassOf emmo:EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a ;
+                                 rdfs:comment "" ;
                                  rdfs:label "SampleInspectionParameter"@en ;
                                  skos:prefLabel "SampleInspectionParameter"@en ;
                                  emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Parameter used for the sample inspection process"@en .
@@ -2933,6 +2936,7 @@ chameo:XpsVariableKinetic rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#XrayDiffraction
 chameo:XrayDiffraction rdf:type owl:Class ;
                        rdfs:subClassOf chameo:ScatteringAndDiffraction ;
+                       rdfs:comment "" ;
                        rdfs:label "XrayDiffraction"@en ;
                        skos:altLabel "XRD" ;
                        skos:prefLabel "XrayDiffraction"@en ;
@@ -2944,6 +2948,7 @@ chameo:XrayDiffraction rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#XrayPowderDiffraction
 chameo:XrayPowderDiffraction rdf:type owl:Class ;
                              rdfs:subClassOf chameo:XrayDiffraction ;
+                             rdfs:comment "" ;
                              rdfs:label "XrayPowderDiffraction"@en ;
                              skos:altLabel "XRPD" ;
                              skos:prefLabel "XrayPowderDiffraction"@en ;
