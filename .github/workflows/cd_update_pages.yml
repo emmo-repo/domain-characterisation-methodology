@@ -4,17 +4,20 @@ on:
   push:
     branches:
       - main
-      - '[0-9]+.[0-9]+.[0-9]+'
-      - '[0-9]+.[0-9]+.[0-9]+-*'
+    tags:
+      - 'v*.*.*'
 
 env:
   GIT_USER_NAME: CHAMEO Developers
   GIT_USER_EMAIL: "emmo@emmc.eu"
 
 jobs:
-
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
     - name: Checkout repository
@@ -22,7 +25,7 @@ jobs:
 
     - name: Debug info
       run: |
-        echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
+        echo GITHUB_REF_NAME=${GITHUB_REF_NAME}
 
     - name: Setup Python 3.11
       uses: actions/setup-python@v5
@@ -67,36 +70,13 @@ tl
       run: |
         ontodoc \
           --iri-regex=https://w3id.org/emmo/domain/characterisation-methodology/chameo \
-          chameo.ttl \
+          public/chameo-inferred.ttl \
           build/chameo.rst
         sphinx-build "build/" "public/"
 
-    - name: Checkout GitHub Pages for EMMO-repo
-      uses: actions/checkout@v4
-      with:
-        repository: emmo-repo/emmo-repo.github.io/domain-characterisation-methodology/
-        path: pages
-        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-        ssh-strict: no
-
-    - name: Copy to GitHub Pages
-      run: |
-        # Do not overwrite index.html
-        rm public/index.html
-        # Tell GitHub that this site is not generated with jekyll
-        touch public/.nojekyll
-        # Copy to latest (root)
-        cp -rf public/* pages/.
-        # Copy to version
-        VERSION=$(git rev-parse --abbrev-ref HEAD)
-        if [ ! -d pages/versions/${VERSION} ]; then \
-          mkdir pages/versions/${VERSION}
-        fi
-        cp -rf public/* pages/versions/${VERSION}/.
-
-    - name: Publish
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
+    - name: Publish on GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      #if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
@@ -104,6 +84,29 @@ tl
         #external_repository: emmo-repo.github.io/domain-characterisation-methodology/
         #publish_branch: main
         #force_orphan: true
+
+    # - name: Checkout GitHub Pages for EMMO-repo
+    #   uses: actions/checkout@v4
+    #   with:
+    #     repository: emmo-repo/emmo-repo.github.io/domain-characterisation-methodology/
+    #     path: pages
+    #     ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+    #     ssh-strict: no
+    #
+    # - name: Copy to GitHub Pages
+    #   run: |
+    #     # Do not overwrite index.html
+    #     rm public/index.html
+    #     # Tell GitHub that this site is not generated with jekyll
+    #     touch public/.nojekyll
+    #     # Copy to latest (root)
+    #     cp -rf public/* pages/.
+    #     # Copy to version
+    #     VERSION=$(git rev-parse --abbrev-ref HEAD)
+    #     if [ ! -d pages/versions/${VERSION} ]; then \
+    #       mkdir pages/versions/${VERSION}
+    #     fi
+    #     cp -rf public/* pages/versions/${VERSION}/.
 
     #  # Domain repositories can use peaceiris/actions-gh-pages@v3.
     #  # However, since EMMO for historical reasons uses a separate repo
