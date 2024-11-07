@@ -1068,7 +1068,7 @@ Data sampling"""@en ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationProcedureValidation
 chameo:CharacterisationProcedureValidation rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 ;
-	rdfs:comment "Describes why the characterization procedure was chosen and deemed to be the most useful for the sample."@en .
+	rdfs:comment "Describes why the characterization procedure was chosen and deemed to be the most useful for the sample."@en ;
 	rdfs:label "CharacterisationProcedureValidation"@en ;
 	skos:prefLabel "CharacterisationProcedureValidation"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes why the characterization procedure was chosen and deemed to be the most useful for the sample."@en .
