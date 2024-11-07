@@ -570,7 +570,7 @@ chameo:hasSamplePreparationParameter rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasSampledSample
 chameo:hasSampledSample rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
-                        rdfs:domain chameo:SamplingProcess ;
+                        rdfs:domain chameo:SampleExtraction ;
                         rdfs:range chameo:Sample ;
                         rdfs:comment "" ;
                         rdfs:label "hasSampledSample"@en ;
@@ -659,6 +659,10 @@ datacite:ResourceIdentifier rdf:type owl:Class ;
 ###  http://xmlns.com/foaf/0.1/Person
 foaf:Person rdf:type owl:Class ;
             skos:prefLabel "Person" .
+
+
+###  https://w3id.org/emmo#EMMO_d5f98475_00ce_4987_99fb_262aed395e46
+emmo:EMMO_d5f98475_00ce_4987_99fb_262aed395e46 rdfs:subClassOf chameo:SampleExtraction .
 
 
 ###  https://w3id.org/emmo#EMMO_e94a9156_fb6c_4e16_88ee_829ac9933155
@@ -1161,8 +1165,8 @@ chameo:CharacterisationTechnique rdf:type owl:Class ;
                                  skos:altLabel "Characterisation procedure"@en ,
                                                "Characterisation technique"@en ;
                                  skos:prefLabel "CharacterisationTechnique"@en ;
-                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The description of the overall characterisation method. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing)."@en ;
-                                 emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A characterisation method is not only related to the measurement process which can be one of its steps." .
+                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The description of the overall characterisation technique. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing)."@en ;
+                                 emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "A characterisation technique is not only related to the measurement process which can be one of its steps." .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationWorkflow
@@ -1845,6 +1849,12 @@ chameo:GasAdsorptionPorosimetry rdf:type owl:Class ;
                                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Gas Adsorption Porosimetry is a method used for analyzing the surface area and porosity of materials. In this method, a gas, typically nitrogen or argon, is adsorbed onto the surface of the material at various pressures and temperatures."@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Grinding
+chameo:Grinding rdf:type owl:Class ;
+                rdfs:subClassOf chameo:SamplePreparation ;
+                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Grinding is a machining process that involves the use of a disc-shaped grinding wheel to remove material from a workpiece. There are several types of grinding wheels, some of which include grindstones, angle grinders, die grinders and specialized grinding machines." .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#HPPC
 chameo:HPPC rdf:type owl:Class ;
             rdfs:subClassOf chameo:Chronopotentiometry ;
@@ -2138,6 +2148,25 @@ chameo:Microscopy rdf:type owl:Class ;
                   emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Microscopy is a category of characterization techniques which probe and map the surface and sub-surface structure of a material. These techniques can use photons, electrons, ions or physical cantilever probes to gather data about a sample's structure on a range of length scales."@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Milling
+chameo:Milling rdf:type owl:Class ;
+               rdfs:subClassOf chameo:SamplePreparation ;
+               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Milling is a machining process that involves the use of a milling machine to remove material from a workpiece. Milling machines feature cutting blades that rotate while they press against the workpiece." .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Mounting
+chameo:Mounting rdf:type owl:Class ;
+                rdfs:subClassOf chameo:SamplePreparation ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                  owl:someValuesFrom chameo:Holder
+                                ] ;
+                rdfs:comment "" ;
+                rdfs:label "Mounting" ;
+                skos:prefLabel "Mounting" ;
+                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The sample is mounted on a holder."@en .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Nanoindentation
 chameo:Nanoindentation rdf:type owl:Class ;
                        rdfs:subClassOf chameo:MechanicalTesting ;
@@ -2264,6 +2293,12 @@ chameo:PhysicsOfInteraction rdf:type owl:Class ;
                             skos:prefLabel "PhysicsOfInteraction"@en ;
                             emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of physics principles (and associated governing equations) that describes the interaction between the sample and the probe."@en ;
                             emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In x-ray diffraction, this is represented by the set of physics equations that describe the relation between the incident x-ray beam and the diffracted beam (the most simple form for this being the Bragg’s law)."@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Polishing
+chameo:Polishing rdf:type owl:Class ;
+                 rdfs:subClassOf chameo:SamplePreparation ;
+                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Polishing is a machining process to achieve a smooth surface of the Sample, which uses abrasive compounds with smal particles that are embedded in a pad or wheel." .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Porosimetry
@@ -2519,6 +2554,16 @@ chameo:Sample rdf:type owl:Class ;
               emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Sample and Specime are often used interchangeably. However in some cases the term Specimen is used to specify a portion taken under conditions such that the sampling variability cannot be assessed (usually because the population is changing), and is assumed, for convenience, to be zero." .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleExtraction
+chameo:SampleExtraction rdf:type owl:Class ;
+                        rdfs:subClassOf chameo:CharacterisationProcedure ;
+                        rdfs:comment "" ;
+                        rdfs:label "SampleExtraction"@en ;
+                        skos:prefLabel "SampleExtraction"@en ;
+                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Act of extracting a portion (amount) of material from a larger quantity of material. This operation results in obtaining a sample representative of the batch with respect to the property or properties being investigated."@en ;
+                        emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The term can be used to cover either a unit of supply or a portion for analysis. The portion taken may consist of one or more sub-samples and the batch may be the population from which the sample is taken."@en .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleInspection
 chameo:SampleInspection rdf:type owl:Class ;
                         rdfs:subClassOf chameo:CharacterisationProcedure ;
@@ -2549,6 +2594,10 @@ chameo:SampleInspectionParameter rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SamplePreparation
 chameo:SamplePreparation rdf:type owl:Class ;
                          rdfs:subClassOf chameo:CharacterisationProcedure ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                           owl:someValuesFrom chameo:SamplePreparationInstrument
+                                         ] ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
                                            owl:someValuesFrom chameo:Sample
@@ -2594,16 +2643,6 @@ chameo:SampledDCPolarography rdf:type owl:Class ;
                              skos:prefLabel "SampledDCPolarography"@en ;
                              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "DC polarography with current sampling at the end of each drop life mechanically enforced by a knocker at a preset drop time value. The current sampling and mechanical drop dislodge are synchronized."@en ;
                              emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SamplingProcess
-chameo:SamplingProcess rdf:type owl:Class ;
-                       rdfs:subClassOf chameo:CharacterisationProcedure ;
-                       rdfs:comment "" ;
-                       rdfs:label "SamplingProcess"@en ;
-                       skos:prefLabel "SamplingProcess"@en ;
-                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Act of extracting a portion (amount) of material from a larger quantity of material. This operation results in obtaining a sample representative of the batch with respect to the property or properties being investigated."@en ;
-                       emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The term can be used to cover either a unit of supply or a portion for analysis. The portion taken may consist of one or more sub-samples and the batch may be the population from which the sample is taken."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ScanningAugerElectronMicroscopy
@@ -3001,9 +3040,9 @@ chameo:XrdGrazingIncidence rdf:type owl:Class ;
                 chameo:DataAnalysis
                 chameo:DataPostProcessing
                 chameo:DataPreparation
+                chameo:SampleExtraction
                 chameo:SampleInspection
                 chameo:SamplePreparation
-                chameo:SamplingProcess
               )
 ] .
 
