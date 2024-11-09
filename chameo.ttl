@@ -1154,7 +1154,7 @@ chameo:CharacterisationTask rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTechnique
 chameo:CharacterisationTechnique rdf:type owl:Class ;
                                  rdfs:subClassOf emmo:EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5 ;
-                                 rdfs:comment "" ;
+                                 rdfs:comment "The description of the overall characterisation technique. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing)."@en ;
                                  rdfs:label "CharacterisationTechnique"@en ;
                                  skos:altLabel "Characterisation procedure"@en ,
                                                "Characterisation technique"@en ;
@@ -1549,39 +1549,37 @@ chameo:Dilatometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DirectCoulometryAtControlledCurrent
 chameo:DirectCoulometryAtControlledCurrent rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Coulometry ;
-	rdfs:comment "Direct coulometry at controlled current is usually carried out in convective mass transfer mode. The end-point of the electrolysis, at which the current is stopped, must be determined either from the inflection point in the E–t curve or by using visual or objective end-point indi- cation, similar to volumetric methods. The total electric charge is calculated as the product of the constant current and time of electrolysis or can be measured directly using a coulometer."@en ,
-	"The advantage of this method is that the electric charge consumed during the electrode reaction is directly proportional to the electrolysis time. Care must be taken to avoid the potential region where another electrode reaction may occur."@en ,
-	"" ;
+	rdfs:comment "Coulometry at an imposed, constant current in the electrochemical cell. Direct coulometry at controlled current is usually carried out in convective mass transfer mode. The end-point of the electrolysis, at which the current is stopped, must be determined either from the inflection point in the E–t curve or by using visual or objective end-point indi- cation, similar to volumetric methods. The total electric charge is calculated as the product of the constant current and time of electrolysis or can be measured directly using a coulometer. The advantage of this method is that the electric charge consumed during the electrode reaction is directly proportional to the electrolysis time. Care must be taken to avoid the potential region where another electrode reaction may occur."@en ;
 	rdfs:label "DirectCoulometryAtControlledCurrent"@en ;
 	skos:prefLabel "DirectCoulometryAtControlledCurrent"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "coulometry at an imposed, constant current in the electrochemical cell"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Coulometry at an imposed, constant current in the electrochemical cell. Direct coulometry at controlled current is usually carried out in convective mass transfer mode. The end-point of the electrolysis, at which the current is stopped, must be determined either from the inflection point in the E–t curve or by using visual or objective end-point indi- cation, similar to volumetric methods. The total electric charge is calculated as the product of the constant current and time of electrolysis or can be measured directly using a coulometer. The advantage of this method is that the electric charge consumed during the electrode reaction is directly proportional to the electrolysis time. Care must be taken to avoid the potential region where another electrode reaction may occur."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DirectCoulometryAtControlledPotential
 chameo:DirectCoulometryAtControlledPotential rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Coulometry ;
-	rdfs:comment "Direct coulometry at controlled potential is usually carried out in convective mass trans- fer mode using a large surface working electrode. Reference and auxiliary electrodes are placed in separate compartments. The total electric charge is obtained by integration of the I–t curve or can be measured directly using a coulometer."@en ,
-	"In principle, the end point at which I = 0, i.e. when the concentration of species under study becomes zero, can be reached only at infinite time. However, in practice, the electrolysis is stopped when the current has decayed to a few percent of the initial value and the charge passed at infinite time is calculated from a plot of charge Q(t) against time t. For a simple system under diffusion control Qt= Q∞[1 − exp(−DAt/Vδ)], where Q∞ = limt→∞Q(t) is the total charge passed at infinite time, D is the diffusion coefficient of the electroactive species, A the electrode area, δ the diffusion layer thickness, and V the volume of the solution."@en ,
-	"" ;
+	rdfs:comment "Coulometry at a preselected constant potential of the working electrode. Direct coulometry at controlled potential is usually carried out in convective mass trans- fer mode using a large surface working electrode. Reference and auxiliary electrodes are placed in separate compartments. The total electric charge is obtained by integration of the I–t curve or can be measured directly using a coulometer."@en ,
+	"In principle, the end point at which I = 0, i.e. when the concentration of species under study becomes zero, can be reached only at infinite time. However, in practice, the electrolysis is stopped when the current has decayed to a few percent of the initial value and the charge passed at infinite time is calculated from a plot of charge Q(t) against time t. For a simple system under diffusion control Qt= Q∞[1 − exp(−DAt/Vδ)], where Q∞ = limt→∞Q(t) is the total charge passed at infinite time, D is the diffusion coefficient of the electroactive species, A the electrode area, δ the diffusion layer thickness, and V the volume of the solution."@en ;
 	rdfs:label "DirectCoulometryAtControlledPotential"@en ;
 	skos:prefLabel "DirectCoulometryAtControlledPotential"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "coulometry at a preselected constant potential of the working electrode"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Coulometry at a preselected constant potential of the working electrode. Direct coulometry at controlled potential is usually carried out in convective mass trans- fer mode using a large surface working electrode. Reference and auxiliary electrodes are placed in separate compartments. The total electric charge is obtained by integration of the I–t curve or can be measured directly using a coulometer."@en ,
+	"In principle, the end point at which I = 0, i.e. when the concentration of species under study becomes zero, can be reached only at infinite time. However, in practice, the electrolysis is stopped when the current has decayed to a few percent of the initial value and the charge passed at infinite time is calculated from a plot of charge Q(t) against time t. For a simple system under diffusion control Qt= Q∞[1 − exp(−DAt/Vδ)], where Q∞ = limt→∞Q(t) is the total charge passed at infinite time, D is the diffusion coefficient of the electroactive species, A the electrode area, δ the diffusion layer thickness, and V the volume of the solution."@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DirectCurrentInternalResistance
 chameo:DirectCurrentInternalResistance rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
-	rdfs:comment "" ;
+	rdfs:comment "Method of determining the internal resistance of an electrochemical cell by applying a low current followed by higher current within a short period, and then record the changes of battery voltage and current."@en ;
 	rdfs:label "DirectCurrentInternalResistance"@en ;
 	skos:prefLabel "DirectCurrentInternalResistance"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of determining the internal resistance of an electrochemical cell by applying a low current followed by higher current within a short period, and then record the changes of battery voltage and current"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Method of determining the internal resistance of an electrochemical cell by applying a low current followed by higher current within a short period, and then record the changes of battery voltage and current."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DynamicLightScattering
 chameo:DynamicLightScattering rdf:type owl:Class ;
 	rdfs:subClassOf chameo:OpticalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Dynamic light scattering (DLS) is a technique in physics that can be used to determine the size distribution profile of small particles in suspension or polymers in solution. In the scope of DLS, temporal fluctuations are usually analyzed using the intensity or photon auto-correlation function (also known as photon correlation spectroscopy - PCS or quasi-elastic light scattering - QELS)."@en ;
 	rdfs:label "DynamicLightScattering"@en ;
 	skos:altLabel "DLS" ;
 	skos:prefLabel "DynamicLightScattering"@en ;
@@ -1591,7 +1589,7 @@ chameo:DynamicLightScattering rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DynamicMechanicalAnalysis
 chameo:DynamicMechanicalAnalysis rdf:type owl:Class ;
 	rdfs:subClassOf chameo:MechanicalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Dynamic mechanical analysis (abbreviated DMA) is a characterisation technique where a sinusoidal stress is applied and the strain in the material is measured, allowing one to determine the complex modulus. The temperature of the sample or the frequency of the stress are often varied, leading to variations in the complex modulus; this approach can be used to locate the glass transition temperature[1] of the material, as well as to identify transitions corresponding to other molecular motions."@en ;
 	rdfs:label "DynamicMechanicalAnalysis"@en ;
 	skos:prefLabel "DynamicMechanicalAnalysis"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Dynamic mechanical analysis (abbreviated DMA) is a characterisation technique where a sinusoidal stress is applied and the strain in the material is measured, allowing one to determine the complex modulus. The temperature of the sample or the frequency of the stress are often varied, leading to variations in the complex modulus; this approach can be used to locate the glass transition temperature[1] of the material, as well as to identify transitions corresponding to other molecular motions."@en .
@@ -1600,7 +1598,7 @@ chameo:DynamicMechanicalAnalysis rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DynamicMechanicalSpectroscopy
 chameo:DynamicMechanicalSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "Dynamic Mechanical Analysis (DMA) is a material characterization technique where a small deformation is applied to a sample in a cyclic manner. This allows measurement of the materials response to stress, temperature, frequency or time. The term is also used to refer to the analyzer that performs the test."@en ;
 	rdfs:label "DynamicMechanicalSpectroscopy"@en ;
 	skos:altLabel "DMA" ;
 	skos:prefLabel "DynamicMechanicalSpectroscopy"@en ;
@@ -1610,47 +1608,44 @@ chameo:DynamicMechanicalSpectroscopy rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ElectrochemicalImpedanceSpectroscopy
 chameo:ElectrochemicalImpedanceSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Impedimetry ;
-	rdfs:comment "Impedimetric sensors are based on measurement of a concentration-dependent parameter taken from analysis of the respective electrochemical impedance spectra, or from the impedance magnitudes at a chosen fixed frequency."@en ,
-	"The sinusoidal current response lags behind the sinusoidal voltage perturbation by a phase angle φ. Resistances (e.g. to charge transfer) give a response in phase with the voltage perturbation; capacitances (e.g. double layer) give a response 90° out of phase; combinations of resistances and capacitances give phase angles between 0 and 90°. Plots of the out of phase vs. the in phase component of the impedance for all the frequencies tested are called complex plane (or Nyquist) plots. Plots of the phase angle and the magnitude of the impedance vs. the logarithm of perturbation frequency are called Bode diagrams. Complex plane plots are the more commonly used for electrochemical sensors."@en ,
-	"" ;
+	rdfs:comment "Electrochemical measurement method of the complex impedance of an electrochemical system as a function of the frequency of a small amplitude (normally 5 to 10 mV) sinusoidal voltage perturbation superimposed on a fixed value of applied potential or on the open circuit potential. Impedimetric sensors are based on measurement of a concentration-dependent parameter taken from analysis of the respective electrochemical impedance spectra, or from the impedance magnitudes at a chosen fixed frequency. The sinusoidal current response lags behind the sinusoidal voltage perturbation by a phase angle φ. Resistances (e.g. to charge transfer) give a response in phase with the voltage perturbation; capacitances (e.g. double layer) give a response 90° out of phase; combinations of resistances and capacitances give phase angles between 0 and 90°. Plots of the out of phase vs. the in phase component of the impedance for all the frequencies tested are called complex plane (or Nyquist) plots. Plots of the phase angle and the magnitude of the impedance vs. the logarithm of perturbation frequency are called Bode diagrams. Complex plane plots are the more commonly used for electrochemical sensors."@en ;
 	rdfs:label "ElectrochemicalImpedanceSpectroscopy"@en ;
 	skos:altLabel "EIS"@en ;
 	skos:prefLabel "ElectrochemicalImpedanceSpectroscopy"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q3492904"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical measurement method of the complex impedance of an electrochemical system as a function of the frequency of a small amplitude (normally 5 to 10 mV) sinusoidal voltage perturbation superimposed on a fixed value of applied potential or on the open circuit potential"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electrochemical measurement method of the complex impedance of an electrochemical system as a function of the frequency of a small amplitude (normally 5 to 10 mV) sinusoidal voltage perturbation superimposed on a fixed value of applied potential or on the open circuit potential. Impedimetric sensors are based on measurement of a concentration-dependent parameter taken from analysis of the respective electrochemical impedance spectra, or from the impedance magnitudes at a chosen fixed frequency. The sinusoidal current response lags behind the sinusoidal voltage perturbation by a phase angle φ. Resistances (e.g. to charge transfer) give a response in phase with the voltage perturbation; capacitances (e.g. double layer) give a response 90° out of phase; combinations of resistances and capacitances give phase angles between 0 and 90°. Plots of the out of phase vs. the in phase component of the impedance for all the frequencies tested are called complex plane (or Nyquist) plots. Plots of the phase angle and the magnitude of the impedance vs. the logarithm of perturbation frequency are called Bode diagrams. Complex plane plots are the more commonly used for electrochemical sensors."@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ElectrochemicalPiezoelectricMicrogravimetry
 chameo:ElectrochemicalPiezoelectricMicrogravimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Electrogravimetry ;
-	rdfs:comment "The change of mass is, for rigid deposits, linearly proportional to the change of the reso- nance frequency of the quartz crystal, according to the Sauerbrey equation. For non- rigid deposits, corrections must be made."@en ,
-	"" ;
+	rdfs:comment "Electrogravimetry using an electrochemical quartz crystal microbalance. The change of mass is, for rigid deposits, linearly proportional to the change of the reso- nance frequency of the quartz crystal, according to the Sauerbrey equation. For non- rigid deposits, corrections must be made."@en ;
 	rdfs:label "ElectrochemicalPiezoelectricMicrogravimetry"@en ;
 	skos:prefLabel "ElectrochemicalPiezoelectricMicrogravimetry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electrogravimetry using an electrochemical quartz crystal microbalance."@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electrogravimetry using an electrochemical quartz crystal microbalance. The change of mass is, for rigid deposits, linearly proportional to the change of the reso- nance frequency of the quartz crystal, according to the Sauerbrey equation. For non- rigid deposits, corrections must be made."@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ElectrochemicalTesting
 chameo:ElectrochemicalTesting rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ChargeDistribution ;
-	rdfs:comment "" ;
+	rdfs:comment "In electrochemical characterization, the measurement of potential, charge, or current is used to determine an analyte's concentration or to characterize an analyte's chemical reactivity"@en ;
 	rdfs:label "ElectrochemicalTesting"@en ;
 	rdfs:seeAlso "http://dx.doi.org/10.1016/B978-0-323-46140-5.00002-9" ;
 	skos:prefLabel "ElectrochemicalTesting"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In electrochemical characterization, the measurement of potential, charge, or current is used to determine an analyte's concentration or to characterize an analyte's chemical reactivity"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In electrochemical characterization, the measurement of potential, charge, or current is used to determine an analyte's concentration or to characterize an analyte's chemical reactivity."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Electrogravimetry
 chameo:Electrogravimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ElectrochemicalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Method of electroanalytical chemistry used to separate by electrolyse ions of a substance and to derive the amount of this substance from the increase in mass of an electrode."@en ;
 	rdfs:label "Electrogravimetry"@en ;
 	skos:prefLabel "Electrogravimetry"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q902953" ;
 	emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-14"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "method of electroanalytical chemistry used to separate by electrolyse ions of a substance and to derive the amount of this substance from the increase in mass of an electrode."@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Method of electroanalytical chemistry used to separate by electrolyse ions of a substance and to derive the amount of this substance from the increase in mass of an electrode."@en ;
 	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Electrogravimetry"@en .
 
 [ rdf:type owl:Axiom ;
@@ -1665,7 +1660,7 @@ chameo:Electrogravimetry rdf:type owl:Class ;
 chameo:ElectronBackscatterDiffraction rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ScanningElectronMicroscopy ,
 	chameo:ScatteringAndDiffraction ;
-	rdfs:comment "" ;
+	rdfs:comment "Electron backscatter diffraction (EBSD) is a scanning electron microscopy (SEM) technique used to study the crystallographic structure of materials. EBSD is carried out in a scanning electron microscope equipped with an EBSD detector comprising at least a phosphorescent screen, a compact lens and a low-light camera. In this configuration, the SEM incident beam hits the tilted sample. As backscattered electrons leave the sample, they interact with the crystal's periodic atomic lattice planes and diffract according to Bragg's law at various scattering angles before reaching the phosphor screen forming Kikuchi patterns (EBSPs). EBSD spatial resolution depends on many factors, including the nature of the material under study and the sample preparation. Thus, EBSPs can be indexed to provide information about the material's grain structure, grain orientation, and phase at the micro-scale. EBSD is applied for impurities and defect studies, plastic deformation, and statistical analysis for average misorientation, grain size, and crystallographic texture. EBSD can also be combined with energy-dispersive X-ray spectroscopy (EDS), cathodoluminescence (CL), and wavelength-dispersive X-ray spectroscopy (WDS) for advanced phase identification and materials discovery."@en ;
 	rdfs:label "ElectronBackscatterDiffraction"@en ;
 	skos:altLabel "EBSD" ;
 	skos:prefLabel "ElectronBackscatterDiffraction"@en ;
@@ -1675,7 +1670,7 @@ chameo:ElectronBackscatterDiffraction rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ElectronProbeMicroanalysis
 chameo:ElectronProbeMicroanalysis rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "Electron probe microanalysis (EPMA) is used for quantitative analysis of the elemental composition of solid specimens at a micrometer scale. The method uses bombardment of the specimen by keV electrons to excite characteristic X-rays from the sample, which are then detected by using wavelength-dispersive (WD) spectrometers."@en ;
 	rdfs:label "ElectronProbeMicroanalysis"@en ;
 	skos:prefLabel "ElectronProbeMicroanalysis"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electron probe microanalysis (EPMA) is used for quantitative analysis of the elemental composition of solid specimens at a micrometer scale. The method uses bombardment of the specimen by keV electrons to excite characteristic X-rays from the sample, which are then detected by using wavelength-dispersive (WD) spectrometers."@en .
@@ -1684,21 +1679,16 @@ chameo:ElectronProbeMicroanalysis rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Ellipsometry
 chameo:Ellipsometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:OpticalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Ellipsometry is an optical technique that uses polarised light to probe the dielectric properties of a sample (optical system). The common application of ellipsometry is the analysis of thin films. Through the analysis of the state of polarisation of the light that is reflected from the sample, ellipsometry yields information on the layers that are thinner than the wavelength of the light itself, down to a single atomic layer or less. Depending on what is already known about the sample, the technique can probe a range of properties including layer thickness, morphology, and chemical composition."@en ;
 	rdfs:label "Ellipsometry"@en ;
 	skos:prefLabel "Ellipsometry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Ellipsometry is an optical technique that uses polarised light to probe the dielectric
-properties of a sample (optical system). The common application of ellipsometry is
-the analysis of thin films. Through the analysis of the state of polarisation of the
-light that is reflected from the sample, ellipsometry yields information on the layers that are thinner than the wavelength of the light itself, down to a single atomic
-layer or less. Depending on what is already known about the sample, the technique
-can probe a range of properties including layer thickness, morphology, and chemical composition."""@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Ellipsometry is an optical technique that uses polarised light to probe the dielectric properties of a sample (optical system). The common application of ellipsometry is the analysis of thin films. Through the analysis of the state of polarisation of the light that is reflected from the sample, ellipsometry yields information on the layers that are thinner than the wavelength of the light itself, down to a single atomic layer or less. Depending on what is already known about the sample, the technique can probe a range of properties including layer thickness, morphology, and chemical composition."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#EnergyDispersiveXraySpectroscopy
 chameo:EnergyDispersiveXraySpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "An analytical technique used for the elemental analysis or chemical characterization of a sample."@en ;
 	rdfs:label "EnergyDispersiveXraySpectroscopy"@en ;
 	skos:altLabel "EDS"@en ,
 	"EDX"@en ;
@@ -1711,7 +1701,7 @@ chameo:EnergyDispersiveXraySpectroscopy rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#EnvironmentalScanningElectronMicroscopy
 chameo:EnvironmentalScanningElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "The environmental scanning electron microscope (ESEM) is a scanning electron microscope (SEM) that allows for the option of collecting electron micrographs of specimens that are wet, uncoated, or both by allowing for a gaseous environment in the specimen chamber."@en ;
 	rdfs:label "EnvironmentalScanningElectronMicroscopy"@en ;
 	skos:prefLabel "EnvironmentalScanningElectronMicroscopy"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The environmental scanning electron microscope (ESEM) is a scanning electron microscope (SEM) that allows for the option of collecting electron micrographs of specimens that are wet, uncoated, or both by allowing for a gaseous environment in the specimen chamber."@en .
@@ -1720,17 +1710,16 @@ chameo:EnvironmentalScanningElectronMicroscopy rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Exafs
 chameo:Exafs rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "Extended X-ray absorption fine structure (EXAFS), along with X-ray absorption near edge structure (XANES), is a subset of X-ray absorption spectroscopy (XAS). Like other absorption spectroscopies, XAS techniques follow Beer's law. The X-ray absorption coefficient of a material as a function of energy is obtained by directing X-rays of a narrow energy range at a sample, while recording the incident and transmitted x-ray intensity, as the incident x-ray energy is incremented. When the incident x-ray energy matches the binding energy of an electron of an atom within the sample, the number of x-rays absorbed by the sample increases dramatically, causing a drop in the transmitted x-ray intensity. This results in an absorption edge. Every element has a set of unique absorption edges corresponding to different binding energies of its electrons, giving XAS element selectivity. XAS spectra are most often collected at synchrotrons because of the high intensity of synchrotron X-ray sources allow the concentration of the absorbing element to reach as low as a few parts per million. Absorption would be undetectable if the source is too weak. Because X-rays are highly penetrating, XAS samples can be gases, solids or liquids."@en ;
 	rdfs:label "Exafs"@en ;
 	skos:prefLabel "Exafs"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Extended X-ray absorption fine structure (EXAFS), along with X-ray absorption near edge structure (XANES), is a subset of X-ray absorption spectroscopy (XAS). Like other absorption spectroscopies, XAS techniques follow Beer's law. The X-ray absorption coefficient of a material as a function of energy is obtained by directing X-rays of a narrow energy range at a sample, while recording the incident and transmitted x-ray intensity, as the incident x-ray energy is incremented.
-When the incident x-ray energy matches the binding energy of an electron of an atom within the sample, the number of x-rays absorbed by the sample increases dramatically, causing a drop in the transmitted x-ray intensity. This results in an absorption edge. Every element has a set of unique absorption edges corresponding to different binding energies of its electrons, giving XAS element selectivity. XAS spectra are most often collected at synchrotrons because of the high intensity of synchrotron X-ray sources allow the concentration of the absorbing element to reach as low as a few parts per million. Absorption would be undetectable if the source is too weak. Because X-rays are highly penetrating, XAS samples can be gases, solids or liquids."""@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Extended X-ray absorption fine structure (EXAFS), along with X-ray absorption near edge structure (XANES), is a subset of X-ray absorption spectroscopy (XAS). Like other absorption spectroscopies, XAS techniques follow Beer's law. The X-ray absorption coefficient of a material as a function of energy is obtained by directing X-rays of a narrow energy range at a sample, while recording the incident and transmitted x-ray intensity, as the incident x-ray energy is incremented. When the incident x-ray energy matches the binding energy of an electron of an atom within the sample, the number of x-rays absorbed by the sample increases dramatically, causing a drop in the transmitted x-ray intensity. This results in an absorption edge. Every element has a set of unique absorption edges corresponding to different binding energies of its electrons, giving XAS element selectivity. XAS spectra are most often collected at synchrotrons because of the high intensity of synchrotron X-ray sources allow the concentration of the absorbing element to reach as low as a few parts per million. Absorption would be undetectable if the source is too weak. Because X-rays are highly penetrating, XAS samples can be gases, solids or liquids."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#FatigueTesting
 chameo:FatigueTesting rdf:type owl:Class ;
 	rdfs:subClassOf chameo:MechanicalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Fatigue testing is a specialised form of mechanical testing that is performed by applying cyclic loading to a coupon or structure. These tests are used either to generate fatigue life and crack growth data, identify critical locations or demonstrate the safety of a structure that may be susceptible to fatigue."@en ;
 	rdfs:label "FatigueTesting"@en ;
 	skos:prefLabel "FatigueTesting"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Fatigue testing is a specialised form of mechanical testing that is performed by applying cyclic loading to a coupon or structure. These tests are used either to generate fatigue life and crack growth data, identify critical locations or demonstrate the safety of a structure that may be susceptible to fatigue."@en .
@@ -1739,7 +1728,7 @@ chameo:FatigueTesting rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#FibDic
 chameo:FibDic rdf:type owl:Class ;
 	rdfs:subClassOf chameo:MechanicalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "The FIB-DIC (Focused Ion Beam - Digital Image Correlation) ring-core technique is a powerful method for measuring residual stresses in materials. It is based on milling a ring-shaped sample, or core, from the material of interest using a focused ion beam (FIB)."@en ;
 	rdfs:label "FibDic" ;
 	skos:altLabel "FIBDICResidualStressAnalysis" ;
 	skos:prefLabel "FibDic" ;
@@ -1749,7 +1738,7 @@ chameo:FibDic rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#FieldEmissionScanningElectronMicroscopy
 chameo:FieldEmissionScanningElectronMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "Field emission scanning electron microscopy (FE-SEM) is an advanced technology used to capture the microstructure image of the materials. FE-SEM is typically performed in a high vacuum because gas molecules tend to disturb the electron beam and the emitted secondary and backscattered electrons used for imaging."@en ;
 	rdfs:label "FieldEmissionScanningElectronMicroscopy"@en ;
 	skos:altLabel "FE-SEM" ;
 	skos:prefLabel "FieldEmissionScanningElectronMicroscopy"@en ;
@@ -1759,7 +1748,7 @@ chameo:FieldEmissionScanningElectronMicroscopy rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#FourierTransformInfraredSpectroscopy
 chameo:FourierTransformInfraredSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "A technique used to obtain an infrared spectrum of absorption or emission of a solid, liquid, or gas"@en ;
 	rdfs:label "FourierTransformInfraredSpectroscopy"@en ;
 	skos:altLabel "FTIR"@en ;
 	skos:prefLabel "FourierTransformInfraredSpectroscopy"@en ;
@@ -1771,16 +1760,16 @@ chameo:FourierTransformInfraredSpectroscopy rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Fractography
 chameo:Fractography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:OpticalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Fractography is the study of fracture surfaces in order to determine the relation between the microstructure and the mechanism(s) of crack initiation and propagation and, eventually, the root cause of the fracture. Fractography qualitatively interprets the mechanisms of fracture that occur in a sample by microscopic examination of fracture surface morpholog."@en ;
 	rdfs:label "Fractography"@en ;
 	skos:prefLabel "Fractography"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Fractography is the study of fracture surfaces in order to determine the relation between the microstructure and the mechanism(s) of crack initiation and propagation and, eventually, the root cause of the fracture .Fractography qualitatively interprets the mechanisms of fracture that occur in a sample by microscopic examination of fracture surface morpholog."@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Fractography is the study of fracture surfaces in order to determine the relation between the microstructure and the mechanism(s) of crack initiation and propagation and, eventually, the root cause of the fracture. Fractography qualitatively interprets the mechanisms of fracture that occur in a sample by microscopic examination of fracture surface morpholog."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#FreezingPointDepressionOsmometry
 chameo:FreezingPointDepressionOsmometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Osmometry ;
-	rdfs:comment "" ;
+	rdfs:comment "The general principle of freezing point depression osmometry involves the relationship between the number of moles of dissolved solute in a solution and the change in freezing point."@en ;
 	rdfs:label "FreezingPointDepressionOsmometry"@en ;
 	skos:prefLabel "FreezingPointDepressionOsmometry"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The general principle of freezing point depression osmometry involves the relationship between the number of moles of dissolved solute in a solution and the change in freezing point."@en .
@@ -1789,31 +1778,27 @@ chameo:FreezingPointDepressionOsmometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#GalvanostaticIntermittentTitrationTechnique
 chameo:GalvanostaticIntermittentTitrationTechnique rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
-	rdfs:comment "" ;
+	rdfs:comment "Electrochemical method that applies current pulses to an electrochemical cell at rest and measures the voltage response."@en ;
 	rdfs:label "GalvanostaticIntermittentTitrationTechnique"@en ;
 	skos:altLabel "GITT"@en ;
 	skos:prefLabel "GalvanostaticIntermittentTitrationTechnique"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q120906986" ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical method that applies current pulses to an electrochemical cell at rest and measures the voltage response"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electrochemical method that applies current pulses to an electrochemical cell at rest and measures the voltage response."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#GammaSpectrometry
 chameo:GammaSpectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectrometry ;
-	rdfs:comment "" ;
+	rdfs:comment "Gamma-ray spectroscopy is the qualitative study of the energy spectra of gamma-ray sources, such as in the nuclear industry, geochemical investigation, and astrophysics.[1] Gamma-ray spectrometry, on the other hand, is the method used to acquire a quantitative spectrum measurement. Most radioactive sources produce gamma rays, which are of various energies and intensities. When these emissions are detected and analyzed with a spectroscopy system, a gamma-ray energy spectrum can be produced. A detailed analysis of this spectrum is typically used to determine the identity and quantity of gamma emitters present in a gamma source, and is a vital tool in radiometric assay. The gamma spectrum is characteristic of the gamma-emitting nuclides contained in the source, just like in an optical spectrometer, the optical spectrum is characteristic of the material contained in a sample."@en ;
 	rdfs:label "GammaSpectrometry"@en ;
 	skos:prefLabel "GammaSpectrometry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Gamma-ray spectroscopy is the qualitative study of the energy spectra of gamma-ray sources, such as in the nuclear industry, geochemical investigation, and astrophysics.[1] Gamma-ray spectrometry, on the other hand, is the method used to acquire a quantitative spectrum measurement.[2]
-
-Most radioactive sources produce gamma rays, which are of various energies and intensities. When these emissions are detected and analyzed with a spectroscopy system, a gamma-ray energy spectrum can be produced.
-
-A detailed analysis of this spectrum is typically used to determine the identity and quantity of gamma emitters present in a gamma source, and is a vital tool in radiometric assay. The gamma spectrum is characteristic of the gamma-emitting nuclides contained in the source, just like in an optical spectrometer, the optical spectrum is characteristic of the material contained in a sample."""@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Gamma-ray spectroscopy is the qualitative study of the energy spectra of gamma-ray sources, such as in the nuclear industry, geochemical investigation, and astrophysics.[1] Gamma-ray spectrometry, on the other hand, is the method used to acquire a quantitative spectrum measurement. Most radioactive sources produce gamma rays, which are of various energies and intensities. When these emissions are detected and analyzed with a spectroscopy system, a gamma-ray energy spectrum can be produced. A detailed analysis of this spectrum is typically used to determine the identity and quantity of gamma emitters present in a gamma source, and is a vital tool in radiometric assay. The gamma spectrum is characteristic of the gamma-emitting nuclides contained in the source, just like in an optical spectrometer, the optical spectrum is characteristic of the material contained in a sample."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#GasAdsorptionPorosimetry
 chameo:GasAdsorptionPorosimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Porosimetry ;
-	rdfs:comment "" ;
+	rdfs:comment "Gas Adsorption Porosimetry is a method used for analyzing the surface area and porosity of materials. In this method, a gas, typically nitrogen or argon, is adsorbed onto the surface of the material at various pressures and temperatures."@en ;
 	rdfs:label "GasAdsorptionPorosimetry"@en ;
 	skos:altLabel "GasAdsorptionPorosimetry" ;
 	skos:prefLabel "GasAdsorptionPorosimetry"@en ;
@@ -1822,25 +1807,28 @@ chameo:GasAdsorptionPorosimetry rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Grinding
 chameo:Grinding rdf:type owl:Class ;
-                rdfs:subClassOf chameo:SamplePreparation ;
-                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Grinding is a machining process that involves the use of a disc-shaped grinding wheel to remove material from a workpiece. There are several types of grinding wheels, some of which include grindstones, angle grinders, die grinders and specialized grinding machines." .
+	rdfs:subClassOf chameo:SamplePreparation ;
+	rdfs:comment "Grinding is a machining process that involves the use of a disc-shaped grinding wheel to remove material from a workpiece. There are several types of grinding wheels, some of which include grindstones, angle grinders, die grinders and specialized grinding machines."@en ;
+	rdfs:label "Grinding"@en ;
+	skos:prefLabel "Grinding"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Grinding is a machining process that involves the use of a disc-shaped grinding wheel to remove material from a workpiece. There are several types of grinding wheels, some of which include grindstones, angle grinders, die grinders and specialized grinding machines."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#HPPC
 chameo:HPPC rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
-	rdfs:comment "" ;
+	rdfs:comment "Electrochemical method that measures the voltage drop of a cell resulting from a square wave current load."@en ;
 	rdfs:label "HPPC"@en ;
 	skos:altLabel "HybridPulsePowerCharacterisation"@en ,
 	"HybridPulsePowerCharacterization"@en ;
 	skos:prefLabel "HPPC"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical method that measures the voltage drop of a cell resulting from a square wave current load"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electrochemical method that measures the voltage drop of a cell resulting from a square wave current load."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#HardnessTesting
 chameo:HardnessTesting rdf:type owl:Class ;
 	rdfs:subClassOf chameo:MechanicalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "A test to determine the resistance a material exhibits to permanent deformation by penetration of another harder material."@en ;
 	rdfs:label "HardnessTesting"@en ;
 	skos:prefLabel "HardnessTesting"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A test to determine the resistance a material exhibits to permanent deformation by penetration of another harder material."@en .
@@ -1849,7 +1837,7 @@ chameo:HardnessTesting rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Hazard
 chameo:Hazard rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
-	rdfs:comment "" ;
+	rdfs:comment "Set of inherent properties of a substance, mixture of substances, or a process involving substances that, under production, usage, or disposal conditions, make it capable of causing adverse effects to organisms or the environment, depending on the degree of exposure; in other words, it is a source of danger."@en ;
 	rdfs:label "Hazard"@en ;
 	skos:prefLabel "Hazard"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of inherent properties of a substance, mixture of substances, or a process involving substances that, under production, usage, or disposal conditions, make it capable of causing adverse effects to organisms or the environment, depending on the degree of exposure; in other words, it is a source of danger."@en .
@@ -1858,7 +1846,7 @@ chameo:Hazard rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Holder
 chameo:Holder rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardware ;
-	rdfs:comment "" ;
+	rdfs:comment "An object which supports the specimen in the correct position for the characterisation process."@en ;
 	rdfs:label "Holder"@en ;
 	skos:prefLabel "Holder"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An object which supports the specimen in the correct position for the characterisation process."@en .
@@ -1867,14 +1855,11 @@ chameo:Holder rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#HydrodynamicVoltammetry
 chameo:HydrodynamicVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
-	rdfs:comment "A linear potential scan, at sufficiently slow scan rates so as to ensure a steady state response, is usually applied."@en ,
-	"Mass transport of a redox species enhanced by convection in this way results in a greater electric current. Convective mass transfer occurs up to the diffusion-limiting layer, within which the mass transfer is controlled by diffusion. Electroactive substance depletion outside the diffusion layer is annulled by convective mass transfer, which results in steady- state sigmoidal wave-shaped current-potential curves."@en ,
-	"The forced flow can be accomplished by movement either of the solution (solution stirring, or channel flow), or of the electrode (electrode rotation or vibration)."@en ,
-	"" ;
+	rdfs:comment "Voltammetry with forced flow of the solution towards the electrode surface. A linear potential scan, at sufficiently slow scan rates so as to ensure a steady state response, is usually applied. Mass transport of a redox species enhanced by convection in this way results in a greater electric current. Convective mass transfer occurs up to the diffusion-limiting layer, within which the mass transfer is controlled by diffusion. Electroactive substance depletion outside the diffusion layer is annulled by convective mass transfer, which results in steady- state sigmoidal wave-shaped current-potential curves. "The forced flow can be accomplished by movement either of the solution (solution stirring, or channel flow), or of the electrode (electrode rotation or vibration)."@en ;
 	rdfs:label "HydrodynamicVoltammetry"@en ;
 	skos:prefLabel "HydrodynamicVoltammetry"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q17028237" ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "voltammetry with forced flow of the solution towards the electrode surface"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Voltammetry with forced flow of the solution towards the electrode surface. A linear potential scan, at sufficiently slow scan rates so as to ensure a steady state response, is usually applied. Mass transport of a redox species enhanced by convection in this way results in a greater electric current. Convective mass transfer occurs up to the diffusion-limiting layer, within which the mass transfer is controlled by diffusion. Electroactive substance depletion outside the diffusion layer is annulled by convective mass transfer, which results in steady- state sigmoidal wave-shaped current-potential curves. "The forced flow can be accomplished by movement either of the solution (solution stirring, or channel flow), or of the electrode (electrode rotation or vibration)."@en ;
 	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hydrodynamic_voltammetry"@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
@@ -1882,34 +1867,32 @@ chameo:HydrodynamicVoltammetry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ICI
 chameo:ICI rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
-	rdfs:comment "" ;
+	rdfs:comment "Electrochemical method that measures the voltage response of an electrochemical cell under galvanostatic conditions to short interruptions in the current."@en ;
 	rdfs:label "ICI"@en ;
 	skos:altLabel "IntermittentCurrentInterruptionMethod"@en ;
 	skos:prefLabel "ICI"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical method that measures the voltage response of an electrochemical cell under galvanostatic conditions to short interruptions in the current"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electrochemical method that measures the voltage response of an electrochemical cell under galvanostatic conditions to short interruptions in the current."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Impedimetry
 chameo:Impedimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ElectrochemicalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Measurement principle in which the complex electric impedance of a system is measured, usually as a function of a small amplitude sinusoidal electrode potential."@en ;
 	rdfs:label "Impedimetry"@en ;
 	skos:prefLabel "Impedimetry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "measurement principle in which the complex electric impedance of a system is measured, usually as a function of a small amplitude sinusoidal electrode potential"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Measurement principle in which the complex electric impedance of a system is measured, usually as a function of a small amplitude sinusoidal electrode potential."@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#InteractionVolume
 chameo:InteractionVolume rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606 ;
-	rdfs:comment "" ;
+	rdfs:comment "The volume of material, and the surrounding environment, that interacts with the probe and generate a detectable (measurable) signal (information). In Scanning Electron Microscopy (SEM), the interaction volume is the volume of material that interacts directly with the incident electron beam, is usually much smaller than the entire specimen’s volume, and can be computed by using proper models. The interaction between the scanning probe and the sample generates a series of detectable signals (back scattered electrons, secondary electrons, x-rays, specimen current, etc.) which contain information on sample morphology, microstructure, composition, etc. In x-ray diffraction, the interaction volume is the volume of material that interacts directly with the x-ray beam and is usually smaller than the volume of the entire specimen. Depending on sample’s structure and microstructure, the interaction between the sample and the x-ray incident beam generates a secondary (reflected) beam that is measured by a detector and contains information on certain sample’s properties (e.g., crystallographic structure, phase composition, grain size, residual stress...). In some cases, (like tribological characterisations) the “sample” can also be the “probe”. When analysing a system of samples that interact each other, finding a clear definition can become a complex problem. It is important to note that, in some cases, the volume of interaction could be different from the volume of detectable signal emission. Example: in Scanning Electron Microscopy (SEM), the volume of interaction between the electron probe and the material is different from the volumes that generate the captured signal." ;
 	rdfs:label "InteractionVolume"@en ;
 	skos:prefLabel "InteractionVolume"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The volume of material, and the surrounding environment, that interacts with the probe and generate a detectable (measurable) signal (information)."@en ;
-	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In Scanning Electron Microscopy (SEM), the interaction volume is the volume of material that interacts directly with the incident electron beam, is usually much smaller than the entire specimen’s volume, and can be computed by using proper models. The interaction between the scanning probe and the sample generates a series of detectable signals (back scattered electrons, secondary electrons, x-rays, specimen current, etc.) which contain information on sample morphology, microstructure, composition, etc."@en ,
-	"In x-ray diffraction, the interaction volume is the volume of material that interacts directly with the x-ray beam and is usually smaller than the volume of the entire specimen. Depending on sample’s structure and microstructure, the interaction between the sample and the x-ray incident beam generates a secondary (reflected) beam that is measured by a detector and contains information on certain sample’s properties (e.g., crystallographic structure, phase composition, grain size, residual stress, …)."@en ;
-	emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "In some cases, (like tribological characterisations) the “sample” can also be the “probe”. When analysing a system of samples that interact each other, finding a clear definition can become a complex problem."@en ,
-	"It is important to note that, in some cases, the volume of interaction could be different from the volume of detectable signal emission. Example: in Scanning Electron Microscopy (SEM), the volume of interaction between the electron probe and the material is different from the volumes that generate the captured signal."@en .
+	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In Scanning Electron Microscopy (SEM), the interaction volume is the volume of material that interacts directly with the incident electron beam, is usually much smaller than the entire specimen’s volume, and can be computed by using proper models. The interaction between the scanning probe and the sample generates a series of detectable signals (back scattered electrons, secondary electrons, x-rays, specimen current, etc.) which contain information on sample morphology, microstructure, composition, etc. In x-ray diffraction, the interaction volume is the volume of material that interacts directly with the x-ray beam and is usually smaller than the volume of the entire specimen. Depending on sample’s structure and microstructure, the interaction between the sample and the x-ray incident beam generates a secondary (reflected) beam that is measured by a detector and contains information on certain sample’s properties (e.g., crystallographic structure, phase composition, grain size, residual stress...)."@en ;
+	emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "In some cases, (like tribological characterisations) the “sample” can also be the “probe”. When analysing a system of samples that interact each other, finding a clear definition can become a complex problem. It is important to note that, in some cases, the volume of interaction could be different from the volume of detectable signal emission. Example: in Scanning Electron Microscopy (SEM), the volume of interaction between the electron probe and the material is different from the volumes that generate the captured signal."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#IntermediateSample
@@ -1923,7 +1906,7 @@ chameo:IntermediateSample rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#IonChromatography
 chameo:IonChromatography rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chromatography ;
-	rdfs:comment "" ;
+	rdfs:comment "Ion chromatography (or ion-exchange chromatography) is a form of chromatography that separates ions and ionizable polar molecules based on their affinity to the ion exchanger."@en ;
 	rdfs:label "IonChromatography"@en ;
 	skos:prefLabel "IonChromatography"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Ion chromatography (or ion-exchange chromatography) is a form of chromatography that separates ions and ionizable polar molecules based on their affinity to the ion exchanger."@en ;
@@ -1933,7 +1916,7 @@ chameo:IonChromatography rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#IonMobilitySpectrometry
 chameo:IonMobilitySpectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectrometry ;
-	rdfs:comment "" ;
+	rdfs:comment "Ion mobility spectrometry (IMS) It is a method of conducting analytical research that separates and identifies ionized molecules present in the gas phase based on the mobility of the molecules in a carrier buffer gas. Even though it is used extensively for military or security objectives, such as detecting drugs and explosives, the technology also has many applications in laboratory analysis, including studying small and big biomolecules. IMS instruments are extremely sensitive stand-alone devices, but are often coupled with mass spectrometry, gas chromatography or high-performance liquid chromatography in order to achieve a multi-dimensional separation. They come in various sizes, ranging from a few millimeters to several meters depending on the specific application, and are capable of operating under a broad range of conditions. IMS instruments such as microscale high-field asymmetric-waveform ion mobility spectrometry can be palm-portable for use in a range of applications including volatile organic compound (VOC) monitoring, biological sample analysis, medical diagnosis and food quality monitoring."@en ;
 	rdfs:label "IonMobilitySpectrometry"@en ;
 	skos:altLabel "IMS" ;
 	skos:prefLabel "IonMobilitySpectrometry"@en ;
@@ -1943,13 +1926,11 @@ chameo:IonMobilitySpectrometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#IsothermalMicrocalorimetry
 chameo:IsothermalMicrocalorimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ThermochemicalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Isothermal microcalorimetry (IMC) is a laboratory method for real-time monitoring and dynamic analysis of chemical, physical and biological processes. Over a period of hours or days, IMC determines the onset, rate, extent and energetics of such processes for specimens in small ampoules (e.g. 3–20 ml) at a constant set temperature (c. 15 °C–150 °C). IMC accomplishes this dynamic analysis by measuring and recording vs. elapsed time the net rate of heat flow (μJ/s = μW) to or from the specimen ampoule, and the cumulative amount of heat (J) consumed or produced."@en ;
 	rdfs:label "IsothermalMicrocalorimetry"@en ;
 	skos:altLabel "IMC" ;
 	skos:prefLabel "IsothermalMicrocalorimetry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Isothermal microcalorimetry (IMC) is a laboratory method for real-time monitoring and dynamic analysis of chemical, physical and biological processes. Over a period of hours or days, IMC determines the onset, rate, extent and energetics of such processes for specimens in small ampoules (e.g. 3–20 ml) at a constant set temperature (c. 15 °C–150 °C).
-
-IMC accomplishes this dynamic analysis by measuring and recording vs. elapsed time the net rate of heat flow (μJ/s = μW) to or from the specimen ampoule, and the cumulative amount of heat (J) consumed or produced."""@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Isothermal microcalorimetry (IMC) is a laboratory method for real-time monitoring and dynamic analysis of chemical, physical and biological processes. Over a period of hours or days, IMC determines the onset, rate, extent and energetics of such processes for specimens in small ampoules (e.g. 3–20 ml) at a constant set temperature (c. 15 °C–150 °C). IMC accomplishes this dynamic analysis by measuring and recording vs. elapsed time the net rate of heat flow (μJ/s = μW) to or from the specimen ampoule, and the cumulative amount of heat (J) consumed or produced."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Laboratory
@@ -1963,7 +1944,7 @@ chameo:Laboratory rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#LevelOfAutomation
 chameo:LevelOfAutomation rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 ;
-	rdfs:comment "" ;
+	rdfs:comment "Describes the level of automation of the test."@en ;
 	rdfs:label "LevelOfAutomation"@en ;
 	skos:prefLabel "LevelOfAutomation"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the level of automation of the test."@en .
@@ -1972,7 +1953,7 @@ chameo:LevelOfAutomation rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#LevelOfExpertise
 chameo:LevelOfExpertise rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 ;
-	rdfs:comment "" ;
+	rdfs:comment "Describes the level of expertise required to carry out a process (the entire test or the data processing)."@en ;
 	rdfs:label "LevelOfExpertise"@en ;
 	skos:prefLabel "LevelOfExpertise"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the level of expertise required to carry out a process (the entire test or the data processing)."@en .
@@ -1981,7 +1962,7 @@ chameo:LevelOfExpertise rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#LightScattering
 chameo:LightScattering rdf:type owl:Class ;
 	rdfs:subClassOf chameo:OpticalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Light scattering is the way light behaves when it interacts with a medium that contains particles or the boundary between different mediums where defects or structures are present. It is different than the effects of refraction, where light undergoes a change in index of refraction as it passes from one medium to another, or reflection, where light reflects back into the same medium, both of which are governed by Snell’s law. Light scattering can be caused by factors such as the nature, texture, or specific structures of a surface and the presence of gas, liquid, or solid particles through which light propagates, as well as the nature of the light itself, of its wavelengths and polarization states. It usually results in diffuse light and can also affect the dispersion of color."@en ;
 	rdfs:label "LightScattering"@en ;
 	skos:prefLabel "LightScattering"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Light scattering is the way light behaves when it interacts with a medium that contains particles or the boundary between different mediums where defects or structures are present. It is different than the effects of refraction, where light undergoes a change in index of refraction as it passes from one medium to another, or reflection, where light reflects back into the same medium, both of which are governed by Snell’s law. Light scattering can be caused by factors such as the nature, texture, or specific structures of a surface and the presence of gas, liquid, or solid particles through which light propagates, as well as the nature of the light itself, of its wavelengths and polarization states. It usually results in diffuse light and can also affect the dispersion of color."@en .
@@ -1990,10 +1971,10 @@ chameo:LightScattering rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#LinearChronopotentiometry
 chameo:LinearChronopotentiometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Chronopotentiometry ;
-	rdfs:comment "" ;
+	rdfs:comment "Chronopotentiometry where the applied current is changed linearly."@en ;
 	rdfs:label "LinearChronopotentiometry"@en ;
 	skos:prefLabel "LinearChronopotentiometry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "chronopotentiometry where the applied current is changed linearly"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Chronopotentiometry where the applied current is changed linearly."@en .
 
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource chameo:LinearChronopotentiometry ;
@@ -2006,17 +1987,14 @@ chameo:LinearChronopotentiometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#LinearScanVoltammetry
 chameo:LinearScanVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
-	rdfs:comment "LSV corresponds to the first half cycle of cyclic voltammetry."@en ,
-	"The peak current is expressed by the Randles-Ševčík equation."@en ,
-	"The scan is usually started at a potential where no electrode reaction occurs."@en ,
-	"" ;
+	rdfs:comment "Voltammetry in which the current is recorded as the electrode potential is varied linearly with time. LSV corresponds to the first half cycle of cyclic voltammetry. The peak current is expressed by the Randles-Ševčík equation. The scan is usually started at a potential where no electrode reaction occurs."@en ;
 	rdfs:label "LinearScanVoltammetry"@en ;
 	skos:altLabel "LSV"@en ,
 	"LinearPolarization"@en ,
 	"LinearSweepVoltammetry"@en ;
 	skos:prefLabel "LinearScanVoltammetry"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q620700" ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Voltammetry in which the current is recorded as the electrode potential is varied linearly with time."@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Voltammetry in which the current is recorded as the electrode potential is varied linearly with time. LSV corresponds to the first half cycle of cyclic voltammetry. The peak current is expressed by the Randles-Ševčík equation. The scan is usually started at a potential where no electrode reaction occurs."@en ;
 	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Linear_sweep_voltammetry"^^xsd:anyURI ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
@@ -2024,7 +2002,7 @@ chameo:LinearScanVoltammetry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MassSpectrometry
 chameo:MassSpectrometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectrometry ;
-	rdfs:comment "" ;
+	rdfs:comment "Mass spectrometry is a powerful analytical technique used to quantify known materials, to identify unknown compounds within a sample, and to elucidate the structure and chemical properties of different molecules."@en ;
 	rdfs:label "MassSpectrometry"@en ;
 	skos:prefLabel "MassSpectrometry"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Mass spectrometry is a powerful analytical technique used to quantify known materials, to identify unknown compounds within a sample, and to elucidate the structure and chemical properties of different molecules."@en .
@@ -2033,69 +2011,56 @@ chameo:MassSpectrometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementDataPostProcessing
 chameo:MeasurementDataPostProcessing rdf:type owl:Class ;
 	rdfs:subClassOf chameo:DataPostProcessing ;
-	rdfs:comment "" ;
+	rdfs:comment "Application of a post-processing model to signals through a software, in order to calculate the final characterisation property. Analysis of SEM (or optical) images to gain additional information (image filtering/integration/averaging, microstructural analysis, grain size evaluation, Digital Image Correlation procedures, etc.). In nanoindentation testing, this is the Oliver-Pharr method, which allows calculating the elastic modulus and hardness of the sample by using the load and depth measured signals." ;
 	rdfs:label "MeasurementDataPostProcessing"@en ;
 	skos:prefLabel "MeasurementDataPostProcessing"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Application of a post-processing model to signals through a software, in order to calculate the final characterisation property."@en ;
-	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Analysis of SEM (or optical) images to gain additional information (image filtering/integration/averaging, microstructural analysis, grain size evaluation, Digital Image Correlation procedures, etc.)"@en ,
-	"In nanoindentation testing, this is the Oliver-Pharr method, which allows calculating the elastic modulus and hardness of the sample by using the load and depth measured signals."@en .
+	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Analysis of SEM (or optical) images to gain additional information (image filtering/integration/averaging, microstructural analysis, grain size evaluation, Digital Image Correlation procedures, etc.). In nanoindentation testing, this is the Oliver-Pharr method, which allows calculating the elastic modulus and hardness of the sample by using the load and depth measured signals."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementParameter
 chameo:MeasurementParameter rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a ;
-	rdfs:comment "" ;
+	rdfs:comment "Describes the main input parameters that are needed to acquire the signal." ;
 	rdfs:label "MeasurementParameter"@en ;
 	skos:prefLabel "MeasurementParameter"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the main input parameters that are needed to acquire the signal"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes the main input parameters that are needed to acquire the signal."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementSystemAdjustment
 chameo:MeasurementSystemAdjustment rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationProcedure ;
-	rdfs:comment "" ;
+	rdfs:comment "Activity which has the goal of adjusting/tuning a measing instrument, without performing a measurement on a reference sample (which is a calibration). The output of this process can be a specific measurement parameter to be used in the characteriasation measurement process. From the International Vocabulary of Metrology (VIM): Set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity being measured. NOTE 1: If there is any doubt that the context in which the term is being used is that of metrology, the long form “adjustment of a measuring system” might be used. NOTE 2: Types of adjustment of a measuring system include zero adjustment, offset adjustment, and span adjustment (sometimes called “gain adjustment”). NOTE 3: Adjustment of a measuring system should not be confused with calibration, which is sometimes a prerequisite for adjustment. NOTE 4: After an adjustment of a measuring system, the measuring system must usually be recalibrated." ;
 	rdfs:label "MeasurementSystemAdjustment" ;
 	skos:prefLabel "MeasurementSystemAdjustment" ;
-	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 """Set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity being measured
-NOTE 1 If there is any doubt that the context in which the term is being used is that of metrology, the long form
-“adjustment of a measuring system” might be used.
-NOTE 2 Types of adjustment of a measuring system include zero adjustment, offset adjustment, and span adjustment
-(sometimes called “gain adjustment”).
-NOTE 3 Adjustment of a measuring system should not be confused with calibration, which is sometimes a prerequisite
-for adjustment.
-NOTE 4 After an adjustment of a measuring system, the measuring system must usually be recalibrated.
-
--- International Vocabulary of Metrology(VIM)"""@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Activity which has the goal of adjusting/tuning a measing instrument, without performing a measurement on a reference sample (which is a calibration).
-The output of this process can be a specific measurement parameter to be used in the characteriasation measurement process."""@en ;
+	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "From the International Vocabulary of Metrology (VIM): Set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity being measured. NOTE 1: If there is any doubt that the context in which the term is being used is that of metrology, the long form “adjustment of a measuring system” might be used. NOTE 2: Types of adjustment of a measuring system include zero adjustment, offset adjustment, and span adjustment (sometimes called “gain adjustment”). NOTE 3: Adjustment of a measuring system should not be confused with calibration, which is sometimes a prerequisite for adjustment. NOTE 4: After an adjustment of a measuring system, the measuring system must usually be recalibrated."@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Activity which has the goal of adjusting/tuning a measing instrument, without performing a measurement on a reference sample (which is a calibration). The output of this process can be a specific measurement parameter to be used in the characteriasation measurement process."@en ;
 	emmo:EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6 "Adjustment"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementTime
 chameo:MeasurementTime rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
-	rdfs:comment "" ;
+	rdfs:comment "The overall time needed to acquire the measurement data." ;
 	rdfs:label "MeasurementTime"@en ;
 	skos:prefLabel "MeasurementTime"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The overall time needed to acquire the measurement data"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The overall time needed to acquire the measurement data."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MechanicalTesting
 chameo:MechanicalTesting rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationTechnique ;
-	rdfs:comment "" ;
+	rdfs:comment "Mechanical testing covers a wide range of tests, which can be divided broadly into two types: 1. those that aim to determine a material's mechanical properties, independent of geometry; 2. those that determine the response of a structure to a given action, e.g. testing of composite beams, aircraft structures to destruction, etc."@en ;
 	rdfs:label "MechanicalTesting"@en ;
 	skos:prefLabel "MechanicalTesting"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 """Mechanical testing covers a wide range of tests, which can be divided broadly into two types:
-1. those that aim to determine a material's mechanical properties, independent of geometry.
-2. those that determine the response of a structure to a given action, e.g. testing of composite beams, aircraft structures to destruction, etc."""@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Mechanical testing covers a wide range of tests, which can be divided broadly into two types: 1. those that aim to determine a material's mechanical properties, independent of geometry; 2. those that determine the response of a structure to a given action, e.g. testing of composite beams, aircraft structures to destruction, etc."@en ;
 	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Mechanical_testing" .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MembraneOsmometry
 chameo:MembraneOsmometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Osmometry ;
-	rdfs:comment "" ;
+	rdfs:comment "In the membrane osmometry technique, a pure solvent and polymer solution are separated by a semipermeable membrane, due to the higher chemical potential of the solvent in the pure solvent than in polymer solution, the solvent starts moving towards the polymer solution." ;
 	rdfs:label "MembraneOsmometry"@en ;
 	skos:prefLabel "MembraneOsmometry"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "In the membrane osmometry technique, a pure solvent and polymer solution are separated by a semipermeable membrane, due to the higher chemical potential of the solvent in the pure solvent than in polymer solution, the solvent starts moving towards the polymer solution."@en .
@@ -2104,16 +2069,16 @@ chameo:MembraneOsmometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MercuryPorosimetry
 chameo:MercuryPorosimetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Porosimetry ;
-	rdfs:comment "" ;
+	rdfs:comment "A method used to measure the pore size distribution and total pore volume of solid materials by infiltrating mercury into the pores under controlled pressure conditions and analyzing the amount of mercury intrusion." ;
 	rdfs:label "MercuryPorosimetry"@en ;
 	skos:prefLabel "MercuryPorosimetry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a method used to measure the pore size distribution and total pore volume of solid materials by infiltrating mercury into the pores under controlled pressure conditions and analyzing the amount of mercury intrusion"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A method used to measure the pore size distribution and total pore volume of solid materials by infiltrating mercury into the pores under controlled pressure conditions and analyzing the amount of mercury intrusion."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Microscopy
 chameo:Microscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationTechnique ;
-	rdfs:comment "" ;
+	rdfs:comment "Microscopy is a category of characterization techniques which probe and map the surface and sub-surface structure of a material. These techniques can use photons, electrons, ions or physical cantilever probes to gather data about a sample's structure on a range of length scales." ;
 	rdfs:label "Microscopy"@en ;
 	skos:prefLabel "Microscopy"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Microscopy is a category of characterization techniques which probe and map the surface and sub-surface structure of a material. These techniques can use photons, electrons, ions or physical cantilever probes to gather data about a sample's structure on a range of length scales."@en .
@@ -2121,27 +2086,30 @@ chameo:Microscopy rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Milling
 chameo:Milling rdf:type owl:Class ;
-               rdfs:subClassOf chameo:SamplePreparation ;
-               emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Milling is a machining process that involves the use of a milling machine to remove material from a workpiece. Milling machines feature cutting blades that rotate while they press against the workpiece." .
+	rdfs:subClassOf chameo:SamplePreparation ;
+	rdfs:comment "Milling is a machining process that involves the use of a milling machine to remove material from a workpiece. Milling machines feature cutting blades that rotate while they press against the workpiece."@en ;
+	rdfs:label "Milling"@en ;
+	skos:prefLabel "Milling"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Milling is a machining process that involves the use of a milling machine to remove material from a workpiece. Milling machines feature cutting blades that rotate while they press against the workpiece."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Mounting
 chameo:Mounting rdf:type owl:Class ;
-                rdfs:subClassOf chameo:SamplePreparation ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
-                                  owl:someValuesFrom chameo:Holder
-                                ] ;
-                rdfs:comment "" ;
-                rdfs:label "Mounting" ;
-                skos:prefLabel "Mounting" ;
-                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The sample is mounted on a holder."@en .
+	rdfs:subClassOf chameo:SamplePreparation ,
+	[ rdf:type owl:Restriction ;
+	owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+	owl:someValuesFrom chameo:Holder
+	] ;
+	rdfs:comment "The sample is mounted on a holder." ;
+	rdfs:label "Mounting" ;
+	skos:prefLabel "Mounting" ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The sample is mounted on a holder."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Nanoindentation
 chameo:Nanoindentation rdf:type owl:Class ;
 	rdfs:subClassOf chameo:MechanicalTesting ;
-	rdfs:comment "" ;
+	rdfs:comment "Nanoindentation (known also as nanoindentation test) is a method for testing the hardness and related mechanical properties of materials, facilitated by high-precision instrumentation in the nanometer scale, as well as analytical and computational algorithms for result evaluation. By definition, when someone performs nanoindentation, it refers to either quasistatic or continuous stiffness measurement. However, in reality with a nanoindenter it is also possible to perform scratch testing, scanning probe microscopy, and apply non-contact surface energy mapping, which can also be called nanoindentation, because they are measurements conducted using an nanoindenter." ;
 	rdfs:label "Nanoindentation"@en ;
 	skos:prefLabel "Nanoindentation"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Nanoindentation (known also as nanoindentation test) is a method for testing the hardness and related mechanical properties of materials, facilitated by high-precision instrumentation in the nanometer scale, as well as analytical and computational algorithms for result evaluation."@en ;
@@ -2151,7 +2119,7 @@ chameo:Nanoindentation rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#NeutronSpinEchoSpectroscopy
 chameo:NeutronSpinEchoSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
-	rdfs:comment "" ;
+	rdfs:comment Neutron spin echo spectroscopy is a high resolution inelastic neutron scattering method probing nanosecond dynamics. Neutron spin echo (NSE) spectroscopy uses the precession of neutron spins in a magnetic field to measure the energy transfer at the sample and decouples the energy resolution from beam characteristics like monochromatisation and collimation."@en ;
 	rdfs:label "NeutronSpinEchoSpectroscopy"@en ;
 	skos:altLabel "NSE" ;
 	skos:prefLabel "NeutronSpinEchoSpectroscopy"@en ;
@@ -2161,7 +2129,7 @@ chameo:NeutronSpinEchoSpectroscopy rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Nexafs
 chameo:Nexafs rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "Near edge X-ray absorption fine structure (NEXAFS), also known as X-ray absorption near edge structure (XANES), is a type of absorption spectroscopy that indicates the features in the X-ray absorption spectra (XAS) of condensed matter due to the photoabsorption cross section for electronic transitions from an atomic core level to final states in the energy region of 50–100 eV above the selected atomic core level ionization energy, where the wavelength of the photoelectron is larger than the interatomic distance between the absorbing atom and its first neighbour atoms."@en ;
 	rdfs:label "Nexafs"@en ;
 	skos:prefLabel "Nexafs"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Near edge X-ray absorption fine structure (NEXAFS), also known as X-ray absorption near edge structure (XANES), is a type of absorption spectroscopy that indicates the features in the X-ray absorption spectra (XAS) of condensed matter due to the photoabsorption cross section for electronic transitions from an atomic core level to final states in the energy region of 50–100 eV above the selected atomic core level ionization energy, where the wavelength of the photoelectron is larger than the interatomic distance between the absorbing atom and its first neighbour atoms."@en .
@@ -2170,23 +2138,18 @@ chameo:Nexafs rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#NormalPulseVoltammetry
 chameo:NormalPulseVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
-	rdfs:comment "Normal pulse polarography is NPV in which a dropping mercury electrode is used as the working electrode. A pulse is applied just before the mechanically enforced end of the drop. The pulse width is usually 10 to 20 % of the drop time. The drop dislodgment is synchro- nized with current sampling, which is carried out just before the end of the pulse, as in NPV."@en ,
-	"Sigmoidal wave-shaped voltammograms are obtained."@en ,
-	"The current is sampled at the end of the pulse and then plotted versus the potential of the pulse."@en ,
-	"The current is sampled just before the end of the pulse, when the charging current is greatly diminished. In this way, the ratio of faradaic current to charging current is enhanced and the negative influence of charging current is partially eliminated. Due to the improved signal (faradaic current) to noise (charging current) ratio, the limit of detec- tion is lowered."@en ,
-	"The sensitivity of NPV is not affected by the reversibility of the electrode reaction of the analyte."@en ,
-	"" ;
+	rdfs:comment "Voltammetry in which potential pulses of amplitude increasing by a constant increment and with a pulse width of 2 to 200 ms are superimposed on a constant initial potential. Normal pulse polarography is NPV in which a dropping mercury electrode is used as the working electrode. A pulse is applied just before the mechanically enforced end of the drop. The pulse width is usually 10 to 20 % of the drop time. The drop dislodgment is synchro- nized with current sampling, which is carried out just before the end of the pulse, as in NPV. Sigmoidal wave-shaped voltammograms are obtained. The current is sampled at the end of the pulse and then plotted versus the potential of the pulse. The current is sampled just before the end of the pulse, when the charging current is greatly diminished. In this way, the ratio of faradaic current to charging current is enhanced and the negative influence of charging current is partially eliminated. Due to the improved signal (faradaic current) to noise (charging current) ratio, the limit of detec- tion is lowered. The sensitivity of NPV is not affected by the reversibility of the electrode reaction of the analyte."@en ;
 	rdfs:label "NormalPulseVoltammetry"@en ;
 	skos:altLabel "NPV"@en ;
 	skos:prefLabel "NormalPulseVoltammetry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "voltammetry in which potential pulses of amplitude increasing by a constant increment and with a pulse width of 2 to 200 ms are superimposed on a constant initial potential"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Voltammetry in which potential pulses of amplitude increasing by a constant increment and with a pulse width of 2 to 200 ms are superimposed on a constant initial potential. Normal pulse polarography is NPV in which a dropping mercury electrode is used as the working electrode. A pulse is applied just before the mechanically enforced end of the drop. The pulse width is usually 10 to 20 % of the drop time. The drop dislodgment is synchro- nized with current sampling, which is carried out just before the end of the pulse, as in NPV. Sigmoidal wave-shaped voltammograms are obtained. The current is sampled at the end of the pulse and then plotted versus the potential of the pulse. The current is sampled just before the end of the pulse, when the charging current is greatly diminished. In this way, the ratio of faradaic current to charging current is enhanced and the negative influence of charging current is partially eliminated. Due to the improved signal (faradaic current) to noise (charging current) ratio, the limit of detec- tion is lowered. The sensitivity of NPV is not affected by the reversibility of the electrode reaction of the analyte."@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#NuclearMagneticResonance
 chameo:NuclearMagneticResonance rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "Nuclear magnetic resonance spectroscopy, most commonly known as NMR spectroscopy or magnetic resonance spectroscopy (MRS), is a spectroscopic technique to observe local magnetic fields around atomic nuclei. This spectroscopy is based on the measurement of absorption of electromagnetic radiations in the radio frequency region from roughly 4 to 900 MHz. Absorption of radio waves in the presence of magnetic field is accompanied by a special type of nuclear transition, and for this reason, such type of spectroscopy is known as Nuclear Magnetic Resonance Spectroscopy. The sample is placed in a magnetic field and the NMR signal is produced by excitation of the nuclei sample with radio waves into nuclear magnetic resonance, which is detected with sensitive radio receivers. The intramolecular magnetic field around an atom in a molecule changes the resonance frequency, thus giving access to details of the electronic structure of a molecule and its individual functional groups. As the fields are unique or highly characteristic to individual compounds, in modern organic chemistry practice, NMR spectroscopy is the definitive method to identify monomolecular organic compounds."@en ;
 	rdfs:label "NuclearMagneticResonance"@en ;
 	skos:altLabel "Magnetic resonance spectroscopy (MRS)" ,
 	"NMR" ;
@@ -2197,11 +2160,11 @@ chameo:NuclearMagneticResonance rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#OpenCircuitHold
 chameo:OpenCircuitHold rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Potentiometry ;
-	rdfs:comment "" ;
+	rdfs:comment "A process in which the electric current is kept constant at 0 (i.e., open-circuit conditions)."@en ;
 	rdfs:label "OpenCircuitHold"@en ;
 	skos:altLabel "OCVHold"@en ;
 	skos:prefLabel "OpenCircuitHold"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "a process in which the electric current is kept constant at 0 (i.e., open-circuit conditions)"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A process in which the electric current is kept constant at 0 (i.e., open-circuit conditions)."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Operator
@@ -2211,7 +2174,7 @@ chameo:Operator rdf:type owl:Class ;
 	) ;
 	rdf:type owl:Class
 	] ;
-	rdfs:comment "" ;
+	rdfs:comment "The human operator who takes care of the whole characterisation method or sub-processes/stages."@en ;
 	rdfs:label "Operator"@en ;
 	skos:prefLabel "Operator"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The human operator who takes care of the whole characterisation method or sub-processes/stages."@en .
@@ -2220,10 +2183,10 @@ chameo:Operator rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#OpticalMicroscopy
 chameo:OpticalMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "Optical microscopy is a technique used to closely view a sample through the magnification of a lens with visible light."@en ;
 	rdfs:label "OpticalMicroscopy"@en ;
 	skos:prefLabel "OpticalMicroscopy"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Optical microscopy is a technique used to closely view a sample through the magnification of a lens with visible light"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Optical microscopy is a technique used to closely view a sample through the magnification of a lens with visible light."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#OpticalTesting
@@ -2237,7 +2200,7 @@ chameo:OpticalTesting rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Osmometry
 chameo:Osmometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationTechnique ;
-	rdfs:comment "" ;
+	rdfs:comment "Osmometry is an advanced analytical method for determining the osmotic concentration of solutions. The osmotic – or solute – concentration of a colloidal system is expressed in osmoles (Osm) per unit of volume (Osm/L) or weight (Osm/kg)."@en ;
 	rdfs:label "Osmometry"@en ;
 	skos:prefLabel "Osmometry"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Osmometry is an advanced analytical method for determining the osmotic concentration of solutions. The osmotic – or solute – concentration of a colloidal system is expressed in osmoles (Osm) per unit of volume (Osm/L) or weight (Osm/kg)."@en .
@@ -2246,7 +2209,7 @@ chameo:Osmometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#PhotoluminescenceMicroscopy
 chameo:PhotoluminescenceMicroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Microscopy ;
-	rdfs:comment "" ;
+	rdfs:comment "Photoluminescence spectroscopy is a widely used technique for characterisation of the optical and electronic properties of semiconductors and molecules."@en ;
 	rdfs:label "PhotoluminescenceMicroscopy"@en ;
 	skos:prefLabel "PhotoluminescenceMicroscopy"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Photoluminescence spectroscopy is a widely used technique for characterisation of the optical and electronic properties of semiconductors and molecules."@en .
@@ -2259,7 +2222,7 @@ chameo:PhysicsOfInteraction rdf:type owl:Class ;
 	emmo:EMMO_8d2d9374_ef3a_47e6_8595_6bc208e07519
 	)
 	] ;
-	rdfs:comment "" ;
+	rdfs:comment "Set of physics principles (and associated governing equations) that describes the interaction between the sample and the probe. In x-ray diffraction, this is represented by the set of physics equations that describe the relation between the incident x-ray beam and the diffracted beam (the most simple form for this being the Bragg’s law)."@en ;
 	rdfs:label "PhysicsOfInteraction"@en ;
 	skos:prefLabel "PhysicsOfInteraction"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of physics principles (and associated governing equations) that describes the interaction between the sample and the probe."@en ;
@@ -2268,8 +2231,11 @@ chameo:PhysicsOfInteraction rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Polishing
 chameo:Polishing rdf:type owl:Class ;
-                 rdfs:subClassOf chameo:SamplePreparation ;
-                 emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Polishing is a machining process to achieve a smooth surface of the Sample, which uses abrasive compounds with smal particles that are embedded in a pad or wheel." .
+	rdfs:subClassOf chameo:SamplePreparation ;
+	rdfs:comment "Polishing is a machining process to achieve a smooth surface of the Sample, which uses abrasive compounds with smal particles that are embedded in a pad or wheel."@en ;
+	rdfs:label "Polishing"@en ;
+	skos:prefLabel "Polishing"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Polishing is a machining process to achieve a smooth surface of the Sample, which uses abrasive compounds with smal particles that are embedded in a pad or wheel."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Porosimetry
@@ -2283,7 +2249,7 @@ chameo:Porosimetry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#PostProcessingModel
 chameo:PostProcessingModel rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0 ;
-	rdfs:comment "" ;
+	rdfs:comment "Mathematical model used to process data. The PostProcessingModel use is mainly intended to get secondary data from primary data."@en ;
 	rdfs:label "PostProcessingModel"@en ;
 	skos:prefLabel "PostProcessingModel"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Mathematical model used to process data."@en ;
@@ -2293,15 +2259,11 @@ chameo:PostProcessingModel rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#PotentiometricStrippingAnalysis
 chameo:PotentiometricStrippingAnalysis rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
-	rdfs:comment "historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury"@en ,
-	"the accumulation is similar to that used in stripping voltammetry"@en ,
-	"the stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution"@en ,
-	"the time between changes in potential in step 2 is related to the concentration of analyte in the solution"@en ,
-	"" ;
+	rdfs:comment "Two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential. Historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury. The accumulation is similar to that used in stripping voltammetry. The stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution. The time between changes in potential in step 2 is related to the concentration of analyte in the solution."@en ;
 	rdfs:label "PotentiometricStrippingAnalysis"@en ;
 	skos:altLabel "PSA"@en ;
 	skos:prefLabel "PotentiometricStrippingAnalysis"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential. Historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury. The accumulation is similar to that used in stripping voltammetry. The stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution. The time between changes in potential in step 2 is related to the concentration of analyte in the solution."@en .
 
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource chameo:PotentiometricStrippingAnalysis ;
@@ -2342,14 +2304,12 @@ chameo:PotentiometricStrippingAnalysis rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Potentiometry
 chameo:Potentiometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ElectrochemicalTesting ;
-	rdfs:comment "For measurements using ion-selective electrodes, the measurement is made under equi- librium conditions what means that the macroscopic electric current is zero and the con- centrations of all species are uniform throughout the solution. The indicator electrode is in direct contact with the analyte solution, whereas the reference electrode is usually separated from the analyte solution by a salt bridge. The potential difference between the indicator and reference electrodes is normally directly proportional to the logarithm of the activity (concentration) of the analyte in the solution (Nernst equation). See also ion selec- tive electrode."@en ,
-	"Method of electroanalytical chemistry based on measurement of an electrode potential."@en ,
-	"" ;
+	rdfs:comment "Method of electroanalytical chemistry based on measurement of an electrode potential. Potentiometric methods are used to measure the electrochemical potentials of a metallic structure in a given environment. For measurements using ion-selective electrodes, the measurement is made under equilibrium conditions what means that the macroscopic electric current is zero and the concentrations of all species are uniform throughout the solution. The indicator electrode is in direct contact with the analyte solution, whereas the reference electrode is usually separated from the analyte solution by a salt bridge. The potential difference between the indicator and reference electrodes is normally directly proportional to the logarithm of the activity (concentration) of the analyte in the solution (Nernst equation). See also ion selective electrode."@en ;
 	rdfs:label "Potentiometry"@en ;
 	skos:prefLabel "Potentiometry"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q900632" ;
 	emmo:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f "https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-12" ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Potentiometric methods are used to measure the electrochemical potentials of a metallic structure in a given environment."@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Method of electroanalytical chemistry based on measurement of an electrode potential. Potentiometric methods are used to measure the electrochemical potentials of a metallic structure in a given environment. For measurements using ion-selective electrodes, the measurement is made under equilibrium conditions what means that the macroscopic electric current is zero and the concentrations of all species are uniform throughout the solution. The indicator electrode is in direct contact with the analyte solution, whereas the reference electrode is usually separated from the analyte solution by a salt bridge. The potential difference between the indicator and reference electrodes is normally directly proportional to the logarithm of the activity (concentration) of the analyte in the solution (Nernst equation). See also ion selective electrode."@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
@@ -2357,7 +2317,7 @@ chameo:Potentiometry rdf:type owl:Class ;
 chameo:PreparedSample rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Sample ;
 	owl:disjointWith chameo:ReferenceSample ;
-	rdfs:comment "" ;
+	rdfs:comment "The sample after a preparation process."@en ;
 	rdfs:label "PreparedSample" ;
 	skos:prefLabel "PreparedSample" ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The sample after a preparation process."@en .
@@ -2366,13 +2326,11 @@ chameo:PreparedSample rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#PrimaryData
 chameo:PrimaryData rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationData ;
-	rdfs:comment "" ;
+	rdfs:comment "Data resulting of a pre-processing of raw data, applying corrections to normalize/harmonize, in order to prepare them for the post-processing."@en ;
 	rdfs:label "PrimaryData"@en ;
 	skos:prefLabel "PrimaryData"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Data resulting of a pre-processing of raw data, applying corrections to normalize/harmonize, in order to prepare them for the post-processing."@en ;
-	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Baseline subtraction"@en ,
-	"Noise reduction"@en ,
-	"X and Y axes correction"@en .
+	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Baseline subtraction, noise reduction , X and Y axes correction." @en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Probe
