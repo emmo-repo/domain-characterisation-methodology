@@ -149,6 +149,11 @@ chameo:hasAccessConditions rdf:type owl:ObjectProperty ;
 	rdfs:label "hasAccessConditions"@en ;
 	skos:prefLabel "hasAccessConditions"@en .
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasBPMNDiagram
+chameo:hasBPMNDiagram rdf:type owl:ObjectProperty ;
+	rdfs:subPropertyOf owl:topObjectProperty ;
+	rdfs:range chameo:BPMNDiagram .
+
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasBeginCharacterisationTask
 chameo:hasBeginCharacterisationTask rdf:type owl:ObjectProperty ;
@@ -1180,6 +1185,14 @@ chameo:CharacterisationWorkflow rdf:type owl:Class ;
 	skos:prefLabel "CharacterisationWorkflow"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characterisation procedure that has at least two characterisation tasks as proper parts."@en .
 
+					  
+					  
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#BPMNDiagram
+chameo:BPMNDiagram rdf:type owl:Class ;
+	rdfs:subClassOf emmo:EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 ;
+    skos:prefLabel "BPMNDiagram" .
+
+
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisedSample
 chameo:CharacterisedSample rdf:type owl:Class ;
@@ -1855,11 +1868,11 @@ chameo:Holder rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#HydrodynamicVoltammetry
 chameo:HydrodynamicVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
-	rdfs:comment "Voltammetry with forced flow of the solution towards the electrode surface. A linear potential scan, at sufficiently slow scan rates so as to ensure a steady state response, is usually applied. Mass transport of a redox species enhanced by convection in this way results in a greater electric current. Convective mass transfer occurs up to the diffusion-limiting layer, within which the mass transfer is controlled by diffusion. Electroactive substance depletion outside the diffusion layer is annulled by convective mass transfer, which results in steady- state sigmoidal wave-shaped current-potential curves. "The forced flow can be accomplished by movement either of the solution (solution stirring, or channel flow), or of the electrode (electrode rotation or vibration)."@en ;
+	rdfs:comment "Voltammetry with forced flow of the solution towards the electrode surface. A linear potential scan, at sufficiently slow scan rates so as to ensure a steady state response, is usually applied. Mass transport of a redox species enhanced by convection in this way results in a greater electric current. Convective mass transfer occurs up to the diffusion-limiting layer, within which the mass transfer is controlled by diffusion. Electroactive substance depletion outside the diffusion layer is annulled by convective mass transfer, which results in steady- state sigmoidal wave-shaped current-potential curves. The forced flow can be accomplished by movement either of the solution (solution stirring, or channel flow), or of the electrode (electrode rotation or vibration)."@en ;
 	rdfs:label "HydrodynamicVoltammetry"@en ;
 	skos:prefLabel "HydrodynamicVoltammetry"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q17028237" ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Voltammetry with forced flow of the solution towards the electrode surface. A linear potential scan, at sufficiently slow scan rates so as to ensure a steady state response, is usually applied. Mass transport of a redox species enhanced by convection in this way results in a greater electric current. Convective mass transfer occurs up to the diffusion-limiting layer, within which the mass transfer is controlled by diffusion. Electroactive substance depletion outside the diffusion layer is annulled by convective mass transfer, which results in steady- state sigmoidal wave-shaped current-potential curves. "The forced flow can be accomplished by movement either of the solution (solution stirring, or channel flow), or of the electrode (electrode rotation or vibration)."@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Voltammetry with forced flow of the solution towards the electrode surface. A linear potential scan, at sufficiently slow scan rates so as to ensure a steady state response, is usually applied. Mass transport of a redox species enhanced by convection in this way results in a greater electric current. Convective mass transfer occurs up to the diffusion-limiting layer, within which the mass transfer is controlled by diffusion. Electroactive substance depletion outside the diffusion layer is annulled by convective mass transfer, which results in steady- state sigmoidal wave-shaped current-potential curves. The forced flow can be accomplished by movement either of the solution (solution stirring, or channel flow), or of the electrode (electrode rotation or vibration)."@en ;
 	emmo:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d "https://en.wikipedia.org/wiki/Hydrodynamic_voltammetry"@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
@@ -2119,7 +2132,7 @@ chameo:Nanoindentation rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#NeutronSpinEchoSpectroscopy
 chameo:NeutronSpinEchoSpectroscopy rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Spectroscopy ;
-	rdfs:comment Neutron spin echo spectroscopy is a high resolution inelastic neutron scattering method probing nanosecond dynamics. Neutron spin echo (NSE) spectroscopy uses the precession of neutron spins in a magnetic field to measure the energy transfer at the sample and decouples the energy resolution from beam characteristics like monochromatisation and collimation."@en ;
+	rdfs:comment "Neutron spin echo spectroscopy is a high resolution inelastic neutron scattering method probing nanosecond dynamics. Neutron spin echo (NSE) spectroscopy uses the precession of neutron spins in a magnetic field to measure the energy transfer at the sample and decouples the energy resolution from beam characteristics like monochromatisation and collimation."@en ;
 	rdfs:label "NeutronSpinEchoSpectroscopy"@en ;
 	skos:altLabel "NSE" ;
 	skos:prefLabel "NeutronSpinEchoSpectroscopy"@en ;
