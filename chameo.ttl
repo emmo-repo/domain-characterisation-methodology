@@ -12,7 +12,7 @@
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo> .
+@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 <https://w3id.org/emmo/domain/characterisation-methodology/chameo> rdf:type owl:Ontology ;
                                                                     owl:versionIRI <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0-beta5/chameo> ;
@@ -358,6 +358,13 @@ chameo:hasInstrumentForCalibration rdf:type owl:ObjectProperty ;
                                    skos:prefLabel "hasInstrumentForCalibration"@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasInstrumentToBeCalibrated
+chameo:hasInstrumentToBeCalibrated rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                   rdfs:domain chameo:CalibrationProcess ;
+                                   rdfs:range chameo:CharacterisationMeasurementInstrument .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasInteractionVolume
 chameo:hasInteractionVolume rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
@@ -679,8 +686,8 @@ emmo:EMMO_e94a9156_fb6c_4e16_88ee_829ac9933155 owl:disjointWith chameo:Rationale
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ACVoltammetry
 chameo:ACVoltammetry rdf:type owl:Class ;
                      rdfs:subClassOf chameo:Voltammetry ;
-                     rdfs:comment "" ,
-                                  "The resulting alternating current is plotted versus imposed DC potential. The obtained AC voltammogram is peak-shaped."@en ;
+                     rdfs:comment "The resulting alternating current is plotted versus imposed DC potential. The obtained AC voltammogram is peak-shaped."@en ,
+                                  "" ;
                      rdfs:label "ACVoltammetry"@en ;
                      skos:altLabel "ACV"@en ;
                      skos:prefLabel "ACVoltammetry"@en ;
@@ -692,8 +699,8 @@ chameo:ACVoltammetry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#AbrasiveStrippingVoltammetry
 chameo:AbrasiveStrippingVoltammetry rdf:type owl:Class ;
                                     rdfs:subClassOf chameo:Voltammetry ;
-                                    rdfs:comment "" ,
-                                                 "electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve"@en ;
+                                    rdfs:comment "electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve"@en ,
+                                                 "" ;
                                     rdfs:label "AbrasiveStrippingVoltammetry"@en ;
                                     skos:prefLabel "AbrasiveStrippingVoltammetry"@en ;
                                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve"@en .
@@ -2586,8 +2593,8 @@ chameo:SamplePreparationParameter rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampledDCPolarography
 chameo:SampledDCPolarography rdf:type owl:Class ;
                              rdfs:subClassOf chameo:DCPolarography ;
-                             rdfs:comment "" ,
-                                          "In this way, the ratio of faradaic current to double layer charging current is enhanced and the negative influence of charging current is partially eliminated. Due to the improved signal (faradaic current) to noise (charging current) ratio, the limit of detection is lowered."@en ;
+                             rdfs:comment "In this way, the ratio of faradaic current to double layer charging current is enhanced and the negative influence of charging current is partially eliminated. Due to the improved signal (faradaic current) to noise (charging current) ratio, the limit of detection is lowered."@en ,
+                                          "" ;
                              rdfs:label "SampledDCPolarography"@en ;
                              skos:altLabel "TASTPolarography"@en ;
                              skos:prefLabel "SampledDCPolarography"@en ;
@@ -2714,10 +2721,10 @@ chameo:Spectroscopy rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SquareWaveVoltammetry
 chameo:SquareWaveVoltammetry rdf:type owl:Class ;
                              rdfs:subClassOf chameo:Voltammetry ;
-                             rdfs:comment "" ,
-                                          "Most instruments show plots of the current at the end of the forward-going pulse and of the backward-going pulse vs. the potential, as well as their difference. This can give valuable information on the kinetics of the electrode reaction and the electrode process."@en ,
+                             rdfs:comment "Most instruments show plots of the current at the end of the forward-going pulse and of the backward-going pulse vs. the potential, as well as their difference. This can give valuable information on the kinetics of the electrode reaction and the electrode process."@en ,
                                           "The current is sampled just before the end of the forward- going pulse and of the backward-going pulse and the difference of the two sampled currents is plotted versus the applied potential of the potential or staircase ramp. The square-wave voltammogram is peak-shaped"@en ,
-                                          "The sensitivity of SWV depends on the reversibility of the electrode reaction of the analyte."@en ;
+                                          "The sensitivity of SWV depends on the reversibility of the electrode reaction of the analyte."@en ,
+                                          "" ;
                              rdfs:label "SquareWaveVoltammetry"@en ;
                              skos:altLabel "OSWV"@en ,
                                            "OsteryoungSquareWaveVoltammetry"@en ,
@@ -2748,12 +2755,12 @@ chameo:StepChronopotentiometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#StrippingVoltammetry
 chameo:StrippingVoltammetry rdf:type owl:Class ;
                             rdfs:subClassOf chameo:Voltammetry ;
-                            rdfs:comment "" ,
-                                         "Anodic stripping voltammetry (ASV) was historically used to measure concentrations of metal ions in solution using cathodic accumulation with mercury to form an amalgam. Due to the toxicity of mercury and its compounds, inductively coupled plasma optical emission spectrometry and inductively coupled plasma mass spectrometry have frequently replaced ASV at mercury electrodes in the laboratory, often sacrificing the probing of speciation and lability in complex matrices. Mercury has now been replaced by non-toxic bismuth or anti- mony as films on a solid electrode support (such as glassy carbon) with equally good sensi- tivity and detection limits."@en ,
+                            rdfs:comment "Anodic stripping voltammetry (ASV) was historically used to measure concentrations of metal ions in solution using cathodic accumulation with mercury to form an amalgam. Due to the toxicity of mercury and its compounds, inductively coupled plasma optical emission spectrometry and inductively coupled plasma mass spectrometry have frequently replaced ASV at mercury electrodes in the laboratory, often sacrificing the probing of speciation and lability in complex matrices. Mercury has now been replaced by non-toxic bismuth or anti- mony as films on a solid electrode support (such as glassy carbon) with equally good sensi- tivity and detection limits."@en ,
                                          "Because the accumulation (pre-concentration) step can be prolonged, increasing the amount of material at the electrode, stripping voltammetry is able to measure very small concentrations of analyte."@en ,
                                          "Often the product of the electrochemical stripping is identical to the analyte before the accumulation."@en ,
                                          "Stripping voltammetry is a calibrated method to establish the relation between amount accumulated in a given time and the concentration of the analyte in solution."@en ,
-                                         "Types of stripping voltammetry refer to the kind of accumulation (e.g. adsorptive stripping voltammetry) or the polarity of the stripping electrochemistry (anodic, cathodic stripping voltammetry)."@en ;
+                                         "Types of stripping voltammetry refer to the kind of accumulation (e.g. adsorptive stripping voltammetry) or the polarity of the stripping electrochemistry (anodic, cathodic stripping voltammetry)."@en ,
+                                         "" ;
                             rdfs:label "StrippingVoltammetry"@en ;
                             skos:prefLabel "StrippingVoltammetry"@en ;
                             emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the amount of an accumulated species is measured by voltammetry. The measured electric current in step 2 is related to the concentration of analyte in the solution by calibration."@en ;
@@ -2871,8 +2878,8 @@ chameo:Viscometry rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Voltammetry
 chameo:Voltammetry rdf:type owl:Class ;
                    rdfs:subClassOf chameo:ElectrochemicalTesting ;
-                   rdfs:comment "" ,
-                                "The current vs. potential (I-E) curve is called a voltammogram."@en ;
+                   rdfs:comment "The current vs. potential (I-E) curve is called a voltammogram."@en ,
+                                "" ;
                    rdfs:label "Voltammetry"@en ;
                    skos:prefLabel "Voltammetry"@en ;
                    emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q904093" ;
