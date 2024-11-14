@@ -358,13 +358,6 @@ chameo:hasInstrumentForCalibration rdf:type owl:ObjectProperty ;
                                    skos:prefLabel "hasInstrumentForCalibration"@en .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasInstrumentToBeCalibrated
-chameo:hasInstrumentToBeCalibrated rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
-                                   rdfs:domain chameo:CalibrationProcess ;
-                                   rdfs:range chameo:CharacterisationMeasurementInstrument .
-
-
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasInteractionVolume
 chameo:hasInteractionVolume rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
