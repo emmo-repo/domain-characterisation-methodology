@@ -2048,6 +2048,7 @@ chameo:MeasurementSystemAdjustment rdf:type owl:Class ;
                                    rdfs:subClassOf chameo:CharacterisationProcedure ;
                                    rdfs:comment "Activity which has the goal of adjusting/tuning a measing instrument, without performing a measurement on a reference sample (which is a calibration). The output of this process can be a specific measurement parameter to be used in the characteriasation measurement process. From the International Vocabulary of Metrology (VIM): Set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity being measured. NOTE 1: If there is any doubt that the context in which the term is being used is that of metrology, the long form “adjustment of a measuring system” might be used. NOTE 2: Types of adjustment of a measuring system include zero adjustment, offset adjustment, and span adjustment (sometimes called “gain adjustment”). NOTE 3: Adjustment of a measuring system should not be confused with calibration, which is sometimes a prerequisite for adjustment. NOTE 4: After an adjustment of a measuring system, the measuring system must usually be recalibrated." ;
                                    rdfs:label "MeasurementSystemAdjustment" ;
+                                   skos:altLabel "MeasurementParameterAdjustment" ;
                                    skos:prefLabel "MeasurementSystemAdjustment" ;
                                    emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "From the International Vocabulary of Metrology (VIM): Set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity being measured. NOTE 1: If there is any doubt that the context in which the term is being used is that of metrology, the long form “adjustment of a measuring system” might be used. NOTE 2: Types of adjustment of a measuring system include zero adjustment, offset adjustment, and span adjustment (sometimes called “gain adjustment”). NOTE 3: Adjustment of a measuring system should not be confused with calibration, which is sometimes a prerequisite for adjustment. NOTE 4: After an adjustment of a measuring system, the measuring system must usually be recalibrated."@en ;
                                    emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Activity which has the goal of adjusting/tuning a measing instrument, without performing a measurement on a reference sample (which is a calibration). The output of this process can be a specific measurement parameter to be used in the characteriasation measurement process."@en ;
@@ -2371,6 +2372,14 @@ chameo:Probe rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#ProbeSampleInteraction
 chameo:ProbeSampleInteraction rdf:type owl:Class ;
                               rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                                owl:someValuesFrom chameo:Probe
+                                              ] ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                                owl:someValuesFrom chameo:Sample
+                                              ] ,
                                               [ rdf:type owl:Restriction ;
                                                 owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
                                                 owl:someValuesFrom chameo:Signal
