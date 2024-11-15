@@ -12,7 +12,7 @@
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo> .
+@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 <https://w3id.org/emmo/domain/characterisation-methodology/chameo> rdf:type owl:Ontology ;
                                                                     owl:versionIRI <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0-beta5/chameo> ;
@@ -860,20 +860,6 @@ standards.
                           emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Usually the calibration process involve  a reference sample (with pre-defined, specific, and stable physical characteristics and known properties), in order to extract calibration data. In this way, the accuracy of the measurement tool and its components (for example the probe) will be evaluated and confirmed."@en .
 
 
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CalibrationTask
-chameo:CalibrationTask rdf:type owl:Class ;
-                       rdfs:subClassOf chameo:CharacterisationTask ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty [ owl:inverseOf emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a
-                                                        ] ;
-                                         owl:someValuesFrom chameo:CalibrationProcess
-                                       ] ;
-                       rdfs:comment "Used to break-down a CalibrationProcess into his specific tasks."@en ;
-                       rdfs:label "CalibrationTask" ;
-                       skos:prefLabel "CalibrationTask" ;
-                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Used to break-down a CalibrationProcess into his specific tasks."@en .
-
-
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#Calorimetry
 chameo:Calorimetry rdf:type owl:Class ;
                    rdfs:subClassOf chameo:ThermochemicalTesting ;
@@ -1054,20 +1040,6 @@ system specifications.
 -- International Vocabulary of Metrology(VIM)"""@en ;
                                           emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The measurement process associates raw data to the sample  through a probe and a detector."@en ;
                                           emmo:EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6 "Measurement"@en .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationMeasurementTask
-chameo:CharacterisationMeasurementTask rdf:type owl:Class ;
-                                       rdfs:subClassOf chameo:CharacterisationTask ,
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty [ owl:inverseOf emmo:EMMO_70da982d_1810_4b01_9630_a28e216ecd9a
-                                                                        ] ;
-                                                         owl:someValuesFrom chameo:CharacterisationMeasurementProcess
-                                                       ] ;
-                                       rdfs:comment "Used to break-down a CharacterisationMeasurementProcess into his specific tasks."@en ;
-                                       rdfs:label "CharacterisationMeasurementTask"@en ;
-                                       skos:prefLabel "CharacterisationMeasurementTask"@en ;
-                                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Used to break-down a CharacterisationMeasurementProcess into his specific tasks."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationProcedure
