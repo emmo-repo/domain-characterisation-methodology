@@ -2956,11 +2956,6 @@ chameo:XrdGrazingIncidence rdf:type owl:Class ;
 #    Individuals
 #################################################################
 
-###  http://ext.org/LoadDisplacementCurve1
-<http://ext.org/LoadDisplacementCurve1> rdf:type owl:NamedIndividual ,
-                                                 chameo:CharacterisationData .
-
-
 ###  https://orcid.org/0000-0002-4181-2852
 <https://orcid.org/0000-0002-4181-2852> rdf:type owl:NamedIndividual ,
                                                  foaf:Person ;
