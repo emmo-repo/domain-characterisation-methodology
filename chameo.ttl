@@ -12,7 +12,7 @@
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
+@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo> .
 
 <https://w3id.org/emmo/domain/characterisation-methodology/chameo> rdf:type owl:Ontology ;
                                                                     owl:versionIRI <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0-beta5/chameo> ;
@@ -201,6 +201,8 @@ chameo:hasCharacterisationEnvironmentProperty rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationInput
 chameo:hasCharacterisationInput rdf:type owl:ObjectProperty ;
                                 rdfs:subPropertyOf emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                rdfs:domain chameo:CharacterisationProcedure ;
+                                rdfs:range chameo:CharacterisationData ;
                                 rdfs:comment "" ;
                                 rdfs:label "hasCharacterisationInput"@en ;
                                 skos:altLabel "hasCharacterizationInput"@en ;
@@ -221,6 +223,8 @@ chameo:hasCharacterisationMeasurementInstrument rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasCharacterisationOutput
 chameo:hasCharacterisationOutput rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
+                                 rdfs:domain chameo:CharacterisationProcedure ;
+                                 rdfs:range chameo:CharacterisationData ;
                                  rdfs:comment "" ;
                                  rdfs:label "hasCharacterisationOutput"@en ;
                                  skos:altLabel "hasCharacterizationOutput"@en ;
@@ -2221,6 +2225,14 @@ chameo:Osmometry rdf:type owl:Class ;
                  rdfs:label "Osmometry"@en ;
                  skos:prefLabel "Osmometry"@en ;
                  emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Osmometry is an advanced analytical method for determining the osmotic concentration of solutions. The osmotic – or solute – concentration of a colloidal system is expressed in osmoles (Osm) per unit of volume (Osm/L) or weight (Osm/kg)."@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#OutlierRemoval
+chameo:OutlierRemoval rdf:type owl:Class ;
+                      rdfs:subClassOf chameo:DataFiltering ;
+                      rdfs:comment "" ;
+                      skos:prefLabel "OutlierRemoval" ;
+                      emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Outlier removal refers to the process of identifying and eliminating anomalous data points that deviate significantly from the overall pattern of a dataset. These outliers are generally considered to be observations that are unusually distant from other values and can potentially distort the results of  analyses."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#PhotoluminescenceMicroscopy
