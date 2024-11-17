@@ -1072,8 +1072,7 @@ chameo:CharacterisationProcedureValidation rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationProperty
 chameo:CharacterisationProperty rdf:type owl:Class ;
-                                rdfs:subClassOf emmo:EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4 ,
-                                                chameo:SecondaryData ;
+                                rdfs:subClassOf emmo:EMMO_873b0ab3_88e6_4054_b901_5531e01f14a4 ;
                                 rdfs:comment "The characterisation property is the investigate property or behaviour of a sample. It is derived from the secondary data, usually after classification or quantification (manually or by a model)."@en ;
                                 rdfs:label "CharacterisationProperty"@en ;
                                 skos:prefLabel "CharacterisationProperty"@en ;
