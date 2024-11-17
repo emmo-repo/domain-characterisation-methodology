@@ -676,8 +676,8 @@ foaf:Person rdf:type owl:Class ;
             skos:prefLabel "Person" .
 
 
-###  https://w3id.org/emmo#EMMO_d5f98475_00ce_4987_99fb_262aed395e46
-emmo:EMMO_d5f98475_00ce_4987_99fb_262aed395e46 rdfs:subClassOf chameo:SampleExtraction .
+###  https://w3id.org/emmo#EMMO_1d6b63d5_9938_483c_ad62_a09ac34153c9
+emmo:EMMO_1d6b63d5_9938_483c_ad62_a09ac34153c9 owl:disjointWith chameo:SampleExtractionByCutting .
 
 
 ###  https://w3id.org/emmo#EMMO_e94a9156_fb6c_4e16_88ee_829ac9933155
@@ -2531,6 +2531,12 @@ chameo:SampleExtraction rdf:type owl:Class ;
                         emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "The term can be used to cover either a unit of supply or a portion for analysis. The portion taken may consist of one or more sub-samples and the batch may be the population from which the sample is taken."@en .
 
 
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleExtractionByCutting
+chameo:SampleExtractionByCutting rdf:type owl:Class ;
+                                 rdfs:subClassOf emmo:EMMO_d5f98475_00ce_4987_99fb_262aed395e46 ,
+                                                 chameo:SampleExtraction .
+
+
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleExtractionInstrument
 chameo:SampleExtractionInstrument rdf:type owl:Class ;
                                   rdfs:subClassOf chameo:CharacterisationHardware ;
@@ -2604,6 +2610,12 @@ chameo:SamplePreparation rdf:type owl:Class ;
                          rdfs:label "SamplePreparation"@en ;
                          skos:prefLabel "SamplePreparation"@en ;
                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Sample preparation processes (e.g., machining, polishing, cutting to size, etc.) before actual observation and measurement."@en .
+
+
+###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SamplePreparationByCutting
+chameo:SamplePreparationByCutting rdf:type owl:Class ;
+                                  rdfs:subClassOf emmo:EMMO_d5f98475_00ce_4987_99fb_262aed395e46 ,
+                                                  chameo:SamplePreparation .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#SamplePreparationInstrument
@@ -3017,6 +3029,14 @@ chameo:XrdGrazingIncidence rdf:type owl:Class ;
 #################################################################
 #    General axioms
 #################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( emmo:EMMO_1d6b63d5_9938_483c_ad62_a09ac34153c9
+                chameo:SampleExtractionByCutting
+                chameo:SamplePreparationByCutting
+              )
+] .
+
 
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( chameo:CalibrationProcess
