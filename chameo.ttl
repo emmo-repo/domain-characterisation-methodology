@@ -296,7 +296,7 @@ chameo:hasDataProcessingThroughCalibration rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasDataQuality
 chameo:hasDataQuality rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
-                      rdfs:domain chameo:MeasurementDataPostProcessing ;
+                      rdfs:domain chameo:DataPostProcessing ;
                       rdfs:range chameo:DataQuality ;
                       rdfs:comment "" ;
                       rdfs:label "hasDataQuality"@en ;
@@ -495,7 +495,7 @@ chameo:hasPhysicsOfInteraction rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasPostProcessingModel
 chameo:hasPostProcessingModel rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
-                              rdfs:domain chameo:MeasurementDataPostProcessing ;
+                              rdfs:domain chameo:DataPostProcessing ;
                               rdfs:range chameo:PostProcessingModel ;
                               rdfs:comment "" ;
                               rdfs:label "hasPostProcessingModel"@en ;
@@ -505,7 +505,7 @@ chameo:hasPostProcessingModel rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasProcessingReproducibility
 chameo:hasProcessingReproducibility rdf:type owl:ObjectProperty ;
                                     rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
-                                    rdfs:domain chameo:MeasurementDataPostProcessing ;
+                                    rdfs:domain chameo:DataPostProcessing ;
                                     rdfs:range chameo:ProcessingReproducibility ;
                                     rdfs:comment "" ;
                                     rdfs:label "hasProcessingReproducibility"@en ;
@@ -819,15 +819,6 @@ chameo:CalibrationData rdf:type owl:Class ;
                        rdfs:label "CalibrationData"@en ;
                        skos:prefLabel "CalibrationData"@en ;
                        emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Calibration data are used to provide correction of measured data or perform uncertainty calculations. They are generally the result of a measuerement on a reference specimen."@en .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CalibrationDataPostProcessing
-chameo:CalibrationDataPostProcessing rdf:type owl:Class ;
-                                     rdfs:subClassOf chameo:DataPostProcessing ;
-                                     rdfs:comment "Post-processing of the output of the calibration in order to get the actual calibration data to be used as input for the measurement."@en ;
-                                     rdfs:label "CalibrationDataPostProcessing"@en ;
-                                     skos:prefLabel "CalibrationDataPostProcessing"@en ;
-                                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Post-processing of the output of the calibration in order to get the actual calibration data to be used as input for the measurement."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#CalibrationProcess
@@ -2010,16 +2001,6 @@ chameo:MassSpectrometry rdf:type owl:Class ;
                         rdfs:label "MassSpectrometry"@en ;
                         skos:prefLabel "MassSpectrometry"@en ;
                         emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Mass spectrometry is a powerful analytical technique used to quantify known materials, to identify unknown compounds within a sample, and to elucidate the structure and chemical properties of different molecules."@en .
-
-
-###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementDataPostProcessing
-chameo:MeasurementDataPostProcessing rdf:type owl:Class ;
-                                     rdfs:subClassOf chameo:DataPostProcessing ;
-                                     rdfs:comment "Application of a post-processing model to signals through a software, in order to calculate the final characterisation property. Analysis of SEM (or optical) images to gain additional information (image filtering/integration/averaging, microstructural analysis, grain size evaluation, Digital Image Correlation procedures, etc.). In nanoindentation testing, this is the Oliver-Pharr method, which allows calculating the elastic modulus and hardness of the sample by using the load and depth measured signals." ;
-                                     rdfs:label "MeasurementDataPostProcessing"@en ;
-                                     skos:prefLabel "MeasurementDataPostProcessing"@en ;
-                                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Application of a post-processing model to signals through a software, in order to calculate the final characterisation property."@en ;
-                                     emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Analysis of SEM (or optical) images to gain additional information (image filtering/integration/averaging, microstructural analysis, grain size evaluation, Digital Image Correlation procedures, etc.). In nanoindentation testing, this is the Oliver-Pharr method, which allows calculating the elastic modulus and hardness of the sample by using the load and depth measured signals."@en .
 
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#MeasurementParameter
