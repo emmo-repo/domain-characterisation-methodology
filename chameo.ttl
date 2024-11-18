@@ -2489,7 +2489,7 @@ chameo:Sample rdf:type owl:Class ;
               rdfs:label "Sample"@en ;
               skos:altLabel "Specimen" ;
               skos:prefLabel "Sample"@en ;
-              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Portion of material selected from a larger quantity of material. The term needs to be qualified, e.g., bulk sample, representative sample, primary sample, bulked sample, test sample, etc. The term 'sample' implies the existence of a sampling error, i.e., the results obtained on the portions taken are only estimates of the concentration of a constituent or the quantity of a property present in the parent material. If there is no or negligible sampling error, the portion removed is a test portion, aliquot, or specimen."@en ;
+              emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Portion of material selected from a larger quantity of material. The term needs to be qualified, e.g., bulk sample, representative sample, primary sample, bulked sample, test sample, etc. The term 'sample' implies the existence of a sampling error, i.e., the results obtained on the portions taken are only estimates of the concentration of a constituent or the quantity of a property present in the parent material."@en ;
               emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Sample and Specime are often used interchangeably. However in some cases the term Specimen is used to specify a portion taken under conditions such that the sampling variability cannot be assessed (usually because the population is changing), and is assumed, for convenience, to be zero." .
 
 
