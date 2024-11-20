@@ -649,7 +649,7 @@ ns1:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f rdf:type owl:ObjectProperty ;
 ns1:EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291 rdf:type owl:ObjectProperty ;
                                               rdfs:subPropertyOf ns1:EMMO_ec2472ae_cf4a_46a5_8555_1556f5a6c3c5 ;
                                               rdfs:comment "The generic EMMO semiotical relation."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "semiotical"@en ;
                                               skos:prefLabel "semiotical"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The generic EMMO semiotical relation."@en .
@@ -1051,7 +1051,7 @@ ns1:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 rdf:type owl:ObjectProperty ;
                                               rdfs:domain ns1:EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b ;
                                               rdfs:range ns1:EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d ;
                                               rdfs:comment "A relation that connects the semiotic object to the sign in a semiotic process."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "hasSign"@en ;
                                               skos:prefLabel "hasSign"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A relation that connects the semiotic object to the sign in a semiotic process."@en .
@@ -1896,7 +1896,7 @@ ns1:EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b rdf:type owl:ObjectProperty ;
                                               rdfs:domain ns1:EMMO_c9805ac9_a943_4be4_ac4b_6da64ba36c73 ;
                                               rdfs:range ns1:EMMO_35d2e130_6e01_41ed_94f7_00b333d46cf9 ;
                                               rdfs:comment "A semiotic relation that connects a declared semiotic object to a conventional sign in a declaration process."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/semiotics#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "hasConvention"@en ;
                                               skos:prefLabel "hasConvention"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A semiotic relation that connects a declared semiotic object to a conventional sign in a declaration process."@en .
@@ -3301,7 +3301,7 @@ ns1:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 rdf:type owl:Class ;
                                               rdfs:comment "A discrete data whose elements can be decoded as tokens from one or more alphabets, without necessarily respecting syntactic rules."@en ,
                                                            """A symbolic entity is not necessarily graphical (e.g. it doesn't necessarily have the physical shape of a letter), but its elements can be decoded and put in relation with an alphabet.
 In other words, a sequence of bit \"1000010\" in a RAM (a non-graphical entity) is a valid symbol since it can be decoded through ASCII rules as the letter \"B\". The same holds for an entity standing for the sound of a voice saying: \"Hello\", since it can be decomposed in discrete parts, each of them being associated to a letter of an alphabet."""@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "Symbolic"@en ;
                                               skos:prefLabel "Symbolic"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A discrete data whose elements can be decoded as tokens from one or more alphabets, without necessarily respecting syntactic rules."@en ;
@@ -4507,7 +4507,7 @@ ns1:EMMO_13191289_6c2b_4741_93e1_82d53bd0e703 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606 ,
                                                               ns1:EMMO_fcae603e_aa6e_4940_9fa1_9f0909cabf3b ;
                                               rdfs:comment "An object which is an holistic spatial part of a process."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/persholistic#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> ;
                                               rdfs:label "Participant"@en ;
                                               skos:prefLabel "Participant"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An object which is an holistic spatial part of a process."@en ;
@@ -6941,7 +6941,7 @@ ns1:EMMO_2e46d966_9f14_4673_821e_7c7cf2957926 rdf:type owl:Class ;
                                                                   ] ;
                                               rdfs:subClassOf ns1:EMMO_9953c19f_ee33_4af8_be5e_dbf6d1e33581 ;
                                               rdfs:comment "https://w3id.org/emmo#EMMO_22c91e99_61f8_4433_8853_432d44a2a46a" ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "SpatioTemporalTile" ;
                                               skos:altLabel "WellFormedTile"@en ;
                                               skos:prefLabel "SpatioTemporalTile" ;
@@ -7532,7 +7532,7 @@ ns1:EMMO_36c79456_e29c_400d_8bd3_0eedddb82652 rdf:type owl:Class ;
                                                            """The definition of an arrangement implies that its spatial direct parts are not gained or lost during its temporal extension (they exist from the left to the right side of the time interval), so that the cardinality of spatial direct parts in an arrangement is constant.
 This does not mean that there cannot be a change in the internal structure of the arrangement direct parts. It means only that this change must not affect the existence of the direct part itself."""@en ,
                                                            "The use of spatial direct parthood in state definition means that an arrangement cannot overlap in space another arrangement that is direct part of the same whole."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "Arrangement"@en ;
                                               skos:altLabel "MereologicalState"@en ;
                                               skos:prefLabel "Arrangement"@en ;
@@ -8793,7 +8793,7 @@ ns1:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce rdf:type owl:Class ;
                                                            """Following the common definition of process, the reader may think that every whole should be a process, since every 4D object always has a time dimension. However, in the EMMO we restrict the meaning of the word process to items whose evolution in time have a particular meaning for the ontologist (i.e. every 4D object unfolds in time, but not every 4D time unfolding may be of interest for the ontologist and categorized as a process).
 
 For this reason, the definition of every specific process subclass requires the introduction of a primitive concept."""@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "Process"@en ;
                                               skos:altLabel "Occurrent"@en ,
                                                             "Perdurant"@en ;
@@ -9083,7 +9083,7 @@ ns1:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 rdf:type owl:Class ;
                                               rdfs:comment "A procedure can be considered as an intentional process with a plan."@en ,
                                                            "The process in which an agent works with some entities according to some existing formalised operative rules."@en ,
                                                            "The set of established forms or methods of an organized body for accomplishing a certain task or tasks (Wiktionary)."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "Procedure"@en ;
                                               skos:altLabel "Elaboration"@en ,
                                                             "Work"@en ;
@@ -9334,7 +9334,7 @@ ns1:EMMO_49267eba_5548_4163_8f36_518d65b583f9 rdf:type owl:Class ;
                                               rdfs:comment "The class of causal objects that stand for world objects according to a specific representational perspective."@en ,
                                                            """This class is the practical implementation of the EMMO pluralistic approach for which the only objective categorization is provided by the Universe individual and all the Quantum individuals.
 Between these two extremes, there are several subjective ways to categorize real world objects, each one provide under a 'Perspective' subclass."""@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/holistic#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "Perspective"@en ;
                                               skos:prefLabel "Perspective"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The class of causal objects that stand for world objects according to a specific representational perspective."@en ;
@@ -9414,7 +9414,7 @@ ns1:EMMO_498aad49_f8d4_40a4_a9eb_efd563a0115f rdf:type owl:Class ;
 ns1:EMMO_4a1c73f1_b6f5_4d10_a3a6_5de90bac7cd0 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_1b52ee70_121e_4d8d_8419_3f97cd0bd89c ;
                                               rdfs:comment "A characteriser that declares a property for an object without actually interact with it with the specific interaction required by the property definition (i.e. infer a property from other properties)."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/properties#> ;
                                               rdfs:label "Estimator"@en ;
                                               skos:prefLabel "Estimator"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characteriser that declares a property for an object without actually interact with it with the specific interaction required by the property definition (i.e. infer a property from other properties)."@en .
@@ -9944,7 +9944,7 @@ ns1:EMMO_501f9b3a_c469_48f7_9281_2e6a8d805d7a rdf:type owl:Class ;
 ns1:EMMO_504ad89e_dd4a_4fa6_aeb6_15c8ce0cde9b rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_2e46d966_9f14_4673_821e_7c7cf2957926 ;
                                               rdfs:comment "A direct part that is obtained by partitioning a whole purely in temporal parts."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "TemporalTile"@en ;
                                               skos:prefLabel "TemporalTile"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A direct part that is obtained by partitioning a whole purely in temporal parts."@en .
@@ -10519,7 +10519,7 @@ ns1:EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 ;
                                               rdfs:comment "The class of general mathematical symbolic objects respecting mathematical syntactic rules."@en ,
                                                            "A mathematical object in this branch is not representing a concept but an actual graphical object built using mathematcal symbols arranged in some way, according to math conventions." ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> ;
                                               rdfs:label "Mathematical"@en ;
                                               skos:prefLabel "Mathematical"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The class of general mathematical symbolic objects respecting mathematical syntactic rules."@en .
@@ -11669,7 +11669,7 @@ ns1:EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c rdf:type owl:Class ;
                                                                     ns1:EMMO_5848e476_2768_4988_98f9_9053c532307b
                                                                   ) ;
                                               rdfs:comment "A procedure that has at least two procedures (tasks) as proper parts."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "Workflow"@en ;
                                               skos:prefLabel "Workflow"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A procedure that has at least two procedures (tasks) as proper parts."@en .
@@ -11738,7 +11738,7 @@ ns1:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69 rdf:type owl:Class ;
                                                               ] ;
                                               rdfs:comment "A system is conceived as an aggregate of things that 'work' (or interact) together. While a system extends in time through distinct temporal parts (like every other 4D object), this elucdation focuses on a timescale in which the obejct shows a persistence in time."@en ,
                                                            "An object that is made of a set of sub objects working together as parts of a mechanism or an interconnecting network (natural or artificial); a complex whole."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/persholistic#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> ;
                                               rdfs:label "HolisticSystem"@en ;
                                               skos:prefLabel "HolisticSystem"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An object that is made of a set of sub objects working together as parts of a mechanism or an interconnecting network (natural or artificial); a complex whole."@en .
@@ -14352,7 +14352,7 @@ ns1:EMMO_88470739_03d3_4c47_a03e_b30a1288d50c rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_ffe760a2_9d1f_4aef_8bee_1f450f9cb00d ;
                                               rdfs:comment "A mathematical string that express a relation between the elements in one set X to elements in another set Y."@en ,
                                                            "The set X is called domain and the set Y range or codomain."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> ;
                                               rdfs:label "MathematicalFormula"@en ;
                                               skos:prefLabel "MathematicalFormula"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A mathematical string that express a relation between the elements in one set X to elements in another set Y."@en .
@@ -14516,7 +14516,7 @@ ns1:EMMO_8944581c_64da_46a9_be29_7074f7cc8098 rdf:type owl:Class ;
                                                                 owl:allValuesFrom ns1:EMMO_4cf484af_082a_40f5_9f11_930bf4634482
                                                               ] ;
                                               rdfs:comment "A well formed tessellation with tiles that all spatial."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "SpatialTiling"@en ;
                                               skos:prefLabel "SpatialTiling"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A well formed tessellation with tiles that all spatial."@en .
@@ -14542,7 +14542,7 @@ ns1:EMMO_89a0c87c_0804_4013_937a_6fe234d9499c rdf:type owl:Class ;
                                                               ] ;
                                               rdfs:comment "A symbolic entity made of other symbolic entities according to a specific spatial configuration."@en ,
                                                            "This class collects individuals that represents arrangements of strings, or other symbolic compositions, without any particular predifined arrangement schema."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "SymbolicConstruct"@en ;
                                               skos:prefLabel "SymbolicConstruct"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A symbolic entity made of other symbolic entities according to a specific spatial configuration."@en ;
@@ -15364,7 +15364,7 @@ ns1:EMMO_9226c7af_573f_4762_865c_e3a68a4832dd rdf:type owl:Class ;
 ns1:EMMO_92829beb_6ed4_4c88_bbd5_3bc7403e2895 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_f7f41d20_eabb_4bcb_9a16_0436851fcd5c ;
                                               rdfs:comment "A tessellation of temporal slices."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "Sequence"@en ;
                                               skos:prefLabel "Sequence"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A tessellation of temporal slices."@en .
@@ -15938,7 +15938,7 @@ ns1:EMMO_9953c19f_ee33_4af8_be5e_dbf6d1e33581 rdf:type owl:Class ;
                                                                 owl:someValuesFrom ns1:EMMO_ee0466e4_780d_4236_8281_ace7ad3fc5d2
                                                               ] ;
                                               rdfs:comment "A causal object that is direct part of a tessellation."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "Tile"@en ;
                                               skos:prefLabel "Tile"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A causal object that is direct part of a tessellation."@en .
@@ -16110,7 +16110,7 @@ ns1:EMMO_9bc6da11_528a_44e8_bd9e_c4154eae7e55 rdf:type owl:Class ;
 ns1:EMMO_9be5fcc4_0d8b_481d_b984_6338d4b55588 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_ea67caa5_2609_4e91_98ae_81103f2d5c25 ;
                                               rdfs:comment "An observer that makes use of a measurement tool and provides a quantitative property."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/properties#> ;
                                               rdfs:label "Measurer"@en ;
                                               skos:prefLabel "Measurer"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An observer that makes use of a measurement tool and provides a quantitative property."@en .
@@ -18198,7 +18198,7 @@ ns1:EMMO_b94b3748_71c5_4de9_95e7_42586c3ed607 rdf:type owl:Class ;
 ns1:EMMO_b9522e56_1fac_4766_97e6_428605fabd3e rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69 ;
                                               rdfs:comment "A system which is mainly characterised by the spatial configuration of its elements."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/persholistic#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> ;
                                               rdfs:label "HolisticArrangement"@en ;
                                               skos:prefLabel "HolisticArrangement"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A system which is mainly characterised by the spatial configuration of its elements."@en .
@@ -18297,7 +18297,7 @@ ns1:EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c rdf:type owl:Class ;
                                                                 owl:someValuesFrom ns1:EMMO_c130614a_2985_476d_a7ed_8a137847703c
                                                               ] ;
                                               rdfs:comment "A process occurring with the active participation of an agent that drives the process according to a specific objective (intention)."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "IntentionalProcess"@en ;
                                               skos:altLabel "Project"@en ;
                                               skos:prefLabel "IntentionalProcess"@en ;
@@ -19028,7 +19028,7 @@ The unity criterion beyond the definition of a causal structure (the most genera
 - is made of at least two quantums (a structure is not a simple entity)
 - all quantum parts form a causally connected graph"""@en ,
                                                            "The union of CausalPath and CausalSystem classes."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/holistic#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/mereocausality#> ;
                                               rdfs:label "CausalStructure"@en ;
                                               skos:altLabel "CausalObject"@en ;
                                               skos:prefLabel "CausalStructure"@en ;
@@ -19482,7 +19482,7 @@ ns1:EMMO_ca54593a_6828_491b_8fda_22b0ad85e446 rdf:type owl:Class ;
 ns1:EMMO_caa63d00_80b1_4408_ac1b_cd0d23b0ec50 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_2e46d966_9f14_4673_821e_7c7cf2957926 ;
                                               rdfs:comment "A tile that has next and is next of other tiles within the same tessellation."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "ThroughTile"@en ;
                                               skos:prefLabel "ThroughTile"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A tile that has next and is next of other tiles within the same tessellation."@en .
@@ -20503,7 +20503,7 @@ Then I have two different physical quantities that are properties thanks to two 
 ns1:EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 ;
                                               rdfs:comment "A language object is a discrete data entity respecting a specific language syntactic rules (a well-formed formula)."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/computerscience#> ;
                                               rdfs:label "Language"@en ;
                                               skos:prefLabel "Language"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A language object is a discrete data entity respecting a specific language syntactic rules (a well-formed formula)."@en .
@@ -21495,7 +21495,7 @@ f(v0, v1, ..., vn) = g(v0, v1, ..., vn)
 
 where f is the left hand and g the right hand  side expressions and v0, v1, ..., vn are the variables."""@en ,
                                                            "The class of 'mathematical'-s that stand for a statement of equality between two mathematical expressions."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/models#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/math#> ;
                                               rdfs:label "Equation"@en ;
                                               skos:prefLabel "Equation"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The class of 'mathematical'-s that stand for a statement of equality between two mathematical expressions."@en ;
@@ -21991,7 +21991,7 @@ ns1:EMMO_ea47add2_8e93_4659_a5f0_e6879032dee0 rdf:type owl:Class ;
 ns1:EMMO_ea67caa5_2609_4e91_98ae_81103f2d5c25 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_1b52ee70_121e_4d8d_8419_3f97cd0bd89c ;
                                               rdfs:comment "A characteriser that declares a property for an object through the specific interaction required by the property definition."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/metrology#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/properties#> ;
                                               rdfs:label "Observer"@en ;
                                               skos:prefLabel "Observer"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A characteriser that declares a property for an object through the specific interaction required by the property definition."@en .
@@ -22399,7 +22399,7 @@ ns1:EMMO_ed7dd267_e2ee_4565_8117_e5c1eafa3e66 rdf:type owl:Class ;
 ns1:EMMO_edf72228_e040_4edc_8b46_78b2a47c72d7 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_2e46d966_9f14_4673_821e_7c7cf2957926 ;
                                               rdfs:comment ns1:EMMO_c0f48dc6_4a32_4d9a_a956_d68415954a8e ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "EndTile"@en ;
                                               skos:prefLabel "EndTile"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ns1:EMMO_c0f48dc6_4a32_4d9a_a956_d68415954a8e .
@@ -23068,7 +23068,7 @@ ns1:EMMO_f7f41d20_eabb_4bcb_9a16_0436851fcd5c rdf:type owl:Class ;
                                                                 owl:allValuesFrom ns1:EMMO_504ad89e_dd4a_4fa6_aeb6_15c8ce0cde9b
                                                               ] ;
                                               rdfs:comment "A well formed tessellation with tiles that are all temporal."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "TemporalTiling"@en ;
                                               skos:prefLabel "TemporalTiling"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A well formed tessellation with tiles that are all temporal."@en .
@@ -23211,7 +23211,7 @@ ns1:EMMO_f8e436fb_61ed_4512_a5a5_bee90f0cec2f rdf:type owl:Class ;
 ns1:EMMO_f93fe78b_9646_4a15_b88b_1c93686a764d rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_65a007dc_2550_46b0_b394_3346c67fbb69 ;
                                               rdfs:comment "A system whose is mainly characterised by the way in which elements are interconnected."@en ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/persholistic#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/disciplines/manufacturing#> ;
                                               rdfs:label "Network"@en ;
                                               skos:prefLabel "Network"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A system whose is mainly characterised by the way in which elements are interconnected."@en .
@@ -23319,7 +23319,7 @@ ns1:EMMO_fa3c9d4d_9fc9_4e8a_82c1_28c84e34133a rdf:type owl:Class ;
 ns1:EMMO_fa595892_070d_455e_9459_06c97179c080 rdf:type owl:Class ;
                                               rdfs:subClassOf ns1:EMMO_2e46d966_9f14_4673_821e_7c7cf2957926 ;
                                               rdfs:comment ns1:EMMO_fe63194f_7c04_4dbd_a244_524b38b6699b ;
-                                              rdfs:isDefinedBy <https://w3id.org/emmo/multiperspective/workflow#> ;
+                                              rdfs:isDefinedBy <https://w3id.org/emmo/perspectives/reductionistic#> ;
                                               rdfs:label "BeginTile"@en ;
                                               skos:prefLabel "BeginTile"@en ;
                                               ns1:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ns1:EMMO_fe63194f_7c04_4dbd_a244_524b38b6699b .
@@ -26576,41 +26576,8 @@ ns1:EMMO_08cb807c_e626_447b_863f_e2835540e918 rdf:type owl:NamedIndividual ,
                                               ns1:EMMO_31252f35_c767_4b97_a877_1235076c3e13 "The universe is considered as a causally self-connected object, encompassing all other objects. For this reason is unique."@en .
 
 
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
 ] .
-
-[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
 
 [ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
@@ -26622,6 +26589,39 @@ ns1:EMMO_08cb807c_e626_447b_863f_e2835540e918 rdf:type owl:NamedIndividual ,
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 #################################################################
