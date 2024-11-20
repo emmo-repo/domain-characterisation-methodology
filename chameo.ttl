@@ -423,11 +423,7 @@ chameo:hasMeasurementDetector rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasMeasurementParameter
 chameo:hasMeasurementParameter rdf:type owl:ObjectProperty ;
                                rdfs:subPropertyOf emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
-                               rdfs:domain [ rdf:type owl:Class ;
-                                             owl:unionOf ( chameo:CalibrationProcess
-                                                           chameo:CharacterisationMeasurementProcess
-                                                         )
-                                           ] ;
+                               rdfs:domain chameo:CharacterisationProcedure ;
                                rdfs:range chameo:MeasurementParameter ;
                                rdfs:comment "" ;
                                rdfs:label "hasMeasurementParameter"@en ;
