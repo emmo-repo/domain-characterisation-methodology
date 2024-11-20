@@ -17,7 +17,7 @@ The CHAMEO Ontology is built with an alignment with EMMO and some of its modules
 
 
 ## Resources
-- Squashed ontology (all imported ontologies included in the same turtle file for fast and robust loading): https://emmo-repo.github.io/domain-characterisation-methodology/chameo.ttl)
+- Squashed ontology (all imported ontologies included in the same turtle file for fast and robust loading): https://emmo-repo.github.io/domain-characterisation-methodology/chameo.ttl
 - Pre-inferred ontology: https://emmo-repo.github.io/domain-characterisation-methodology/chameo-inferred.ttl
 - [Class index](https://emmo-repo.github.io/domain-characterisation-methodology/chameo.html)
 
