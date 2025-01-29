@@ -12,7 +12,7 @@
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo> .
+@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 
 <https://w3id.org/emmo/domain/characterisation-methodology/chameo> rdf:type owl:Ontology ;
                                                                     owl:versionIRI <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0/chameo> ;
@@ -988,20 +988,20 @@ chameo:CharacterisationMeasurementProcess rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb ,
                                                           chameo:CharacterisationProcedure ,
                                                           [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                                            owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
+                                                            owl:someValuesFrom chameo:MeasurementParameter
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                                             owl:someValuesFrom chameo:CharacterisationEnvironment
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                                            owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                                             owl:someValuesFrom chameo:CharacterisationMeasurementInstrument
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                                            owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                                             owl:someValuesFrom chameo:Sample
-                                                          ] ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 ;
-                                                            owl:someValuesFrom chameo:MeasurementParameter
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 ;
@@ -2304,11 +2304,11 @@ chameo:Probe rdf:type owl:Class ;
 chameo:ProbeSampleInteraction rdf:type owl:Class ;
                               rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
                                               [ rdf:type owl:Restriction ;
-                                                owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                                owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                                 owl:someValuesFrom chameo:Probe
                                               ] ,
                                               [ rdf:type owl:Restriction ;
-                                                owl:onProperty emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
+                                                owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                                 owl:someValuesFrom chameo:Sample
                                               ] ,
                                               [ rdf:type owl:Restriction ;
