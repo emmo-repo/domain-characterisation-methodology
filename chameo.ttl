@@ -1401,10 +1401,10 @@ chameo:Detector rdf:type owl:Class ;
 
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#DeviceSample
 chameo:DeviceSample rdf:type owl:Class ;
-                    rdfs:subClassOf emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 ,
-                                    chameo:Sample ;
-                    rdfs:label "DeviceSample" ;
-                    skos:preflabel "DeviceSample" ;
+                    rdfs:subClassOf emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 , chameo:Sample ;
+                    rdfs:comment "" ;
+                    rdfs:label "DeviceSample"@en ;
+                    skos:preflabel "DeviceSample"@en ;
                     emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Specific type of sample of type device."@en .
 
 

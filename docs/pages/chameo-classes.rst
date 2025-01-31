@@ -1499,8 +1499,8 @@ Detector
 
    <div id="DeviceSample"</div>
 
-
-
+DeviceSample
+------------
 
 * https://w3id.org/emmo/domain/characterisation-methodology/chameo#DeviceSample
 
