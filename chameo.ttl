@@ -2792,8 +2792,9 @@ chameo:UltrasonicTesting rdf:type owl:Class ;
 ###  https://w3id.org/emmo/domain/characterisation-methodology/chameo#UltravioletVisibleSpectroscopy
 chameo:UltravioletVisibleSpectroscopy rdf:type owl:Class ;
                                       rdfs:subClassOf chameo:Spectroscopy ;
-                                      rdfs:label "UltravioletVisibleSpectroscopy" ;
-                                      skos:prefLabel "UltravioletVisibleSpectroscopy" ;
+                                      rdfs:label "UltravioletVisibleSpectroscopy"@en ;
+                                      skos:altLabel "UV-VIS"@en ;
+                                      skos:prefLabel "UltravioletVisibleSpectroscopy"@en ;
                                       emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Ultraviolet–visible spectroscopy or UV/VIS refers to absorption spectroscopy or reflectance spectroscopy in the ultraviolet-visible spectral region."@en ;
                                       emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "It is routinely used in material science and analytical chemistry, commonly carried out in gas, solutions or vacuum environment."@en .
 
