@@ -1509,7 +1509,7 @@ DeviceSample
   <table class="element-table">
     <tr>
       <td class="element-table-key"><span class="element-table-key">Preferred label</span></td>
-      <td class="element-table-value"></td>
+      <td class="element-table-value">DeviceSample</td>
     </tr>
 
     <tr>
@@ -3779,8 +3779,8 @@ SampleExtraction
 
    <div id="SampleExtractionByCutting"</div>
 
-
-
+SampleExtractionByCutting
+-------------------------
 
 * https://w3id.org/emmo/domain/characterisation-methodology/chameo#SampleExtractionByCutting
 
@@ -3789,7 +3789,7 @@ SampleExtraction
   <table class="element-table">
     <tr>
       <td class="element-table-key"><span class="element-table-key">Preferred label</span></td>
-      <td class="element-table-value"></td>
+      <td class="element-table-value">SampleExtractionByCutting</td>
     </tr>
 
     <tr>
@@ -4563,6 +4563,30 @@ UltrasonicTesting
     <tr>
       <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
       <td class="element-table-value">Ultrasonic testing (UT) is a family of non-destructive testing techniques based on the propagation of ultrasonic waves in the object or material tested. In most common UT applications, very short ultrasonic pulse-waves with center frequencies ranging from 0.1-15 MHz, and occasionally up to 50 MHz, are transmitted into materials to detect internal flaws or to characterize materials. A common example is ultrasonic thickness measurement, which tests the thickness of the test object, for example, to monitor pipework corrosion. Ultrasonic testing is often performed on steel and other metals and alloys, though it can also be used on concrete, wood and composites, albeit with less resolution. It is used in many industries including steel and aluminium construction, metallurgy, manufacturing, aerospace, automotive and other transportation sectors.</td>
+    </tr>
+
+  </table>
+
+.. raw:: html
+
+   <div id="UltravioletVisibleSpectroscopy"</div>
+
+UltravioletVisibleSpectroscopy
+------------------------------
+
+* https://w3id.org/emmo/domain/characterisation-methodology/chameo#UltravioletVisibleSpectroscopy
+
+.. raw:: html
+
+  <table class="element-table">
+    <tr>
+      <td class="element-table-key"><span class="element-table-key">Preferred label</span></td>
+      <td class="element-table-value">UltravioletVisibleSpectroscopy</td>
+    </tr>
+
+    <tr>
+      <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+      <td class="element-table-value"></td>
     </tr>
 
   </table>
