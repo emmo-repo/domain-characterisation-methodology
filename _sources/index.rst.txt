@@ -5,7 +5,7 @@
 
    Get Started <pages/getstarted>
    Examples <pages/examples>
-   Class Index <pages/chameo-classes>
+   Class Index <pages/chameo>
    About <pages/about>
    FAQ <pages/faq>
 
@@ -38,7 +38,7 @@ Check out these resources to get started!
 .. grid::
 
     .. grid-item-card::
-        :link: pages/chameo-classes.html
+        :link: pages/chameo.html
 
         :octicon:`book;1em;sd-text-info`  Class Index
         ^^^^^^^^^^^
