@@ -12,7 +12,7 @@
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
+@base <https://w3id.org/emmo/domain/characterisation-methodology/chameo> .
 
 <https://w3id.org/emmo/domain/characterisation-methodology/chameo> rdf:type owl:Ontology ;
 	owl:versionIRI <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0/chameo> ;
@@ -678,29 +678,27 @@ emmo:EMMO_e94a9156_fb6c_4e16_88ee_829ac9933155 owl:disjointWith chameo:Rationale
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#ACVoltammetry
 chameo:ACVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
-	rdfs:comment "The resulting alternating current is plotted versus imposed DC potential. The obtained AC voltammogram is peak-shaped."@en ,
-	"" ;
+	rdfs:comment "Voltammetry in which a sinusoidal alternating potential of small amplitude (10 to 50 mV) of constant frequency (10 Hz to 100 kHz) is superimposed on a slowly and linearly varying potential ramp. The resulting alternating current is plotted versus imposed DC potential. The obtained AC voltammogram is peak-shaped."@en ;
 	rdfs:label "ACVoltammetry"@en ;
 	skos:altLabel "ACV"@en ;
 	skos:prefLabel "ACVoltammetry"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q120895154" ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "voltammetry in which a sinusoidal alternating potential of small amplitude (10 to 50 mV) of constant frequency (10 Hz to 100 kHz) is superimposed on a slowly and linearly varying potential ramp"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Voltammetry in which a sinusoidal alternating potential of small amplitude (10 to 50 mV) of constant frequency (10 Hz to 100 kHz) is superimposed on a slowly and linearly varying potential ramp. The obtained AC voltammogram is peak-shaped."@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#AbrasiveStrippingVoltammetry
 chameo:AbrasiveStrippingVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
-	rdfs:comment "electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve"@en ,
-	"" ;
+	rdfs:comment "Electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve."@en ;
 	rdfs:label "AbrasiveStrippingVoltammetry"@en ;
 	skos:prefLabel "AbrasiveStrippingVoltammetry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve."@en .
 
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource chameo:AbrasiveStrippingVoltammetry ;
 	owl:annotatedProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ;
-	owl:annotatedTarget "electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve"@en ;
+	owl:annotatedTarget "Electrochemical method where traces of solid particles are abrasively transferred onto the surface of an electrode, followed by an electrochemical dissolution (anodic or cathodic dissolution) that is recorded as a current–voltage curve."@en ;
 	dcterms:source "Scholz F, Nitschke L, Henrion G (1989) Naturwiss 76:71;"
  ] .
 
@@ -708,21 +706,19 @@ chameo:AbrasiveStrippingVoltammetry rdf:type owl:Class ;
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#AccessConditions
 chameo:AccessConditions rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 ;
-	rdfs:comment "Describes what is needed to repeat the experiment"@en ;
+	rdfs:comment "Describes what is needed to repeat the experiment."@en ;
 	rdfs:label "AccessConditions"@en ;
 	skos:prefLabel "AccessConditions"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes what is needed to repeat the experiment"@en ;
-	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In case of national or international facilities such as synchrotrons describe the programme that enabled you to access these. Was the access to your characterisation tool an inhouse routine or required a 3rd party service? Was the access to your sample preparation an inhouse routine or required a 3rd party service?"@en .
-
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Describes what is needed to repeat the experiment."@en .
 
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#AdsorptiveStrippingVoltammetry
 chameo:AdsorptiveStrippingVoltammetry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:StrippingVoltammetry ;
-	rdfs:comment "A peak-shaped adsorptive stripping voltammogram is obtained. Peak current depends on time of accumulation, mass transport of analyte (stirring), scan rate and mode (linear or pulse), and analyte concentration in solution. AdSV is usually employed for analysis of organic compounds or metal complexes with organic ligands. Stripping is done by means of an anodic or a cathodic voltammetric scan (linear or pulse), during which the adsorbed compound is oxidized or reduced."@en ;
+	rdfs:comment "Stripping voltammetry involving pre-concentration by adsorption of the analyte (in contrast to electro-chemical accumulation). A peak-shaped adsorptive stripping voltammogram is obtained. Peak current depends on time of accumulation, mass transport of analyte (stirring), scan rate and mode (linear or pulse), and analyte concentration in solution. AdSV is usually employed for analysis of organic compounds or metal complexes with organic ligands. Stripping is done by means of an anodic or a cathodic voltammetric scan (linear or pulse), during which the adsorbed compound is oxidized or reduced."@en ;
 	rdfs:label "AdsorptiveStrippingVoltammetry"@en ;
 	skos:altLabel "AdSV"@en ;
 	skos:prefLabel "AdsorptiveStrippingVoltammetry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Stripping voltammetry involving pre-concentration by adsorption of the analyte (in contrast to electro-chemical accumulation)."@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Stripping voltammetry involving pre-concentration by adsorption of the analyte (in contrast to electro-chemical accumulation). A peak-shaped adsorptive stripping voltammogram is obtained. Peak current depends on time of accumulation, mass transport of analyte (stirring), scan rate and mode (linear or pulse), and analyte concentration in solution. AdSV is usually employed for analysis of organic compounds or metal complexes with organic ligands. Stripping is done by means of an anodic or a cathodic voltammetric scan (linear or pulse), during which the adsorbed compound is oxidized or reduced."@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
@@ -738,10 +734,10 @@ chameo:AlphaSpectrometry rdf:type owl:Class ;
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#Amperometry
 chameo:Amperometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ElectrochemicalTesting ;
-	rdfs:comment "Amperometry can be distinguished from voltammetry by the parameter being controlled (electrode potential E) and the parameter being measured (electrode current I which is usually a function of time – see chronoamperometry). In a non-stirred solution, a diffusion-limited current is usually measured, which is propor-tional to the concentration of an electroactive analyte. The current is usually faradaic and the applied potential is usually constant. The integral of current with time is the electric charge, which may be related to the amount of substance reacted by Faraday’s laws of electrolysis."@en ;
+	rdfs:comment "Amperometry can be distinguished from voltammetry by the parameter being controlled (electrode potential E) and the parameter being measured (electrode current I which is usually a function of time – see chronoamperometry). In a non-stirred solution, a diffusion-limited current is usually measured, which is propor-tional to the concentration of an electroactive analyte. The current is usually faradaic and the applied potential is usually constant. The integral of current with time is the electric charge, which may be related to the amount of substance reacted by Faraday’s laws of electrolysis. The amperometric method provides the ability to distinguish selectively between a number of electroactive species in solution by judicious selection of the applied potential and/or choice of electrode material."@en ;
 	rdfs:label "Amperometry"@en ;
 	skos:prefLabel "Amperometry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The amperometric method provides the ability to distinguish selectively between a number of electroactive species in solution by judicious selection of the applied potential and/or choice of electrode material."@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Amperometry can be distinguished from voltammetry by the parameter being controlled (electrode potential E) and the parameter being measured (electrode current I which is usually a function of time – see chronoamperometry). In a non-stirred solution, a diffusion-limited current is usually measured, which is propor-tional to the concentration of an electroactive analyte. The current is usually faradaic and the applied potential is usually constant. The integral of current with time is the electric charge, which may be related to the amount of substance reacted by Faraday’s laws of electrolysis. The amperometric method provides the ability to distinguish selectively between a number of electroactive species in solution by judicious selection of the applied potential and/or choice of electrode material."@en ;
 	emmo:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 "https://doi.org/10.1515/pac-2018-0109"@en .
 
 
@@ -897,7 +893,7 @@ chameo:CharacterisationEnvironment rdf:type owl:Class ;
 	owl:onProperty emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
 	owl:someValuesFrom chameo:CharacterisationEnvironmentProperty
 	] ;
-	rdfs:comment "Medium of the characterisation experiment defined by the set of environmental conditions that are controlled and measured over time during the experiment."@en ;
+	rdfs:comment "Medium of the characterisation experiment defined by the set of environmental conditions that are controlled and measured over time during the experiment. Characterisation can either be made in air (ambient conditions, without specific controls on environmental parameters), or at different temperatures, different pressures (or in vacuum), or using different types of working gases (inert or reactive with respect to sample), different levels of humidity, etc."@en ;
 	rdfs:label "CharacterisationEnvironment"@en ;
 	skos:prefLabel "CharacterisationEnvironment"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Medium of the characterisation experiment defined by the set of environmental conditions that are controlled and measured over time during the experiment."@en ;
@@ -967,15 +963,12 @@ chameo:CharacterisationMeasurementInstrument rdf:type owl:Class ;
 	owl:onProperty emmo:EMMO_8e52c42b_e879_4473_9fa1_4b23428b392b ;
 	owl:someValuesFrom chameo:Probe
 	] ;
-	rdfs:comment "The instrument used for characterising a material, which usually has a probe and a detector as parts."@en ;
+	rdfs:comment "The instrument used for characterising a material, which usually has a probe and a detector as parts. A device used for making measurements, alone or in conjunction with one or more supplementary devices. NOTE 1 A measuring instrument that can be used alone for making measurements is a measuring system. NOTE 2 A measuring instrument is either an indicating measuring instrument or a material measure. In nanoindentation is the nanoindenter."@en ;
 	rdfs:label "CharacterisationMeasurementInstrument" ;
 	skos:prefLabel "CharacterisationMeasurementInstrument" ;
-	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 """Device used for making measurements, alone or in conjunction with one or more supplementary
-devices
-NOTE 1 A measuring instrument that can be used alone for making measurements is a measuring system.
-NOTE 2 A measuring instrument is either an indicating measuring instrument or a material measure."""@en ;
+	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "A device used for making measurements, alone or in conjunction with one or more supplementary devices. NOTE 1 A measuring instrument that can be used alone for making measurements is a measuring system. NOTE 2 A measuring instrument is either an indicating measuring instrument or a material measure."@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The instrument used for characterising a material, which usually has a probe and a detector as parts."@en ;
-	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In nanoindentation is the nanoindenter" ;
+	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In nanoindentation is the nanoindenter." ;
 	emmo:EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6 "Measuring instrument"@en .
 
 
@@ -1014,16 +1007,11 @@ chameo:CharacterisationMeasurementProcess rdf:type owl:Class ;
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationProcedure
 chameo:CharacterisationProcedure rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49 ;
-	rdfs:comment "The process of performing characterisation by following some existing formalised operative rules."@en ;
+	rdfs:comment "The process of performing characterisation by following some existing formalised operative rules. Characterisation procedure may refer to the full characterisation process or just a part of the full process. Examples include: Sample preparation, Sample inspection, Calibration, Microscopy, Viscometry, Data sampling."@en ;
 	rdfs:label "CharacterisationProcedure"@en ;
 	skos:prefLabel "CharacterisationProcedure"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The process of performing characterisation by following some existing formalised operative rules."@en ;
-	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a """Sample preparation
-Sample inspection
-Calibration
-Microscopy
-Viscometry
-Data sampling"""@en ;
+	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Examples include: Sample preparation, Sample inspection, Calibration, Microscopy, Viscometry, Data sampling."@en ;
 	emmo:EMMO_c7b62dd7_063a_4c2a_8504_42f7264ba83f "Characterisation procedure may refer to the full characterisation process or just a part of the full process."@en .
 
 
@@ -1057,10 +1045,10 @@ chameo:CharacterisationProtocol rdf:type owl:Class ;
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationSoftware
 chameo:CharacterisationSoftware rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_3b031fa9_8623_4ea5_8b57_bcafb70c5c8b ;
-	rdfs:comment "A software application to process characterisation data"@en ;
+	rdfs:comment "A software application to process characterisation data. In Nanoindentation post-processing the software used to apply the Oliver-Pharr to calculate the characterisation properties (i.e. elastic modulus, hardness) from load and depth data."@en ;
 	rdfs:label "CharacterisationSoftware" ;
 	skos:prefLabel "CharacterisationSoftware" ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A software application to process characterisation data"@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A software application to process characterisation data."@en ;
 	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "In Nanoindentation post-processing the software used to apply the Oliver-Pharr to calculate the characterisation properties (i.e. elastic modulus, hardness) from load and depth data." .
 
 
@@ -1072,21 +1060,11 @@ chameo:CharacterisationSystem rdf:type owl:Class ;
 	owl:onProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec ;
 	owl:someValuesFrom chameo:CharacterisationComponent
 	] ;
-	rdfs:comment "A set of one or more 'CharacterisationInstruments' and often other devices, including any sample holder, reagent and supply, assembled and adapted to give information used to generate 'MeasuredQuantityProperty' within specified intervals for quantities of specified kinds."@en ;
+	rdfs:comment "Set of one or more measuring instruments ('CharacterisationInstruments') and often other components and devices, including any sample holder, reagent and supply, assembled and adapted to give information used to generate measured values within specified intervals for quantities of specified kinds. NOTE 1 The components mentioned in the definition may be devices, reagents, and supplies. NOTE 2 A measuring system is sometimes referred to as “measuring equipment” or “device”, for example in ISO 10012, Measurement management systems – Requirements for measurement processes and measuring equipment and ISO 17025, General requirements for the competence of testing and calibration laboratories. NOTE 3 Although the terms “measuring system” and “measurement system” are frequently used synonymously, the latter is instead sometimes used to refer to a measuring system plus all other entities involved in a measurement, including the object under measurement and the person(s) performing the measurement. NOTE 4 A measuring system can be used as a measurement standard."@en ;
 	rdfs:label "CharacterisationSystem"@en ;
 	skos:prefLabel "CharacterisationSystem"@en ;
-	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 """Set of one or more measuring instruments and often other components, assembled and
-adapted to give information used to generate measured values within specified intervals for
-quantities of specified kinds.
-NOTE 1 The components mentioned in the definition may be devices, reagents, and supplies.
-NOTE 2 A measuring system is sometimes referred to as “measuring equipment” or “device”, for example in ISO 10012,
-Measurement management systems – Requirements for measurement processes and measuring equipment and ISO
-17025, General requirements for the competence of testing and calibration laboratories.
-NOTE 3 Although the terms “measuring system” and “measurement system” are frequently used synonymously, the
-latter is instead sometimes used to refer to a measuring system plus all other entities involved in a measurement,
-including the object under measurement and the person(s) performing the measurement.
-NOTE 4 A measuring system can be used as a measurement standard."""@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A set of one or more 'CharacterisationInstruments' and often other devices, including any sample holder, reagent and supply, assembled and adapted to give information used to generate 'MeasuredQuantityProperty' within specified intervals for quantities of specified kinds."@en ;
+	emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "Set of one or more measuring instruments ('CharacterisationInstruments') and often other components and devices, including any sample holder, reagent and supply, assembled and adapted to give information used to generate measured values ('MeasuredQuantityProperty') within specified intervals for quantities of specified kinds. NOTE 1 The components mentioned in the definition may be devices, reagents, and supplies. NOTE 2 A measuring system is sometimes referred to as “measuring equipment” or “device”, for example in ISO 10012, Measurement management systems – Requirements for measurement processes and measuring equipment and ISO 17025, General requirements for the competence of testing and calibration laboratories. NOTE 3 Although the terms “measuring system” and “measurement system” are frequently used synonymously, the latter is instead sometimes used to refer to a measuring system plus all other entities involved in a measurement, including the object under measurement and the person(s) performing the measurement. NOTE 4 A measuring system can be used as a measurement standard."@en ;
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of one or more measuring instruments ('CharacterisationInstruments') and often other components and devices, including any sample holder, reagent and supply, assembled and adapted to give information used to generate measured values ('MeasuredQuantityProperty') within specified intervals for quantities of specified kinds."@en ;
 	emmo:EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6 "Measuring system"@en .
 
 
@@ -1111,7 +1089,7 @@ chameo:CharacterisationTask rdf:type owl:Class ;
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisationTechnique
 chameo:CharacterisationTechnique rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5 ;
-	rdfs:comment "The description of the overall characterisation technique. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing)."@en ;
+	rdfs:comment "The description of the overall characterisation technique. It can be composed of different steps (e.g. sample preparation, calibration, measurement, post-processing). A characterisation technique is not only related to the measurement process which can be one of its steps."@en ;
 	rdfs:label "CharacterisationTechnique"@en ;
 	skos:altLabel "Characterisation procedure"@en ,
 	"Characterisation technique"@en ;
@@ -1141,10 +1119,10 @@ chameo:CharacterisationWorkflow rdf:type owl:Class ;
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#CharacterisedSample
 chameo:CharacterisedSample rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Sample ;
-	rdfs:comment "The sample after having been subjected to a characterization process"@en ;
+	rdfs:comment "The sample after having been subjected to a characterization process."@en ;
 	rdfs:label "CharacterisedSample" ;
 	skos:prefLabel "CharacterisedSample" ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The sample after having been subjected to a characterization process"@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The sample after having been subjected to a characterization process."@en .
 
 
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#ChargeDistribution
@@ -1220,7 +1198,7 @@ chameo:ConductometricTitration rdf:type owl:Class ;
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#Conductometry
 chameo:Conductometry rdf:type owl:Class ;
 	rdfs:subClassOf chameo:ElectrochemicalTesting ;
-	rdfs:comment "Measurement principle in which the electric conductivity of a solution is measured. The conductivity of a solution depends on the concentration and nature of ions present."@en ;
+	rdfs:comment "Measurement principle in which the electric conductivity of a solution is measured. The conductivity of a solution depends on the concentration and nature of ions present. An example is monitoring of the purity of deionized water."@en ;
 	rdfs:label "Conductometry"@en ;
 	skos:prefLabel "Conductometry"@en ;
 	emmo:EMMO_26bf1bef_d192_4da6_b0eb_d2209698fb54 "https://www.wikidata.org/wiki/Q901180" ;
@@ -1284,13 +1262,12 @@ chameo:CyclicChronopotentiometry rdf:type owl:Class ;
 	rdfs:comment "Chronopotentiometry where the change in applied current undergoes a cyclic current reversal."@en ;
 	rdfs:label "CyclicChronopotentiometry"@en ;
 	skos:prefLabel "CyclicChronopotentiometry"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Chronopotentiometry where the change in applied current undergoes a cyclic current reversal."@en ,
-	"chronopotentiometry where the change in applied current undergoes a cyclic current reversal"@en .
-
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Chronopotentiometry where the change in applied current undergoes a cyclic current reversal."@en .
+	
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource chameo:CyclicChronopotentiometry ;
 	owl:annotatedProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ;
-	owl:annotatedTarget "chronopotentiometry where the change in applied current undergoes a cyclic current reversal"@en ;
+	owl:annotatedTarget "Chronopotentiometry where the change in applied current undergoes a cyclic current reversal."@en ;
 	dcterms:source "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109."
  ] .
 
@@ -1377,31 +1354,30 @@ chameo:DataPreparation rdf:type owl:Class ;
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#DataQuality
 chameo:DataQuality rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba ;
-	rdfs:comment "Evaluation of quality indicators to determine how well suited a data set is to be used for the characterisation of a material."@en ;
+	rdfs:comment "Evaluation of quality indicators to determine how well suited a data set is to be used for the characterisation of a material. An example is the evaluation of S/N ratio, or other quality indicators (limits of detection/quantification, statistical analysis of data, data robustness analysis)."@en ;
 	rdfs:label "DataQuality"@en ;
 	skos:prefLabel "DataQuality"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Evaluation of quality indicators to determine how well suited a data set is to be used for the characterisation of a material."@en ;
-	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Example evaluation of S/N ratio, or other quality indicators (limits of detection/quantification, statistical analysis of data, data robustness analysis)"@en .
+	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "An example is the evaluation of S/N ratio, or other quality indicators (limits of detection/quantification, statistical analysis of data, data robustness analysis)."@en .
 
 
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#Detector
 chameo:Detector rdf:type owl:Class ;
 	rdfs:subClassOf chameo:CharacterisationHardware ;
-	rdfs:comment "Physical device (or the chain of devices) that is used to measure, quantify and store the signal after its interaction with the sample."@en ;
+	rdfs:comment "Physical device (or the chain of devices) that is used to measure, quantify and store the signal after its interaction with the sample. Examples include: Back Scattered Electrons (BSE) and Secondary Electrons (SE) detectors for SEM; Displacement and force sensors for mechanical testing."@en ;
 	rdfs:label "Detector"@en ;
 	skos:prefLabel "Detector"@en ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Physical device (or the chain of devices) that is used to measure, quantify and store the signal after its interaction with the sample."@en ;
-	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Back Scattered Electrons (BSE) and Secondary Electrons (SE) detectors for SEM"@en ,
-	"Displacement and force sensors for mechanical testing"@en .
+	emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Examples include: Back Scattered Electrons (BSE) and Secondary Electrons (SE) detectors for SEM; Displacement and force sensors for mechanical testing."@en .
 
 
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#DeviceSample
 chameo:DeviceSample rdf:type owl:Class ;
 	rdfs:subClassOf emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 , chameo:Sample ;
-	rdfs:comment "" ;
+	rdfs:comment "Specific type of sample that is a device."@en ;
 	rdfs:label "DeviceSample"@en ;
 	skos:prefLabel "DeviceSample"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Specific type of sample of type device."@en .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Specific type of sample that is a device."@en .
 
 
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#DielectricAndImpedanceSpectroscopy
@@ -2207,49 +2183,16 @@ chameo:PostProcessingModel rdf:type owl:Class ;
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#PotentiometricStrippingAnalysis
 chameo:PotentiometricStrippingAnalysis rdf:type owl:Class ;
 	rdfs:subClassOf chameo:Voltammetry ;
-	rdfs:comment "Historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury."@en ,
-	"The accumulation is similar to that used in stripping voltammetry."@en ,
-	"The stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution."@en ,
-	"The time between changes in potential in step 2 is related to the concentration of analyte in the solution."@en ,
-	"Two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential. Historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury. The accumulation is similar to that used in stripping voltammetry. The stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution. The time between changes in potential in step 2 is related to the concentration of analyte in the solution."@en ;
+	rdfs:comment "Two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential. Historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury. The accumulation is similar to that used in stripping voltammetry. The stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution. The time between changes in potential in step 2 is related to the concentration of analyte in the solution."@en ; 
 	rdfs:label "PotentiometricStrippingAnalysis"@en ;
 	skos:altLabel "PSA"@en ;
 	skos:prefLabel "PotentiometricStrippingAnalysis"@en ;
-	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential."@en ,
-	"Two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential. Historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury. The accumulation is similar to that used in stripping voltammetry. The stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution. The time between changes in potential in step 2 is related to the concentration of analyte in the solution."@en .
-
-[ rdf:type owl:Axiom ;
-	owl:annotatedSource chameo:PotentiometricStrippingAnalysis ;
-	owl:annotatedProperty rdfs:comment ;
-	owl:annotatedTarget "Historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury."@en ;
-	dcterms:source "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
- ] .
-
-[ rdf:type owl:Axiom ;
-	owl:annotatedSource chameo:PotentiometricStrippingAnalysis ;
-	owl:annotatedProperty rdfs:comment ;
-	owl:annotatedTarget "The accumulation is similar to that used in stripping voltammetry."@en ;
-	dcterms:source "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
- ] .
-
-[ rdf:type owl:Axiom ;
-	owl:annotatedSource chameo:PotentiometricStrippingAnalysis ;
-	owl:annotatedProperty rdfs:comment ;
-	owl:annotatedTarget "The stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution."@en ;
-	dcterms:source "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
- ] .
-
-[ rdf:type owl:Axiom ;
-	owl:annotatedSource chameo:PotentiometricStrippingAnalysis ;
-	owl:annotatedProperty rdfs:comment ;
-	owl:annotatedTarget "The time between changes in potential in step 2 is related to the concentration of analyte in the solution."@en ;
-	dcterms:source "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
- ] .
+	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential. Historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury. The accumulation is similar to that used in stripping voltammetry. The stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution. The time between changes in potential in step 2 is related to the concentration of analyte in the solution."@en .
 
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource chameo:PotentiometricStrippingAnalysis ;
 	owl:annotatedProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 ;
-	owl:annotatedTarget "Two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential."@en ;
+	owl:annotatedTarget "Two-step electrochemical measurement in which 1) material is accumulated at an electrode and 2) the material is removed by chemical reaction or electrochemically at constant current with measurement of electrode potential. Historically for the analysis of metal ions, mercury ions were added to the test solution to form a mercury amalgam when reduced. Alternatively, an HMDE or MFE was used and the oxidizing agent added after amalgam formation. However, the toxicity of mercury and its compounds have all but precluded the present-day use of mercury. The accumulation is similar to that used in stripping voltammetry. The stripping potentiogram shows staircase curves of potential as a function of time. Frequently, the first derivative is displayed (dE/dt=f(t)), as this produces peak-shaped signals. The time between transitions (peaks) is proportional to the concentration of analyte in the test solution. The time between changes in potential in step 2 is related to the concentration of analyte in the solution."@en ;
 	dcterms:source "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
  ] .
 
