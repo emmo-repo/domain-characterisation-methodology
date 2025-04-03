@@ -27,8 +27,6 @@ Check out these resources to get started!
         ^^^^^^^^^^^
         Description of the CHAMEO ontology
 
-.. grid::
-	
     .. grid-item-card::
         :link: pages/getstarted.html
 
@@ -45,8 +43,6 @@ Check out these resources to get started!
         ^^^^^^^^
         Here are some examples that demonstrate basic usage of the ontology
 
-.. grid::
-
     .. grid-item-card::
         :link: chameo.html
 
@@ -54,7 +50,7 @@ Check out these resources to get started!
         ^^^^^^^^^^^
         A complete list of terms and some human-readable annotations
     
-.. grid::
+.. grid::	
 	
     .. grid-item-card::
         :link: pages/faq.html
@@ -63,12 +59,11 @@ Check out these resources to get started!
         ^^^^^^^^^^^
         Frequently asked questions
 		
-.. grid::
 	
     .. grid-item-card::
         :link: pages/references.html
 
-        :octicon:`book;1em;sd-text-info`  FAQ
+        :octicon:`book;1em;sd-text-info`  References
         ^^^^^^^^^^^
         References	
 		
