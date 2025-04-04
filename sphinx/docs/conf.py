@@ -36,6 +36,7 @@ extensions = ['sphinxcontrib.globalsubs',
               'sphinx.ext.intersphinx',
               'sphinx.ext.autosectionlabel',
               'sphinx_design',
+			  'sphinxcontrib.jquery',
               'nbsphinx'
               ]
 
@@ -300,4 +301,4 @@ add_module_names = False
 
 # MatAttributeDocumenter.add_directive_header = _add_directive_header
 
-
+html_js_files = ['js/custom.js']

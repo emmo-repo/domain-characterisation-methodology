@@ -41,12 +41,12 @@ ACVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q120895154</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q120895154" target="_blank">https://www.wikidata.org/wiki/Q120895154</a></td>
     </tr>
 
   </table>
@@ -128,7 +128,7 @@ AdsorptiveStrippingVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -181,7 +181,7 @@ Amperometry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -234,12 +234,12 @@ AnodicStrippingVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q939328</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q939328" target="_blank">https://www.wikidata.org/wiki/Q939328</a></td>
     </tr>
 
   </table>
@@ -350,12 +350,12 @@ BrunauerEmmettTellerMethod
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q795838</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q795838" target="_blank">https://www.wikidata.org/wiki/Q795838</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/BET_theory</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/BET_theory" target="_blank">https://en.wikipedia.org/wiki/BET_theory</a></td>
     </tr>
 
   </table>
@@ -481,12 +481,12 @@ CathodicStrippingVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q4016325</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q4016325" target="_blank">https://www.wikidata.org/wiki/Q4016325</a></td>
     </tr>
 
   </table>
@@ -1152,7 +1152,7 @@ Chromatography
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Chromatography</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Chromatography" target="_blank">https://en.wikipedia.org/wiki/Chromatography</a></td>
     </tr>
 
   </table>
@@ -1186,7 +1186,7 @@ Chronoamperometry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -1215,7 +1215,7 @@ Chronocoulometry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -1244,7 +1244,7 @@ Chronopotentiometry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -1297,12 +1297,12 @@ ConductometricTitration
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q11778221</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q11778221" target="_blank">https://www.wikidata.org/wiki/Q11778221</a></td>
     </tr>
 
   </table>
@@ -1341,17 +1341,17 @@ Conductometry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q901180</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q901180" target="_blank">https://www.wikidata.org/wiki/Q901180</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Conductometry</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Conductometry" target="_blank">https://en.wikipedia.org/wiki/Conductometry</a></td>
     </tr>
 
   </table>
@@ -1428,22 +1428,22 @@ Coulometry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IEV reference</span></td>
-      <td class="element-table-value">https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-13</td>
+      <td class="element-table-value"><a href="https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-13" target="_blank">https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-13</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q1136979</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q1136979" target="_blank">https://www.wikidata.org/wiki/Q1136979</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Coulometry</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Coulometry" target="_blank">https://en.wikipedia.org/wiki/Coulometry</a></td>
     </tr>
 
   </table>
@@ -1549,22 +1549,22 @@ CyclicVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">DBpedia reference</span></td>
-      <td class="element-table-value">https://dbpedia.org/page/Cyclic_voltammetry</td>
+      <td class="element-table-value"><a href="https://dbpedia.org/page/Cyclic_voltammetry" target="_blank">https://dbpedia.org/page/Cyclic_voltammetry</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q1147647</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q1147647" target="_blank">https://www.wikidata.org/wiki/Q1147647</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Cyclic_voltammetry</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Cyclic_voltammetry" target="_blank">https://en.wikipedia.org/wiki/Cyclic_voltammetry</a></td>
     </tr>
 
   </table>
@@ -1593,7 +1593,7 @@ DCPolarography
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -1887,7 +1887,7 @@ Dielectrometry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -1945,17 +1945,17 @@ DifferentialPulseVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q5275361</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q5275361" target="_blank">https://www.wikidata.org/wiki/Q5275361</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Differential_pulse_voltammetry</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Differential_pulse_voltammetry" target="_blank">https://en.wikipedia.org/wiki/Differential_pulse_voltammetry</a></td>
     </tr>
 
   </table>
@@ -2138,7 +2138,7 @@ DirectCoulometryAtControlledPotential
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -2278,12 +2278,12 @@ ElectrochemicalImpedanceSpectroscopy
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q3492904</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q3492904" target="_blank">https://www.wikidata.org/wiki/Q3492904</a></td>
     </tr>
 
   </table>
@@ -2312,7 +2312,7 @@ ElectrochemicalPiezoelectricMicrogravimetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -2370,17 +2370,17 @@ Electrogravimetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IEV reference</span></td>
-      <td class="element-table-value">https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-14</td>
+      <td class="element-table-value"><a href="https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-14" target="_blank">https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-14</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q902953</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q902953" target="_blank">https://www.wikidata.org/wiki/Q902953</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Electrogravimetry</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Electrogravimetry" target="_blank">https://en.wikipedia.org/wiki/Electrogravimetry</a></td>
     </tr>
 
   </table>
@@ -2491,12 +2491,12 @@ EnergyDispersiveXraySpectroscopy
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q386334</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q386334" target="_blank">https://www.wikidata.org/wiki/Q386334</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy" target="_blank">https://en.wikipedia.org/wiki/Energy-dispersive_X-ray_spectroscopy</a></td>
     </tr>
 
   </table>
@@ -2660,12 +2660,12 @@ FourierTransformInfraredSpectroscopy
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q901559</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q901559" target="_blank">https://www.wikidata.org/wiki/Q901559</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy" target="_blank">https://en.wikipedia.org/wiki/Fourier-transform_infrared_spectroscopy</a></td>
     </tr>
 
   </table>
@@ -2747,7 +2747,7 @@ GalvanostaticIntermittentTitrationTechnique
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q120906986</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q120906986" target="_blank">https://www.wikidata.org/wiki/Q120906986</a></td>
     </tr>
 
   </table>
@@ -2954,17 +2954,17 @@ HydrodynamicVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q17028237</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q17028237" target="_blank">https://www.wikidata.org/wiki/Q17028237</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Hydrodynamic_voltammetry</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Hydrodynamic_voltammetry" target="_blank">https://en.wikipedia.org/wiki/Hydrodynamic_voltammetry</a></td>
     </tr>
 
   </table>
@@ -3022,7 +3022,7 @@ Impedimetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -3114,7 +3114,7 @@ IonChromatography
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Ion_chromatography</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Ion_chromatography" target="_blank">https://en.wikipedia.org/wiki/Ion_chromatography</a></td>
     </tr>
 
   </table>
@@ -3326,17 +3326,17 @@ LinearScanVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q620700</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q620700" target="_blank">https://www.wikidata.org/wiki/Q620700</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Linear_sweep_voltammetry</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Linear_sweep_voltammetry" target="_blank">https://en.wikipedia.org/wiki/Linear_sweep_voltammetry</a></td>
     </tr>
 
   </table>
@@ -3476,7 +3476,7 @@ MechanicalTesting
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Mechanical_testing</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Mechanical_testing" target="_blank">https://en.wikipedia.org/wiki/Mechanical_testing</a></td>
     </tr>
 
   </table>
@@ -3717,7 +3717,7 @@ NormalPulseVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -4064,17 +4064,17 @@ Potentiometry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IEV reference</span></td>
-      <td class="element-table-value">https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-12</td>
+      <td class="element-table-value"><a href="https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-12" target="_blank">https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-12</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q900632</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q900632" target="_blank">https://www.wikidata.org/wiki/Q900632</a></td>
     </tr>
 
   </table>
@@ -4272,7 +4272,7 @@ PulsedElectroacousticMethod
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1007/s10832-023-00332-y</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1007/s10832-023-00332-y" target="_blank">https://doi.org/10.1007/s10832-023-00332-y</a></td>
     </tr>
 
   </table>
@@ -4755,7 +4755,7 @@ SampledDCPolarography
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -5137,17 +5137,17 @@ SquareWaveVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q4016323</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q4016323" target="_blank">https://www.wikidata.org/wiki/Q4016323</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Squarewave_voltammetry</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Squarewave_voltammetry" target="_blank">https://en.wikipedia.org/wiki/Squarewave_voltammetry</a></td>
     </tr>
 
   </table>
@@ -5200,12 +5200,12 @@ StrippingVoltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Electrochemical_stripping_analysis</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Electrochemical_stripping_analysis" target="_blank">https://en.wikipedia.org/wiki/Electrochemical_stripping_analysis</a></td>
     </tr>
 
   </table>
@@ -5350,12 +5350,12 @@ ThreePointBendingTesting
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q2300905</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q2300905" target="_blank">https://www.wikidata.org/wiki/Q2300905</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Three-point_flexural_test</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Three-point_flexural_test" target="_blank">https://en.wikipedia.org/wiki/Three-point_flexural_test</a></td>
     </tr>
 
   </table>
@@ -5582,22 +5582,22 @@ Voltammetry
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IEV reference</span></td>
-      <td class="element-table-value">https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-11</td>
+      <td class="element-table-value"><a href="https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-11" target="_blank">https://www.electropedia.org/iev/iev.nsf/display?openform&ievref=114-04-11</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q904093</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q904093" target="_blank">https://www.wikidata.org/wiki/Q904093</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Voltammetry</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Voltammetry" target="_blank">https://en.wikipedia.org/wiki/Voltammetry</a></td>
     </tr>
 
   </table>
@@ -5626,7 +5626,7 @@ VoltammetryAtARotatingDiskElectrode
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">IUPAC reference</span></td>
-      <td class="element-table-value">https://doi.org/10.1515/pac-2018-0109</td>
+      <td class="element-table-value"><a href="https://doi.org/10.1515/pac-2018-0109" target="_blank">https://doi.org/10.1515/pac-2018-0109</a></td>
     </tr>
 
   </table>
@@ -5713,12 +5713,12 @@ XrayDiffraction
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikidata reference</span></td>
-      <td class="element-table-value">https://www.wikidata.org/wiki/Q12101244</td>
+      <td class="element-table-value"><a href="https://www.wikidata.org/wiki/Q12101244" target="_blank">https://www.wikidata.org/wiki/Q12101244</a></td>
     </tr>
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/X-ray_crystallography</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/X-ray_crystallography" target="_blank">https://en.wikipedia.org/wiki/X-ray_crystallography</a></td>
     </tr>
 
   </table>
@@ -5752,7 +5752,7 @@ XrayPowderDiffraction
 
     <tr>
       <td class="element-table-key"><span class="element-table-key">Wikipedia reference</span></td>
-      <td class="element-table-value">https://en.wikipedia.org/wiki/Powder_diffraction</td>
+      <td class="element-table-value"><a href="https://en.wikipedia.org/wiki/Powder_diffraction" target="_blank">https://en.wikipedia.org/wiki/Powder_diffraction</a></td>
     </tr>
 
   </table>
