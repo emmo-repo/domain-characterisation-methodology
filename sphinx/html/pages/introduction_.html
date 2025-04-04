@@ -1,0 +1,620 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>The CHAracterisation MEthodology Ontology (CHAMEO) &#8212; CHAMEO  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'pages/introduction_';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/chameo_logo_large.png" class="logo__image only-light" alt="CHAMEO  documentation - Home"/>
+    <script>document.write(`<img src="../_static/chameo_logo_large.png" class="logo__image only-dark" alt="CHAMEO  documentation - Home"/>`);</script>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="introduction.html">
+                        Introduction
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="getstarted.html">
+                        Get Started
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="examples.html">
+                        Examples
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chameo.html">
+                        Class Index
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="faq.html">
+                        FAQ
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="references.html">
+                        References
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="introduction.html">
+                        Introduction
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="getstarted.html">
+                        Get Started
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="examples.html">
+                        Examples
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chameo.html">
+                        Class Index
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="faq.html">
+                        FAQ
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links-2">
+                    More
+                </button>
+                <ul id="pst-nav-more-links-2" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="references.html">
+                        References
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+      </div>
+    
+  </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">The...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="the-characterisation-methodology-ontology-chameo">
+<h1>The CHAracterisation MEthodology Ontology (CHAMEO)<a class="headerlink" href="#the-characterisation-methodology-ontology-chameo" title="Permalink to this heading">#</a></h1>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
+<p>The <strong>CHAracterisation MEthodology Ontology (CHAMEO)</strong> is a domain ontology designed to provide a harmonized representation of materials characterisation methodologies. It serves as a structured framework that models the essential components of various characterisation techniques, ensuring that data from different sources can be integrated, shared, and reused efficiently.</p>
+<p>CHAMEO is part of a broader initiative to create a unified semantic framework for materials science and engineering. It is aligned with the <strong>Elementary Multiperspective Material Ontology (EMMO)</strong>, ensuring compatibility with other EMMO-based ontologies and promoting interoperability across different domains of material science.</p>
+</section>
+<section id="motivation-and-purpose">
+<h2>Motivation and Purpose<a class="headerlink" href="#motivation-and-purpose" title="Permalink to this heading">#</a></h2>
+<p>In materials science, characterisation methods are essential for determining the properties and behavior of materials. However, the diversity of techniques and data formats across laboratories, institutions, and industries creates significant challenges for:</p>
+<ul class="simple">
+<li><p><strong>Data interoperability</strong>: Different formats and terminologies make it difficult to integrate data from multiple sources.</p></li>
+<li><p><strong>Knowledge representation</strong>: A lack of standardization leads to inconsistencies in how information is recorded and interpreted.</p></li>
+<li><p><strong>Reproducibility and reusability</strong>: Without a shared framework, experimental results may be difficult to reproduce or reuse effectively.</p></li>
+</ul>
+<p>CHAMEO addresses these challenges by providing a <strong>common semantic framework</strong> that defines standardized terms, relationships, and structures for representing materials characterisation data. By doing so, it facilitates:</p>
+<ul class="simple">
+<li><p><strong>Improved data sharing</strong>: Researchers and organizations can exchange characterisation data more easily.</p></li>
+<li><p><strong>Enhanced knowledge discovery</strong>: Semantic relationships between different methods and results enable better insights and data mining.</p></li>
+<li><p><strong>Greater reproducibility</strong>: Standardized descriptions help ensure that experiments can be replicated accurately.</p></li>
+</ul>
+</section>
+<section id="relationship-with-emmo-and-chada">
+<h2>Relationship with EMMO and CHADA<a class="headerlink" href="#relationship-with-emmo-and-chada" title="Permalink to this heading">#</a></h2>
+<p>CHAMEO is closely aligned with two major standardization efforts:</p>
+<ol class="arabic simple">
+<li><p><strong>Elementary Multiperspective Material Ontology (EMMO)</strong>: CHAMEO is a domain ontology developed under the EMMO framework. This ensures that it shares a common foundational structure with other materials-related ontologies, facilitating seamless integration within the broader EMMO ecosystem.</p></li>
+<li><p><strong>Characterisation Data (CHADA) Framework</strong>: CHAMEO is based on the CHADA documentation scheme introduced in the <strong>CEN Workshop Agreement (CWA 17815)</strong>. CHADA provides guidelines for structuring characterisation data, and CHAMEO translates these guidelines into an ontology-driven framework.</p></li>
+</ol>
+</section>
+<section id="core-structure-of-chameo">
+<h2>Core Structure of CHAMEO<a class="headerlink" href="#core-structure-of-chameo" title="Permalink to this heading">#</a></h2>
+<p>CHAMEO is designed as a modular ontology that models the essential elements of characterisation methodologies. Its core components include:</p>
+<section id="characterisation-methods">
+<h3>1. <strong>Characterisation Methods</strong><a class="headerlink" href="#characterisation-methods" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Representation of different materials characterisation techniques (e.g., microscopy, spectroscopy, diffraction, mechanical testing).</p></li>
+<li><p>Classification of methods based on their purpose (e.g., structural analysis, chemical composition analysis, mechanical property evaluation).</p></li>
+</ul>
+</section>
+<section id="instruments-and-equipment">
+<h3>2. <strong>Instruments and Equipment</strong><a class="headerlink" href="#instruments-and-equipment" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Standardized descriptions of characterisation instruments (e.g., electron microscopes, X-ray diffractometers, spectrometers).</p></li>
+<li><p>Properties of instruments, such as manufacturer, model, resolution, and operational parameters.</p></li>
+</ul>
+</section>
+<section id="measurement-parameters">
+<h3>3. <strong>Measurement Parameters</strong><a class="headerlink" href="#measurement-parameters" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Specification of key parameters used in experiments (e.g., voltage in electron microscopy, wavelength in spectroscopy, load in mechanical testing).</p></li>
+<li><p>Representation of units and values in accordance with scientific standards.</p></li>
+</ul>
+</section>
+<section id="sample-representation">
+<h3>4. <strong>Sample Representation</strong><a class="headerlink" href="#sample-representation" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Ontological modeling of materials and samples under investigation.</p></li>
+<li><p>Descriptions of sample properties, preparation methods, and environmental conditions during testing.</p></li>
+</ul>
+</section>
+<section id="experiment-results-and-outputs">
+<h3>5. <strong>Experiment Results and Outputs</strong><a class="headerlink" href="#experiment-results-and-outputs" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Representation of data outputs, including images, spectra, and numerical datasets.</p></li>
+<li><p>Links between raw data and processed results for reproducibility.</p></li>
+</ul>
+</section>
+</section>
+<section id="applications-of-chameo">
+<h2>Applications of CHAMEO<a class="headerlink" href="#applications-of-chameo" title="Permalink to this heading">#</a></h2>
+<p>CHAMEO is useful in multiple applications, including:</p>
+<ul class="simple">
+<li><p><strong>Research and academia</strong>: Standardizing characterisation data in scientific publications and research projects.</p></li>
+<li><p><strong>Industry and manufacturing</strong>: Ensuring consistency in quality control and materials testing across different facilities.</p></li>
+<li><p><strong>Data integration platforms</strong>: Facilitating the development of knowledge graphs and databases for materials science.</p></li>
+<li><p><strong>Machine learning and AI</strong>: Providing structured data representations that enhance AI-driven analysis and automation in materials research.</p></li>
+</ul>
+</section>
+<section id="future-developments">
+<h2>Future Developments<a class="headerlink" href="#future-developments" title="Permalink to this heading">#</a></h2>
+<p>CHAMEO is a continuously evolving ontology. Future updates will focus on:</p>
+<ul class="simple">
+<li><p>Expanding coverage to additional characterisation techniques.</p></li>
+<li><p>Enhancing alignment with other domain ontologies within EMMO.</p></li>
+<li><p>Improving interoperability with existing materials data repositories and knowledge graphs.</p></li>
+<li><p>Developing tools and APIs for easier integration into scientific workflows.</p></li>
+</ul>
+<p>For more information, refer to the publication: <a class="reference external" href="https://content.iospress.com/articles/applied-ontology/ao220271">CHAMEO: An ontology for the harmonisation of materials characterisation methodologies</a>
+(DOI: <a class="reference external" href="https://doi.org/10.3233/AO-220271">10.3233/AO-220271</a>).</p>
+</section>
+<section id="acknowledgements">
+<h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permalink to this heading">#</a></h2>
+<p>This project has received support from European Union research and innovation programs, under grant agreement numbers:</p>
+<ul class="simple">
+<li><p>952869 - <a class="reference external" href="https://www.nanomecommons.net/">NanoMECommons</a></p></li>
+</ul>
+<section id="license">
+<h3>License<a class="headerlink" href="#license" title="Permalink to this heading">#</a></h3>
+<p>The CHAracterisation MEthodology Ontology (CHAMEO) is released under the <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International</a> license (CC BY 4.0).</p>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation-and-purpose">Motivation and Purpose</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#relationship-with-emmo-and-chada">Relationship with EMMO and CHADA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#core-structure-of-chameo">Core Structure of CHAMEO</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#characterisation-methods">1. <strong>Characterisation Methods</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instruments-and-equipment">2. <strong>Instruments and Equipment</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#measurement-parameters">3. <strong>Measurement Parameters</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-representation">4. <strong>Sample Representation</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experiment-results-and-outputs">5. <strong>Experiment Results and Outputs</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#applications-of-chameo">Applications of CHAMEO</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#future-developments">Future Developments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">Acknowledgements</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/pages/introduction_.rst.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2020-2025.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 6.2.1.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.14.4.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

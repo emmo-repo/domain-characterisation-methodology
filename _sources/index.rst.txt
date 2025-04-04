@@ -3,11 +3,12 @@
    :includehidden:
    :hidden:
 
+   Introduction <pages/introduction>
    Get Started <pages/getstarted>
    Examples <pages/examples>
    Class Index <chameo>
-   About <pages/about>
    FAQ <pages/faq>
+   References <pages/references>
 
 =========================
 CHAMEO Ontology
@@ -20,12 +21,20 @@ Check out these resources to get started!
 .. grid::
 
     .. grid-item-card::
-        :link: pages/getstarted.html
+        :link: pages/introduction.html
 
         :octicon:`rocket;1em;sd-text-info`  Get Started
         ^^^^^^^^^^^
+        Description of the CHAMEO ontology
+
+    .. grid-item-card::
+        :link: pages/getstarted.html
+
+        :octicon:`thumbsup;1em;sd-text-info`  About
+        ^^^^^^^^^^
         Let's go! Here is some information to help you get started
 
+.. grid::
 
     .. grid-item-card::
         :link: pages/examples.html
@@ -34,9 +43,6 @@ Check out these resources to get started!
         ^^^^^^^^
         Here are some examples that demonstrate basic usage of the ontology
 
-
-.. grid::
-
     .. grid-item-card::
         :link: chameo.html
 
@@ -44,21 +50,20 @@ Check out these resources to get started!
         ^^^^^^^^^^^
         A complete list of terms and some human-readable annotations
     
+.. grid::	
+	
     .. grid-item-card::
         :link: pages/faq.html
 
         :octicon:`book;1em;sd-text-info`  FAQ
         ^^^^^^^^^^^
         Frequently asked questions
-
-
-.. grid::
+		
 	
     .. grid-item-card::
-        :link: pages/about.html
+        :link: pages/references.html
 
-        :octicon:`thumbsup;1em;sd-text-info`  About
-        ^^^^^^^^^^
-        Description of the CHAMEO ontology
-		
+        :octicon:`book;1em;sd-text-info`  References
+        ^^^^^^^^^^^
+        References	
 		

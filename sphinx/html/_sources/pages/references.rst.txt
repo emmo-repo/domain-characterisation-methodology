@@ -1,2 +1,52 @@
 References
-================================
+==========
+
+CHAMEO has been developed by `Goldbeck Consulting LTD <https://materialsmodelling.com/>`__ within the `NanoMECommons <https://www.nanomecommons.net/>`__ project and is supported by the `European Materials Modelling Council  <https://emmc.eu/>`__.
+
+CHAMEO is closely aligned with two major standardization efforts:
+
+1. **Elementary Multiperspective Material Ontology (EMMO)**: CHAMEO is a domain ontology developed under the `EMMO framework <https://w3id.org/emmo/>`__. This ensures that it shares a common foundational structure with other materials-related ontologies, facilitating seamless integration within the broader EMMO ecosystem.
+
+2. **Characterization Data (CHADA) Framework**: The initial development of CHAMEO is based on the CHADA documentation scheme introduced in the CEN Workshop Agreement (`CWA 17815 <https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/ICT/cwa17815.pdf>`__). CHADA provides guidelines for structuring characterization data, which CHAMEO translates into an ontology-driven framework. This work on CHAMEO has been used as the basis for defining the new CHADA template, leading to the release of `CWA 17815:2025 <https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2025/cwa17815_2025.pdf>`__.
+
+**Ontologies based on CHAMEO**
+
+- Characterization-Technique specific:
+
+  - `Nanoindentation <https://github.com/emmo-repo/domain-nanoindentation>`__
+  - `FIB-DIC <https://github.com/emmo-repo/domain-fibdic>`__
+  
+- Industrial use-case applications:
+
+  - `Multi-layered Automotive Coating Failure <https://github.com/emmo-repo/application-automotive-coatings-failure>`__
+  - `Advanced High-Strength Steels <https://github.com/emmo-repo/application-advanced-high-strength-steels>`__
+  - `Organic Photovoltaic Nanolayers <https://github.com/emmo-repo/application-organic-photovoltaic-nanolayers>`__
+  - `OLED Emissive Layers <https://github.com/emmo-repo/application-oled-emissive-layers>`__
+  - `Superhydrophobic Nanopatterned Surfaces <https://github.com/emmo-repo/application-superhydrophobic-nanopatterned-surface/>`__
+  - `Battery Testing <https://github.com/emmo-repo/application-battery-testing-ontology>`__
+
+**Publications related to CHAMEO and CHAMEO-based ontologies**
+
+- Journal papers:
+
+  - P. Del Nostro, G. Goldbeck, D. Toti (2022). `CHAMEO: An ontology for the harmonisation of materials characterisation methodologies <https://doi.org/10.3233/AO-220271>`__. Applied Ontology 17 (3), 401-421, DOI: 10.3233/AO-220271
+
+  - P. Del Nostro, G. Goldbeck, F. Kienberger, M. Moertelmaier, A Pozzi, N. Al-Zubaidi-R-Smith, D. Toti (2025). `Battery testing ontology: An EMMO-based semantic framework for representing knowledge in battery testing and battery quality control <https://doi.org/10.1016/j.compind.2024.104203>`__. Computers in Industry, 164 (17), 104203, DOI: 10.1016/j.compind.2024.104203
+
+  - A. De Baas, P. Del Nostro, J. Friis, E. Ghedini, G. Goldbeck, I.M. Paponetti, A. Pozzi, A. Sarkar, L. Yang, F.A. Zaccarini, D. Toti (2023). `Review and Alignment of Domain-Level Ontologies for Materials Science <https://doi.org/10.1109/ACCESS.2023.3327725>`__. IEEE Access 11, 120372-120401, DOI: 10.1109/ACCESS.2023.3327725
+
+  - P. Del Nostro, G. Goldbeck, A. Pozzi, D. Toti (2023). `Modeling experts, knowledge providers and expertise in Materials Modeling: MAEO as an application ontology of EMMO’s ecosystem <https://doi.org/10.3233/AO-230024>`__. Applied Ontology, 18 (2), 99-118, DOI: 10.3233/AO-230024
+
+- Conference papers:
+
+  - P. Del Nostro, G. Goldbeck, D. Toti (2022). `The CHAMEO ontology: exploiting EMMO's multiperspective versatility for capturing materials characterization procedures <https://ceur-ws.org/Vol-3240/short3.pdf>`__. CEUR Workshop Proceedings, 3240
+
+  - P. Del Nostro, J. Friis J., E. Ghedini, G. Goldbeck, O. Holtz, O. Roscioni, D. Toti, F.A. Zaccarini (2024).	`Elementary Multiperspective Material Ontology: leveraging perspectives via a showcase of EMMO-based domain and application ontologies <https://doi.org/10.5220/0012910200003838>`__. International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management, IC3K - Proceedings, 2, 135-142, DOI: 10.5220/0012910200003838
+
+  - P. Del Nostro, J. Friis, E. Ghedini, G. Goldbeck, D. Toti, F. Zaccarini (2024). `Top Level Ontologies for Materials Science: Requirements and Desirable Characteristics <https://ceur-ws.org/Vol-3760/paper9.pdf>`__. CEUR Workshop Proceedings, 3760
+
+  - P. Del Nostro, D. Toti, E. Rossi, M. Sebastiani, G. Goldbeck (2024). Nanoindentation Ontology: Harmonising knowledge and data for nanoindentation. MecaNano
+
+  - G. Goldbeck, D. Toti (2021). `MAEO: An ontology for modeling Agents, Experts and Expertise within an open online Materials Modeling MarketPlace <https://ceur-ws.org/Vol-2969/paper36-FoisShowCase.pdf>`__. CEUR Workshop Proceedings, 2969
+  
+  - M.T. Horsch, S. Chiacchiera, M.A. Seaton, I.T. Todorov, R. Kunze, G. Summer, A. Fiseni, B. Andreon, A.S. Di Minico E.B. Kaiser, G. Kanagalingam, S. Stephan, K. Sindelka, M. Lisal, J.D. Branas, I. Pagonabarraga, M. Chiricotto, J.D. Elliott, P. Carbone, D. Toti, G. Mogni, G. Goldbeck, H. Bruning, P. Schiffels, W.L. Cavalcanti (2020). `Ontology-based semantic interoperability on the virtual materials marketplace <https://ceur-ws.org/Vol-2721/paper533.pdf>`__. CEUR Workshop Proceedings, 2721, 134-138

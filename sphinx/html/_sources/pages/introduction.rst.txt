@@ -1,48 +1,116 @@
-The CHAracterisation MEthodology Ontology (CHAMEO)
+The CHAracterization MEthodology Ontology (CHAMEO)
 ========================================================
 .. |DOI| image:: https://zenodo.org/badge/570454941.svg
    :target: https://zenodo.org/badge/latestdoi/570454941
 
 Overview
 ~~~~~~~~
-The **CHAracterisation MEthodology Ontology (CHAMEO)** is a domain ontology designed to provide a harmonized representation of materials characterisation methodologies. It serves as a structured framework that models the essential components of various characterisation techniques, ensuring that data from different sources can be integrated, shared, and reused efficiently.
+The **CHAracterization MEthodology Ontology (CHAMEO)** ) is a domain ontology designed to provide a clear, harmonized, machine-readable representation of materials characterization techniques and experiments.
 
-CHAMEO is part of a broader initiative to create a unified semantic framework for materials science and engineering. It is aligned with the **Elementary Multiperspective Material Ontology (EMMO)**, ensuring compatibility with other EMMO-based ontologies and promoting interoperability across different domains of material science.
 
+CHAMEO's Main Concepts
+~~~~~~~~~~~~~~~~~~~~~~
+CHAMEO includes all the basic concepts of the characterization domain:
+
+
+.. image:: /../_static/images/CHAMEO_concepts.png
+   :alt: CHAMEO's Main Concepts
+   :width: 936px
+   :height: 403px
+   :align: center
+   
+- Material/Batch
+- Sample:
+
+  - Can be a material or a device
+  - The different statuses of a sample are modelled (raw, prepared, intermediate, characterised)
+  - The structure (e.g. multi-layered material) and the physical/chemical composition
+  - The hazard
+
+- Characterization Procedures: These are the building blocks that can be part of a characterization experiment. This encompasses all the procedures from the batch to the characterization properties, including sample extraction, preparation and inspection, calibration and parameters adjustment, measurement, data pre/post processing ad data validation. with details about:
+
+  - Operator, Laboratory
+  - Instrument:
+  
+    - Standardized descriptions of characterization instruments (e.g., electron microscopes, X-ray diffractometers, spectrometers).
+    - Properties of instruments, such as manufacturer, model, and operational parameters.
+	
+  - Environment conditions
+  - Parameters:
+  
+    - Specification of key parameters used in experiments (e.g., voltage in electron microscopy, wavelength in spectroscopy, load in mechanical testing).
+    - Representation of units and values in accordance with scientific standards.
+	
+  - Level of expertise required
+  
+- Characterization data: The different types of data that are produced during a characterization experiment.
+- Characterization techniques: CHAMEO includes a taxonomy of different characterization techniques (e.g., microscopy, spectroscopy, diffraction, mechanical testing). This taxonomy is based on the Materials Resource Registry from the National Institute of Technology and enhanced with additional techniques.
+
+Characterization Workflow and Tasks
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+CHAMEO can be used to describe single Characterization Tasks, such as the extraction of the sample from a batch, the preparation of the sample or the calibration process, as well as more complex Characterization Workflows as a composition of different Characterization Tasks exchanging data. The picture below describe a generic Characterization Worlkflow.
+   
+.. image:: /../_static/images/CHAMEO_workflow.png
+   :alt: CHAMEO's Characterization Workflow
+   :width: 940px
+   :height: 487px
+   :align: center
+
+Each Characterization Task composing a Workflow can be further decomposed (becoming a workflow itself) until the desired level of details. Here below, the example of a Nanoindentation calibration process with a Continuous Stiffness Measurement task that is further detailed.  
+
+.. image:: /../_static/images/CHAMEO_nanoindentation.png
+   :alt: Nanoindentation calibration process
+   :width: 936px
+   :height: 403px
+   :align: center
+
+ 
 Motivation and Purpose
 ~~~~~~~~~~~~~~~~~~~~~~
-In materials science, characterisation methods are essential for determining the properties and behavior of materials. However, the diversity of techniques and data formats across laboratories, institutions, and industries creates significant challenges for:
+In materials science, characterization methods are essential for determining the properties and behavior of materials. However, the diversity of techniques and data formats across laboratories, institutions, and industries creates significant challenges for:
 
 - **Data interoperability**: Different formats and terminologies make it difficult to integrate data from multiple sources.
 - **Knowledge representation**: A lack of standardization leads to inconsistencies in how information is recorded and interpreted.
 - **Reproducibility and reusability**: Without a shared framework, experimental results may be difficult to reproduce or reuse effectively.
 
-CHAMEO addresses these challenges by providing a **common semantic framework** that defines standardized terms, relationships, and structures for representing materials characterisation data. By doing so, it facilitates:
+CHAMEO addresses these challenges by providing a **common semantic framework** that defines standardized terms, relationships, and structures for representing materials characterization data. By doing so, it facilitates:
 
-- **Improved data sharing**: Researchers and organizations can exchange characterisation data more easily.
+- **Improved data sharing**: Researchers and organizations can exchange characterization data more easily.
 - **Enhanced knowledge discovery**: Semantic relationships between different methods and results enable better insights and data mining.
 - **Greater reproducibility**: Standardized descriptions help ensure that experiments can be replicated accurately.
 
-Relationship with EMMO and CHADA
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-CHAMEO is closely aligned with two major standardization efforts:
+Design approach
+~~~~~~~~~~~~~~~~~~~~~~
 
-1. **Elementary Multiperspective Material Ontology (EMMO)**: CHAMEO is a domain ontology developed under the EMMO framework. This ensures that it shares a common foundational structure with other materials-related ontologies, facilitating seamless integration within the broader EMMO ecosystem.
+.. image:: /../_static/images/CHAMEO_hierarchy.png
+   :alt: Nanoindentation calibration process
+   :width: 440px
+   :height: 468px
+   :align: right
 
-2. **Characterisation Data (CHADA) Framework**: CHAMEO is based on the CHADA documentation scheme introduced in the **CEN Workshop Agreement (CWA 17815)**. CHADA provides guidelines for structuring characterisation data, and CHAMEO translates these guidelines into an ontology-driven framework.
+CHAMEO is aligned with the `Elementary Multiperspective Material Ontology (EMMO) <https://w3id.org/emmo/>`__, ensuring compatibility with other EMMO-based ontologies and promoting interoperability across different domains of material science.
+
+CHAMEO serves as a structured framework that models the generic methodological aspects that are in common across the different characterization techniques.
+
+The ontologies, modelling the different characterization techniques can be developed by specialising the CHAMEO definitions.
+
+Specific characterization use-case ontologies can be then implemented based on the technique ontologies (e.g. industrial use cases).
+
+This follows a modular design approach that increases the level of reusability and interoperability.
 
 Core Structure of CHAMEO
 ~~~~~~~~~~~~~~~~~~~~~~~~
-CHAMEO is designed as a modular ontology that models the essential elements of characterisation methodologies. Its core components include:
+CHAMEO is designed as a modular ontology that models the essential elements of characterization methodologies. Its core components include:
 
-1. **Characterisation Methods**
+1. **Characterization Methods**
 -------------------------------
-- Representation of different materials characterisation techniques (e.g., microscopy, spectroscopy, diffraction, mechanical testing).
+- Representation of different materials characterization techniques (e.g., microscopy, spectroscopy, diffraction, mechanical testing).
 - Classification of methods based on their purpose (e.g., structural analysis, chemical composition analysis, mechanical property evaluation).
 
 2. **Instruments and Equipment**
 --------------------------------
-- Standardized descriptions of characterisation instruments (e.g., electron microscopes, X-ray diffractometers, spectrometers).
+- Standardized descriptions of characterization instruments (e.g., electron microscopes, X-ray diffractometers, spectrometers).
 - Properties of instruments, such as manufacturer, model, resolution, and operational parameters.
 
 3. **Measurement Parameters**
@@ -64,7 +132,7 @@ Applications of CHAMEO
 ~~~~~~~~~~~~~~~~~~~~~~
 CHAMEO is useful in multiple applications, including:
 
-- **Research and academia**: Standardizing characterisation data in scientific publications and research projects.
+- **Research and academia**: Standardizing characterization data in scientific publications and research projects.
 - **Industry and manufacturing**: Ensuring consistency in quality control and materials testing across different facilities.
 - **Data integration platforms**: Facilitating the development of knowledge graphs and databases for materials science.
 - **Machine learning and AI**: Providing structured data representations that enhance AI-driven analysis and automation in materials research.
@@ -73,12 +141,12 @@ Future Developments
 ~~~~~~~~~~~~~~~~~~~
 CHAMEO is a continuously evolving ontology. Future updates will focus on:
 
-- Expanding coverage to additional characterisation techniques.
+- Expanding coverage to additional characterization techniques.
 - Enhancing alignment with other domain ontologies within EMMO.
 - Improving interoperability with existing materials data repositories and knowledge graphs.
 - Developing tools and APIs for easier integration into scientific workflows.
 
-For more information, refer to the publication: `CHAMEO: An ontology for the harmonisation of materials characterisation methodologies <https://content.iospress.com/articles/applied-ontology/ao220271>`__ 
+For more information, refer to the publication: `CHAMEO: An ontology for the harmonisation of materials characterization methodologies <https://content.iospress.com/articles/applied-ontology/ao220271>`__ 
 (DOI: `10.3233/AO-220271 <https://doi.org/10.3233/AO-220271>`__).
  
 
@@ -92,4 +160,4 @@ This project has received support from European Union research and innovation pr
 License
 -------
 
-The CHAracterisation MEthodology Ontology (CHAMEO) is released under the `Creative Commons Attribution 4.0 International <https://creativecommons.org/licenses/by/4.0/legalcode>`__ license (CC BY 4.0).
+The CHAracterization MEthodology Ontology (CHAMEO) is released under the `Creative Commons Attribution 4.0 International <https://creativecommons.org/licenses/by/4.0/legalcode>`__ license (CC BY 4.0).
