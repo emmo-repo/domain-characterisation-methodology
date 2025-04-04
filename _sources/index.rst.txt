@@ -23,14 +23,14 @@ Check out these resources to get started!
     .. grid-item-card::
         :link: pages/introduction.html
 
-        :octicon:`rocket;1em;sd-text-info`  Get Started
+        :octicon:`rocket;1em;sd-text-info`  Introduction
         ^^^^^^^^^^^
         Description of the CHAMEO ontology
 
     .. grid-item-card::
         :link: pages/getstarted.html
 
-        :octicon:`thumbsup;1em;sd-text-info`  About
+        :octicon:`thumbsup;1em;sd-text-info`  Get Started
         ^^^^^^^^^^
         Let's go! Here is some information to help you get started
 
