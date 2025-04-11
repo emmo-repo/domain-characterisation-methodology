@@ -8,7 +8,7 @@
 An ontology for materials characterization which represents the evolution of the [CHADA](https://www.sciencedirect.com/science/article/pii/S235249281930087X?via%3Dihub) template in an ontological form, allowing to generate FAIR documentation of Characterisation Experiments and that has been used as a basis for the development of a number of technique-specific or application-specific ontologies in the materials characterisation domain.
 CHAMEO has been used as a foundation for the definition of the new CHADA template during the [CWA](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2025/cwa17815_2025.pdf) .
 
-This ontology development is supported by an [EMMC Task Group](https://emmc.eu/focus-areas/interoperability/tg2-5/). The corresponding forum can be found [here](https://emmc.eu/forum?view=topic&id=154).
+This ontology development has been supported by an [EMMC Task Group](https://emmc.eu/focus-areas/interoperability/tg2-5/). The corresponding forum can be found [here](https://emmc.eu/forum?view=topic&id=154).
 
 ## Requirements
 
