@@ -44,7 +44,7 @@
                                                                     dcterms:identifier "https://w3id.org/emmo/domain/characterisation-methodology/chameo" ;
                                                                     dcterms:issued "2024-04-12" ;
                                                                     dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-                                                                    dcterms:modified "2024-04-12" ;
+                                                                    dcterms:modified "2025-11-11" ;
                                                                     dcterms:publisher "EMMC ASBL" ;
                                                                     dcterms:source "" ;
                                                                     dcterms:title "CHAracterisation MEthodology Ontology"@en ;
@@ -57,8 +57,8 @@
 					Goldbeck Consulting Ltd (UK)
 					email: gerhard@goldbeck-consulting.com"""@en ;
                                                                     owl:backwardCompatibleWith "" ;
-                                                                    owl:priorVersion "1.0.0-beta5" ;
-                                                                    owl:versionInfo "1.0.0" ;
+                                                                    owl:priorVersion "1.0.0" ;
+                                                                    owl:versionInfo "1.0.2" ;
                                                                     skos:hiddenLabel "CHAMEO" ;
                                                                     foaf:homepage <https://github.com/emmo-repo/domain-characterisation-methodology> ;
                                                                     foaf:logo "https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/main/images/chameo_logo_small.png" ;
