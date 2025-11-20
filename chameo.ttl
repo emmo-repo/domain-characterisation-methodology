@@ -58,7 +58,7 @@
 					email: gerhard@goldbeck-consulting.com"""@en ;
 	owl:backwardCompatibleWith "" ;
 	owl:priorVersion "1.0.0" ;
-	owl:versionInfo "1.0.2" ;
+	owl:versionInfo "1.0.0" ;
 	skos:hiddenLabel "CHAMEO" ;
 	foaf:homepage <https://github.com/emmo-repo/domain-characterisation-methodology> ;
 	foaf:logo "https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/main/images/chameo_logo_small.png" ;
