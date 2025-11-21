@@ -1877,6 +1877,7 @@ chameo:Laboratory rdf:type owl:Class ;
 	rdfs:comment "The laboratory where the whole characterisation process or some of its stages take place." ;
 	rdfs:label "Laboratory" ;
 	skos:prefLabel "Laboratory" ;
+	skos:altLabel "Lab" ;
 	emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The laboratory where the whole characterisation process or some of its stages take place." .
 
 
