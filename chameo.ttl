@@ -15,7 +15,7 @@
 @base <https://w3id.org/emmo/domain/characterisation-methodology/chameo> .
 
 <https://w3id.org/emmo/domain/characterisation-methodology/chameo> rdf:type owl:Ontology ;
-	owl:versionIRI <https://w3id.org/emmo/domain/characterisation-methodology/1.0.2/chameo> ;
+	owl:versionIRI <https://w3id.org/emmo/domain/characterisation-methodology/1.0.0/chameo> ;
 	owl:imports <https://w3id.org/emmo/1.0.2/mereocausality> ,
 	<https://w3id.org/emmo/1.0.2/disciplines/computerscience> ,
 	<https://w3id.org/emmo/1.0.2/disciplines/isq> ,
@@ -58,7 +58,7 @@
 					email: gerhard@goldbeck-consulting.com"""@en ;
 	owl:backwardCompatibleWith "" ;
 	owl:priorVersion "1.0.0" ;
-	owl:versionInfo "1.0.2" ;
+	owl:versionInfo "1.0.0" ;
 	skos:hiddenLabel "CHAMEO" ;
 	foaf:homepage <https://github.com/emmo-repo/domain-characterisation-methodology> ;
 	foaf:logo "https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/main/images/chameo_logo_small.png" ;
