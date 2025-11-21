@@ -394,13 +394,14 @@ chameo:hasInteractionWithSample rdf:type owl:ObjectProperty ;
 	skos:prefLabel "hasInteractionWithSample"@en .
 
 
-###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasLab
-chameo:hasLab rdf:type owl:ObjectProperty ;
+###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasLaboratory
+chameo:hasLaboratory rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf emmo:EMMO_35c29eb6_f57e_48d8_85af_854f9e926e77 ;
 	rdfs:range chameo:Laboratory ;
 	rdfs:comment "" ;
-	rdfs:label "hasLab"@en ;
-	skos:prefLabel "hasLab"@en .
+	rdfs:label "hasLaboratory"@en ;
+	skos:prefLabel "hasLaboratory"@en ;
+	skos:altLabel "hasLab"@en .
 
 
 ###	https://w3id.org/emmo/domain/characterisation-methodology/chameo#hasLevelOfAutomation
