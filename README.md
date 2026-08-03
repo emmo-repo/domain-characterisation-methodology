@@ -14,9 +14,10 @@ This ontology development has been supported by an [EMMC Task Group](https://emm
 
 The CHAMEO Ontology is built with an alignment with EMMO and some of its modules, as well as with EMMO-compliant domain-level ontologies developed for the Open Innovation Environment (OIE) from the OYSTER project. The following table describes the version compatibility between those ontologies:
 
-| Imported Ontologies | Version           |
-| ------------------- | ----------------- |
-| EMMO                | 1.0.0             |
+| Version    | [EMMO] | Status      |
+|------------|--------|-------------|
+| 1.0.0      | 1.0.2  | stable      |
+| 1.0.3      | 1.0.3  | development |
 
 
 ## Resources
