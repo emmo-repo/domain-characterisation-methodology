@@ -17,7 +17,8 @@ The CHAMEO Ontology is built with an alignment with EMMO and some of its modules
 | Version    | [EMMO] | Status      |
 |------------|--------|-------------|
 | 1.0.0      | 1.0.2  | stable      |
-| 1.0.3      | 1.0.3  | development |
+| 1.0.3      | 1.0.3  | stable      |
+| 1.0.4      | 1.0.4  | development |
 
 
 ## Resources

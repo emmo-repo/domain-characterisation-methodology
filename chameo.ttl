@@ -15,20 +15,20 @@
 @base <https://w3id.org/emmo/domain/characterisation-methodology/chameo> .
 
 <https://w3id.org/emmo/domain/characterisation-methodology/chameo> rdf:type owl:Ontology ;
-	owl:versionIRI <https://w3id.org/emmo/domain/characterisation-methodology/1.0.3/chameo> ;
+	owl:versionIRI <https://w3id.org/emmo/domain/characterisation-methodology/1.0.4/chameo> ;
 	owl:imports
-	<https://w3id.org/emmo/1.0.3/disciplines/computerscience> ,
-	<https://w3id.org/emmo/1.0.3/disciplines/isq> ,
-	<https://w3id.org/emmo/1.0.3/disciplines/manufacturing> ,
-	<https://w3id.org/emmo/1.0.3/disciplines/math> ,
-	<https://w3id.org/emmo/1.0.3/disciplines/metrology> ,
-	<https://w3id.org/emmo/1.0.3/disciplines/models> ,
-	<https://w3id.org/emmo/1.0.3/perspectives/holistic> ,
-	<https://w3id.org/emmo/1.0.3/perspectives/persistence> ,
-	<https://w3id.org/emmo/1.0.3/perspectives/semiotics> ,
-	<https://w3id.org/emmo/1.0.3/reference/data> ,
-	<https://w3id.org/emmo/1.0.3/reference/persholistic> ,
-	<https://w3id.org/emmo/1.0.3/reference/workflow> ;
+	<https://w3id.org/emmo/1.0.4/disciplines/computerscience> ,
+	<https://w3id.org/emmo/1.0.4/disciplines/isq> ,
+	<https://w3id.org/emmo/1.0.4/disciplines/manufacturing> ,
+	<https://w3id.org/emmo/1.0.4/disciplines/math> ,
+	<https://w3id.org/emmo/1.0.4/disciplines/metrology> ,
+	<https://w3id.org/emmo/1.0.4/disciplines/models> ,
+	<https://w3id.org/emmo/1.0.4/perspectives/holistic> ,
+	<https://w3id.org/emmo/1.0.4/perspectives/persistence> ,
+	<https://w3id.org/emmo/1.0.4/perspectives/semiotics> ,
+	<https://w3id.org/emmo/1.0.4/reference/data> ,
+	<https://w3id.org/emmo/1.0.4/reference/persholistic> ,
+	<https://w3id.org/emmo/1.0.4/reference/workflow> ;
 	dcterms:abstract "CHAMEO is a domain ontology designed to model the common aspects across the different characterisation techniques and methodologies."@en ;
 	dcterms:alternative "CHAMEO" ;
 	dcterms:bibliographicCitation "Del Nostro, P., Goldbeck, G., Toti, D., 2022. CHAMEO: An ontology for the harmonisation of materials characterisation methodologies. Applied Ontology 17, 401–421. doi:10.3233/AO-220271." ;
